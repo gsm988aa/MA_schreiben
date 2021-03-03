@@ -1,0 +1,84 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Definition des Seitenlayout
+
+\frenchspacing                                        	% Gleicht Abstände zwischen Satzzeichen und Worten an
+
+\pagestyle{scrheadings}		
+\renewcommand*\chapterpagestyle{scrheadings}			% Header auch auf erste Seite eines Kapitels nutzen + im Inhaltsverzeichnis							
+\clearpairofpagestyles									% Defaulteinstellungen für Header-/Footer zurücksetzen
+
+
+\addtokomafont{pagehead}{\normalfont}					% Header mit greader Schrift (normal wäre die Schrift kursiv)
+% Seitenlayout doppelseitig
+\lehead{\thepage}                                    	% Kopfzeile links, gerade Seitenzahl (Seitenzahl)
+\rehead{\leftmark}                                   	% Kopfzeile rechts, gerade Seitenzahl (Kapitel)
+\rohead{\thepage}                                    	% Kopfzeile rechts, ungerade Seitenzahl (Seitenzahl)
+\lohead{\leftmark}                                   	% Kopfzeile links, ungerade Seitenzahl (Kapitel)
+
+% Fußzeile Abschalten
+\lefoot{}												% Fußzeile links, gerade Seitenzahl (leer)
+\lofoot{}												% Fußzeile links, ungerade Seitenzahl (leer)	
+\refoot{}												% Fußzeile rechts, gerade Seitenzahl (leer)
+\rofoot{}												% Fußzeile recgts, ungerade Seitenzahl (leer)	
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Formelzeichenverzeichnis
+
+\renewcommand{\nomname}{Formelzeichenverzeichnis}        %Namensänderung von "Nomenclature" zu "Formelzeichenverzeichnis"
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Literaturverzeichnis
+
+\bibliographystyle{unsrtdin}                						%Literaturangaben nach Erscheinen im Text sortiert, "DIN 1505 Teil 2"
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Zusätzliche Worttrennungen
+\input{./config/hyphenation.tex}														% Falls Latex ein Wort nicht/falsch trennt dies bitte in hyphenation.tex eintragen.
+
+\setlength{\parindent}{0pt}                          	% 1. Zeile nach Absatz einrücken (0pt = nicht einrücken)
+
+\textheight = 690pt                                  	% Textbody vergrößert, Standard:595pt
+\voffset = 0.8cm                                     	% Abstand vom oberen Rand der Seite
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Caption-Formatierung
+\captionsetup{format=hang}                          % Hängende Captions
+\captionsetup{labelfont={bf}}                       % Caption-Bezeichnung ist fett gedruckt
+\captionsetup{font={footnotesize}}                  % Caption kleinere Schrifgröße
+\captionsetup{margin=1cm}                           % Caption Rand links und rechts
+\captionsetup*[table]{position=top}                  % Tabellenbeschriftung oberhalb
+\renewcommand{\tablename}{Tabelle}                  % Tabellenbezeichnung wird mit Tab. abgekürzt
+\subcaphangtrue                                     % Hängende Subcaptions
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Grafiken
+\graphicspath{{grafiken/}}                                   % Verzeichnis für Grafiken
+\setlength{\unitlength}{1cm}                                % Einheit für die picture-Umgebung auf 1cm gesetzt
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Zusätzliche Farben
+\definecolor{darkblue}{rgb}{0,0,.6}
+\definecolor{darkred}{rgb}{.6,0,0}
+\definecolor{darkgreen}{rgb}{0,.6,0}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Listings-Paket
+\renewcommand{\lstlistingname}{Quelltext}
+\lstset{numbers=left,
+        numberstyle=\tiny,
+        numbersep=5pt,
+        basicstyle=\small,
+        breaklines=true,
+        keywordstyle=\color{blue},
+        commentstyle=\color{darkgreen},
+        belowcaptionskip=0.4cm,
+        captionpos=b,
+        firstnumber=1,
+        stepnumber=1,
+        frame=leftline,
+        rulecolor=\color{black}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% siuntitx
+\sisetup{output-decimal-marker={,}}			% Komma als Dezimaltrennzeichen

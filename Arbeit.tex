@@ -1,0 +1,123 @@
+% LaTeX-Vorlage für Diplom- und Studienarbeiten für das
+% Institut für Antriebssysteme und Leistungselektronik
+% Version vom April 2017
+% Fehler oder Verbesserungsvorschläge bitte an den Betreuer
+
+
+% Achtung!
+%
+% Einstellungen für TexStudio (und alle anderen IDEs)
+% In "Optionen" -> "TexStudio Konfigurieren" -> "Befehle" -> "pdfLatex" muss "--shell-escape" hinzugefügt werden um Tikz zu nutzen. Bsp:
+% "C:\Program Files (x86)\MiKTeX 2.9\miktex\bin\pdflatex.exe" --shell-escape -synctex=1 -interaction=nonstopmode %.tex
+%
+% Einstellungen für Texnic-Center:
+% In "Ausgabe" -> "Ausgabeprofile" -> "LaTeX->PDF" muss folgendes Argument für MakeIndex eingestellt werden:
+% "%tm".nlo -s nomentbl.ist -o "%tm".nls 
+% Außerdem muss hier auch "--shell-escape" zu den Compileroptionen hinzugefügt werden. Zum Beispiel so:
+% --shell-escape -synctex=-1 -max-print-line=120 -interaction=nonstopmode "%wm"
+% 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Definition des Dokuments (Schriftgröße, Blattgröße, Art des Layouts)
+
+%Report - Druckversion (einseitig)
+%\documentclass[12pt,a4paper,openany,DIV=16,BCOR=20mm,bibliography=totoc,captions=tableheading, numbers=noenddot]{scrreprt}
+
+%Report - Digitalversion (einseitig)
+%\documentclass[12pt,a4paper,openany,bibliography=totoc,captions=tableheading,numbers=noenddot]{scrreprt}
+
+%Book - Druckversion (doppelseitig)
+\documentclass[12pt, a4paper, openany, DIV=16, BCOR=20mm, bibliography=totoc, captions=tableheading, numbers=noenddot]{scrbook}
+
+%Book - Digitalversion (doppelseitig)
+%\documentclass[12pt,a4paper,openany,bibliography=totoc,,captions=tableheading,numbers=noenddot]{scrbook}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Konfigurationsdateien
+
+\include{./config/Pakete}                           %Datei für Pakete etc.
+
+\makenomenclature                                   %Index für das Verzeichnis der Formelzeichen
+\makeindex                                          %Index für das Sachwortverzeichnis
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Beginn des Dokuments
+
+\begin{document}
+
+\include{./config/Konfiguration}                    %Layout und sonstige Konfigurationen
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Titelseiten für Studien- und Diplomarbeit
+
+\pagenumbering{alph}                                		%Seitennummerierung lateinische Kleinbuchstaben
+\include{Deckblatt}
+\clearpage{\thispagestyle{empty}\cleardoublepage}       %leere Seite für "documentclass book"
+
+\include{Eigenstaendigkeitserklaerung}
+\clearpage{\thispagestyle{empty}\cleardoublepage}       %leere Seite für "documentclass book"
+
+\include{Aufgabenstellung}
+\clearpage{\thispagestyle{empty}\cleardoublepage}       %leere Seite für "documentclass book"
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Inhaltsverzeichnis
+
+\pagenumbering{roman}                               % Seitennummerierung arabische Zahlen
+\tableofcontents
+\clearpage      %leere Seite für "documentclass book"
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Abbildungsverzeichnis
+
+\listoffigures
+\addcontentsline{toc}{chapter}{Abbildungsverzeichnis}   %Eintrag im Inhaltsverzeichnis
+\clearpage
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Tabellenverzeichnis
+
+\listoftables
+\addcontentsline{toc}{chapter}{Tabellenverzeichnis}     %Eintrag im Inhaltsverzeichnis
+\clearpage
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Formelzeichenkonvention
+\markboth{Formelzeichenkonvention}{}                    %Kopfzeilenbeschriftung
+\include{Formelzeichenkonvention}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Formelzeichenverzeichnis
+
+\markboth{Formelzeichenverzeichnis}{}                    %Kopfzeilenbeschriftung
+\input{Formelzeichenverzeichnis}
+\printnomenclature                                       %Verzeichnis drucken
+\clearpage{\pagestyle{empty}\cleardoublepage}            %leere Seite für "documentclass book"
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Kapitel & Anhang
+
+\input{Kapitel}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Literaturverzeichnis
+
+\bibliography{Literaturverzeichnis}
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Ende des Dokuments
+\end{document} 

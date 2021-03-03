@@ -1,0 +1,83 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Einbindung von Paketen
+
+%Deutsche Sprache
+\usepackage[ngerman]{babel}                                 % Mehrsprachenumgebung Babel mit Deutscher Sprache
+
+
+%Kodierungen
+\usepackage[utf8]{inputenc}                               	% Eingabekodierung & Unterstützung von Umlauten (ä,ö,ü)
+\usepackage[T1]{fontenc}                                    % Trennung von Worten mit Umlauten
+
+
+%Schriftpakete
+\usepackage{bm}                                             % Fette Schriftzeichen in der Mathematik-Umgebung
+\usepackage{mathptmx}                                       % Times New Roman
+\usepackage[scaled=.90]{helvet}                             % Serifenlose Schrift für \textsf
+\usepackage{courier}                                        % Schriftart für \texttt
+\DeclareSymbolFont{letters}{OML}{cmm}{m}{it}                % Buchstaben der Mathematik-Umgebung in Computer Modern
+\DeclareSymbolFont{symbols}{OMS}{cmsy}{m}{n}                % Symbole der Mathematik-Umgebung in Computer Modern
+\usepackage{grffile}																				% Ermöglicht Leerzeichen und mehrere Punkte in Pfadangaben
+
+
+%Symbole
+\usepackage{marvosym}                                       % Zusätzliche Symbole (u.A. Euro)
+\usepackage{latexsym}                                       % Zusätzliche mathematische Symbole (11)
+\usepackage{stmaryrd}                                       % Binäroperatoren
+
+
+%Grafische Umgebung
+\usepackage{color}                                          % Ermöglicht farbige Texte
+\usepackage{epic}                                           % Picture-Umgebung: Einbinden von .pic-Grafiken
+\usepackage{eepic}                                          % Erweiterung für Picture-Umgebung
+\usepackage{epsfig}
+\usepackage{graphicx}                                       % Einbinden von Grafiken
+\usepackage{subfigure}                                      % Unterabbildungen mit eigenen Unterschriften
+\usepackage{pstricks}
+\usepackage[section]{placeins} 								% Erlaubt Bereichsbeschränkungen für Float-Objekte (figures) mit \FloatBarrier
+															% [section] definiert, dass figures nicht erst in der nächsten section platziert werden dürfen
+
+% Matlab2Tikz
+\usepackage{tikz}
+\usepackage{tikz}
+\usepackage{pgfplots} 																			% https://github.com/matlab2tikz/matlab2tikz
+\pgfplotsset{compat=newest} 
+\pgfplotsset{plot coordinates/math parser=false} 
+\usetikzlibrary{plotmarks} 
+\newlength\figureheight 
+\newlength\figurewidth 
+
+
+%Tabellen
+\usepackage{longtable}                                      % Paket für Tabellen, die über mehrere Seiten gehen
+\usepackage{multicol}                                       % Paket für Text in mehreren Spalten
+\usepackage{multirow}					                    					% Paket für Text in mehreren Zeilen
+\usepackage{rccol}                                          % Spaltenausrichtung am Komma
+\usepackage{booktabs}                                       % Paket für toprule/midrule/bottomrule
+\usepackage{hhline}																					% Erlaubt doppelte horizontale Linien \hhline
+
+
+%Indexerstellung
+\usepackage[intoc,german]{nomentbl}                         % Erstellung eines Formelverzeichnisses
+
+
+%Sonstige Pakete
+\usepackage{amsmath}                                 				% Mathematik-Umgebung
+\usepackage[bottom]{footmisc}																% Erleichtert Fußnoten in Captions, zwingt Fußnoten an das Ende der Seite (Kann sonst mit Float-Objekten (Bildern) zu Chaos fürhen)
+%\usepackage{fancyhdr}                                      % Paket zur Gestaltung von Kopf- und Fußzeile
+\usepackage[headsepline]{scrlayer-scrpage}									% Paket zur Gestaltung von Kopf- und Fußzeile
+\usepackage{scrhack}																				% Patches...
+\usepackage[breaklinks=true, hidelinks]{hyperref}         	% Links in PDf Dokumenten erzeugen
+\usepackage{array}                                          % Erstellung von Arrays
+\usepackage{setspace}                                       % Paket um Zeilenabstand zu ändern
+\usepackage{caption}                                        % Paket für Captions in Tabellen und Bildern
+\usepackage[figuresright]{rotating}                         % Paket um Tabellen, Bilder zu drehen (zum rechten Rand gedreht)
+\usepackage{listings}                                       % Paket für Quelltexte
+\usepackage[framed,numbered]{matlab-prettifier}							% Zusatz zu listings. Ermöglicht Codeeinfärbung identisch zu Matlab
+\usepackage{pdfpages} 																			% Einbinden von PDFs
+\usepackage{import}																					% Erlaubt relative Pfadangaben
+\usepackage{siunitx}              													% Paket für Einheiten
+\DeclareSIUnit \var {var}
+\usepackage{todonotes}																			% Todo-Notes im Text erstellen
+%\usepackage[disable]{todonotes}														% Vor dem Drucken Todo Notes hier global deaktivieren!
+
