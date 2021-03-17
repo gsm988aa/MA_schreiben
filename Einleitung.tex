@@ -1,7 +1,34 @@
-\chapter{Abstract}
-\label{chap:Einleitung}
-
-
+\chapter{Introduction}
+\label{chap:Introduction}
  
+\section{Importance of measurement}
+\label{Importance of measurement}
+% 1.1
+This article is dedicated to studying the decay of potassium nitride components caused by cosmic rays and measuring the amount of potassium nitride affected by cosmic rays. And study the cause of damage to the gallium nitride transistor - whether it is related to temperature. This article measures the voltage signal and temperature signal to meet the above requirements.
+
+\section{Introduction to various data measurement methods}
+\label{Introduction to various data measurement methods}
+% 1.2
+With the advent of the digital age, digital signal processing technology has spread to all areas of daily life. In projects such as chemical engineering, medicine, industry, and scientific research, people need to detect and process the corresponding signals. People usually convert the analog signals transmitted by the sensor into digital signals according to the sampling theorem, and then process these digital signals. Data acquisition is the core of digital signal processing, and its results directly affect the follow-up work. A complete data acquisition system should include sensors, signal conditioning, data processing chips and software. The development of society and the advancement of science and technology make digital signal processing technology more and more intelligent and real-time, and the accuracy and speed of data collection are also getting higher and higher. Nowadays, many occasions such as radar measurement system, aerospace navigation, medical imaging, etc. require high-precision data acquisition, which means that people put forward higher requirements for data acquisition systems, because the measurement results in these environments need to be extremely accurate. In addition to the basic functions of data collection, people must also implement multiple functional modes, multiple range ranges, multiple control methods, etc. for different industries and different collection environments. In addition, with the rapid development of electronic technology, portable solutions have begun to occupy an increasing proportion in data acquisition, and more and more have begun to lean towards low voltage, low power consumption, and miniaturized designs. Therefore, there are more and more types of data acquisition instruments, and the update speed is getting faster and faster. General-purpose data acquisition systems cannot meet various needs in a targeted manner, which forces many companies to develop various dedicated data acquisition systems.
+\\
+\\
+Traditional data acquisition systems mainly use data acquisition cards. In recent years, the speed of data acquisition systems and the rapid development of digital signal processing technology, while the application of USB technology, Ethernet technology and wireless communication technology in the data acquisition system has expanded its interface methods, and portable data acquisition systems have become increasingly favor of users.
+The TDS-150 portable data recorder produced by Tokyo Sokki Research Institute is a static data acquisition instrument with 50 measurement channels, sleep interval timing and data storage functions, and long-term automatic measurement. It is equipped with USB and RS-233 port can read various measurement settings and measurement data and transfer them to the computer. The compact DAQ of NI Company in the United States is combined with Ethernet technology to extend the scope of high-speed data acquisition to remote sensors and electronic measurement in the laboratory and even the world. It is tightly integrated with LABVIEW software and can obtain the highest performance with less development investment.
+
+\section{The main content of this paper}
+\label{The main content of this paper}
+% 1.3
+Based on the analysis of data acquisition systems at home and abroad, this article takes into account the speed, accuracy and scalability of data acquisition, chooses the ARM M4 controller STMF429ZG and STM32F303ZET from ST Company, and designs a set of data acquisition system with strong versatility. Realize the functions of high-speed and high-precision data acquisition, display and transmission. The main research contents of this article are as follows:
+\\
+(1) Analyzed the research status of the data acquisition system, divided the system into different modules, studied the hardware circuit and software design of the data acquisition system based on the ARM M4 chip STM32, and initially realized the high-precision acquisition, display and transmission of signals Features.
+\\
+(2) Use the 12-bit precision ADC module in the Stm32 chip to collect the voltage signal and use the capture mode of the GPIO module to collect the temperature through the DS18b20 sensor, and then realize the data transmission in different single-chip computers through the SPI protocol.
+\\
+(3) Realize serial communication through Ethernet module.
+\\
+(4) Realize data display on the PC screen through IoT.
+ 
+
+
 
 

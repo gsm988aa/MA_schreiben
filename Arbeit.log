@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.4)  5 MAR 2021 01:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.4)  11 MAR 2021 07:46
 entering extended mode
 **C:/Users/Administrator/Desktop/MA_schreiben/Arbeit.tex
 (C:/Users/Administrator/Desktop/MA_schreiben/Arbeit.tex
@@ -1762,8 +1762,11 @@ LaTeX Font Info:    Trying to load font information for T1+ptm on input line 52
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ) (Arbeit.aux (config/Konfiguration.aux) (Deckblatt.aux)
 (Eigenstaendigkeitserklaerung.aux) (Aufgabenstellung.aux)
-(Formelzeichenkonvention.aux) (Einleitung.aux) (Grundlagen.aux)
-(Latex_Getting_Started.aux) (Auswertung.aux))
+(Formelzeichenkonvention.aux) (Einleitung.aux) (Grundlagen.aux
+
+LaTeX Warning: Label `sec: ' multiply defined.
+
+) (Latex_Getting_Started.aux) (Auswertung.aux))
 \openout1 = `Arbeit.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
@@ -2047,7 +2050,14 @@ No file Arbeit.nls.
 
  (Einleitung.tex
 chapter 1.
-) [1
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 15.55188pt on input line 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--17
+
+ []
+
+[1
 
 
 
@@ -2055,29 +2065,169 @@ chapter 1.
 
 
 
-]
+]) [2]
 \openout2 = `Grundlagen.aux'.
 
  (Grundlagen.tex
 chapter 2.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 15.55188pt on input line 4.
-) [2
+(Font)              scaled to size 12.9599pt on input line 9.
+
+
+pdfTeX warning: pdflatex (file ./grafiken/2.1.pdf): PDF inclusion: found PDF ve
+rsion <1.6>, but at most version <1.5> allowed
+<grafiken/2.1.pdf, id=178, 210.23244pt x 196.49911pt>
+File: grafiken/2.1.pdf Graphic file (type pdf)
+<use grafiken/2.1.pdf>
+Package pdftex.def Info: grafiken/2.1.pdf  used on input line 19.
+(pdftex.def)             Requested size: 369.88582pt x 345.74355pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--34
+
+ []
+
+[3
 
 
 
+
+ <./grafiken/2.1.pdf>]
+<grafiken/2.2.pdf, id=195, 291.0875pt x 220.825pt>
+File: grafiken/2.2.pdf Graphic file (type pdf)
+<use grafiken/2.2.pdf>
+Package pdftex.def Info: grafiken/2.2.pdf  used on input line 43.
+(pdftex.def)             Requested size: 369.88582pt x 280.6232pt.
+<grafiken/2.3.pdf, id=197, 505.89pt x 383.4325pt>
+File: grafiken/2.3.pdf Graphic file (type pdf)
+<use grafiken/2.3.pdf>
+Package pdftex.def Info: grafiken/2.3.pdf  used on input line 53.
+(pdftex.def)             Requested size: 369.88582pt x 280.3539pt.
+<grafiken/2.4.pdf, id=199, 450.68375pt x 194.7275pt>
+File: grafiken/2.4.pdf Graphic file (type pdf)
+<use grafiken/2.4.pdf>
+Package pdftex.def Info: grafiken/2.4.pdf  used on input line 63.
+(pdftex.def)             Requested size: 369.88582pt x 159.82613pt.
+
+
+! Package inputenc Error: Unicode character  (U+F0A7)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 \\
+          
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+<grafiken/2.5.pdf, id=201, 388.45125pt x 106.3975pt>
+File: grafiken/2.5.pdf Graphic file (type pdf)
+<use grafiken/2.5.pdf>
+Package pdftex.def Info: grafiken/2.5.pdf  used on input line 77.
+(pdftex.def)             Requested size: 369.88582pt x 101.31569pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4 <./grafiken/2.2.pdf>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5 <./grafiken/2.3.pdf>]
+<grafiken/2.6.pdf, id=243, 511.21289pt x 188.2232pt>
+File: grafiken/2.6.pdf Graphic file (type pdf)
+<use grafiken/2.6.pdf>
+Package pdftex.def Info: grafiken/2.6.pdf  used on input line 94.
+(pdftex.def)             Requested size: 369.88582pt x 136.19264pt.
+ [6 <./grafiken/2.4.pdf> <./grafiken/2.5.pdf>]
+<grafiken/2.7.pdf, id=276, 375.69258pt x 80.55937pt>
+File: grafiken/2.7.pdf Graphic file (type pdf)
+<use grafiken/2.7.pdf>
+Package pdftex.def Info: grafiken/2.7.pdf  used on input line 112.
+(pdftex.def)             Requested size: 369.88582pt x 79.31393pt.
+File: grafiken/2.7.pdf Graphic file (type pdf)
+<use grafiken/2.7.pdf>
+Package pdftex.def Info: grafiken/2.7.pdf  used on input line 123.
+(pdftex.def)             Requested size: 369.88582pt x 79.31393pt.
+
+Overfull \hbox (8.34863pt too wide) in paragraph at lines 117--127
+[]\T1/ptm/m/n/12 The tra-di-tio-nal Ether-net ac-cess sche-me is as shown in th
+e fi-gu-re be-low. The MCU+MAC+PHY
+ []
+
+[7 <./grafiken/2.6.pdf> <./grafiken/2.7.pdf>]
+<grafiken/2.9.pdf, id=290, 423.87761pt x 393.00926pt>
+File: grafiken/2.9.pdf Graphic file (type pdf)
+<use grafiken/2.9.pdf>
+Package pdftex.def Info: grafiken/2.9.pdf  used on input line 133.
+(pdftex.def)             Requested size: 369.88582pt x 342.94673pt.
+ [8 <./grafiken/2.9.pdf>]
+<grafiken/2.10.pdf, id=300, 1426.73027pt x 671.57903pt>
+File: grafiken/2.10.pdf Graphic file (type pdf)
+<use grafiken/2.10.pdf>
+Package pdftex.def Info: grafiken/2.10.pdf  used on input line 151.
+(pdftex.def)             Requested size: 369.88582pt x 174.1043pt.
+<grafiken/2.11.pdf, id=302, 641.39626pt x 497.86pt>
+File: grafiken/2.11.pdf Graphic file (type pdf)
+<use grafiken/2.11.pdf>
+Package pdftex.def Info: grafiken/2.11.pdf  used on input line 168.
+(pdftex.def)             Requested size: 369.88582pt x 287.1181pt.
+
+Underfull \vbox (badness 2781) has occurred while \output is active []
+
+ [9 <./grafiken/2.10.pdf>] [10 <./grafiken/2.11.pdf>]
+
+LaTeX Warning: Reference `fig:2.12' on page 11 undefined on input line 200.
+
+<grafiken/2.12.pdf, id=327, 416.55727pt x 166.55725pt>
+File: grafiken/2.12.pdf Graphic file (type pdf)
+<use grafiken/2.12.pdf>
+Package pdftex.def Info: grafiken/2.12.pdf  used on input line 204.
+(pdftex.def)             Requested size: 369.88582pt x 147.90254pt.
+
+LaTeX Warning: Reference `fig:2.13' on page 11 undefined on input line 234.
+
+<grafiken/2.13.pdf, id=328, 962.19473pt x 612.85364pt>
+File: grafiken/2.13.pdf Graphic file (type pdf)
+<use grafiken/2.13.pdf>
+Package pdftex.def Info: grafiken/2.13.pdf  used on input line 238.
+(pdftex.def)             Requested size: 369.88582pt x 235.58934pt.
+[11 <./grafiken/2.12.pdf>] [12]
+
+LaTeX Warning: Reference `fig:2.14' on page 13 undefined on input line 253.
+
+<grafiken/2.14.pdf, id=344, 412.58441pt x 242.43071pt>
+File: grafiken/2.14.pdf Graphic file (type pdf)
+<use grafiken/2.14.pdf>
+Package pdftex.def Info: grafiken/2.14.pdf  used on input line 257.
+(pdftex.def)             Requested size: 369.88582pt x 217.3496pt.
+[13 <./grafiken/2.13.pdf>]
+
+LaTeX Warning: Reference `fig:2.15' on page 14 undefined on input line 262.
+
+<grafiken/2.15.pdf, id=355, 872.25874pt x 190.7125pt>
+File: grafiken/2.15.pdf Graphic file (type pdf)
+<use grafiken/2.15.pdf>
+Package pdftex.def Info: grafiken/2.15.pdf  used on input line 267.
+(pdftex.def)             Requested size: 369.88582pt x 80.87276pt.
+[14 <./grafiken/2.14.pdf> <./grafiken/2.15.pdf>]
+chapter 3.
+) [15
 
 ]
 \openout2 = `Latex_Getting_Started.aux'.
 
  (Latex_Getting_Started.tex
-chapter 3.
+chapter 4.
 File: grafiken//welfenschloss_vektor.pdf Graphic file (type pdf)
 <use grafiken//welfenschloss_vektor.pdf>
 Package pdftex.def Info: grafiken//welfenschloss_vektor.pdf  used on input line
  11.
 (pdftex.def)             Requested size: 439.2395pt x 127.38776pt.
-[3
+[16
 
 
 
@@ -2094,7 +2244,7 @@ Overfull \hbox (25.88208pt too wide) in paragraph at lines 175--38
  [][] 
  []
 
-[4
+[17
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5
@@ -2104,18 +2254,16 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5
 d
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 12.9599pt on input line 83.
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 84
 .
 
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [5]
+) [18]
 
-LaTeX Warning: Citation `ASYN:2001' on page 6 undefined on input line 100.
+LaTeX Warning: Citation `ASYN:2001' on page 19 undefined on input line 100.
 
-) [6]
+) [19]
 \openout2 = `Auswertung.aux'.
 
  (Auswertung.tex
@@ -2196,11 +2344,8 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[7
+[20
 
-
-
-] [8
 
 
 ]
@@ -2213,12 +2358,18 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.23 
-      [1] (Arbeit.aux (config/Konfiguration.aux) (Deckblatt.aux)
+      [1
+
+
+] (Arbeit.aux (config/Konfiguration.aux) (Deckblatt.aux)
 (Eigenstaendigkeitserklaerung.aux) (Aufgabenstellung.aux)
 (Formelzeichenkonvention.aux) (Einleitung.aux) (Grundlagen.aux)
 (Latex_Getting_Started.aux) (Auswertung.aux))
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Arbeit.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -2230,30 +2381,37 @@ Package rerunfilecheck Info: File `Arbeit.out' has not changed.
 (\end occurred when \iftrue on line 8 was incomplete)
 (\end occurred when \ifnum on line 8 was incomplete) 
 Here is how much of TeX's memory you used:
- 45516 strings out of 479334
- 1049601 string characters out of 2853285
- 1644921 words of memory out of 3000000
- 61955 multiletter control sequences out of 15000+200000
+ 45693 strings out of 479334
+ 1052634 string characters out of 2853285
+ 1648348 words of memory out of 3000000
+ 62074 multiletter control sequences out of 15000+200000
  494217 words of font info for 150 fonts, out of 3000000 for 9000
  1146 hyphenation exceptions out of 8191
- 111i,19n,122p,10645b,2319s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Administrator/App
-Data/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Administrator/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Use
-rs/Administrator/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mmib10.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmr10.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Administrator/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/Administr
-ator/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users
-/Administrator/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pf
-b><C:/Users/Administrator/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
-tmb8a.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX/fonts/type1/urw
-/times/utmr8a.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/urw/times/utmri8a.pfb>
-Output written on Arbeit.pdf (19 pages, 210822 bytes).
+ 111i,20n,122p,10645b,2319s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name
+{figure.caption.25} has been referenced but does not exist, replaced by a fixed
+ one
+
+{C:/Users/Administrator/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.e
+nc}<C:/Users/Administrator/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmmi12.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Administrator/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Administrator/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users
+/Administrator/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
+10.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/Administrator/AppData/Local/P
+rograms/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Administrator/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Administ
+rator/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/A
+dministrator/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:
+/Users/Administrator/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a
+.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX/fonts/type1/urw/time
+s/utmri8a.pfb>
+Output written on Arbeit.pdf (31 pages, 913059 bytes).
 PDF statistics:
- 264 PDF objects out of 1000 (max. 8388607)
- 50 named destinations out of 1000 (max. 500000)
- 218 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 563 PDF objects out of 1000 (max. 8388607)
+ 94 named destinations out of 1000 (max. 500000)
+ 392 words of extra memory for PDF output out of 10000 (max. 10000000)
 

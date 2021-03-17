@@ -2,17 +2,30 @@
 \contentsline {chapter}{Abbildungsverzeichnis}{ii}{chapter*.5}%
 \contentsline {chapter}{Tabellenverzeichnis}{iii}{chapter*.6}%
 \contentsline {chapter}{Formelzeichenkonvention}{iv}{chapter*.7}%
-\contentsline {chapter}{\numberline {1}Abstract}{1}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Grundlagen}{2}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Elektromagnetisches Feld}{2}{section.2.1}%
-\contentsline {chapter}{\numberline {3}Latex: Getting Started}{3}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Bilder einfügen}{3}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Plots}{4}{section.3.2}%
-\contentsline {subsubsection}{\nonumberline Gutes Beispiel}{4}{subsubsection*.10}%
-\contentsline {subsubsection}{\nonumberline Schlechtes Beispiel}{4}{subsubsection*.13}%
-\contentsline {subsubsection}{\nonumberline Erläuterungen zum Plot}{5}{subsubsection*.16}%
-\contentsline {subsubsection}{\nonumberline Tipps}{5}{subsubsection*.18}%
-\contentsline {section}{\numberline {3.3}Tabellen}{5}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Gleichungen}{6}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Einheiten}{6}{subsection.3.4.1}%
-\contentsline {section}{\numberline {3.5}Literaturverweise setzen}{6}{section.3.5}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Importance of measurement}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Introduction to various data measurement methods}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.3}The main content of this paper}{2}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Fundamentals}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}ADC}{3}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}How the voltage/current-sensor works}{3}{subsection.2.1.1}%
+\contentsline {section}{\numberline {2.2}Ethernet}{6}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Introduce of W5500}{6}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}solution of ethernet access}{7}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Graphical user interface}{9}{section.2.3}%
+\contentsline {section}{\numberline {2.4}UDP}{10}{section.2.4}%
+\contentsline {section}{\numberline {2.5}SPI}{11}{section.2.5}%
+\contentsline {section}{\numberline {2.6}DMA}{11}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Ngrok}{13}{section.2.7}%
+\contentsline {chapter}{\numberline {3}Introduction of measurement circuit}{15}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Latex: Getting Started}{16}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Bilder einfügen}{16}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Plots}{17}{section.4.2}%
+\contentsline {subsubsection}{\nonumberline Gutes Beispiel}{17}{subsubsection*.25}%
+\contentsline {subsubsection}{\nonumberline Schlechtes Beispiel}{17}{subsubsection*.28}%
+\contentsline {subsubsection}{\nonumberline Erläuterungen zum Plot}{18}{subsubsection*.31}%
+\contentsline {subsubsection}{\nonumberline Tipps}{18}{subsubsection*.33}%
+\contentsline {section}{\numberline {4.3}Tabellen}{18}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Gleichungen}{19}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Einheiten}{19}{subsection.4.4.1}%
+\contentsline {section}{\numberline {4.5}Literaturverweise setzen}{19}{section.4.5}%

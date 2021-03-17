@@ -1,5 +1,333 @@
-\chapter{Grundlagen}
-\label{chap:Grundlagen}
+\chapter{Fundamentals}
+\label{chap:Fundamentals}
 
-\section{Elektromagnetisches Feld}
-\label{sec:Elektromagnetisches Feld}
+\section{ADC}
+\label{sec:ADC}
+% 2.1
+
+
+\subsection{How the voltage/current-sensor works}
+\label{sec:How the voltage/current-sensor works}
+%2.1.1
+
+The essence of voltage/current-sensor sensor measuring voltage is a voltage divider circuit composed of resistors. Its principle is the knowledge of resistor series voltage divider. The typical circuit is shown in Figure ~\ref{fig:2.1}. 
+\begin{figure}[h]
+	\centering
+	% \setlength\figureheight{7cm}
+	% \setlength\figurewidth{13cm}
+	% \input{grafiken/2.1.pdf}
+	\includegraphics[width=13cm]{grafiken/2.1.pdf}
+	\caption{Structure of divider resistor} 
+	\label{fig:2.1}
+\end{figure}
+\\
+$\cdot U_{in}$: Voltage of the component under test
+\\
+$\cdot U_{out}$: Voltage of divider resistor R2
+\\
+$\cdot R_{1}$: Divider resistor
+\\
+$\cdot R_{2}$: Divider resistor
+\\
+Therefore, the measured voltage provided to the ADC channel is the following formula:
+\\
+\begin{center} 
+\begin{equation}
+ U_{out} = \frac{R_{2}}{R_{1}+R_{2}} U_{in}  
+\end{equation}
+\end{center}
+
+There are a variety of precision ADCs available on the market to choose from, as shown in the figure~\ref{fig:2.2} below , the appropriate ADC precision can be selected according to the signal bandwidth, so that it is convenient for users to measure.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=13cm]{grafiken/2.2.pdf}
+	\caption{ADC-Architecture depending on signal bandwidth and resolution} 
+	\label{fig:2.2}
+\end{figure}
+\\
+In the case of methods without feedback, the parallel converter has the simplest structure, which is why, with high resolution, a large number of components with high demands on accuracy are required. Here, too, there are methods with range selectivity, oversampling and ramp methods. A folding process has also established itself alongside a multiplex technique. 
+\\
+The following figure~\ref{fig:2.3} briefly describes the basic structure of the parallel converter:
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=13cm]{grafiken/2.3.pdf}
+	\caption{Block diagram of a parallel converter} 
+	\label{fig:2.3}
+\end{figure}
+\\
+Since with this parallel converter (flash converter) the entire conversion takes place within one clock period, it is the fastest method. It is easy to see, however, that the number of components required quickly becomes very large, since the entire chain with resistor, comparator and latch is required for each of the $2^{n}-1$ comparison values. The thermometer code present at the output of the latches is encoded in a binary code (often a Gray code, in which neighboring numbers differ by only one bit). Differential amplifiers are particularly suitable as comparators, with the gain v having to be at least so large that $\Delta U/2$ is sufficient to control the necessary logic level of the latches.
+\\
+The second important method is called the weighing method, which requires feedback via a digital-to-analog converter, as Figure ~\ref{fig:2.4} shows.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=13cm]{grafiken/2.4.pdf}
+	\caption{Converter according to the weighing method} 
+	\label{fig:2.4}
+\end{figure}
+ As soon as the track and hold element (T\&H) has switched to hold mode, the weighing cycle begins with the most significant bit. If $ u_{e}>\frac{U_{max}}{2} $, the top bit remains set and the second bit is set to 1 on a trial basis.
+\\ 
+The comparator decides whether the word in the SAR is smaller than the input signal. Then the check bit remains set and the next lowest bit is checked. If  $u_{e}<u_{DA}(W)$, the check bit is reset.
+\\
+The conversion time is n clock periods, whereby the digital-to-analog converter must have full accuracy. The advantage of high resolutions is that only one precise comparator is required. This enables the design of very energy efficient implementations.
+If a counter is used instead of the SAR, the Laund can count the clock cycles backwards through the comparator. In the steady state, the data word indicates. There are also many variants of this counting method, whereby in the worst case the conversion time can be up to $2^{n}$ clock cycles.
+In the gallium nitride measurement, because the precision is required but the precision is not the highest, the above-mentioned method is selected.
+Each stm32F303 has a 40-channel independent 16-bit precision ADC, and the price is very high, so we choose this microcontroller to measure the voltage signal to determine whether the gallium nitride is affected by cosmic rays. The following figure~\ref{fig:2.5} is the connection diagram of the microcontroller ADC and the voltage divider resistor:
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=13cm]{grafiken/2.5.pdf}
+	\caption{Connection diagram of the microcontroller ADC and the voltage divider resistor} 
+	\label{fig:2.5}
+\end{figure}
+\section{Ethernet}
+\label{sec:Ethernet}
+% 2.2
+Ethernet has very extensive and in-depth applications in various fields and industries. This is mainly due to the high flexibility and ease of implementation of Ethernet. Because Ethernet has the advantages of simple networking, low cost, excellent compatibility, reliable connection, and convenient topology adjustment, it has advantages that other network technologies do not have in terms of being a gateway for smart homes, Internet of Things or wireless sensor networks. , Thus get vigorous development and application. This article will introduce in detail how to connect the embedded system to the Ethernet, how to use the hardware protocol stack to make your solution or application connect to the Internet quickly and efficiently, how to realize TCP/IP communication, and how to realize the upper application layer protocol and many more.
+\subsection{Introduce of W5500}
+\label{sec:Introduce of W5500}
+% 2.2.1
+The W5500 network expansion board integrates a hardware TCP/IP protocol stack chip W5500 and an RJ-45 with a network transformer. Among them, W5500 is a full hardware TCP/IP embedded Ethernet controller, which provides a simpler Internet connection solution for embedded systems. Hardware logic gate circuits are used to implement the transmission layer and network layer of the TCP/IP protocol stack (such as : TCP, UDP, ICMP, IPv4, ARP, IGMP, PPPoE and other protocols), and integrates the data link layer, physical layer, and 32K bytes of on-chip RAM as a data receiving and sending buffer. Make the host computer main control chip only need to undertake the processing task of TCP/IP application layer control information. This greatly saves the workload of the host computer for data replication, protocol processing, and interrupt processing, and improves system utilization and reliability. 
+\\
+Its module structure is shown in the figure~\ref{fig:2.6} below:
+\\
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=13cm]{grafiken/2.6.pdf}
+	\caption{Physical model of W5500} 
+	\label{fig:2.6}
+\end{figure}
+W5500 supports 8 sockets at the same time to facilitate communication with different IPs and devices; in order to reduce system energy. W5500 provides Wake-on-LAN mode (WOL) and power-down mode for customers to choose to use; W5500 is non-aggressive. The hardware network engine can prevent similar torrent, fraud and injection network attacks and improve network security.
+
+\subsection{solution of ethernet access}
+\label{sec:solution of ethernet access}
+% 2.2.2
+For non-operating system, how does the single-chip microcomputer required by the system realize network access? I will categorize these schemes according to the different TCP/IP protocol stacks below.
+\\
+It is divided into two categories: the first category is the traditional software TCP/IP protocol stack solution; the second category is the latest hardware TCP/IP
+Protocol stack scheme. Below I will analyze the implementation of these two types of solutions: 
+\\
+1) MAC+PHY solutions:
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=13cm]{grafiken/2.7.pdf}
+	\caption{MAC+PHY Ethernet solution} 
+	\label{fig:2.7}
+\end{figure}
+\FloatBarrier
+The traditional Ethernet access scheme is as shown in the figure below. The MCU+MAC+PHY is added to the network interface to realize the Ethernet
+The physical connection of the network realizes communication and upper-layer applications by implanting TCP/IP protocol code in the main control chip.
+\\
+2) Hardware protocol stack chip solution: 
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=13cm]{grafiken/2.7.pdf}
+	\caption{MAC+PHY Ethernet solution} 
+	\label{fig:2.8}
+\end{figure}
+\FloatBarrier
+The hardware protocol stack chip scheme is shown in the figure below. The MCU + hardware protocol stack chip (including MAC and PHY) directly adds the network interface, and the single-chip microcomputer can be easily connected to the network. All the work of processing the TCP/IP protocol is through the "little secretary" of the MCU-the hardware protocol Stack chips to complete.
+\\
+This solution was first proposed by WIZnet and successfully launched the Ethernet series of chips: W5100, W5200, W5300 and W5500. The so-called hardware protocol stack refers to the implementation of the traditional software TCP/IP protocol stack with hardware-based logic gate circuits, as shown in the figure~\ref{fig:2.9} below.
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=13cm]{grafiken/2.9.pdf}
+	\caption{Hardware protocol kernel} 
+	\label{fig:2.9}
+\end{figure}
+\FloatBarrier
+The core of the Ethernet chip is composed of protocols such as TCP, UDP, ICMP, IGMP in the transport layer, IP, ARP, PPPoE and other protocols in the network layer, and MAC in the link layer, plus physical layer PHY and peripheral registers and memory The SPI interface constitutes this complete set of hardware-based Ethernet solutions.
+\\
+This hardware TCP/IP protocol stack replaces the previous MCU to handle these interrupt requests. That is, the MCU only needs to process user-oriented application layer data. The transmission layer, network layer, link layer and physical layer are all controlled by the peripheral WIZnet The chip is complete. This set of solutions simplifies the aforementioned five-layer network model from two aspects of hardware overhead and software development, and simplifies product development solutions. In this way, engineers no longer have to face the cumbersome communication protocol code, only need to understand the simple register function and Socket programming to complete the network function development part of the product development work.
+
+\section{Graphical user interface}
+\label{sec:Graphical user interface}
+% 2.3
+The GUI(Graphical user interface) that separates the front and back ends specifically refers to the browser (or client) side. One of the most misunderstood concepts for novice server-side Java users is that JSP is a front-end technology. JSP needs to know the full name: Java Server Page. It runs in the servlet container on the server-side JVM, but the result of running is HTML that is responsive to the browser. Servlet, the first from Java EE, already had ASP at this point (also knows the meaning of Active Server Page). Due to the need to put a lot of HTML code in servlet, the Java specification learned ASP and suggested JSP. Servlet is Java code mixed with HTML, JSP is HTML code mixed with Java. The browser doesn't care if the server is JSP, ASP, PHP or the original servlet or HTML on the static server as long as it returns valid HTML code. So take out the static HTML part of the JSP, convert it to a simple HTML file and put it on the HTTP server. The browser just needs to fetch the HTML code. The dynamic data part is fetched by AJAX from the server side using JS in HTML and then the dom is operated dynamically to complete the display of the dynamic content. In this way, the leading and trailing ends are separated.
+\\
+The following figure~\ref{fig:2.10}  is the front page of the front-end:
+% ~\ref{fig:2.10} 
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=13cm]{grafiken/2.10.pdf}
+	\caption{Frontend GUI} 
+	\label{fig:2.10}
+\end{figure}
+\FloatBarrier
+
+\section{UDP}
+\label{sec:UDP}
+% 2.4
+In the transport layer of the TCP/IP protocol stack, TCP is connection-oriented, and the UDP protocol to be demonstrated next. It is non-connection oriented.
+\\
+When UDP transmitting data, there is no confirmation, retransmission, or congestion mechanism. Since this measurement can obtain a large amount of data in a short time, the packet loss and error data can be verified by the large amount of data received later, so this time we choose UDP.
+\\
+Compared with TCP, UDP does not return a response signal for each received frame during transmission. When network transmission fails, such as a router restart and the network is suddenly interrupted, UDP can still receive the signal transmitted by the server as much as possible. The comparison figure~\ref{fig:2.11}  is as follows :
+% ~\ref{fig:2.11} 
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=13cm]{grafiken/2.11.pdf}
+	\caption{Comparison of TCP and UDP} 
+	\label{fig:2.11}
+\end{figure}
+\FloatBarrier
+The UDP establishment process of W5500 is also very convenient, which can be easily realized by simply reading and writing registers. After the program is initialized, enter the main loop function. When the Socket is closed, before communicating, we first initialize the Socket port in UDP mode. When the socket is in the initialization completed state, that is, the SOCK UDP state, data can be sent by broadcast at this time.
+\\
+Next, use W5500 to demonstrate how to use UDP to send and receive data. There are two issues to pay attention to before the test. 
+\\
+First, it is recommended to turn off the PC firewall.
+\\
+Secondly, if the W5500 module and the PC are directly connected via a network cable, you need to modify the IP address of the PC to a static IP, and keep it in the same network segment as the W5500 IP. 
+\\
+If you connect to the router directly, you do not need to modify the IP address of the PC. The specific test steps are:
+\\
+1. Use the IP address obtained by the router to set the configuration file in the W5500, this IP must be in the same network segment as the router gateway.
+\\
+2. Obtain the computer IP address through the command line and write it as remote IP into the configuration file of the w5500 Ethernet chip.
+\\
+3. Compile the code, and then burn the program to the Wildfire development board.
+\\
+4. Connect the network cable and USB serial port cable. Open the serial port debugging tool, reset the Wildfire development board, and get the setting information from the output result.
+
+\section{SPI}
+\label{sec:SPI}
+% 2.5
+The Serial Peripheral Interface (SPI) is a synchronous serial communication interface specification used for short-distance communication, primarily in embedded systems. The interface was developed by Motorola in the mid-1980s and has become a de facto standard. Typical applications include Secure Digital cards and liquid crystal displays.
+\\
+SPI devices communicate in full duplex mode using a master-slave architecture with a single master. The master device originates the frame for reading and writing. Multiple slave-devices are supported through selection with individual slave select (SS), sometimes called chip select (CS), lines.
+\\
+Sometimes SPI is called a four-wire serial bus, contrasting with three-, two-, and one-wire serial buses. The SPI may be accurately described as a synchronous serial interface,[1] but it is different from the Synchronous Serial Interface (SSI) protocol, which is also a four-wire synchronous serial communication protocol. The SSI protocol employs differential signaling and provides only a single simplex communication channel. SPI is one master and multi slave communication.
+\\
+The figure~\ref{fig:2.12}  below is a standard SPI transmission process:
+% ~\ref{fig:2.11} 
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=13cm]{grafiken/2.12.pdf}
+	\caption{standard SPI transmission process} 
+	\label{fig:2.12}
+\end{figure}
+\FloatBarrier
+
+\section{DMA}
+\label{sec:DMA}
+% 2.6
+DMA, the full name is Direct Memory Access, that is, direct memory access.
+\\
+DMA transfer copies data from one address space to another address space, and provides high-speed data transfer between peripherals and memory or between memory and memory. When the CPU initializes this transfer action, the transfer action itself is realized and completed by the DMA controller. The DMA transmission method does not require the CPU to directly control the transmission, and there is no interrupt processing method to retain the scene and restore the scene process. Through the hardware, a channel for direct data transmission for RAM and IO devices is opened up, which greatly improves the efficiency of the CPU.
+\\
+Each channel is directly connected to a dedicated hardware DMA request, and each channel also supports software triggering. These functions are configured through software;
+On the same DMA module, the priority between multiple requests can be set by software programming (a total of four levels: very high, high, medium and low). When the priority settings are equal, it is determined by the hardware (request 0 has priority over request 1, So on and so forth).
+\\
+The transmission width (byte, half word, full word) of the independent data source and target data area is controlled by byte in this design to simulate the process of packing and unpacking. The source and destination addresses must be aligned according to the data transfer width.
+\\
+DMA support circular buffer management.
+\\
+Each channel has 3 event flags (DMA half transfer, DMA transfer completion and DMA transfer error). These 3 event flags may logically become a separate interrupt request;
+Transfer between storage and storage, between peripherals and storage, between storage and peripherals.
+\\
+Flash memory, SRAM, peripheral SRAM, APB1, APB2 and AHB peripherals can all be used as the source and target of access.
+\\
+Programmable number of data transfers: the maximum is 65535.
+\\
+STM32F429 series chips have up to 2 DMA controllers, DMA1 and DMA2 each have 8 channels. Each channel is dedicated to managing memory access requests from one or more peripherals. There is also an arbitration to coordinate the priority of each DMA request.
+\\
+Requests generated from peripherals (TIM, ADC, SPI1, SPI/I2S2, I2Cx[x=1, 2] and USART), etc., are input to the DMA1/DMA2 controller through logic OR, which means that there can only be one request at the same time effective.
+The following is the working block diagram~\ref{fig:2.13}  of DMA:
+% ~\ref{fig:2.12} 
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=13cm]{grafiken/2.13.pdf}
+	\caption{STM32F429xx Multi-AHB matrix} 
+	\label{fig:2.13}
+\end{figure}
+\FloatBarrier
+
+\section{Ngrok}
+\label{sec:Ngrok}
+% 2.7
+Intranet penetration, aka NAT penetration, is to make data packets with a specific source IP address and source port number not be shielded by the NAT device and routed to the intranet host correctly. The following describes the intranet penetration method on the relative positions of the communicating hosts on the network and the NAT device.
+\\
+The essence of UDP intranet penetration is to use the NAT system on the router. NAT is a conversion technology that converts private (reserved) addresses into legal IP addresses. It is widely used in various types of Internet access methods and various types of networks. NAT can complete the reuse of addresses, and can realize external concealment for the internal network structure.\\
+Ngrok is a very commonly used intranet penetration technology. Usually the local PC has two IPv4 addresses, one local IP, which is assigned by the router, and one public IP. However, people in other place cannot directly access the local PC through these two IPs. If logic and data structure of the project are not complicated, developers can use the open source ngrok for intranet penetration, so that external personnel can access the local PC.\\
+ngrok is a cross-platform application that enables developers to expose a local development server to the Internet with minimal effort. The software makes your locally-hosted web server appear to be hosted on a subdomain of ngrok.com, meaning that no public IP or domain name on the local machine is needed.\\
+ngrok allows us to expose a web server running on your local machine to the internet. Just tell ngrok what port your web server is listening on. If you don't know what port your web server is listening on, it's probably port 80, the default for HTTP.\\
+As shown in the picture~\ref{fig:2.14} , this is an example of NAT-Technical:
+% ~\ref{fig:2.14} 
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=13cm]{grafiken/2.14.pdf}
+	\caption{NAT-Technical} 
+	\label{fig:2.14}
+\end{figure}
+\FloatBarrier
+This article uses Ngrok for intranet penetration, the structure is as follows~\ref{fig:2.15} :
+
+% ~\ref{fig:2.15} 
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=13cm]{grafiken/2.15.pdf}
+	\caption{Ngrok-Technical realization} 
+	\label{fig:2.15}
+\end{figure}
+\FloatBarrier
+
+\section{IoT}
+\label{sec:IoT}
+% 2.8
+IoT is the abbreviation of English Internet of Things, it means to connect all devices to the Internet in a certain way: From smartphones and tablets (regular) to cars and refrigerators.\\
+The main function of the IoT is to know how to connect devices, services, and applications to the Internet so that it can play a greater role. There are almost no restrictions, as for what devices can be connected to the IoT and the reasons for connection, \\
+The important way for the IoT to improve the quality of life is to make data sharing easier: the IoT will help us to simplify our lives and can handle some trivial things for us in the long run.\\
+This article uses the core concept of the Internet of Things to publish the collected data to the cloud. The user accesses the cloud server through the HTML5 page to get the pushed collected data. If the cloud server fails, the user pc can remotely control the collection PC through VNC.\\
+The following figure~\ref{fig:2.16} is a schematic diagram of the Internet of Things structure used in this article:
+% ~\ref{fig:2.16} 
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=13cm]{grafiken/2.16.pdf}
+	\caption{Measuring models using the Internet of Things} 
+	\label{fig:2.16}
+\end{figure}
+\FloatBarrier
+
+The signal acquisition machine obtains the external network IP as a server through the intranet penetration, and collects the signal collected by the single-chip microcomputer through UDP and imports it into the database. Users or researchers in other regions can obtain it through the html web page (which has been deployed on the free website of the github page) Collect the database data of the signal machine. When there is a problem with the signal machine, the user can also remotely control the signal machine through VNC.
+
+ 
+\chapter{Introduction of measurement circuit}
+\label{chap:Introduction of measurement circuit}
+% 3.x
+
+
+\section{Measurement circuit overview}
+\label{sec:Measurement circuit overview}
+% 3.x
+In order to ensure the measurement accuracy, we add an ADC in front of the unit under test. If the gallium nitride is affected by cosmic rays, the ADC measurement value will change from high to low to achieve the measurement purpose. The following figure shows the basic structure of the measurement system, which is blown using a fuse.
+
+\subsection{Simulation of Measurement circuit}
+\label{sec:Simulation of Measurement circuit}
+% 3.x.x
+
+\section{ }
+\label{sec: }
+% 3.x
+
+\chapter{Design of the measuring system}
+\label{chap:Design of the measuring system}
+% 4.x
+
+\chapter{Detailed presentation of the measuring system}
+\label{chap:Detailed presentation of the measuring system}
+% 5.x
+ 
+
+
+\chapter{Design PCBs}
+\label{chap:Design PCBs}
+% 6.x
+
+\chapter{Introduce measurement with eval boards }
+\label{chap:Introduce measurement with eval boards }
+% 7.x
+ 
+
+\chapter{Conlusion}
+\label{chap:Conlusion}
+% 8.x
+ 
