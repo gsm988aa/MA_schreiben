@@ -16,8 +16,14 @@
 \contentsline {figure}{\numberline {2.13}{\ignorespaces STM32F429xx Multi-AHB matrix\relax }}{13}{figure.caption.20}%
 \contentsline {figure}{\numberline {2.14}{\ignorespaces NAT-Technical\relax }}{14}{figure.caption.21}%
 \contentsline {figure}{\numberline {2.15}{\ignorespaces Ngrok-Technical realization\relax }}{14}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Measuring models using the Internet of Things\relax }}{15}{figure.caption.23}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Beispielcaption\relax }}{16}{figure.caption.23}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Verlauf der Str\"ome auf der Primär- und der Sekundärseite in Abh\"angigkeit von der Zeit\relax }}{17}{figure.caption.26}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Str\"ome in Abh\"angigkeit der Zeit~\relax \fontsize {24.88}{30}\selectfont \leavevmode {\color {red}8}\relax }}{17}{figure.caption.29}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Beispielcaption\relax }}{22}{figure.caption.24}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Verlauf der Str\"ome auf der Primär- und der Sekundärseite in Abh\"angigkeit von der Zeit\relax }}{23}{figure.caption.26}%
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Str\"ome in Abh\"angigkeit der Zeit~\relax \fontsize {24.88}{30}\selectfont \leavevmode {\color {red}8}\relax }}{23}{figure.caption.28}%

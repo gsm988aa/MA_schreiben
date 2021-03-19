@@ -1,7 +1,7 @@
 \babel@toc {ngerman}{}
-\contentsline {chapter}{Abbildungsverzeichnis}{ii}{chapter*.5}%
-\contentsline {chapter}{Tabellenverzeichnis}{iii}{chapter*.6}%
-\contentsline {chapter}{Formelzeichenkonvention}{iv}{chapter*.7}%
+\contentsline {chapter}{Abbildungsverzeichnis}{iii}{chapter*.5}%
+\contentsline {chapter}{Tabellenverzeichnis}{iv}{chapter*.6}%
+\contentsline {chapter}{Formelzeichenkonvention}{v}{chapter*.7}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Importance of measurement}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Introduction to various data measurement methods}{1}{section.1.2}%
@@ -17,15 +17,23 @@
 \contentsline {section}{\numberline {2.5}SPI}{11}{section.2.5}%
 \contentsline {section}{\numberline {2.6}DMA}{11}{section.2.6}%
 \contentsline {section}{\numberline {2.7}Ngrok}{13}{section.2.7}%
-\contentsline {chapter}{\numberline {3}Introduction of measurement circuit}{15}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Latex: Getting Started}{16}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Bilder einfügen}{16}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Plots}{17}{section.4.2}%
-\contentsline {subsubsection}{\nonumberline Gutes Beispiel}{17}{subsubsection*.25}%
-\contentsline {subsubsection}{\nonumberline Schlechtes Beispiel}{17}{subsubsection*.28}%
-\contentsline {subsubsection}{\nonumberline Erläuterungen zum Plot}{18}{subsubsection*.31}%
-\contentsline {subsubsection}{\nonumberline Tipps}{18}{subsubsection*.33}%
-\contentsline {section}{\numberline {4.3}Tabellen}{18}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Gleichungen}{19}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Einheiten}{19}{subsection.4.4.1}%
-\contentsline {section}{\numberline {4.5}Literaturverweise setzen}{19}{section.4.5}%
+\contentsline {section}{\numberline {2.8}IoT}{14}{section.2.8}%
+\contentsline {chapter}{\numberline {3}Introduction of measurement circuit}{16}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Measurement circuit overview}{16}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Simulation of Measurement circuit}{16}{subsection.3.1.1}%
+\contentsline {chapter}{\numberline {4}Design of the measuring system}{17}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Detailed presentation of the measuring system}{18}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Design PCBs}{19}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Introduce measurement with eval boards}{20}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Conlusion}{21}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Latex: Getting Started}{22}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Bilder einfügen}{22}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Plots}{23}{section.9.2}%
+\contentsline {subsubsection}{\nonumberline Gutes Beispiel}{23}{section*.25}%
+\contentsline {subsubsection}{\nonumberline Schlechtes Beispiel}{23}{section*.27}%
+\contentsline {subsubsection}{\nonumberline Erläuterungen zum Plot}{24}{section*.29}%
+\contentsline {subsubsection}{\nonumberline Tipps}{24}{section*.30}%
+\contentsline {section}{\numberline {9.3}Tabellen}{24}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Gleichungen}{25}{section.9.4}%
+\contentsline {subsection}{\numberline {9.4.1}Einheiten}{25}{subsection.9.4.1}%
+\contentsline {section}{\numberline {9.5}Literaturverweise setzen}{25}{section.9.5}%
