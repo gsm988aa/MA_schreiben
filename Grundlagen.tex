@@ -308,6 +308,7 @@ In order to ensure the measurement accuracy, we add an ADC in front of the unit 
 % The following figure shows the basic structure of the measurement system, which is blown using a fuse.
 For multiple units under test, we adopt a one-to-one correspondence method, that is, each unit under test corresponds to an ADC for voltage measurement, and IGBT is used as a protection circuit.
 The Figure~\ref{fig:3.1} below shows the basic structure of a measurement system for multiple DUTs.
+\\
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=15cm]{grafiken/3.1.eps}
@@ -315,7 +316,7 @@ The Figure~\ref{fig:3.1} below shows the basic structure of a measurement system
 	\label{fig:3.1}
 \end{figure}
 \FloatBarrier
-
+\\
 % When DUT is disturbed by the cosmic rays and it is conductive, the basic circuit uses the fuse as the action circuit. Then, the measuring signal chip suddenly gains a high level and remains the high level. Next, the software system adds one for the error signal counter. The basic constitution of the measuring circuit is shown in Figure  : 
 % \\
 % In actual use, if we do not consider IGBT control, we can use IGBT as the protecting circuit component. When fusing of the gallium nitride MOSFET is affected by cosmic rays and it is conductive, the microcontroller can gain the voltage value through ADC, so as to realize whether the gallium nitride component will be influenced. The artificial circuit is illustrated below: 
@@ -323,83 +324,624 @@ The Figure~\ref{fig:3.1} below shows the basic structure of a measurement system
 % \\
 % When DUT is unusually operated, IGBT in theory gets a 15V voltage(with IGBT breakover) and it will not turn on the microcontroller to get a high level, as shown below: 
 \\
-\section{IGBT control circuit}
-\label{sec:IGBT control circuit}
+\section{IC for IGBT control circuit}
+\label{sec:IC for IGBT control circuit}
 % 3.2
 LM393 voltage comparator is used to control IGBT 
 LM393 is a common voltage comparator chip in our daily life. It has two independent operational amplifiers. The power supply is provided by wide voltage and undercurrent. Low input controls the current. Generally speaking, the actuation time only has 1.3 microseconds. When the in-phase input voltage is greater than the inverted input voltage, output voltage belongs to the high level. When the in-phase input voltage is less than the inverted input voltage, output voltage belongs to the low level. 
 
-The following figure~\ref{fig:3.1} is a common application circuit of LM393.
+The following Figure~\ref{fig:3.2} is a common application circuit of LM393.
 
-
-
-
-
-
-
-
-The picture above is the artificial circuit of this circuit. The voltage output result is choppy because of LM393’s circuit property. In actual design, the filter capacitor is added to LM393. 
-
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=13cm]{grafiken/3.2.eps}
+	\caption{Application circuit of LM393} 
+	\label{fig:3.2}
+\end{figure}
+\FloatBarrier
 \\
-According to STM32F429 official specification, the typical value of STM32 operating power current is 200mAH but we need to select SPI channel and GPIO interface as measurement and use multi-channel ADC for measurement. When the circuit board encounters high temperature and high pressure or improper situations, the required power will rise. Under the circumstance, we need to consider the maximum power (495mW). 
-We calculate the main control mainboard’s maximum demanded power by ourselves, thus: 
+\section{Simulation circuit}
+\label{sec:Simulation circuit}
+
+% 3.3
+In order to design the measurement system correctly, this article uses matlab's simlink to simulate and analyze the results.
+The basic constitution of the measuring circuit is shown in Figure~\ref{fig:3.3}:
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=17cm]{grafiken/3.3.pdf}
+	\caption{basic constitution of the measuring circuit} 
+	\label{fig:3.3}
+\end{figure}
+\FloatBarrier
 \\
-Since each DCDC chip can provide 6W switching power supply (which provides 350W), each main control mainboard only needs a DCDC convertor). 
-We calculate the slave independently, thus: 
+Among them, $R_{1}$ and $R_{2}$ are voltage divider circuits to ensure that the voltage across $R_{2}$ exceeds 3.3V under normal conditions. At this time, the voltage across R2 is greater than Non-inverting input of LM393(3.3V), which can ensure that the output of the LM393 output is greater than or equal to a high level of 15V, forming a self-locking circuit. For long-term measurement, it is not necessary to apply external voltage to pushbutton S1.
 \\
-In this circuit, the mature SCM chip STM32F429ZG of ST Company is used as the Ethernet-host connection chip. Since STM32F429 has more than 6-line SPI channels, it can be used as the chip to link with various chips. Since each STM32F303ZET6 has more than 40-channel ADC with the high cost performance, STM32F303ZET6 is used as the voltage signal chip for acquisition. 
-The specific circuit diagram is shown below: 
+In order to turn on the igbt for measurement, the pushbutton S1 need to be press 
+at the beginning, since the circuit is self-locking, the gate voltage of the IGBT is always 15V, if the status of DUTs are normal. The measurement
+status changes are shown in the following Table~\ref{tab:3.1}:
+ 
+\begin{table}[]
+\begin{tabular}{@{}|l|l|l|l|l|l|l|@{}}
+\toprule
+\rowcolor[HTML]{EFEFEF} 
+Status                      & V+ & V-(as Vref) & Vout & IGBT     & ADC  & ADC Value \\ \midrule
+DUT normal                  & 0V & >3.3V       & 15V  & turn on  & 0V   & 0         \\ \midrule
+DUT affected by cosmic rays & 0V & 3.3V        & 0V   & turn off & 3.3V & 4095      \\ \bottomrule
+\end{tabular}
+	\caption{Measuring system status and voltage changes}
+	\label{tab:3.1}
+\end{table}
+
+ 
 \\
-To measure 1000 DUT components, at least 1000 lines of ADC should be used. To ensure signal quality, electromagnetic compatibility, and developmental cost, ADC is only used on the slave, as shown in the picture below: 
-\\
-If we measure 1000 measured units and each STM32F303ZET provides independent 40-line ADC, we need 25 STM32F303 chips. The table below shows the independent ADC distribution of each STM32F303. 
+When the DUT is affected by cosmic rays, because the internal resistance of the GaN-MOSFET is very small(less than $63m\Omega$), the voltage across $R_{2}$ drops rapidly and approaches 0. At this time, the Non-inverting input of LM393 is less than 3.3V at the inverting input, and the comparator The output voltage is 0. At this time, the gate voltage of the IGBT is 0, and the IGBT cannot be turned on. In this way, the IGBT protection circuit can normally protect the malfunctioning DUT.
+
+
+
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=13cm]{grafiken/3.4.pdf}
+	\caption{Simulation results} 
+	\label{fig:3.4}
+\end{figure}
+\FloatBarrier
+The Figure~\ref{fig:3.4} above is the Simulation results.
 \\
 
-\\
-To improve reliability and SNR, this article needs to discuss the upper limit of acquisition speed to ensure that all data will be sent to the PC correctly. 
-\\
-According to the chip’s specification, SPI of the slave only has the fastest transmission speed of 4Mbps. Moreover, four slave mainboards send data to the host mainboard. Every time, ADC voltage signal acquisition at least needs 1.5 periods and the maximum periods should be set up as 601.5. According to the specification, each switching time is: 
-\\
-Since we apply the mean filter method, sampling per 10 times can be used as a group of data and then through geometric mean, at least 10us is needed for sampling. 
-Considering that the host mainboard accepts the data sent from 5 slave mainboards simultaneously, the SPI receiving speed is set up as 8MB/s, for the sake of preventing congestion. 
-Thus, sending speed of each slave mainboard must be reduced to 1.6Mbps, for the sake of ensuring that the host mainboard can receive all data from the slave mainboard. 
-In other words, the slave mainboard applies the mean filtering circulation to increase the delay procedure every time, so as to ensure that each value received by the host is valid and reliable. 
-At the same time, the temperature collecting speed of the mainboard should be noticed. It will exert an impact on the acquisition speed and total time of major cycles. Developers can set up the counter to set up the number of major cycles to acquire the temperature value once. According to the picture below, 
-The host writes data in DS18B20 as writing the time slot, including “0” time slot and “1” time slot. The bus host uses “1” time slot to write logic in DS18B20 and to write logic 0 in DS18B20 as writing “0” time slot. All writing time slots at least must have 60μs duration. Two adjacent writing time slots at least must have 1μs recovery time. Two writing time slots can be generated by lowering the bus through the host (see the picture below), for the sake of generating “1” time slot. 
-After lowering the bus, the host must release the bus within 15μs. After releasing the bus, the pull-up resistor can recover the bus to the high level. To generate “0” time slot, after lowering the bus, the host must continue lowering the bus to satisfy the requirement of the time slot’s duration (at least 60μs). 
-After the host generates the writing time slots, DS18B20 will sample the single bus(DQ) within a time quantum of 15-60μs. Within the time window of sampling, if the bus belongs to the high level, the host will write 1 in DS18B20; if the bus belongs to the low level, the host will write 0 in DS18B20. 
-To sum up, all writing time slots at least must have 60μs of duration. Two adjacent time slots at least must have 1μs of recovery time. All writing time slots(0 and 1) are generated by lowering the bus. 
-When the host launches to read the time sequences, DS18B20 is only used to transmit data to the controller, thus the bus controller will issue the order of reading the transient memory [0xBe] or the order of reading the power mode [0xB4] and then it immediately starts reading time sequences. DS18B20 can provide the request information. Besides, the bus controller will read the time sequences after issuing the order of sending temperature conversion[0x44](or recalling EEPROM order[0xB8]) before reading time sequences. See details in the functional order in DS18B20 chip manual. 
-All reading time sequences at least must reach 60μs, including two reading periods with at least 1μs recovery time. When the bus controller pulls the USB cable from the high level to the low level, as starting reading time sequences, USB cables at least must remain 1μs and then the bus is released. DS18B20 pulls up or pulls down the bus to transmit “1” or “0”. When the transmission logic “0” comes to an end, the bus will be released. When the pull-up resistor returns to the rising edge state, data from DS18B20 will be valid within 15μs after the falling edge of reading time sequences occurs. Thus, as starting reading time sequences, the bus controller must stop I/O drive into the low voltage 15μs to read I/O state. 
-This article produces multi-layer PCB board to ensure signal quality and electromagnetic compatibility. Generally speaking, three kinds of multi-layer board layout modes are illustrated below: 
-The designer needs to consider four rules below. 
-Also, we need high semaphore of transmission and long-time use. 
 
-
-\subsection{Simulation of Measurement circuit}
-\label{sec:Simulation of Measurement circuit}
-% 3.x.x
-
-\section{ }
-\label{sec: }
-% 3.x
+At first press the Pushbutton($S_{1}$), the IGBT gate voltage is 15V, the voltage across the tested unit is 3.5V, then release the button, because the circuit is a self-locking circuit, the IGBT gate voltage is provided by the output voltage of the comparator. At this time, the gate voltage of the IGBT and the voltage across DUT are unchanged. In about 42s, the external voltage is manually(change the switch($S_{2}$) applied to the GaN MOSFET. At this time, the GaN MOSFET enters the saturation mode, and the voltage across the tested cell drops to 0V rapidly. After comparing with the comparator, the time is about 1.5 microseconds, the IGBT The gate voltage is reduced to 0V, and the IGBT is quickly turned off, thereby protecting the component under test.
+\\
+The voltage output result is a little choppy because of LM393’s circuit property. In actual design, the filter capacitor is added to LM393. 
 
 \chapter{Design of the measuring system}
 \label{chap:Design of the measuring system}
-% 4.x
+% 4
+In order to measure multiple voltage signals and temperature signals at the same time, this chapter uses two different microcontrollers to work with the network module W5500 and the temperature sensor DS18b20 for data measurement.
+\\
+
+\section{Approximate structure of the system}
+\label{sec:Approximate structure of the system}
+% 4.1
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=15cm]{grafiken/4.1.eps}
+	\caption{Measurement hardware circuit overview} 
+	\label{fig:4.1}
+\end{figure}
+\FloatBarrier
+As shown in the Figure~\ref{fig:4.1} above, two different microcontrollers are used to collect and transmit signals respectively. At the same time, the microcontroller on the motherboard also needs to collect temperature signals and communicate with the Ethernet chip W5500 through the SPI protocol. The collected signal is transferred to the PC.
+In this circuit, the mature SCM chip STM32F429ZG of ST Company is used as the Ethernet-host connection chip. Since STM32F429 has more than 6-line SPI channels, it can be used as the chip to link with various chips. Since each STM32F303ZET6 has more than 40-channel ADC with the high cost performance, STM32F303ZET6 is used as the voltage signal chip for acquisition. 
+The specific circuit diagram is shown below: 
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=15cm]{grafiken/4.2.pdf}
+	\caption{Masterboard and Slaveboard hardware circuit overview} 
+	\label{fig:4.2}
+\end{figure}
+\FloatBarrier
+
+\section{Calculation of necessary number of channels/STM32}
+\label{sec:Calculation of necessary number of channels/STM32}
+% 4.2
+If we measure 1000 units under test and each STM32F303ZET provides 40
+independent ADCs, we need 1000/40=25 STM32F303 chips. The following
+table~\ref{tab:4.1} shows the independent ADC distribution of each stm32F303:
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+\begin{table}[]
+\begin{tabular}{@{}lllll@{}}
+\toprule
+\rowcolor[HTML]{EFEFEF} 
+Quantity & PINs & ADC1 channelnumber & PINs & ADC2 channelnumber \\ \midrule
+\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}1} & \multicolumn{1}{l|}{PA0} & \multicolumn{1}{l|}{ADC1 IN1} & \multicolumn{1}{l|}{PA4} & \multicolumn{1}{l|}{ADC2 IN1} \\ \midrule
+\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}2} & \multicolumn{1}{l|}{PA1} & \multicolumn{1}{l|}{ADC1 IN2} & \multicolumn{1}{l|}{PA5} & \multicolumn{1}{l|}{ADC2 IN2} \\ \midrule
+\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}3} & \multicolumn{1}{l|}{PA2} & \multicolumn{1}{l|}{ADC1 IN3} & \multicolumn{1}{l|}{PA6} & \multicolumn{1}{l|}{ADC2 IN3} \\ \midrule
+\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}4} & \multicolumn{1}{l|}{PA3} & \multicolumn{1}{l|}{ADC1 IN4} & \multicolumn{1}{l|}{PA7} & \multicolumn{1}{l|}{ADC2 IN4} \\ \midrule
+\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}5} & \multicolumn{1}{l|}{PB11} & \multicolumn{1}{l|}{ADC1 IN14} & \multicolumn{1}{l|}{PB2} & \multicolumn{1}{l|}{ADC2 IN12} \\ \midrule
+\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}6} & \multicolumn{1}{l|}{PC0} & \multicolumn{1}{l|}{ADC1 IN6} & \multicolumn{1}{l|}{PC4} & \multicolumn{1}{l|}{ADC2 IN5} \\ \midrule
+\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}7} & \multicolumn{1}{l|}{PC1} & \multicolumn{1}{l|}{ADC1 IN7} & \multicolumn{1}{l|}{PC5} & \multicolumn{1}{l|}{ADC2 IN11} \\ \midrule
+\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}8} & \multicolumn{1}{l|}{PC2} & \multicolumn{1}{l|}{ADC1 IN8} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \midrule
+\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}9} & \multicolumn{1}{l|}{PC3} & \multicolumn{1}{l|}{ADC1 IN9} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \midrule
+\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}10} & \multicolumn{1}{l|}{PF2} & \multicolumn{1}{l|}{ADC1 IN10} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \midrule
+\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}11} & \multicolumn{1}{l|}{PF4} & \multicolumn{1}{l|}{ADC1 IN5} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \midrule
+\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}12} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \midrule
+\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}13} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \midrule
+\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}14} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \midrule
+\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}15} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \midrule
+\rowcolor[HTML]{EFEFEF} 
+\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}Summe} & \multicolumn{1}{l|}{\cellcolor[HTML]{EFEFEF}} & \multicolumn{1}{l|}{\cellcolor[HTML]{EFEFEF}11} & \multicolumn{1}{l|}{\cellcolor[HTML]{EFEFEF}} & \multicolumn{1}{l|}{\cellcolor[HTML]{EFEFEF}7} \\ \midrule
+ &  &  &  &  \\ \midrule
+\rowcolor[HTML]{EFEFEF} 
+\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}Quantity} & \multicolumn{1}{l|}{\cellcolor[HTML]{EFEFEF}PINs} & \multicolumn{1}{l|}{\cellcolor[HTML]{EFEFEF}ADC3 channelnumber} & \multicolumn{1}{l|}{\cellcolor[HTML]{EFEFEF}PINs} & \multicolumn{1}{l|}{\cellcolor[HTML]{EFEFEF}ADC4 channelnumber} \\ \midrule
+\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}1} & \multicolumn{1}{l|}{PB0} & \multicolumn{1}{l|}{ADC3 IN12} & \multicolumn{1}{l|}{PB12} & \multicolumn{1}{l|}{ADC4 IN3} \\ \midrule
+\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}2} & \multicolumn{1}{l|}{PB1} & \multicolumn{1}{l|}{ADC3 IN1} & \multicolumn{1}{l|}{PB14} & \multicolumn{1}{l|}{ADC4 IN4} \\ \midrule
+\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}3} & \multicolumn{1}{l|}{PB13} & \multicolumn{1}{l|}{ADC3 IN5} & \multicolumn{1}{l|}{PB15} & \multicolumn{1}{l|}{ADC4 IN5} \\ \midrule
+\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}4} & \multicolumn{1}{l|}{PD10} & \multicolumn{1}{l|}{ADC3 IN7} & \multicolumn{1}{l|}{PD8} & \multicolumn{1}{l|}{ADC4 IN12} \\ \midrule
+\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}5} & \multicolumn{1}{l|}{PD11} & \multicolumn{1}{l|}{ADC3 IN8} & \multicolumn{1}{l|}{PD9} & \multicolumn{1}{l|}{ADC4 IN13} \\ \midrule
+\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}6} & \multicolumn{1}{l|}{PD12} & \multicolumn{1}{l|}{ADC3 IN9} & \multicolumn{1}{l|}{PE14} & \multicolumn{1}{l|}{ADC4 IN1} \\ \midrule
+\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}7} & \multicolumn{1}{l|}{PD13} & \multicolumn{1}{l|}{ADC3 IN10} & \multicolumn{1}{l|}{PE15} & \multicolumn{1}{l|}{ADC4 IN2} \\ \midrule
+\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}8} & \multicolumn{1}{l|}{PD14} & \multicolumn{1}{l|}{ADC3 IN11} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \midrule
+\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}9} & \multicolumn{1}{l|}{PE7} & \multicolumn{1}{l|}{ADC3 IN13} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \midrule
+\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}10} & \multicolumn{1}{l|}{PE8} & \multicolumn{1}{l|}{ADC3 IN6} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \midrule
+\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}11} & \multicolumn{1}{l|}{PE9} & \multicolumn{1}{l|}{ADC3 IN2} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \midrule
+\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}12} & \multicolumn{1}{l|}{PE10} & \multicolumn{1}{l|}{ADC3 IN14} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \midrule
+\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}13} & \multicolumn{1}{l|}{PE11} & \multicolumn{1}{l|}{ADC3 IN15} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \midrule
+\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}14} & \multicolumn{1}{l|}{PE12} & \multicolumn{1}{l|}{ADC3 IN16} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \midrule
+\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}15} & \multicolumn{1}{l|}{PE13} & \multicolumn{1}{l|}{ADC3 IN3} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \midrule
+\rowcolor[HTML]{EFEFEF} 
+Summe &  & 15 &  & 7 \\ \bottomrule
+ 
+\end{tabular}
+	\caption{List of ADC channels used}
+	\label{tab:4.1}
+\end{table}
+
+To measure 1000 DUT components, at least 1000 lines of ADC should be used. To ensure signal quality, electromagnetic compatibility, and developmental cost, ADC is only used on the slaveboard, as shown in the Figure below~\ref{fig:4.3}: 
+
+% At the same time, you need to configure the pins of stm32F303ZET in the
+% development environment, and the results are shown in the following Figure~\ref{fig:4.3}:
+% Figure~\ref{fig:4.3}
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=15cm]{grafiken/4.3.pdf}
+	\caption{ADC Channel selection of Slaveboard in CubeMX IDE} 
+	\label{fig:4.3}
+\end{figure}
+\FloatBarrier
+\\
+
+\section{Calculation of power}
+\label{sec:Calculation of power}
+% 4.3
+According to STM32F429 official specification, the typical value of STM32 operating power current is 200mAH but we need to select SPI channel and GPIO interface as measurement and use multi-channel ADC for measurement. When the circuit board encounters high temperature and high pressure or improper situations, the required power will rise. Under the circumstance, we need to consider the maximum power (495mW). 
+This paper calculate the masterboard’s maximum demanded power, thus:
+
+\begin{center} 
+\begin{equation}
+P_{Masterboard} = \sum \left \lceil n_{component}*P_{component}\right \rceil 
+\\
+=1*\left \lceil P_{W5500}  \right \rceil +6* \left \lceil P_{STM32F429}  \right \rceil+ 4* \left \lceil P_{DS18b20}\right \rceil = 3370mW
+\end{equation}
+\end{center}
+\\
+Since each DCDC converter chip TWR6 can provide 6W switching power supply(which provides 350W), each masterboard only needs a DCDC convertor. 
+Then calculate the slaveboard’s maximum demanded power, thus: 
+\begin{center} 
+\begin{equation}
+P_{Slaveboard} = \sum \left \lceil n_{component}*P_{component}\right \rceil=5* \left \lceil P_{STM32F303}  \right \rceil= 2475mW
+\end{equation}
+\end{center}
+%speed
+In other words, the slaveboard only needs a DCDC converter.
+% We calculate the main control mainboard’s maximum demanded power by ourselves, thus: 
 
 \chapter{Detailed presentation of the measuring system}
 \label{chap:Detailed presentation of the measuring system}
-% 5.x
+% 5
+In order to design the measurement system, the hardware part should be designed first, so as to better evaluate the software requirements. When designing the software part, try to make the entire measurement system more accurate and more suitable for long-term use.
+
+\section{Hardware}
+\label{sec:Hardware}
+% 5.1
+The hardware design is divided into three parts: the spatial distribution of the temperature sensor and the motherboard and the selection of the control shielding wire.
+\subsection{Temperature Sensor}
+\label{sec:Temperature Sensor}
+% 5.1.1
+Since we have determined the ADC selection, temperature changes will also
+have an impact on GaN.
+At this time, we should choose a temperature sensor to measure the outside
+of the component under test.
+DS18B20 is a commonly used digital temperature sensor. Its output is a digital
+signal. It has the characteristics of small size, low hardware overhead, strong
+anti-interference ability, and high precision. DS18B20 digital temperature
+sensor is easy to wire, and can be used in many occasions after being
+packaged, such as pipeline type, threaded type, magnet adsorption type,
+stainless steel package type, and various models, such as LTM8877, LTM8874
+and so on.
+The DS18b20 sensor is a single-bus transmission signal. The connection
+method between it and the microcontroller is shown in the Figure below:
+
+% Figure~\ref{fig:4.3}
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=15cm]{grafiken/5.1.pdf}
+	\caption{ADC Channel selection of Slaveboard in CubeMX IDE} 
+	\label{fig:5.1}
+\end{figure}
+\FloatBarrier
+\\
+Mainly change its appearance according to different applications. The packaged DS18B20 can be used for cable trench temperature measurement, blast furnace water circulation temperature measurement, boiler temperature measurement, machine room temperature measurement, agricultural greenhouse temperature measurement, clean room temperature measurement, ammunition warehouse temperature measurement and other non-limiting temperature occasions. Wear-resistant and anti-collision, small size, easy to use, various packaging forms, suitable for various small space equipment digital temperature measurement and control fields.
+
+\subsection{The spatial distribution of the boards}
+\label{sec:The spatial distribution of the boards}
+% 5.1.2
+Since the length and width of each circuit board are 150mm and 100mm, so the neutral board has enough space to put all six measuring boards. The following Figures show the spatial distribution of boards on the neutral board:
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=16cm]{grafiken/5.2.pdf}
+	\caption{Spatial distribution of boards(2D)} 
+	\label{fig:5.2}
+\end{figure}
+\FloatBarrier
+\\
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=16cm]{grafiken/5.3.pdf}
+	\caption{Spatial distribution of boards(3D)} 
+	\label{fig:5.3}
+\end{figure}
+\FloatBarrier
 
 
+
+
+\subsection{Control shielding wire}
+\label{sec:Control shielding wire}
+% 5.1.3
+In order to have good electrical conductivity and prevent electromagnetic interference, this article compares several widely used CY cables, SY cables, YY cables and LiYCY and LiYY cables. These cables are designed for various industrial process automation applications, including signal transmission, measurement, Control and regulation. These control cables are usually referred to by applications, such as machine power cables, motor cables and robot cables. They are also called multi-core cables, control flexible cables and control flexible cables.
+According to their structural characteristics, these flexible cables can be suitable for use under light, medium or high mechanical stress. They also provide various degrees of protection against electrical interference and resistance to corrosive substances and oils.
+There are two kinds of cables that are very suitable for connecting the network(LiYCY cable) and the communication between the master board and the slave board(CY cable).
+\\
+CY cable (YSLCY / HSLCH) : Multicore screened flexible cable with Polyethylene Terephthalate (PETP) for electromagnetic interference free-transmission
+\\
+LiYCY cable: Screened and shielded cable for applications where moderate mechanical stress and electromagnetic screening is required.
+The two control shielded wires from left to right in the Figure below are LiYCY and HSLCH respectively.
+\\
+The Figure~\ref{fig:5.4} below shows LiYCY and HSLCH from left to right. These two kinds of control shielded cables can be used as the connection line between the network cable and the master and slave respectively.
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=16cm]{grafiken/5.4.pdf}
+	\caption{Control shielding wire LiYCY(left) and HSLCH(right)} 
+	\label{fig:5.4}
+\end{figure}
+\FloatBarrier
+\\
+
+\section{Software}
+\label{sec:Software}
+% 5.2
+The software part mainly focuses on the design of acquisition speed, arithmetic average filter, debugger, front-end and back-end.
+
+\subsection{Measurespeed}
+\label{sec:Measurespeed}
+% 5.2.1
+In order to improve reliability and signal-to-noise ratio, this article needs to explore the upper limit of the acquisition speed to ensure that all data can be correctly sent to the PC.
+First of all, we have to determine the sampling speed of the temperature sensor. Each cycle of the temperature sensor is divided into two phases: read and write, as shown in the following Figure~\ref{fig:5.5}:
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=16cm]{grafiken/5.5.pdf}
+	\caption{DS18b20 write/read signal required time} 
+	\label{fig:5.5}
+\end{figure}
+\FloatBarrier
+
+The host writes data in DS18B20 as writing the time slot, including “0” time slot and “1” time slot. The bus host uses “1” time slot to write logic in DS18B20 and to write logic 0 in DS18B20 as writing “0” time slot. All writing time slots at least must have 60μs duration. Two adjacent writing time slots at least must have 1μs recovery time. Two writing time slots can be generated by lowering the bus through the host (see the picture below), for the sake of generating “1” time slot. 
+After lowering the bus, the host must release the bus within 15μs. After releasing the bus, the pull-up resistor can recover the bus to the high level. To generate “0” time slot, after lowering the bus, the host must continue lowering the bus to satisfy the requirement of the time slot’s duration (at least 60μs). 
+After the host generates the writing time slots, DS18B20 will sample the single bus(DQ) within a time quantum of 15-60μs. Within the time window of sampling, if the bus belongs to the high level, the host will write 1 in DS18B20; if the bus belongs to the low level, the host will write 0 in DS18B20. 
+\\
+To sum up, all writing time slots at least must have 60μs of duration. Two adjacent time slots at least must have 1μs of recovery time. All writing time slots(0 and 1) are generated by lowering the bus. 
+When the host launches to read the time sequences, DS18B20 is only used to transmit data to the controller, thus the bus controller will issue the order of reading the transient memory [0xBe] or the order of reading the power mode [0xB4] and then it immediately starts reading time sequences. DS18B20 can provide the request information. Besides, the bus controller will read the time sequences after issuing the order of sending temperature conversion[0x44](or recalling EEPROM order[0xB8]) before reading time sequences. See details in the functional order in DS18B20 chip manual. 
+All reading time sequences at least must reach 60μs, including two reading periods with at least 1μs recovery time. When the bus controller pulls the USB cable from the high level to the low level, as starting reading time sequences, USB cables at least must remain 1μs and then the bus is released. DS18B20 pulls up or pulls down the bus to transmit “1” or “0”. When the transmission logic “0” comes to an end, the bus will be released. When the pull-up resistor returns to the rising edge state, data from DS18B20 will be valid within 15μs after the falling edge of reading time sequences occurs. Thus, as starting reading time sequences, the bus controller must stop I/O drive into the low voltage 15μs to read I/O state. 
+\\
+
+According to the chip's specification, the slave board's SPI has only the fastest sending speed of 4MB/s, and at the same time, four slave boards need to send data to the master board. It takes at least 1.5 cycles for each ADC to collect the voltage signal, and the maximum can be set It takes 601.5 cycles. According to the manual, the conversion time is 
+ 
+\\
+\begin{center} 
+\begin{equation}
+max(T_{Convert}) =max(T_{Sample})+T_{Signel-convert} =601.5cyc+12.5cyc=614cyc
+\end{equation}
+\end{center}
+\\
+\begin{center} 
+\begin{equation}
+min(T_{Convert})=min(T_{Sample})+T_{Signel-convert} =1.5cyc+12.5cyc=14cyc
+\end{equation}
+\end{center}
+
+ 
+Since the host main board accepts the data sent by 5 slave main boards at the same time, in order to prevent congestion, his SPI receiving speed is set to 8MB/s,
+Therefore, the sending speed of each slave main board must be reduced to a sending speed of 8/5=1.6MB/s to ensure that the host main board can receive all data from the slave main board.
+\\
+The Figure below shows the data collection speed and data flow.
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=16cm]{grafiken/5.6.pdf}
+	\caption{Data collection speed and data flow} 
+	\label{fig:5.6}
+\end{figure}
+\FloatBarrier
+
+\\
+That is to say, each time the slave board main board adopts the average filtering method cycle, a delay program must be added to ensure that each value received by the master is valid and reliable.
+Since apply the mean filter method, sampling per 10 times can be used as a group of data and then through geometric mean, at least 10us is needed for sampling. 
+Considering that the host mainboard accepts the data sent from 5 slave mainboards simultaneously, the SPI receiving speed is set up as 8MB/s, for the sake of preventing congestion. 
+Thus, sending speed of each slave mainboard must be reduced to 1.6Mbps, for the sake of ensuring that the host mainboard can receive all data from the slaveboard. 
+In other words, the slaveboard applies the mean filtering circulation to increase the delay procedure every time, so as to ensure that each value received by the host is valid and reliable. 
+
+\subsection{Arithmetic average filter}
+\label{sec:Arithmetic average filter}
+% 5.2.2
+
+In this article we will use the average filtering method to set the ADC to become a continuous acquisition and observation mode. At this point, the data received from DMA is stored in the register, and each ADC total channel completes 10 acquisition cycles then receives 10 times the channel. The data is arithmetic averaged to obtain the final sample.
+
+\subsection{Debugger, front-end and back-end}
+\label{sec:Debugger, front-end and back-end}
+% 5.2.3
+
+In order to meet the needs of the Internet of Things, the software part is structured as shown in the Figure below:
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=16cm]{grafiken/5.7.pdf}
+	\caption{Structure of LoT-software} 
+	\label{fig:5.7}
+\end{figure}
+\FloatBarrier
+
+
+
+For researchers, this article mainly uses the open source project ScriptCommunicator as a debugger. At the same time, because ScriptCommunicator does not have a continuous debugging function, a script was written in QT and C++ for continuous debugging.
+The following Figure~\ref{fig:5.8} is the interface of the debugger:
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=16cm]{grafiken/5.8.pdf}
+	\caption{Debugger:ScriptCommunicator} 
+	\label{fig:5.8}
+\end{figure}
+\FloatBarrier
+\\
+Front end and back end:
+Since Ubuntu is used as the operating system, shell scripts and netcat tools can be used to collect data from UDP and synchronize to the MySQL database. At the same time, use Springboot to build the backend, namely JavaWeb, and use MybatisPlus to construct instances and interfaces, and add a key"creat time" of the attribute data.
+
+
+The GUI(Graphical user interface) that separates the front and back ends specifically refers to the browser (or client) side. One of the most misunderstood concepts for novice server-
+side Java users is that JSP is a front-end technology. JSP needs to know the full name: Java Server Page. It runs in the servlet container on the server-side JVM, but the result of runningis HTML that is responsive to the browser. Servlet, the first from Java EE, already had ASPat this point (also knows the meaning of Active Server Page). Due to the need to put a lot of HTML code in servlet, the Java specification learned ASP and suggested JSP. Servlet is Java code mixed with HTML, JSP is HTML code mixed with Java. The browser doesn’t care if the server is JSP, ASP, PHP or the original servlet or HTML on the static server as long as it returns valid HTML code. So take out the static HTML part of the JSP, convert it to a simple
+HTML file and put it on the HTTP server. The browser just needs to fetch the HTML code. The dynamic data part is fetched by AJAX from the server side using JS in HTML and then the dom is operated dynamically to complete the display of the dynamic content. In this way, the leading and trailing ends are separated.
+The following Figure~\ref{fig:5.9}  is the homepage of the front-end:
+
+
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=16cm]{grafiken/5.9.pdf}
+	\caption{Front end} 
+	\label{fig:5.9}
+\end{figure}
+\FloatBarrier
+\\
 \chapter{Design PCBs}
 \label{chap:Design PCBs}
-% 6.x
+% 6
+The board design of the master and slave is mainly divided into schematic design and package design.
+
+\section{Schematic part from Masterboard and Slaveboard}
+\label{sec:Schematic part from Masterboard and Slaveboard}
+% 6.1
+The main components of the masterboard schematic diagram are the network chip W5500, the microcontroller STM32F429ZG and the corresponding modules, as shown in the following Figure~\ref{fig:6.1}:
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=16cm]{grafiken/6.1.pdf}
+	\caption{Masterboard schematic diagram} 
+	\label{fig:6.1}
+\end{figure}
+\FloatBarrier
+\\
+
+The main components of the slaveboard schematic diagram are the microcontroller STM32F303ZET and the corresponding modules, as shown in the following Figure~\ref{fig:6.2}:
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=16cm]{grafiken/6.2.pdf}
+	\caption{Slaveboard schematic diagram} 
+	\label{fig:6.2}
+\end{figure}
+\FloatBarrier
+\\
+
+The Figure~\ref{fig:6.3} below is a schematic diagram of the microcontroller on the masterboard as  Ethernetconnector and a receiver of SPI.
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=16cm]{grafiken/f429,eps}
+	\caption{Stm32F429ZG for Ethernet and Receiver} 
+	\label{fig:6.3}
+\end{figure}
+\FloatBarrier
+\\
+Corresponding to this, the following Figure~\ref{fig:6.4} is a schematic diagram of the microcontroller on the masterboard as the slave SPI receiver and the Ethernet microcontroller SPI sender.
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=16cm]{grafiken/f429conn.eps}
+	\caption{Stm32F429ZG for SPI Receiver/Sender} 
+	\label{fig:6.4}
+\end{figure}
+\FloatBarrier
+\\
+It is also important that the schematic diagram of the slaveboard mircocontroller is as follows Figure~\ref{fig:6.5}:
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=16cm]{grafiken/f303.eps}
+	\caption{Stm32F303ZET for SPI Sender and ADC} 
+	\label{fig:6.5}
+\end{figure}
+\FloatBarrier
+\\
+
+Each board has a boot circuit, the Figure~\ref{fig:6.6} is as shown below:
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=16cm]{grafiken/boot_master.eps}
+	\caption{Boot circuit} 
+	\label{fig:6.6}
+\end{figure}
+\FloatBarrier
+\\
+
+Each board has a DCDC-Convertor modul, the Figure~\ref{fig:6.7} is as shown below:
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=16cm]{grafiken/dcdc.eps}
+	\caption{DCDC-Convertor} 
+	\label{fig:6.7}
+\end{figure}
+\FloatBarrier
+\\
+
+For UDP communication and signal quality, a network transformer needs to be added when designing the Ethernet module. The Figure~\ref{fig:6.8} of schematic diagram is as follows:
+ 
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=16cm]{grafiken/w5500.eps}
+	\caption{DCDC-Convertor} 
+	\label{fig:6.8}
+\end{figure}
+\FloatBarrier
+\\
+While the slave is collecting the voltage signal, the host must collect the temperature signal. The schematic diagram of the temperature sensor DS18b20 is shown in the Figure~\ref{fig:6.9}:
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=16cm]{grafiken/ds18b20.eps}
+	\caption{DS18b20} 
+	\label{fig:6.9}
+\end{figure}
+\FloatBarrier
+\\
+
+
+
+\section{PCB document design}
+\label{sec:PCB document design}
+% 6.2
+Through the schematic diagram, the package of the schematic diagram can be set and the PCB document can be generated.
+
+
+\subsection{Layer Stack design}
+\label{sec:Layer Stack design}
+% 6.2.1
+
+This article produces multi-layer PCB board to ensure signal quality and electromagnetic compatibility. Generally speaking, three kinds of multi-layer board layout modes are illustrated below Figure~\ref{fig:6.10}:
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=16cm]{grafiken/6.10.pdf}
+	\caption{Three common layering methods} 
+	\label{fig:6.10}
+\end{figure}
+\FloatBarrier
+\\
+
+
+Designers need to consider the following four rules according to their needs：
+Rule 1: The welding area of the component surface is a complete base plate (Plan A / B / C are OK)
+Rule 2: No neighboring parallel wiring layers as far as possible (Plan A is not OK)
+Rule 3: All signal layers are as close as possible to the ground plane (Plan B = Plan C)
+Rule 4: The key signal is next to the floor and does not cross the partition (Plan B is not OK)
+In our measurement, Plan C is best. It’s also because the amount of signals we transmit is large and it takes a long time to use.
+The Figure~\ref{fig:6.11} below is the third plan to expand the Layer Stack method of eight-layer PCB:
+
+% fig6.11
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=16cm]{grafiken/6.11.pdf}
+	\caption{Selected layering method} 
+	\label{fig:6.11}
+\end{figure}
+\FloatBarrier
+\\
+
+\subsection{PCB Rules}
+\label{sec:PCB Rules}
+% 6.2.1
+The designer needs to consider two rules below. 
+Rule1: 20H
+When the pcb board has many layers, the power layer and the ground layer will generate electromagnetic waves as shown in the figure below, we can reduce the area of the power layer to reduce the radiated electromagnetic waves.
+Edge effect: RF (Radio Freq) wave interference
+100H: Reduce 98$\%$ of the external radiation and interference on yourself
+20H: Reduce 90$\%$ of the external radiation and interference on yourself
+The following Figure~\ref{fig:6.13} is the 20H rule:
+~\ref{fig:6.12}
+% fig6.12
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=16cm]{grafiken/6.12.pdf}
+	\caption{Rule:20H} 
+	\label{fig:6.12}
+\end{figure}
+\FloatBarrier
+\\
+
+Rule2: 3M
+If the distance between the two signal lines is too small, crosstalk will occur, and it is difficult to ensure a high signal-to-noise ratio, so this article introduces design rules: 3M (3mil)
+% fig6.13
+The following Figure~\ref{fig:6.13} is the 3M rule:
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=16cm]{grafiken/6.13.pdf}
+	\caption{Rule:3M} 
+	\label{fig:6.13}
+\end{figure}
+\FloatBarrier
+\\
+
+
+The following pictures are the PCB document of the masterboard Figure~\ref{fig:6.14} Figuren~\ref{fig:6.15} and the PCB document of the slaveboard Figure~\ref{fig:6.16} Figure~\ref{fig:6.17}.
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=16cm]{grafiken/6.14.pdf}
+	\caption{Masterboard PCB document front view} 
+	\label{fig:6.13}
+\end{figure}
+\FloatBarrier
+\\
+
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=16cm]{grafiken/6.15.pdf}
+	\caption{Masterboard PCB document back view} 
+	\label{fig:6.15}
+\end{figure}
+\FloatBarrier
+\\
+
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=16cm]{grafiken/6.16.pdf}
+	\caption{Slaveboard PCB document front view} 
+	\label{fig:6.16}
+\end{figure}
+\FloatBarrier
+\\
+
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=16cm]{grafiken/6.17.pdf}
+	\caption{Slaveboard PCB document back view} 
+	\label{fig:6.17}
+\end{figure}
+\FloatBarrier
+\\
+
+
 
 \chapter{Introduce measurement with eval boards }
 \label{chap:Introduce measurement with eval boards }
-% 7.x
+% 7
  
 
 \chapter{Conlusion}
@@ -411,3 +953,26 @@ The collected signal is sent to the main control unit of the microprocessor thro
 The acquisition circuit is also simulated at the same time, the PCB board is designed and laid out to meet the design requirements.
 \\
 Researchers can first debug the data which is collected from the host and slave through the debugger, then import the collected data into the MySQL database through the shell command line, and finally convert the IP address of the intranet to the public network address through the intranet penetration. In this case the personnel at the Hannover Institute can also observe changes of the collected signals such as the number of failed units under test. Researchers can also remotely access and control the experimental PC through VNC and collect data from the back-end to the database and then to the front-end. This realized the process of the Internet of Things.
+
+
+
+% \subsection{Simulation of Measurement circuit}
+% \label{sec:Simulation of Measurement circuit}
+% % 3.x.x
+
+% \section{ }
+% \label{sec: }
+% % 3.x
+  
+% \section{Calculation of acquisition speed}
+% \label{sec:Calculation of acquisition speed}
+% % 4.4
+% To improve reliability and SNR, this article needs to discuss the upper limit of acquisition speed to ensure that all data will be sent to the PC correctly. 
+% \\
+% According to the chip’s specification, SPI of the slave only has the fastest transmission speed of 4Mbps. Moreover, four slave mainboards send data to the host mainboard. Every time, ADC voltage signal acquisition at least needs 1.5 periods and the maximum periods should be set up as 601.5. According to the specification, each switching time is: 
+
+
+
+ 
+
+

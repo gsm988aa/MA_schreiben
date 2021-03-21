@@ -18,8 +18,41 @@
 \contentsline {figure}{\numberline {2.15}{\ignorespaces Ngrok-Technical realization\relax }}{14}{figure.caption.22}%
 \contentsline {figure}{\numberline {2.16}{\ignorespaces Measuring models using the Internet of Things\relax }}{15}{figure.caption.23}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Basic structure of the measurement system for multiple DUTs\relax }}{16}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Application circuit of LM393\relax }}{17}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces basic constitution of the measuring circuit\relax }}{18}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Simulation results\relax }}{19}{figure.caption.28}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Measurement hardware circuit overview\relax }}{20}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Masterboard and Slaveboard hardware circuit overview\relax }}{21}{figure.caption.30}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces ADC Channel selection of Slaveboard in CubeMX IDE\relax }}{23}{figure.caption.32}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces ADC Channel selection of Slaveboard in CubeMX IDE\relax }}{25}{figure.caption.33}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Spatial distribution of boards(2D)\relax }}{26}{figure.caption.34}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Spatial distribution of boards(3D)\relax }}{27}{figure.caption.35}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Control shielding wire LiYCY(left) and HSLCH(right)\relax }}{28}{figure.caption.36}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces DS18b20 write/read signal required time\relax }}{29}{figure.caption.37}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Data collection speed and data flow\relax }}{31}{figure.caption.38}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Structure of LoT-software\relax }}{32}{figure.caption.39}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Debugger:ScriptCommunicator\relax }}{33}{figure.caption.40}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Front end\relax }}{34}{figure.caption.41}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Masterboard schematic diagram\relax }}{35}{figure.caption.42}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Slaveboard schematic diagram\relax }}{36}{figure.caption.43}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Stm32F429ZG for Ethernet and Receiver\relax }}{36}{figure.caption.44}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Stm32F429ZG for SPI Receiver/Sender\relax }}{37}{figure.caption.45}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Stm32F303ZET for SPI Sender and ADC\relax }}{38}{figure.caption.46}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Boot circuit\relax }}{39}{figure.caption.47}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces DCDC-Convertor\relax }}{40}{figure.caption.48}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces DCDC-Convertor\relax }}{41}{figure.caption.49}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces DS18b20\relax }}{42}{figure.caption.50}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Three common layering methods\relax }}{43}{figure.caption.51}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Selected layering method\relax }}{44}{figure.caption.52}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Rule:20H\relax }}{45}{figure.caption.53}%
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Rule:3M\relax }}{46}{figure.caption.54}%
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Masterboard PCB document front view\relax }}{46}{figure.caption.55}%
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Masterboard PCB document back view\relax }}{47}{figure.caption.56}%
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Slaveboard PCB document front view\relax }}{48}{figure.caption.57}%
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Slaveboard PCB document back view\relax }}{49}{figure.caption.58}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
