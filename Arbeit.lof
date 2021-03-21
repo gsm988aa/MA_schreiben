@@ -5,14 +5,14 @@
 \contentsline {figure}{\numberline {2.2}{\ignorespaces ADC-Architecture depending on signal bandwidth and resolution\relax }}{4}{figure.caption.9}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Block diagram of a parallel converter\relax }}{5}{figure.caption.10}%
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Converter according to the weighing method\relax }}{6}{figure.caption.11}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Connection diagram of the microcontroller ADC and the voltage divider resistor\relax }}{6}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Typical connection diagram using the ADC\relax }}{6}{figure.caption.12}%
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Physical model of W5500\relax }}{7}{figure.caption.13}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces MAC+PHY Ethernet solution\relax }}{7}{figure.caption.14}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces MAC+PHY Ethernet solution\relax }}{8}{figure.caption.15}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Hardware protocol kernel\relax }}{8}{figure.caption.16}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Frontend GUI\relax }}{9}{figure.caption.17}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Comparison of TCP and UDP\relax }}{10}{figure.caption.18}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces standard SPI transmission process\relax }}{11}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces MAC+PHY Ethernet solution\relax }}{8}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Hardware protocol stack chip solution\relax }}{8}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Hardware protocol kernel\relax }}{9}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Schematic diagram of the mail sending process\relax }}{10}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Comparison of TCP and UDP\relax }}{11}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces standard SPI transmission process\relax }}{12}{figure.caption.19}%
 \contentsline {figure}{\numberline {2.13}{\ignorespaces STM32F429xx Multi-AHB matrix\relax }}{13}{figure.caption.20}%
 \contentsline {figure}{\numberline {2.14}{\ignorespaces NAT-Technical\relax }}{14}{figure.caption.21}%
 \contentsline {figure}{\numberline {2.15}{\ignorespaces Ngrok-Technical realization\relax }}{14}{figure.caption.22}%
@@ -23,7 +23,3 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Beispielcaption\relax }}{22}{figure.caption.24}%
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Verlauf der Str\"ome auf der Primär- und der Sekundärseite in Abh\"angigkeit von der Zeit\relax }}{23}{figure.caption.26}%
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Str\"ome in Abh\"angigkeit der Zeit~\relax \fontsize {24.88}{30}\selectfont \leavevmode {\color {red}8}\relax }}{23}{figure.caption.28}%

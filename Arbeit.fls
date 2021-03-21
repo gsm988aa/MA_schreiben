@@ -1,4 +1,4 @@
-PWD /Users/siminggao/Desktop/MA_schreiben
+PWD /Users/siminggao/Desktop/mega/MA_sch/MA_schreiben
 INPUT /usr/local/texlive/2020/texmf.cnf
 INPUT /usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt
@@ -593,9 +593,15 @@ OUTPUT Grundlagen.aux
 INPUT Grundlagen.tex
 INPUT Grundlagen.tex
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm
-INPUT grafiken/2.1.pdf
-INPUT ./grafiken/2.1.pdf
-INPUT ./grafiken/2.1.pdf
+INPUT grafiken/2.1.eps
+INPUT ./grafiken/2.1.eps
+INPUT ./grafiken/2.1.eps
+INPUT ./grafiken/2.1-eps-converted-to.pdf
+INPUT ./grafiken/2.1-eps-converted-to.pdf
+INPUT ./grafiken/2.1.eps
+INPUT ./grafiken/2.1-eps-converted-to.pdf
+INPUT ./grafiken/2.1-eps-converted-to.pdf
+INPUT ./grafiken/2.1-eps-converted-to.pdf
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/adobe/helvetic/phvb8t.vf

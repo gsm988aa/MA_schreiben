@@ -1,33 +1,25 @@
 \chapter{Fundamentals}
 \label{chap:Fundamentals}
-
+This chapter introduces the basic knowledge of the measurement system modules and the basic structure of the corresponding circuit, and introduces several applications related to the Internet, which can handle the measurement results well.The measured current value can be obtained by Ohm's law by measuring the voltage, so this article only collects the voltage value to measure the voltage value and the current value.
 \section{ADC}
 \label{sec:ADC}
 % 2.1
+In order to plan long-term measurement measurement devices, we must first understand the basic types of ADCs, the characteristics of each type, and their accuracy. In addition, you need to understand the basic circuit of the specific selection of the microcontroller, and you can know how the ADC performs voltage measurement.
 
-
-\subsection{How the voltage/current-sensor works}
-\label{sec:How the voltage/current-sensor works}
+\subsection{Introduction of voltage/current-sensor}
+\label{sec:Introduction of voltage/current-sensor}
 %2.1.1
+
 
 The essence of voltage/current-sensor sensor measuring voltage is a voltage divider circuit composed of resistors. Its principle is the knowledge of resistor series voltage divider. The typical circuit is shown in Figure ~\ref{fig:2.1}. 
 \begin{figure}[h]
 	\centering
-	% \setlength\figureheight{7cm}
-	% \setlength\figurewidth{13cm}
-	% \input{grafiken/2.1.pdf}
-	\includegraphics[width=13cm]{grafiken/2.1.pdf}
+% [width=13cm]         [scale=0.9]
+	\includegraphics{grafiken/2.1.eps}
 	\caption{Structure of divider resistor} 
 	\label{fig:2.1}
 \end{figure}
-\\
-$\cdot U_{in}$: Voltage of the component under test
-\\
-$\cdot U_{out}$: Voltage of divider resistor R2
-\\
-$\cdot R_{1}$: Divider resistor
-\\
-$\cdot R_{2}$: Divider resistor
+Here, $\cdot U_{in}$ is the voltage of component under test, $\cdot U_{out}$ is voltage of divider resistor R2, and $\cdot R_{1}$, $\cdot R_{2}$ are divider resistors.
 \\
 Therefore, the measured voltage provided to the ADC channel is the following formula:
 \\
@@ -37,20 +29,20 @@ Therefore, the measured voltage provided to the ADC channel is the following for
 \end{equation}
 \end{center}
 
-There are a variety of precision ADCs available on the market to choose from, as shown in the figure~\ref{fig:2.2} below , the appropriate ADC precision can be selected according to the signal bandwidth, so that it is convenient for users to measure.
+There are a variety of precision ADCs available on the market to choose from, as shown in the Figure~\ref{fig:2.2} below , the appropriate ADC precision can be selected according to the signal bandwidth, so that it is convenient for users to measure.
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=13cm]{grafiken/2.2.pdf}
+	\includegraphics{grafiken/2.2.eps}
 	\caption{ADC-Architecture depending on signal bandwidth and resolution} 
 	\label{fig:2.2}
 \end{figure}
 \\
 In the case of methods without feedback, the parallel converter has the simplest structure, which is why, with high resolution, a large number of components with high demands on accuracy are required. Here, too, there are methods with range selectivity, oversampling and ramp methods. A folding process has also established itself alongside a multiplex technique. 
 \\
-The following figure~\ref{fig:2.3} briefly describes the basic structure of the parallel converter:
+The following Figure~\ref{fig:2.3} briefly describes the basic structure of the parallel converter:
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=13cm]{grafiken/2.3.pdf}
+	\includegraphics[width=15cm]{grafiken/2.3.eps}
 	\caption{Block diagram of a parallel converter} 
 	\label{fig:2.3}
 \end{figure}
@@ -60,22 +52,28 @@ Since with this parallel converter (flash converter) the entire conversion takes
 The second important method is called the weighing method, which requires feedback via a digital-to-analog converter, as Figure ~\ref{fig:2.4} shows.
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=13cm]{grafiken/2.4.pdf}
+	\includegraphics{grafiken/2.4.eps}
 	\caption{Converter according to the weighing method} 
 	\label{fig:2.4}
 \end{figure}
  As soon as the track and hold element (T\&H) has switched to hold mode, the weighing cycle begins with the most significant bit. If $ u_{e}>\frac{U_{max}}{2} $, the top bit remains set and the second bit is set to 1 on a trial basis.
-\\ 
+\\
 The comparator decides whether the word in the SAR is smaller than the input signal. Then the check bit remains set and the next lowest bit is checked. If  $u_{e}<u_{DA}(W)$, the check bit is reset.
 \\
 The conversion time is n clock periods, whereby the digital-to-analog converter must have full accuracy. The advantage of high resolutions is that only one precise comparator is required. This enables the design of very energy efficient implementations.
 If a counter is used instead of the SAR, the Laund can count the clock cycles backwards through the comparator. In the steady state, the data word indicates. There are also many variants of this counting method, whereby in the worst case the conversion time can be up to $2^{n}$ clock cycles.
 In the gallium nitride measurement, because the precision is required but the precision is not the highest, the above-mentioned method is selected.
-Each stm32F303 has a 40-channel independent 16-bit precision ADC, and the price is very high, so we choose this microcontroller to measure the voltage signal to determine whether the gallium nitride is affected by cosmic rays. The following figure~\ref{fig:2.5} is the connection diagram of the microcontroller ADC and the voltage divider resistor:
+
+\subsection{ADC in microcontroller STM32F303ZET}
+\label{sec:ADC in microcontroller STM32F303ZET}
+% 2.1.2
+In this measurement, we choose STM32F303ZET as a microcontroller containing multiple 12-bit precision ADCs. Its core is ARM-Cortex-M4, and its ADC is of type Successive approximation register.
+Each stm32F303 has a 40-channel independent 16-bit precision ADC, and the price is very high, so we choose this microcontroller to measure the voltage signal to determine whether the gallium nitride is affected by cosmic rays. The following Figure~\ref{fig:2.5} is the typical connection diagram using the ADC:
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=13cm]{grafiken/2.5.pdf}
-	\caption{Connection diagram of the microcontroller ADC and the voltage divider resistor} 
+	\includegraphics{grafiken/2.5.eps}
+	% datasheet 144/173
+	\caption{Typical connection diagram using the ADC} 
 	\label{fig:2.5}
 \end{figure}
 \section{Ethernet}
@@ -87,11 +85,11 @@ Ethernet has very extensive and in-depth applications in various fields and indu
 % 2.2.1
 The W5500 network expansion board integrates a hardware TCP/IP protocol stack chip W5500 and an RJ-45 with a network transformer. Among them, W5500 is a full hardware TCP/IP embedded Ethernet controller, which provides a simpler Internet connection solution for embedded systems. Hardware logic gate circuits are used to implement the transmission layer and network layer of the TCP/IP protocol stack (such as : TCP, UDP, ICMP, IPv4, ARP, IGMP, PPPoE and other protocols), and integrates the data link layer, physical layer, and 32K bytes of on-chip RAM as a data receiving and sending buffer. Make the host computer main control chip only need to undertake the processing task of TCP/IP application layer control information. This greatly saves the workload of the host computer for data replication, protocol processing, and interrupt processing, and improves system utilization and reliability. 
 \\
-Its module structure is shown in the figure~\ref{fig:2.6} below:
+Its module structure is shown in the Figure~\ref{fig:2.6} below:
 \\
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=13cm]{grafiken/2.6.pdf}
+	\includegraphics[width=15cm] {grafiken/2.6.eps}
 	\caption{Physical model of W5500} 
 	\label{fig:2.6}
 \end{figure}
@@ -109,7 +107,7 @@ Protocol stack scheme. Below I will analyze the implementation of these two type
 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=13cm]{grafiken/2.7.pdf}
+	\includegraphics[width=15cm] {grafiken/2.7.eps}
 	\caption{MAC+PHY Ethernet solution} 
 	\label{fig:2.7}
 \end{figure}
@@ -120,17 +118,17 @@ The physical connection of the network realizes communication and upper-layer ap
 2) Hardware protocol stack chip solution: 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=13cm]{grafiken/2.7.pdf}
-	\caption{MAC+PHY Ethernet solution} 
+	\includegraphics[width=15cm]{grafiken/2.8.eps}
+	\caption{Hardware protocol stack chip solution} 
 	\label{fig:2.8}
 \end{figure}
 \FloatBarrier
 The hardware protocol stack chip scheme is shown in the figure below. The MCU + hardware protocol stack chip (including MAC and PHY) directly adds the network interface, and the single-chip microcomputer can be easily connected to the network. All the work of processing the TCP/IP protocol is through the "little secretary" of the MCU-the hardware protocol Stack chips to complete.
 \\
-This solution was first proposed by WIZnet and successfully launched the Ethernet series of chips: W5100, W5200, W5300 and W5500. The so-called hardware protocol stack refers to the implementation of the traditional software TCP/IP protocol stack with hardware-based logic gate circuits, as shown in the figure~\ref{fig:2.9} below.
+This solution was first proposed by WIZnet and successfully launched the Ethernet series of chips: W5100, W5200, W5300 and W5500. The so-called hardware protocol stack refers to the implementation of the traditional software TCP/IP protocol stack with hardware-based logic gate circuits, as shown in the Figure~\ref{fig:2.9} below.
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=13cm]{grafiken/2.9.pdf}
+	\includegraphics[scale=0.85]{grafiken/2.9.eps}
 	\caption{Hardware protocol kernel} 
 	\label{fig:2.9}
 \end{figure}
@@ -139,20 +137,27 @@ The core of the Ethernet chip is composed of protocols such as TCP, UDP, ICMP, I
 \\
 This hardware TCP/IP protocol stack replaces the previous MCU to handle these interrupt requests. That is, the MCU only needs to process user-oriented application layer data. The transmission layer, network layer, link layer and physical layer are all controlled by the peripheral WIZnet The chip is complete. This set of solutions simplifies the aforementioned five-layer network model from two aspects of hardware overhead and software development, and simplifies product development solutions. In this way, engineers no longer have to face the cumbersome communication protocol code, only need to understand the simple register function and Socket programming to complete the network function development part of the product development work.
 
-\section{Graphical user interface}
-\label{sec:Graphical user interface}
-% 2.3
-The GUI(Graphical user interface) that separates the front and back ends specifically refers to the browser (or client) side. One of the most misunderstood concepts for novice server-side Java users is that JSP is a front-end technology. JSP needs to know the full name: Java Server Page. It runs in the servlet container on the server-side JVM, but the result of running is HTML that is responsive to the browser. Servlet, the first from Java EE, already had ASP at this point (also knows the meaning of Active Server Page). Due to the need to put a lot of HTML code in servlet, the Java specification learned ASP and suggested JSP. Servlet is Java code mixed with HTML, JSP is HTML code mixed with Java. The browser doesn't care if the server is JSP, ASP, PHP or the original servlet or HTML on the static server as long as it returns valid HTML code. So take out the static HTML part of the JSP, convert it to a simple HTML file and put it on the HTTP server. The browser just needs to fetch the HTML code. The dynamic data part is fetched by AJAX from the server side using JS in HTML and then the dom is operated dynamically to complete the display of the dynamic content. In this way, the leading and trailing ends are separated.
-\\
-The following figure~\ref{fig:2.10}  is the front page of the front-end:
+\section{SMTP}
+\label{sec:SMTP}
+% 2.10
+When collecting temperature signals, if the state of more than 50 units under test suddenly changes within 10s, it is likely to be a manual error. At this time, it is necessary to set up an email-related program in the measurement system to send an email to notify the researcher. This article uses the SMTP protocol.
+SMTP stands for Simple Mail Transfer Protocol. It is a group of mails used to transfer mail from source address to destination address
+Rules, which control the way in which letters are transferred. The actual process of sending emails can be shown in Figure~\ref{fig:2.10}:
+ 
 % ~\ref{fig:2.10} 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=13cm]{grafiken/2.10.pdf}
-	\caption{Frontend GUI} 
+	\includegraphics[width=15cm]{grafiken/2.10.eps}
+	\caption{Schematic diagram of the mail sending process} 
 	\label{fig:2.10}
 \end{figure}
 \FloatBarrier
+
+An important feature of it is that it can relay mail during transmission, that is, mail can be relayed through hosts on different networks. Usually it works in two situations: one is the transmission of mail from the client to the server; the other is the transmission from one server to another server. SMTP is a request/response protocol, it monitors port 25, is used to receive the user's Mail request, and establish an SMTP connection with the remote Mail server.
+\\
+SMTP usually has two working modes. Send SMTP and receive SMTP. The specific working method is: Send SMTP after receiving the user's mail request, determine whether the mail is a local mail, if it is directly delivered to the user's mailbox, otherwise query the MX record of the remote mail server to the DNS, and establish a connection with the remote A two-way transmission channel between receiving SMTP, after which SMTP commands are issued by the sending SMTP, received by the receiving SMTP, and the response is transmitted in the opposite direction. Once the transmission channel is established, the SMTP sender sends a MAIL command to indicate the sender of the mail. If the SMTP receiver can receive the mail, an OK response is returned. The SMTP sender then issues the RCPT command to confirm whether the mail has been received. If the SMTP receiver receives it, it will return an OK response; if it cannot receive it, it will send a rejection response (but not stop the entire mail operation), and both parties will repeat this many times. When the receiver receives all the mails, it will receive a special sequence. If the receiver successfully processes the mail, it will return an OK response.
+\\
+
 
 \section{UDP}
 \label{sec:UDP}
@@ -165,7 +170,7 @@ Compared with TCP, UDP does not return a response signal for each received frame
 % ~\ref{fig:2.11} 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=13cm]{grafiken/2.11.pdf}
+	\includegraphics[scale=0.7]{grafiken/2.11.eps}
 	\caption{Comparison of TCP and UDP} 
 	\label{fig:2.11}
 \end{figure}
@@ -201,7 +206,7 @@ The figure~\ref{fig:2.12}  below is a standard SPI transmission process:
 % ~\ref{fig:2.11} 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=13cm]{grafiken/2.12.pdf}
+	\includegraphics[width=15cm]{grafiken/2.12.pdf}
 	\caption{standard SPI transmission process} 
 	\label{fig:2.12}
 \end{figure}
@@ -210,32 +215,29 @@ The figure~\ref{fig:2.12}  below is a standard SPI transmission process:
 \section{DMA}
 \label{sec:DMA}
 % 2.6
-DMA, the full name is Direct Memory Access, that is, direct memory access.
-\\
-DMA transfer copies data from one address space to another address space, and provides high-speed data transfer between peripherals and memory or between memory and memory. When the CPU initializes this transfer action, the transfer action itself is realized and completed by the DMA controller. The DMA transmission method does not require the CPU to directly control the transmission, and there is no interrupt processing method to retain the scene and restore the scene process. Through the hardware, a channel for direct data transmission for RAM and IO devices is opened up, which greatly improves the efficiency of the CPU.
-\\
-Each channel is directly connected to a dedicated hardware DMA request, and each channel also supports software triggering. These functions are configured through software;
-On the same DMA module, the priority between multiple requests can be set by software programming (a total of four levels: very high, high, medium and low). When the priority settings are equal, it is determined by the hardware (request 0 has priority over request 1, So on and so forth).
-\\
-The transmission width (byte, half word, full word) of the independent data source and target data area is controlled by byte in this design to simulate the process of packing and unpacking. The source and destination addresses must be aligned according to the data transfer width.
-\\
-DMA support circular buffer management.
-\\
-Each channel has 3 event flags (DMA half transfer, DMA transfer completion and DMA transfer error). These 3 event flags may logically become a separate interrupt request;
-Transfer between storage and storage, between peripherals and storage, between storage and peripherals.
-\\
-Flash memory, SRAM, peripheral SRAM, APB1, APB2 and AHB peripherals can all be used as the source and target of access.
-\\
-Programmable number of data transfers: the maximum is 65535.
-\\
-STM32F429 series chips have up to 2 DMA controllers, DMA1 and DMA2 each have 8 channels. Each channel is dedicated to managing memory access requests from one or more peripherals. There is also an arbitration to coordinate the priority of each DMA request.
-\\
-Requests generated from peripherals (TIM, ADC, SPI1, SPI/I2S2, I2Cx[x=1, 2] and USART), etc., are input to the DMA1/DMA2 controller through logic OR, which means that there can only be one request at the same time effective.
-The following is the working block diagram~\ref{fig:2.13}  of DMA:
+The basic definition of DMA: 
+DMA has the full name of Direct Memory Access 
+DMA transmission copies data from one address space to another address space, so as to realize high-speed data transmission between peripherals and memories or between memories. When CPU initializes such a transmission action, the transmission action is realized and completed through the DMA controller. The DMA transmission mode is dispense with CPU to realize direct control transmission or differing from the interrupt processing mode, it will reserve the site and recover the site process. Through RAM and IO devices, a channel of direct transmission data can be opened to improve CPU efficiency strongly. 
+
+Main features of DMA:
+Each channel is directly connected with the exclusive hardware DMA request. Each channel also supports software touch. Such functions can be configured through software; 
+On the same DMA module, the priority between multiple requests can be established through software programming (with a total of four levels: very high, high, medium, and low). When the priority setting is equal, it depends on hardware (request 0 precedes over request 1, and the rest may be deduced by analogy); 
+For the transmission width of independent data sources and target data areas (byte, half-word, and full-word), byte control is used in this design to simulate the process of packing and unpacking. The source and target address must be aligned according to the data transmission width; 
+The buffer management can support circulation; 
+Each channel has three event flags (DMA semi-transmission, DMA transmission completion, and DMA transmission error). The logic of three event flags may become an individual interrupt request; 
+Transmission between memories, transmission between peripherals and memories, and transmission between memories and peripherals; 
+Flash memory, SRAM, SRAM of peripherals, APB1, APB2, and AHB peripherals can be used as sources and targets for access; 
+The maximum number of programmable data transmission is 65535. 
+STM32F429 series chip DMA controller 
+STM32F429 series chip at most has two DMA controller. DMA1 and DMA2 respectively includes 8 channels. Each channel specializes in managing the request of one or multiple peripheral for memory access. It also has the priority of coordinating each DMA request through arbitration. 
+
+For the requests generated from peripherals (TIM, ADC, SPI1, SPI/I2S2, I2C and USART), it is inputted to DMA1/DMA2 controller through logic, implying that only one request is valid at the same time. 
+DMA’s work block diagram is stated below: 
+~\ref{fig:2.13}  of DMA:
 % ~\ref{fig:2.12} 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=13cm]{grafiken/2.13.pdf}
+	\includegraphics[width=15cm]{grafiken/2.13.eps}
 	\caption{STM32F429xx Multi-AHB matrix} 
 	\label{fig:2.13}
 \end{figure}
@@ -244,27 +246,24 @@ The following is the working block diagram~\ref{fig:2.13}  of DMA:
 \section{Ngrok}
 \label{sec:Ngrok}
 % 2.7
-Intranet penetration, aka NAT penetration, is to make data packets with a specific source IP address and source port number not be shielded by the NAT device and routed to the intranet host correctly. The following describes the intranet penetration method on the relative positions of the communicating hosts on the network and the NAT device.
-\\
-The essence of UDP intranet penetration is to use the NAT system on the router. NAT is a conversion technology that converts private (reserved) addresses into legal IP addresses. It is widely used in various types of Internet access methods and various types of networks. NAT can complete the reuse of addresses, and can realize external concealment for the internal network structure.\\
-Ngrok is a very commonly used intranet penetration technology. Usually the local PC has two IPv4 addresses, one local IP, which is assigned by the router, and one public IP. However, people in other place cannot directly access the local PC through these two IPs. If logic and data structure of the project are not complicated, developers can use the open source ngrok for intranet penetration, so that external personnel can access the local PC.\\
-ngrok is a cross-platform application that enables developers to expose a local development server to the Internet with minimal effort. The software makes your locally-hosted web server appear to be hosted on a subdomain of ngrok.com, meaning that no public IP or domain name on the local machine is needed.\\
-ngrok allows us to expose a web server running on your local machine to the internet. Just tell ngrok what port your web server is listening on. If you don't know what port your web server is listening on, it's probably port 80, the default for HTTP.\\
-As shown in the picture~\ref{fig:2.14} , this is an example of NAT-Technical:
+Internal network penetration or NAT penetration aims to make the data package with a specific source IP address and source port number not block from NAT but will route to the internal network host correctly. The internal network penetration method is introduced through the relative position between the mutual communication host in the network and NAT devices. 
+The UDP’s internal network penetration, in essence, uses the NAT system on the router. NAT is a conversion technology that transforms the private (reserved) address into the legal IP address. It is widely applied in the internet access ways with all kinds of types and different types of networks. NAT can reuse the address and realize external shelter for the internal network structure. 
+Ngrok is a commonly used internal network penetration technology. Generally speaking, our local PC has two IPv4 addresses. One local IP is allocated by the router and the other one is the public network IP. However, people in other areas all over the world cannot directly use such two IP addresses to access the local PC. If the project’s logic and data structure are not complicated, developers can use the open-source ngrok for the internal network penetration so that external personnel can access the local PC. 
+The following Figure~\ref{fig:2.14}  is a common application structure diagram of NAT.
 % ~\ref{fig:2.14} 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=13cm]{grafiken/2.14.pdf}
+	\includegraphics {grafiken/2.14.eps}
 	\caption{NAT-Technical} 
 	\label{fig:2.14}
 \end{figure}
 \FloatBarrier
-This article uses Ngrok for intranet penetration, the structure is as follows~\ref{fig:2.15} :
+This article uses Ngrok for intranet penetration, the structure is as follows Figure~\ref{fig:2.15} :
 
 % ~\ref{fig:2.15} 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=13cm]{grafiken/2.15.pdf}
+	\includegraphics[width=15cm]{grafiken/2.15.eps}
 	\caption{Ngrok-Technical realization} 
 	\label{fig:2.15}
 \end{figure}
@@ -273,15 +272,20 @@ This article uses Ngrok for intranet penetration, the structure is as follows~\r
 \section{IoT}
 \label{sec:IoT}
 % 2.8
-IoT is the abbreviation of English Internet of Things, it means to connect all devices to the Internet in a certain way: From smartphones and tablets (regular) to cars and refrigerators.\\
-The main function of the IoT is to know how to connect devices, services, and applications to the Internet so that it can play a greater role. There are almost no restrictions, as for what devices can be connected to the IoT and the reasons for connection, \\
-The important way for the IoT to improve the quality of life is to make data sharing easier: the IoT will help us to simplify our lives and can handle some trivial things for us in the long run.\\
-This article uses the core concept of the Internet of Things to publish the collected data to the cloud. The user accesses the cloud server through the HTML5 page to get the pushed collected data. If the cloud server fails, the user pc can remotely control the collection PC through VNC.\\
-The following figure~\ref{fig:2.16} is a schematic diagram of the Internet of Things structure used in this article:
+Internet of Things is abbreviated into IoT. 
+In brief, it means that all devices are linked to the internet in a way: 
+From smartphones and tablet PCs (common) to automobiles and refrigerators 
+The main function of IoT lies in how to link devices, services, and Apps to the internet so that it will develop the greater role. There is almost no limitation for devices accessed in the internet and reasons for access. 
+The important way for IoT to improve quality of life lies in making data sharing easier. IoT is conducive to streamlining our life. In the long term, it can handle some trifling matters for us. 
+This article uses the core philosophy of IoT and issues data collected to the cloud. Users can access the cloud server through HTML5 page to gain the pushed data. If the cloud server breaks down, user PC can collect the PC through VNC remote control. 
+
+The signal collector gains the outer net IP as the server through internal network penetration. The signal collected by the single chip microcomputer through UDP is imported to the database. Users or researchers in other areas can gain the database data of the signal collector through the html webpage (deployed on the free website of githubpage). When the signal collector goes wrong, users can collect the signal machine through VNC remote control. 
+
+The following Figure~\ref{fig:2.16} is a schematic diagram of the Internet of Things structure used in this article:
 % ~\ref{fig:2.16} 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=13cm]{grafiken/2.16.pdf}
+	\includegraphics[width=15cm]{grafiken/2.16.pdf}
 	\caption{Measuring models using the Internet of Things} 
 	\label{fig:2.16}
 \end{figure}
@@ -292,13 +296,85 @@ The signal acquisition machine obtains the external network IP as a server throu
  
 \chapter{Introduction of measurement circuit}
 \label{chap:Introduction of measurement circuit}
-% 3.x
+% 3.0
+This article mainly studies the influence of voltage, current, and temperature on gallium nitride to determine the influence of cosmic rays on gallium nitride. At the same time, the voltage signal and current signal of the measured unit are equivalent. Because of Ohm's law, voltage and current are proportional, so in this measurement process, this article mainly measures the change of voltage and temperature. When cosmic rays affect gallium nitride, the source and drain of gallium nitride are turned on and enter triode mode or saturation mode, that is, gallium nitride cannot work normally because of cosmic rays.
 
-
+In order to ensure the measurement accuracy, we add an ADC in front of the unit under test. If the gallium nitride is affected by cosmic rays, the ADC measurement value will change from high to low to achieve the measurement purpose. 
+\\
 \section{Measurement circuit overview}
 \label{sec:Measurement circuit overview}
-% 3.x
-In order to ensure the measurement accuracy, we add an ADC in front of the unit under test. If the gallium nitride is affected by cosmic rays, the ADC measurement value will change from high to low to achieve the measurement purpose. The following figure shows the basic structure of the measurement system, which is blown using a fuse.
+% 3.1
+\\
+% The following figure shows the basic structure of the measurement system, which is blown using a fuse.
+For multiple units under test, we adopt a one-to-one correspondence method, that is, each unit under test corresponds to an ADC for voltage measurement, and IGBT is used as a protection circuit.
+The Figure~\ref{fig:3.1} below shows the basic structure of a measurement system for multiple DUTs.
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=15cm]{grafiken/3.1.eps}
+	\caption{Basic structure of the measurement system for multiple DUTs} 
+	\label{fig:3.1}
+\end{figure}
+\FloatBarrier
+
+% When DUT is disturbed by the cosmic rays and it is conductive, the basic circuit uses the fuse as the action circuit. Then, the measuring signal chip suddenly gains a high level and remains the high level. Next, the software system adds one for the error signal counter. The basic constitution of the measuring circuit is shown in Figure  : 
+% \\
+% In actual use, if we do not consider IGBT control, we can use IGBT as the protecting circuit component. When fusing of the gallium nitride MOSFET is affected by cosmic rays and it is conductive, the microcontroller can gain the voltage value through ADC, so as to realize whether the gallium nitride component will be influenced. The artificial circuit is illustrated below: 
+% When DUT is normally operated, IGBT in theory gains a 0V voltage and it will not turn on the microcontroller to get a low level, as shown below: 
+% \\
+% When DUT is unusually operated, IGBT in theory gets a 15V voltage(with IGBT breakover) and it will not turn on the microcontroller to get a high level, as shown below: 
+\\
+\section{IGBT control circuit}
+\label{sec:IGBT control circuit}
+% 3.2
+LM393 voltage comparator is used to control IGBT 
+LM393 is a common voltage comparator chip in our daily life. It has two independent operational amplifiers. The power supply is provided by wide voltage and undercurrent. Low input controls the current. Generally speaking, the actuation time only has 1.3 microseconds. When the in-phase input voltage is greater than the inverted input voltage, output voltage belongs to the high level. When the in-phase input voltage is less than the inverted input voltage, output voltage belongs to the low level. 
+
+The following figure~\ref{fig:3.1} is a common application circuit of LM393.
+
+
+
+
+
+
+
+
+The picture above is the artificial circuit of this circuit. The voltage output result is choppy because of LM393’s circuit property. In actual design, the filter capacitor is added to LM393. 
+
+\\
+According to STM32F429 official specification, the typical value of STM32 operating power current is 200mAH but we need to select SPI channel and GPIO interface as measurement and use multi-channel ADC for measurement. When the circuit board encounters high temperature and high pressure or improper situations, the required power will rise. Under the circumstance, we need to consider the maximum power (495mW). 
+We calculate the main control mainboard’s maximum demanded power by ourselves, thus: 
+\\
+Since each DCDC chip can provide 6W switching power supply (which provides 350W), each main control mainboard only needs a DCDC convertor). 
+We calculate the slave independently, thus: 
+\\
+In this circuit, the mature SCM chip STM32F429ZG of ST Company is used as the Ethernet-host connection chip. Since STM32F429 has more than 6-line SPI channels, it can be used as the chip to link with various chips. Since each STM32F303ZET6 has more than 40-channel ADC with the high cost performance, STM32F303ZET6 is used as the voltage signal chip for acquisition. 
+The specific circuit diagram is shown below: 
+\\
+To measure 1000 DUT components, at least 1000 lines of ADC should be used. To ensure signal quality, electromagnetic compatibility, and developmental cost, ADC is only used on the slave, as shown in the picture below: 
+\\
+If we measure 1000 measured units and each STM32F303ZET provides independent 40-line ADC, we need 25 STM32F303 chips. The table below shows the independent ADC distribution of each STM32F303. 
+\\
+
+\\
+To improve reliability and SNR, this article needs to discuss the upper limit of acquisition speed to ensure that all data will be sent to the PC correctly. 
+\\
+According to the chip’s specification, SPI of the slave only has the fastest transmission speed of 4Mbps. Moreover, four slave mainboards send data to the host mainboard. Every time, ADC voltage signal acquisition at least needs 1.5 periods and the maximum periods should be set up as 601.5. According to the specification, each switching time is: 
+\\
+Since we apply the mean filter method, sampling per 10 times can be used as a group of data and then through geometric mean, at least 10us is needed for sampling. 
+Considering that the host mainboard accepts the data sent from 5 slave mainboards simultaneously, the SPI receiving speed is set up as 8MB/s, for the sake of preventing congestion. 
+Thus, sending speed of each slave mainboard must be reduced to 1.6Mbps, for the sake of ensuring that the host mainboard can receive all data from the slave mainboard. 
+In other words, the slave mainboard applies the mean filtering circulation to increase the delay procedure every time, so as to ensure that each value received by the host is valid and reliable. 
+At the same time, the temperature collecting speed of the mainboard should be noticed. It will exert an impact on the acquisition speed and total time of major cycles. Developers can set up the counter to set up the number of major cycles to acquire the temperature value once. According to the picture below, 
+The host writes data in DS18B20 as writing the time slot, including “0” time slot and “1” time slot. The bus host uses “1” time slot to write logic in DS18B20 and to write logic 0 in DS18B20 as writing “0” time slot. All writing time slots at least must have 60μs duration. Two adjacent writing time slots at least must have 1μs recovery time. Two writing time slots can be generated by lowering the bus through the host (see the picture below), for the sake of generating “1” time slot. 
+After lowering the bus, the host must release the bus within 15μs. After releasing the bus, the pull-up resistor can recover the bus to the high level. To generate “0” time slot, after lowering the bus, the host must continue lowering the bus to satisfy the requirement of the time slot’s duration (at least 60μs). 
+After the host generates the writing time slots, DS18B20 will sample the single bus(DQ) within a time quantum of 15-60μs. Within the time window of sampling, if the bus belongs to the high level, the host will write 1 in DS18B20; if the bus belongs to the low level, the host will write 0 in DS18B20. 
+To sum up, all writing time slots at least must have 60μs of duration. Two adjacent time slots at least must have 1μs of recovery time. All writing time slots(0 and 1) are generated by lowering the bus. 
+When the host launches to read the time sequences, DS18B20 is only used to transmit data to the controller, thus the bus controller will issue the order of reading the transient memory [0xBe] or the order of reading the power mode [0xB4] and then it immediately starts reading time sequences. DS18B20 can provide the request information. Besides, the bus controller will read the time sequences after issuing the order of sending temperature conversion[0x44](or recalling EEPROM order[0xB8]) before reading time sequences. See details in the functional order in DS18B20 chip manual. 
+All reading time sequences at least must reach 60μs, including two reading periods with at least 1μs recovery time. When the bus controller pulls the USB cable from the high level to the low level, as starting reading time sequences, USB cables at least must remain 1μs and then the bus is released. DS18B20 pulls up or pulls down the bus to transmit “1” or “0”. When the transmission logic “0” comes to an end, the bus will be released. When the pull-up resistor returns to the rising edge state, data from DS18B20 will be valid within 15μs after the falling edge of reading time sequences occurs. Thus, as starting reading time sequences, the bus controller must stop I/O drive into the low voltage 15μs to read I/O state. 
+This article produces multi-layer PCB board to ensure signal quality and electromagnetic compatibility. Generally speaking, three kinds of multi-layer board layout modes are illustrated below: 
+The designer needs to consider four rules below. 
+Also, we need high semaphore of transmission and long-time use. 
+
 
 \subsection{Simulation of Measurement circuit}
 \label{sec:Simulation of Measurement circuit}
@@ -329,4 +405,9 @@ In order to ensure the measurement accuracy, we add an ADC in front of the unit 
 \chapter{Conlusion}
 \label{chap:Conlusion}
 % 8.x
- 
+In order to measure the effects of cosmic radiation on GaN power semiconductors for a long time, the microcontroller STM32F303 is used to measure the voltage signal and the DS18b20 is used to measure the temperature signal.
+\\
+The collected signal is sent to the main control unit of the microprocessor through AD conversion, the data collection stage is realized through database and back-end processing, and the collected data is sent to the front-end to facilitate clearly understanding of the users.
+The acquisition circuit is also simulated at the same time, the PCB board is designed and laid out to meet the design requirements.
+\\
+Researchers can first debug the data which is collected from the host and slave through the debugger, then import the collected data into the MySQL database through the shell command line, and finally convert the IP address of the intranet to the public network address through the intranet penetration. In this case the personnel at the Hannover Institute can also observe changes of the collected signals such as the number of failed units under test. Researchers can also remotely access and control the experimental PC through VNC and collect data from the back-end to the database and then to the front-end. This realized the process of the Internet of Things.
