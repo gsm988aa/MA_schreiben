@@ -1,4 +1,3 @@
-\babel@toc {ngerman}{}
 \contentsline {chapter}{List of figures}{iv}{chapter*.5}%
 \contentsline {chapter}{List of tables}{v}{chapter*.6}%
 \contentsline {chapter}{Formelzeichenkonvention}{vi}{chapter*.7}%
@@ -15,31 +14,32 @@
 \contentsline {subsection}{\numberline {2.2.2}Ethernet access}{7}{subsection.2.2.2}%
 \contentsline {section}{\numberline {2.3}SMTP}{9}{section.2.3}%
 \contentsline {section}{\numberline {2.4}UDP}{10}{section.2.4}%
-\contentsline {section}{\numberline {2.5}SPI}{11}{section.2.5}%
+\contentsline {section}{\numberline {2.5}SPI}{12}{section.2.5}%
 \contentsline {section}{\numberline {2.6}DMA}{12}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Ngrok}{13}{section.2.7}%
-\contentsline {section}{\numberline {2.8}IoT}{14}{section.2.8}%
-\contentsline {chapter}{\numberline {3}Introduction of measurement circuit}{16}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Measurement circuit overview}{16}{section.3.1}%
-\contentsline {section}{\numberline {3.2}IC for IGBT control circuit}{17}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Simulation circuit}{17}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Design of the measuring system}{20}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Approximate structure of the system}{20}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Calculation of necessary number of channels/STM32}{21}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Calculation of power}{23}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Detailed presentation of the measuring system}{25}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Hardware}{25}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Temperature Sensor}{25}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}The spatial distribution of the boards}{26}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.3}Control shielding wire}{27}{subsection.5.1.3}%
-\contentsline {section}{\numberline {5.2}Software}{28}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Measurespeed}{28}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Arithmetic average filter}{31}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}Debugger, front-end and back-end}{31}{subsection.5.2.3}%
-\contentsline {chapter}{\numberline {6}Design PCBs}{34}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Schematic part from Masterboard and Slaveboard}{34}{section.6.1}%
-\contentsline {section}{\numberline {6.2}PCB document design}{42}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Layer Stack design}{42}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}PCB Rules}{44}{subsection.6.2.2}%
-\contentsline {chapter}{\numberline {7}Introduce measurement with eval boards}{49}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Conlusion}{50}{chapter.8}%
+\contentsline {section}{\numberline {2.7}Ngrok}{14}{section.2.7}%
+\contentsline {section}{\numberline {2.8}IoT}{15}{section.2.8}%
+\contentsline {chapter}{\numberline {3}Introduction of measurement circuit}{17}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Measurement circuit overview}{17}{section.3.1}%
+\contentsline {section}{\numberline {3.2}IC for IGBT control circuit}{18}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Simulation circuit}{19}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Design of the measuring system}{22}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Approximate structure of the system}{22}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Calculation of necessary number of channels/STM32}{23}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Calculation of power}{25}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Detailed presentation of the measuring system}{27}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Hardware}{27}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Temperature Sensor}{27}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}The spatial distribution of the boards}{28}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Control shielding wire}{29}{subsection.5.1.3}%
+\contentsline {section}{\numberline {5.2}Software}{30}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Speed of measurement}{30}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Arithmetic average filter}{33}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Debugger, front-end and back-end}{33}{subsection.5.2.3}%
+\contentsline {chapter}{\numberline {6}Design PCBs}{36}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Schematic part from Masterboard and Slaveboard}{36}{section.6.1}%
+\contentsline {section}{\numberline {6.2}PCB document design}{44}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Layer Stack design}{44}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}PCB Rules}{46}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}PCB Document layout}{47}{subsection.6.2.3}%
+\contentsline {chapter}{\numberline {7}Introduce measurement with eval boards}{50}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Conlusion}{51}{chapter.8}%

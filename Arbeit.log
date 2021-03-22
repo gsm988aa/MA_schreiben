@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.4)  22 MAR 2021 08:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.4)  22 MAR 2021 12:45
 entering extended mode
 **C:/Users/Administrator/Desktop/asyn/MA_sch/MA_schreiben/Arbeit.tex
 (C:/Users/Administrator/Desktop/asyn/MA_sch/MA_schreiben/Arbeit.tex
@@ -233,63 +233,26 @@ Class scrbook Info: Redefining `\numberline' on input line 7123.
 \openout2 = `./config/Pakete.aux'.
 
 (config/Pakete.tex
-(C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.s
-ty
-Package: babel 2021/01/26 3.53 The Babel package
-
-(C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.d
-ef
-File: babel.def 2021/01/26 3.53 Babel common definitions
-\babel@savecnt=\count189
-\U@D=\dimen139
-\l@babelnohyphens=\language79
-
-(C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabe
-l.def)
-\bbl@readstream=\read2
-)
-\bbl@dirlevel=\count190
-
-*************************************
-* Local config file bblopts.cfg used
-*
-
-(C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.c
-fg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
-)
-(C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ng
-erman.ldf
-Language: ngerman 2021/02/27 v2.13 German support for babel (post-1996 orthogra
-phy)
-
-(C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ng
-ermanb.ldf
-Language: ngermanb 2021/02/27 v2.13 German support for babel (post-1996 orthogr
-aphy)
-Package babel Info: Making " an active character on input line 122.
-)))
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\bookta
 bs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen140
-\lightrulewidth=\dimen141
-\cmidrulewidth=\dimen142
-\belowrulesep=\dimen143
-\belowbottomsep=\dimen144
-\aboverulesep=\dimen145
-\abovetopsep=\dimen146
-\cmidrulesep=\dimen147
-\cmidrulekern=\dimen148
-\defaultaddspace=\dimen149
-\@cmidla=\count191
-\@cmidlb=\count192
-\@aboverulesep=\dimen150
-\@belowrulesep=\dimen151
-\@thisruleclass=\count193
-\@lastruleclass=\count194
-\@thisrulewidth=\dimen152
+\heavyrulewidth=\dimen139
+\lightrulewidth=\dimen140
+\cmidrulewidth=\dimen141
+\belowrulesep=\dimen142
+\belowbottomsep=\dimen143
+\aboverulesep=\dimen144
+\abovetopsep=\dimen145
+\cmidrulesep=\dimen146
+\cmidrulekern=\dimen147
+\defaultaddspace=\dimen148
+\@cmidla=\count189
+\@cmidlb=\count190
+\@aboverulesep=\dimen149
+\@belowrulesep=\dimen150
+\@thisruleclass=\count191
+\@lastruleclass=\count192
+\@thisrulewidth=\dimen151
 )
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.s
 ty
@@ -312,9 +275,9 @@ Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\arr
 ay.sty
 Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
-\col@sep=\dimen153
+\col@sep=\dimen152
 \ar@mcellbox=\box49
-\extrarowheight=\dimen154
+\extrarowheight=\dimen153
 \NC@list=\toks16
 \extratabsurround=\skip64
 \backup@length=\skip65
@@ -323,7 +286,7 @@ Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
 \everycr=\toks17
 \minrowclearance=\skip66
 )
-\rownum=\count195
+\rownum=\count193
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -430,8 +393,8 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 )
-\Gin@req@height=\dimen155
-\Gin@req@width=\dimen156
+\Gin@req@height=\dimen154
+\Gin@req@width=\dimen155
 ))
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/marvosym\marvos
 ym.sty
@@ -453,50 +416,50 @@ LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
 )
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/epic\epic.sty
 Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
-\@@multicnt=\count196
-\d@lta=\count197
-\@delta=\dimen157
-\@@delta=\dimen158
-\@gridcnt=\count198
-\@joinkind=\count199
-\@dotgap=\dimen159
-\@ddotgap=\dimen160
-\@x@diff=\count266
-\@y@diff=\count267
-\x@diff=\dimen161
-\y@diff=\dimen162
+\@@multicnt=\count194
+\d@lta=\count195
+\@delta=\dimen156
+\@@delta=\dimen157
+\@gridcnt=\count196
+\@joinkind=\count197
+\@dotgap=\dimen158
+\@ddotgap=\dimen159
+\@x@diff=\count198
+\@y@diff=\count199
+\x@diff=\dimen160
+\y@diff=\dimen161
 \@dotbox=\box51
-\num@segments=\count268
-\num@segmentsi=\count269
-\@datafile=\read3
+\num@segments=\count266
+\num@segmentsi=\count267
+\@datafile=\read2
 )
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/eepic\eepic.sty
 Extension to Epic and LaTeX. Version 1.1e - Released Dec 21, 1999
-\@gphlinewidth=\count270
-\@eepictcnt=\count271
-\@tempdimc=\dimen163
-\maxovaldiam=\dimen164
+\@gphlinewidth=\count268
+\@eepictcnt=\count269
+\@tempdimc=\dimen162
+\maxovaldiam=\dimen163
 \@filltype=\box52
 )
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/graphics\epsfig
 .sty
 Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
-\epsfxsize=\dimen165
-\epsfysize=\dimen166
+\epsfxsize=\dimen164
+\epsfysize=\dimen165
 )
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfi
 gure.sty
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip67
 \subfigcapskip=\skip68
-\subfigcaptopadj=\dimen167
+\subfigcaptopadj=\dimen166
 \subfigbottomskip=\skip69
-\subfigcapmargin=\dimen168
+\subfigcapmargin=\dimen167
 \subfiglabelskip=\skip70
-\c@subfigure=\count272
-\c@lofdepth=\count273
-\c@subtable=\count274
-\c@lotdepth=\count275
+\c@subfigure=\count270
+\c@lofdepth=\count271
+\c@subtable=\count272
+\c@lotdepth=\count273
 
 ****************************************
 * Local config file subfigure.cfg used *
@@ -530,28 +493,28 @@ ils.tex
 \XKV@toks=\toks20
 \XKV@tempa@toks=\toks21
 )
-\XKV@depth=\count276
+\XKV@depth=\count274
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )))
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pstricks\pstr
 icks.tex
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pstricks\pst-
 fp.tex `pst-fp' v0.05, 2010/01/17 (hv)
-\pstFP@xs=\count277
-\pstFP@xia=\count278
-\pstFP@xib=\count279
-\pstFP@xfa=\count280
-\pstFP@xfb=\count281
-\pstFP@rega=\count282
-\pstFP@regb=\count283
-\pstFP@regs=\count284
-\pstFP@times=\count285
+\pstFP@xs=\count275
+\pstFP@xia=\count276
+\pstFP@xib=\count277
+\pstFP@xfa=\count278
+\pstFP@xfb=\count279
+\pstFP@rega=\count280
+\pstFP@regb=\count281
+\pstFP@regs=\count282
+\pstFP@times=\count283
 )
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities
 \pgfutil-common.tex
 \pgfutil@everybye=\toks22
-\pgfutil@tempdima=\dimen169
-\pgfutil@tempdimb=\dimen170
+\pgfutil@tempdima=\dimen168
+\pgfutil@tempdimb=\dimen169
 
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities
 \pgfutil-common-lists.tex))
@@ -574,25 +537,25 @@ ath.code.tex
 athcalc.code.tex
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfm
 athutil.code.tex
-\pgf@x=\dimen171
-\pgf@xa=\dimen172
-\pgf@xb=\dimen173
-\pgf@xc=\dimen174
-\pgf@y=\dimen175
-\pgf@ya=\dimen176
-\pgf@yb=\dimen177
-\pgf@yc=\dimen178
-\c@pgf@counta=\count286
-\c@pgf@countb=\count287
-\c@pgf@countc=\count288
-\c@pgf@countd=\count289
-\pgfutil@tempcnta=\count290
-\pgfutil@tempcntb=\count291
+\pgf@x=\dimen170
+\pgf@xa=\dimen171
+\pgf@xb=\dimen172
+\pgf@xc=\dimen173
+\pgf@y=\dimen174
+\pgf@ya=\dimen175
+\pgf@yb=\dimen176
+\pgf@yc=\dimen177
+\c@pgf@counta=\count284
+\c@pgf@countb=\count285
+\c@pgf@countc=\count286
+\c@pgf@countd=\count287
+\pgfutil@tempcnta=\count288
+\pgfutil@tempcntb=\count289
 )
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfm
 athparser.code.tex
-\pgfmath@dimen=\dimen179
-\pgfmath@count=\count292
+\pgfmath@dimen=\dimen178
+\pgfmath@count=\count290
 \pgfmath@box=\box53
 \pgfmath@toks=\toks26
 \pgfmath@stack@operand=\toks27
@@ -618,62 +581,62 @@ athfunctions.misc.code.tex)
 athfunctions.integerarithmetics.code.tex)))
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfm
 athfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count293
+\c@pgfmathroundto@lastzeros=\count291
 ))
-\pgffor@iter=\dimen180
-\pgffor@skip=\dimen181
+\pgffor@iter=\dimen179
+\pgffor@skip=\dimen180
 \pgffor@stack=\toks29
 \pgffor@toks=\toks30
 )
-\psLoopIndex=\count294
+\psLoopIndex=\count292
 
 `PSTricks' v3.01  <2020/09/18> (tvz,hv)
-\pst@dima=\dimen182
-\pst@dimb=\dimen183
-\pst@dimc=\dimen184
-\pst@dimd=\dimen185
-\pst@dimg=\dimen186
-\pst@dimh=\dimen187
-\pst@dimm=\dimen188
-\pst@dimn=\dimen189
-\pst@dimo=\dimen190
-\pst@dimp=\dimen191
+\pst@dima=\dimen181
+\pst@dimb=\dimen182
+\pst@dimc=\dimen183
+\pst@dimd=\dimen184
+\pst@dimg=\dimen185
+\pst@dimh=\dimen186
+\pst@dimm=\dimen187
+\pst@dimn=\dimen188
+\pst@dimo=\dimen189
+\pst@dimp=\dimen190
 \pst@hbox=\box54
 \pst@ibox=\box55
 \pst@boxg=\box56
-\pst@cnta=\count295
-\pst@cntb=\count296
-\pst@cntc=\count297
-\pst@cntd=\count298
-\pst@cntg=\count299
-\pst@cnth=\count300
-\pst@cntm=\count301
-\pst@cntn=\count302
-\pst@cnto=\count303
-\pst@cntp=\count304
-\@zero=\count305
+\pst@cnta=\count293
+\pst@cntb=\count294
+\pst@cntc=\count295
+\pst@cntd=\count296
+\pst@cntg=\count297
+\pst@cnth=\count298
+\pst@cntm=\count299
+\pst@cntn=\count300
+\pst@cnto=\count301
+\pst@cntp=\count302
+\@zero=\count303
 \pst@toks=\toks31
 
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pstricks\pstr
 icks.con)
-\psunit=\dimen192
-\psxunit=\dimen193
-\psyunit=\dimen194
-\pst@C@@rType=\count306
-\pslinewidth=\dimen195
-\psk@startLW=\dimen196
-\psk@endLW=\dimen197
+\psunit=\dimen191
+\psxunit=\dimen192
+\psyunit=\dimen193
+\pst@C@@rType=\count304
+\pslinewidth=\dimen194
+\psk@startLW=\dimen195
+\psk@endLW=\dimen196
 \pst@customdefs=\toks32
-\pslinearc=\dimen198
-\pst@symbolStep=\dimen199
-\pst@symbolWidth=\dimen256
-\pst@symbolLinewidth=\dimen257
+\pslinearc=\dimen197
+\pst@symbolStep=\dimen198
+\pst@symbolWidth=\dimen199
+\pst@symbolLinewidth=\dimen256
 \everypsbox=\toks33
-\psframesep=\dimen258
-\pslabelsep=\dimen259
-\sh@wgridXunit=\dimen260
-\sh@wgridYunit=\dimen261
-\pst@shift=\dimen262
+\psframesep=\dimen257
+\pslabelsep=\dimen258
+\sh@wgridXunit=\dimen259
+\sh@wgridYunit=\dimen260
+\pst@shift=\dimen261
 )
 File: pstricks.tex 2020/09/18 v3.01 `PSTricks' (tvz,hv)
 
@@ -694,8 +657,8 @@ gfrcs.sty
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities
 \pgfutil-common.tex
 \pgfutil@everybye=\toks34
-\pgfutil@tempdima=\dimen263
-\pgfutil@tempdimb=\dimen264
+\pgfutil@tempdima=\dimen262
+\pgfutil@tempdimb=\dimen263
 
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities
 \pgfutil-common-lists.tex))
@@ -721,26 +684,26 @@ Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
 
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities
 \pgfkeys.code.tex)
-\pgf@x=\dimen265
-\pgf@y=\dimen266
-\pgf@xa=\dimen267
-\pgf@ya=\dimen268
-\pgf@xb=\dimen269
-\pgf@yb=\dimen270
-\pgf@xc=\dimen271
-\pgf@yc=\dimen272
-\pgf@xd=\dimen273
-\pgf@yd=\dimen274
+\pgf@x=\dimen264
+\pgf@y=\dimen265
+\pgf@xa=\dimen266
+\pgf@ya=\dimen267
+\pgf@xb=\dimen268
+\pgf@yb=\dimen269
+\pgf@xc=\dimen270
+\pgf@yc=\dimen271
+\pgf@xd=\dimen272
+\pgf@yd=\dimen273
 \w@pgf@writea=\write3
-\r@pgf@reada=\read4
-\c@pgf@counta=\count307
-\c@pgf@countb=\count308
-\c@pgf@countc=\count309
-\c@pgf@countd=\count310
+\r@pgf@reada=\read3
+\c@pgf@counta=\count305
+\c@pgf@countb=\count306
+\c@pgf@countc=\count307
+\c@pgf@countd=\count308
 \t@pgf@toka=\toks35
 \t@pgf@tokb=\toks36
 \t@pgf@tokc=\toks37
-\pgf@sys@id@count=\count311
+\pgf@sys@id@count=\count309
 
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlay
 er\pgf.cfg
@@ -759,8 +722,8 @@ File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlay
 er\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfsyssoftpath@smallbuffer@items=\count312
-\pgfsyssoftpath@bigbuffer@items=\count313
+\pgfsyssoftpath@smallbuffer@items=\count310
+\pgfsyssoftpath@bigbuffer@items=\count311
 )
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlay
 er\pgfsysprotocol.code.tex
@@ -777,32 +740,32 @@ nt.code.tex)
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclaye
 r\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@picminx=\dimen275
-\pgf@picmaxx=\dimen276
-\pgf@picminy=\dimen277
-\pgf@picmaxy=\dimen278
-\pgf@pathminx=\dimen279
-\pgf@pathmaxx=\dimen280
-\pgf@pathminy=\dimen281
-\pgf@pathmaxy=\dimen282
-\pgf@xx=\dimen283
-\pgf@xy=\dimen284
-\pgf@yx=\dimen285
-\pgf@yy=\dimen286
-\pgf@zx=\dimen287
-\pgf@zy=\dimen288
+\pgf@picminx=\dimen274
+\pgf@picmaxx=\dimen275
+\pgf@picminy=\dimen276
+\pgf@picmaxy=\dimen277
+\pgf@pathminx=\dimen278
+\pgf@pathmaxx=\dimen279
+\pgf@pathminy=\dimen280
+\pgf@pathmaxy=\dimen281
+\pgf@xx=\dimen282
+\pgf@xy=\dimen283
+\pgf@yx=\dimen284
+\pgf@yy=\dimen285
+\pgf@zx=\dimen286
+\pgf@zy=\dimen287
 )
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclaye
 r\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@path@lastx=\dimen289
-\pgf@path@lasty=\dimen290
+\pgf@path@lastx=\dimen288
+\pgf@path@lasty=\dimen289
 )
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclaye
 r\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@shorten@end@additional=\dimen291
-\pgf@shorten@start@additional=\dimen292
+\pgf@shorten@end@additional=\dimen290
+\pgf@shorten@start@additional=\dimen291
 )
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclaye
 r\pgfcorescopes.code.tex
@@ -810,19 +773,19 @@ File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfpic=\box58
 \pgf@hbox=\box59
 \pgf@layerbox@main=\box60
-\pgf@picture@serial@count=\count314
+\pgf@picture@serial@count=\count312
 )
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclaye
 r\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgflinewidth=\dimen293
+\pgflinewidth=\dimen292
 )
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclaye
 r\pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@pt@x=\dimen294
-\pgf@pt@y=\dimen295
-\pgf@pt@temp=\dimen296
+\pgf@pt@x=\dimen293
+\pgf@pt@y=\dimen294
+\pgf@pt@temp=\dimen295
 )
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclaye
 r\pgfcorequick.code.tex
@@ -839,14 +802,14 @@ File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclaye
 r\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfarrowsep=\dimen297
+\pgfarrowsep=\dimen296
 )
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclaye
 r\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@max=\dimen298
-\pgf@sys@shading@range@num=\count315
-\pgf@shadingcount=\count316
+\pgf@max=\dimen297
+\pgf@sys@shading@range@num=\count313
+\pgf@shadingcount=\count314
 )
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclaye
 r\pgfcoreimage.code.tex
@@ -885,8 +848,8 @@ File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibili
 ty\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@nodesepstart=\dimen299
-\pgf@nodesepend=\dimen300
+\pgf@nodesepstart=\dimen298
+\pgf@nodesepend=\dimen299
 )
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibili
 ty\pgfcomp-version-1-18.sty
@@ -908,8 +871,8 @@ Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
 
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfm
 ath.code.tex)
-\pgffor@iter=\dimen301
-\pgffor@skip=\dimen302
+\pgffor@iter=\dimen300
+\pgffor@skip=\dimen301
 \pgffor@stack=\toks38
 \pgffor@toks=\toks39
 ))
@@ -920,34 +883,34 @@ Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries
 \pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@plot@mark@count=\count317
-\pgfplotmarksize=\dimen303
+\pgf@plot@mark@count=\count315
+\pgfplotmarksize=\dimen302
 )
-\tikz@lastx=\dimen304
-\tikz@lasty=\dimen305
-\tikz@lastxsaved=\dimen306
-\tikz@lastysaved=\dimen307
-\tikz@lastmovetox=\dimen308
-\tikz@lastmovetoy=\dimen309
-\tikzleveldistance=\dimen310
-\tikzsiblingdistance=\dimen311
+\tikz@lastx=\dimen303
+\tikz@lasty=\dimen304
+\tikz@lastxsaved=\dimen305
+\tikz@lastysaved=\dimen306
+\tikz@lastmovetox=\dimen307
+\tikz@lastmovetoy=\dimen308
+\tikzleveldistance=\dimen309
+\tikzsiblingdistance=\dimen310
 \tikz@figbox=\box63
 \tikz@figbox@bg=\box64
 \tikz@tempbox=\box65
 \tikz@tempbox@bg=\box66
-\tikztreelevel=\count318
-\tikznumberofchildren=\count319
-\tikznumberofcurrentchild=\count320
-\tikz@fig@count=\count321
+\tikztreelevel=\count316
+\tikznumberofchildren=\count317
+\tikznumberofcurrentchild=\count318
+\tikz@fig@count=\count319
 
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\p
 gfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfmatrixcurrentrow=\count322
-\pgfmatrixcurrentcolumn=\count323
-\pgf@matrix@numberofcolumns=\count324
+\pgfmatrixcurrentrow=\count320
+\pgfmatrixcurrentcolumn=\count321
+\pgf@matrix@numberofcolumns=\count322
 )
-\tikz@expandcount=\count325
+\tikz@expandcount=\count323
 
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendl
 ayer/tikz/libraries\tikzlibrarytopaths.code.tex
@@ -966,9 +929,9 @@ lotscore.code.tex
 \t@pgfplots@toka=\toks40
 \t@pgfplots@tokb=\toks41
 \t@pgfplots@tokc=\toks42
-\pgfplots@tmpa=\dimen312
-\c@pgfplots@coordindex=\count326
-\c@pgfplots@scanlineindex=\count327
+\pgfplots@tmpa=\dimen311
+\c@pgfplots@coordindex=\count324
+\c@pgfplots@scanlineindex=\count325
 
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\
 pgfplotssysgeneric.code.tex))
@@ -986,13 +949,13 @@ structure\pgfplotsliststructure.code.tex)
 structure\pgfplotsliststructureext.code.tex)
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/list
 structure\pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count328
+\c@pgfplotsarray@tmp=\count326
 )
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/list
 structure\pgfplotsmatrix.code.tex)
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numt
 able\pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count329
+\c@pgfplotstable@counta=\count327
 \t@pgfplotstable@a=\toks43
 )
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/list
@@ -1005,7 +968,7 @@ structure\pgfplotsdeque.code.tex)
 \pgfplotsutil.verb.code.tex)
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs
 \pgflibrarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count330
+\c@pgfplotslibrarysurf@no=\count328
 
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\
 pgflibrarypgfplots.surfshading.pgfsys-pdftex.def)))
@@ -1037,14 +1000,14 @@ lots.paths.code.tex)
 ayer/tikz/libraries\tikzlibrarydecorations.code.tex
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\p
 gfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen313
-\pgfdecoratedremainingdistance=\dimen314
-\pgfdecoratedinputsegmentcompleteddistance=\dimen315
-\pgfdecoratedinputsegmentremainingdistance=\dimen316
-\pgf@decorate@distancetomove=\dimen317
-\pgf@decorate@repeatstate=\count331
-\pgfdecorationsegmentamplitude=\dimen318
-\pgfdecorationsegmentlength=\dimen319
+\pgfdecoratedcompleteddistance=\dimen312
+\pgfdecoratedremainingdistance=\dimen313
+\pgfdecoratedinputsegmentcompleteddistance=\dimen314
+\pgfdecoratedinputsegmentremainingdistance=\dimen315
+\pgf@decorate@distancetomove=\dimen316
+\pgf@decorate@repeatstate=\count329
+\pgfdecorationsegmentamplitude=\dimen317
+\pgfdecorationsegmentlength=\dimen318
 )
 \tikz@lib@dec@box=\box67
 )
@@ -1056,13 +1019,13 @@ ayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex
 ayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries
 /decorations\pgflibrarydecorations.pathreplacing.code.tex))
-\pgfplots@numplots=\count332
-\pgfplots@xmin@reg=\dimen320
-\pgfplots@xmax@reg=\dimen321
-\pgfplots@ymin@reg=\dimen322
-\pgfplots@ymax@reg=\dimen323
-\pgfplots@zmin@reg=\dimen324
-\pgfplots@zmax@reg=\dimen325
+\pgfplots@numplots=\count330
+\pgfplots@xmin@reg=\dimen319
+\pgfplots@xmax@reg=\dimen320
+\pgfplots@ymin@reg=\dimen321
+\pgfplots@ymax@reg=\dimen322
+\pgfplots@zmin@reg=\dimen323
+\pgfplots@zmax@reg=\dimen324
 )
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendl
 ayer/tikz/libraries\tikzlibraryplotmarks.code.tex
@@ -1082,16 +1045,16 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LTright=\skip76
 \LTpre=\skip77
 \LTpost=\skip78
-\LTchunksize=\count333
-\LTcapwidth=\dimen326
+\LTchunksize=\count331
+\LTcapwidth=\dimen325
 \LT@head=\box68
 \LT@firsthead=\box69
 \LT@foot=\box70
 \LT@lastfoot=\box71
-\LT@cols=\count334
-\LT@rows=\count335
-\c@LT@tables=\count336
-\c@LT@chunks=\count337
+\LT@cols=\count332
+\LT@rows=\count333
+\c@LT@tables=\count334
+\c@LT@chunks=\count335
 \LT@p@ftn=\toks44
 )
 Class scrbook Info: longtable captions redefined on input line 57.
@@ -1099,23 +1062,23 @@ Class scrbook Info: longtable captions redefined on input line 57.
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\mul
 ticol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count338
+\c@tracingmulticols=\count336
 \mult@box=\box72
-\multicol@leftmargin=\dimen327
-\c@unbalance=\count339
-\c@collectmore=\count340
-\doublecol@number=\count341
-\multicoltolerance=\count342
-\multicolpretolerance=\count343
-\full@width=\dimen328
-\page@free=\dimen329
-\premulticols=\dimen330
-\postmulticols=\dimen331
+\multicol@leftmargin=\dimen326
+\c@unbalance=\count337
+\c@collectmore=\count338
+\doublecol@number=\count339
+\multicoltolerance=\count340
+\multicolpretolerance=\count341
+\full@width=\dimen327
+\page@free=\dimen328
+\premulticols=\dimen329
+\postmulticols=\dimen330
 \multicolsep=\skip79
 \multicolbaselineskip=\skip80
 \partial@page=\box73
 \last@line=\box74
-\maxbalancingoverflow=\dimen332
+\maxbalancingoverflow=\dimen331
 \mult@rightbox=\box75
 \mult@grightbox=\box76
 \mult@gfirstbox=\box77
@@ -1157,23 +1120,23 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box113
 \@tempa=\box114
 \@tempa=\box115
-\c@minrows=\count344
-\c@columnbadness=\count345
-\c@finalcolumnbadness=\count346
-\last@try=\dimen333
-\multicolovershoot=\dimen334
-\multicolundershoot=\dimen335
+\c@minrows=\count342
+\c@columnbadness=\count343
+\c@finalcolumnbadness=\count344
+\last@try=\dimen332
+\multicolovershoot=\dimen333
+\multicolundershoot=\dimen334
 \mult@nat@firstbox=\box116
 \colbreak@box=\box117
-\mc@col@check@num=\count347
+\mc@col@check@num=\count345
 )
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multir
 ow.sty
 Package: multirow 2021/01/29 v2.7 Span multiple rows of a table
 \multirow@colwidth=\skip81
-\multirow@cntb=\count348
+\multirow@cntb=\count346
 \multirow@dima=\skip82
-\bigstrutjot=\dimen336
+\bigstrutjot=\dimen335
 )
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/rccol\rccol.sty
 Package: rccol 2005/05/17 v1.2c right-centered columns
@@ -1184,15 +1147,15 @@ Package: fltpoint 2004/11/12 v1.1b floating point arithmetic
 
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/fltpoint\fltp
 oint.tex
-\fp@loopcount=\count349
-\fp@loopcountii=\count350
-\fp@result=\count351
-\fp@carryover=\count352
-\fp@tempcount=\count353
-\fp@tempcountii=\count354
+\fp@loopcount=\count347
+\fp@loopcountii=\count348
+\fp@result=\count349
+\fp@carryover=\count350
+\fp@tempcount=\count351
+\fp@tempcountii=\count352
 ))
-\rc@preskip=\dimen337
-\rc@postskip=\dimen338
+\rc@preskip=\dimen336
+\rc@postskip=\dimen337
 \rc@digits=\toks45
 \rc@preothertoks=\toks46
 \rc@postothertoks=\toks47
@@ -1212,24 +1175,26 @@ Package: nomencl 2020/12/29 v5.5 Nomenclature package
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-Package tocbasic Info: setting babel extension for `nlo' on input line 187.
-Package tocbasic Info: setting babel extension for `nls' on input line 188.
-\nomlabelwidth=\dimen339
-\nom@tempdim=\dimen340
+Package tocbasic Info: babel extension for `nlo' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 187.
+Package tocbasic Info: babel extension for `nls' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 188.
+\nomlabelwidth=\dimen338
+\nom@tempdim=\dimen339
 \nomitemsep=\skip83
 )
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\cal
 c.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count355
-\calc@Bcount=\count356
-\calc@Adimen=\dimen341
-\calc@Bdimen=\dimen342
+\calc@Acount=\count353
+\calc@Bcount=\count354
+\calc@Adimen=\dimen340
+\calc@Bdimen=\dimen341
 \calc@Askip=\skip84
 \calc@Bskip=\skip85
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count357
+\calc@Ccount=\count355
 \calc@Cskip=\skip86
 ))
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath
@@ -1247,49 +1212,49 @@ Package: amstext 2000/06/29 v2.01 AMS text
 sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks48
-\ex@=\dimen343
+\ex@=\dimen342
 ))
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.
 sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 LaTeX Info: Redefining \boldsymbol on input line 28.
-\pmbraise@=\dimen344
+\pmbraise@=\dimen343
 )
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.
 sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count358
+\inf@bad=\count356
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count359
-\leftroot@=\count360
+\uproot@=\count357
+\leftroot@=\count358
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count361
-\DOTSCASE@=\count362
+\classnum@=\count359
+\DOTSCASE@=\count360
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
 \Mathstrutbox@=\box118
 \strutbox@=\box119
-\big@size=\dimen345
+\big@size=\dimen344
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count363
-\c@MaxMatrixCols=\count364
+\macc@depth=\count361
+\c@MaxMatrixCols=\count362
 \dotsspace@=\muskip16
-\c@parentequation=\count365
-\dspbrk@lvl=\count366
+\c@parentequation=\count363
+\dspbrk@lvl=\count364
 \tag@help=\toks49
-\row@=\count367
-\column@=\count368
-\maxfields@=\count369
+\row@=\count365
+\column@=\count366
+\maxfields@=\count367
 \andhelp@=\toks50
-\eqnshift@=\dimen346
-\alignsep@=\dimen347
-\tagshift@=\dimen348
-\tagwidth@=\dimen349
-\totwidth@=\dimen350
-\lineht@=\dimen351
+\eqnshift@=\dimen345
+\alignsep@=\dimen346
+\tagshift@=\dimen347
+\tagwidth@=\dimen348
+\totwidth@=\dimen349
+\lineht@=\dimen350
 \@envbody=\toks51
 \multlinegap=\skip88
 \multlinetaggap=\skip89
@@ -1301,8 +1266,8 @@ LaTeX Info: Redefining \] on input line 2924.
 sc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks53
-\footnotemargin=\dimen352
-\c@pp@next@reset=\count370
+\footnotemargin=\dimen351
+\c@pp@next@reset=\count368
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
@@ -1347,7 +1312,7 @@ Package: expl3 2021-02-18 L3 programming layer (loader)
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3bac
 kend-pdftex.def
 File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count371
+\l__color_backend_stack_int=\count369
 \l__pdf_internal_box=\box120
 ))
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
@@ -1361,7 +1326,7 @@ se\xparse-generic.tex))
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolb
 ox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count372
+\etb@tempcnta=\count370
 ))
 Package scrhack Info: loading nomencl hack on input line 190.
 
@@ -1424,9 +1389,9 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 ions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen353
-\Hy@linkcounter=\count373
-\Hy@pagecounter=\count374
+\@linkdim=\dimen352
+\Hy@linkcounter=\count371
+\Hy@pagecounter=\count372
 
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc
 .def
@@ -1447,7 +1412,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 cmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count375
+\Hy@SavedSpaceFactor=\count373
 
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.
 def
@@ -1463,14 +1428,14 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count376
+\c@Hy@tempcnt=\count374
 
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen354
+\XeTeXLinkMargin=\dimen353
 
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset
 .sty
@@ -1481,9 +1446,9 @@ gintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count377
-\Field@Width=\dimen355
-\Fld@charsize=\dimen356
+\Fld@menulength=\count375
+\Field@Width=\dimen354
+\Fld@charsize=\dimen355
 Package hyperref Info: Hyper figures OFF on input line 6075.
 Package hyperref Info: Link nesting OFF on input line 6080.
 Package hyperref Info: Hyper index ON on input line 6083.
@@ -1500,9 +1465,9 @@ Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
 ge
 with kernel methods
 )
-\Hy@abspage=\count378
-\c@Item=\count379
-\c@Hfootnote=\count380
+\Hy@abspage=\count376
+\c@Item=\count377
+\c@Hfootnote=\count378
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -1516,8 +1481,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
 )
-\Fld@listcount=\count381
-\c@bookmark@seq@number=\count382
+\Fld@listcount=\count379
+\c@bookmark@seq@number=\count380
 
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\
 rerunfilecheck.sty
@@ -1550,13 +1515,13 @@ Package: caption 2020/10/26 v3.5g Customizing captions (AR)
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption
 3.sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen357
-\captionmargin@=\dimen358
-\captionwidth=\dimen359
-\caption@tempdima=\dimen360
-\caption@indent=\dimen361
-\caption@parindent=\dimen362
-\caption@hangindent=\dimen363
+\captionmargin=\dimen356
+\captionmargin@=\dimen357
+\captionwidth=\dimen358
+\caption@tempdima=\dimen359
+\caption@indent=\dimen360
+\caption@parindent=\dimen361
+\caption@hangindent=\dimen362
 Package caption Info: KOMA-Script document class detected.
 
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption
@@ -1564,8 +1529,8 @@ Package caption Info: KOMA-Script document class detected.
 File: caption-koma.sto 2020/09/21 v2.0b Adaption of the caption package to the 
 KOMA-Script document classes (AR)
 ))
-\c@caption@flags=\count383
-\c@continuedfloat=\count384
+\c@caption@flags=\count381
+\c@continuedfloat=\count382
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
 
@@ -1578,7 +1543,7 @@ Package caption Info: subfigure package is loaded.
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotati
 ng.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count385
+\c@r@tfl@t=\count383
 \rotFPtop=\skip91
 \rotFPbot=\skip92
 \rot@float@box=\box121
@@ -1586,24 +1551,24 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 )
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/listings\listin
 gs.sty
-\lst@mode=\count386
+\lst@mode=\count384
 \lst@gtempboxa=\box122
 \lst@token=\toks55
-\lst@length=\count387
-\lst@currlwidth=\dimen364
-\lst@column=\count388
-\lst@pos=\count389
-\lst@lostspace=\dimen365
-\lst@width=\dimen366
-\lst@newlines=\count390
-\lst@lineno=\count391
-\lst@maxwidth=\dimen367
+\lst@length=\count385
+\lst@currlwidth=\dimen363
+\lst@column=\count386
+\lst@pos=\count387
+\lst@lostspace=\dimen364
+\lst@width=\dimen365
+\lst@newlines=\count388
+\lst@lineno=\count389
+\lst@maxwidth=\dimen366
 
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmis
 c.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count392
-\lst@skipnumbers=\count393
+\c@lstnumber=\count390
+\lst@skipnumbers=\count391
 \lst@framebox=\box123
 )
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/listings\listin
@@ -1616,7 +1581,8 @@ Package scrhack Info: loading listings hack on input line 80.
 tings.hak
 File: listings.hak 2020/09/21 v3.32 KOMA-Script scrhack part (hacking package l
 istings)
-Package tocbasic Info: setting babel extension for `lol' on input line 143.
+Package tocbasic Info: babel extension for `lol' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 143.
 Package scrhack Info: redefining \lstlistoflistings on input line 143.
 )
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
@@ -1630,9 +1596,9 @@ source code
 ty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
-\netBracketCount@mlpr=\count394
-\blkLvl@mlpr=\count395
-\blkLvlAtClassdef@mlpr=\count396
+\netBracketCount@mlpr=\count392
+\blkLvl@mlpr=\count393
+\blkLvlAtClassdef@mlpr=\count394
 \emHeight@mlpr=\skip93
 \jayDepth@mlpr=\skip94
 \sectionRuleOffset@mlpr=\skip95
@@ -1645,23 +1611,23 @@ Package: pdfpages 2021/02/05 v0.5s Insert pages of external PDF documents (AM)
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic
 .sty
 Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
-\ESO@tempdima=\dimen368
-\ESO@tempdimb=\dimen369
+\ESO@tempdima=\dimen367
+\ESO@tempdimb=\dimen368
 )
-\AM@pagewidth=\dimen370
-\AM@pageheight=\dimen371
-\AM@fboxrule=\dimen372
+\AM@pagewidth=\dimen369
+\AM@pageheight=\dimen370
+\AM@fboxrule=\dimen371
 
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdft
 ex.def
 File: pppdftex.def 2021/02/05 v0.5s Pdfpages driver for pdfTeX (AM)
 )
-\pdfpages@includegraphics@status=\count397
+\pdfpages@includegraphics@status=\count395
 \AM@pagebox=\box124
 \AM@global@opts=\toks57
-\AM@pagecnt=\count398
+\AM@pagecnt=\count396
 \AM@toc@title=\toks58
-\c@AM@survey=\count399
+\c@AM@survey=\count397
 \AM@templatesizebox=\box125
 )
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/import\import.s
@@ -1677,39 +1643,39 @@ ys2e\l3keys2e.sty
 Package: l3keys2e 2020-10-27 LaTeX2e option processing using LaTeX3 keys
 )
 \l__siunitx_tmp_box=\box126
-\l__siunitx_tmp_dim=\dimen373
-\l__siunitx_tmp_int=\count400
-\l__siunitx_number_mantissa_length_int=\count401
-\l__siunitx_number_uncert_length_int=\count402
-\l__siunitx_round_int=\count403
-\l__siunitx_process_decimal_int=\count404
-\l__siunitx_process_uncertainty_int=\count405
-\l__siunitx_process_fixed_int=\count406
-\l__siunitx_process_integer_min_int=\count407
-\l__siunitx_process_precision_int=\count408
-\l__siunitx_group_min_int=\count409
+\l__siunitx_tmp_dim=\dimen372
+\l__siunitx_tmp_int=\count398
+\l__siunitx_number_mantissa_length_int=\count399
+\l__siunitx_number_uncert_length_int=\count400
+\l__siunitx_round_int=\count401
+\l__siunitx_process_decimal_int=\count402
+\l__siunitx_process_uncertainty_int=\count403
+\l__siunitx_process_fixed_int=\count404
+\l__siunitx_process_integer_min_int=\count405
+\l__siunitx_process_precision_int=\count406
+\l__siunitx_group_min_int=\count407
 \l__siunitx_angle_marker_box=\box127
 \l__siunitx_angle_unit_box=\box128
-\l__siunitx_angle_marker_dim=\dimen374
-\l__siunitx_angle_unit_dim=\dimen375
-\l__siunitx_unit_int=\count410
-\l__siunitx_unit_denominator_int=\count411
-\l__siunitx_unit_numerator_int=\count412
-\l__siunitx_unit_prefix_int=\count413
-\l__siunitx_unit_prefix_base_int=\count414
-\l__siunitx_unit_prefix_gram_int=\count415
-\l__siunitx_number_product_int=\count416
+\l__siunitx_angle_marker_dim=\dimen373
+\l__siunitx_angle_unit_dim=\dimen374
+\l__siunitx_unit_int=\count408
+\l__siunitx_unit_denominator_int=\count409
+\l__siunitx_unit_numerator_int=\count410
+\l__siunitx_unit_prefix_int=\count411
+\l__siunitx_unit_prefix_base_int=\count412
+\l__siunitx_unit_prefix_gram_int=\count413
+\l__siunitx_number_product_int=\count414
 \c__siunitx_one_fill_skip=\skip96
 \l__siunitx_table_unit_align_skip=\skip97
-\l__siunitx_table_exponent_dim=\dimen376
-\l__siunitx_table_integer_dim=\dimen377
-\l__siunitx_table_mantissa_dim=\dimen378
-\l__siunitx_table_marker_dim=\dimen379
-\l__siunitx_table_result_dim=\dimen380
-\l__siunitx_table_uncert_dim=\dimen381
-\l__siunitx_table_fill_pre_dim=\dimen382
-\l__siunitx_table_fill_post_dim=\dimen383
-\l__siunitx_table_fill_mid_dim=\dimen384
+\l__siunitx_table_exponent_dim=\dimen375
+\l__siunitx_table_integer_dim=\dimen376
+\l__siunitx_table_mantissa_dim=\dimen377
+\l__siunitx_table_marker_dim=\dimen378
+\l__siunitx_table_result_dim=\dimen379
+\l__siunitx_table_uncert_dim=\dimen380
+\l__siunitx_table_fill_pre_dim=\dimen381
+\l__siunitx_table_fill_post_dim=\dimen382
+\l__siunitx_table_fill_mid_dim=\dimen383
 \l__siunitx_table_pre_box=\box129
 \l__siunitx_table_post_box=\box130
 \l__siunitx_table_mantissa_box=\box131
@@ -1742,7 +1708,7 @@ File: tikzlibraryfadings.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgflibraryfadings.code.tex
 File: pgflibraryfadings.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )))
-\c@@todonotes@numberoftodonotes=\count417
+\c@@todonotes@numberoftodonotes=\count415
 ))
 \@nomenclaturefile=\write4
 \openout4 = `Arbeit.nlo'.
@@ -1760,11 +1726,8 @@ LaTeX Font Info:    Trying to load font information for T1+ptm on input line 56
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ) (Arbeit.aux (config/Konfiguration.aux) (Deckblatt.aux)
 (Eigenstaendigkeitserklaerung.aux) (Aufgabenstellung.aux)
-(Formelzeichenkonvention.aux) (Einleitung.aux) (Grundlagen.aux
-
-LaTeX Warning: Label `fig:6.13' multiply defined.
-
-) (Auswertung.aux))
+(Formelzeichenkonvention.aux) (Einleitung.aux) (Grundlagen.aux) (Auswertung.aux
+))
 \openout1 = `Arbeit.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
@@ -1785,20 +1748,23 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
 LaTeX Font Info:    ... okay on input line 56.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 56.
 LaTeX Font Info:    ... okay on input line 56.
+Package scrbase Info: activating english \contentsname on input line 56.
+Package scrbase Info: activating english \listfigurename on input line 56.
+Package scrbase Info: activating english \listtablename on input line 56.
 
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\sup
 p-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count418
-\scratchdimen=\dimen385
+\scratchcounter=\count416
+\scratchdimen=\dimen384
 \scratchbox=\box133
-\nofMPsegments=\count419
-\nofMParguments=\count420
+\nofMPsegments=\count417
+\nofMParguments=\count418
 \everyMPshowfont=\toks59
-\MPscratchCnt=\count421
-\MPscratchDim=\dimen386
-\MPnumerator=\count422
-\makeMPintoPDFobject=\count423
+\MPscratchCnt=\count419
+\MPscratchDim=\dimen385
+\MPnumerator=\count420
+\makeMPintoPDFobject=\count421
 \everyMPtoPDFconversion=\toks60
 )
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\ep
@@ -1824,7 +1790,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 g\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count424
+\c@section@level=\count422
 )
 LaTeX Info: Redefining \ref on input line 56.
 LaTeX Info: Redefining \pageref on input line 56.
@@ -1849,13 +1815,13 @@ Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pd
 ftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
-\BKM@id=\count425
+\BKM@id=\count423
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count426
+\c@lstlisting=\count424
 Package scrhack Info: undefining \float@addtolists on input line 56.
 
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdfls
@@ -1892,8 +1858,6 @@ most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
 loading the todonotes package. on input line 56.
 
-Package scrbase Info: activating ngerman \figurename on input line 56.
-Package scrbase Info: activating ngerman \tablename on input line 56.
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
  56.
 
@@ -2109,7 +2073,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./grafiken/2.1-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/2.1-eps-converted-to.pdf, id=328, 113.42375pt x 204.765pt>
+<grafiken/2.1-eps-converted-to.pdf, id=330, 113.42375pt x 204.765pt>
 File: grafiken/2.1-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/2.1-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/2.1-eps-converted-to.pdf  used on input line 
@@ -2140,7 +2104,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./grafiken/2.2-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/2.2-eps-converted-to.pdf, id=346, 290.08376pt x 220.825pt>
+<grafiken/2.2-eps-converted-to.pdf, id=348, 290.08376pt x 220.825pt>
 File: grafiken/2.2-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/2.2-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/2.2-eps-converted-to.pdf  used on input line 
@@ -2160,7 +2124,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./grafiken/2.3-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/2.3-eps-converted-to.pdf, id=348, 571.13374pt x 381.425pt>
+<grafiken/2.3-eps-converted-to.pdf, id=350, 571.13374pt x 381.425pt>
 File: grafiken/2.3-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/2.3-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/2.3-eps-converted-to.pdf  used on input line 
@@ -2180,7 +2144,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./grafiken/2.4-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/2.4-eps-converted-to.pdf, id=350, 450.68375pt x 193.72375pt>
+<grafiken/2.4-eps-converted-to.pdf, id=352, 450.68375pt x 193.72375pt>
 File: grafiken/2.4-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/2.4-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/2.4-eps-converted-to.pdf  used on input line 
@@ -2212,7 +2176,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./grafiken/2.5-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/2.5-eps-converted-to.pdf, id=370, 455.7025pt x 199.74625pt>
+<grafiken/2.5-eps-converted-to.pdf, id=372, 455.7025pt x 199.74625pt>
 File: grafiken/2.5-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/2.5-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/2.5-eps-converted-to.pdf  used on input line 
@@ -2241,7 +2205,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./grafiken/2.6-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/2.6-eps-converted-to.pdf, id=386, 510.90875pt x 188.705pt>
+<grafiken/2.6-eps-converted-to.pdf, id=388, 510.90875pt x 188.705pt>
 File: grafiken/2.6-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/2.6-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/2.6-eps-converted-to.pdf  used on input line 
@@ -2266,7 +2230,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./grafiken/2.7-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/2.7-eps-converted-to.pdf, id=406, 202.7575pt x 32.12pt>
+<grafiken/2.7-eps-converted-to.pdf, id=408, 202.7575pt x 32.12pt>
 File: grafiken/2.7-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/2.7-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/2.7-eps-converted-to.pdf  used on input line 
@@ -2286,7 +2250,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./grafiken/2.8-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/2.8-eps-converted-to.pdf, id=407, 202.7575pt x 44.165pt>
+<grafiken/2.8-eps-converted-to.pdf, id=409, 202.7575pt x 44.165pt>
 File: grafiken/2.8-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/2.8-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/2.8-eps-converted-to.pdf  used on input line 
@@ -2294,8 +2258,8 @@ Package pdftex.def Info: grafiken/2.8-eps-converted-to.pdf  used on input line
 (pdftex.def)             Requested size: 202.757pt x 44.16487pt.
 
 Overfull \hbox (8.34863pt too wide) in paragraph at lines 115--125
-[]\T1/ptm/m/n/12 The tra-di-tio-nal Ether-net ac-cess sche-me is as shown in th
-e fi-gu-re be-low. The MCU+MAC+PHY
+[]\T1/ptm/m/n/12 The tra-di-tional Eth-er-net ac-cess scheme is as shown in the
+ fig-ure be-low. The MCU+MAC+PHY
  []
 
 [7 <./grafiken/2.6-eps-converted-to.pdf> <./grafiken/2.7-eps-converted-to.pdf>]
@@ -2313,7 +2277,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./grafiken/2.9-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/2.9-eps-converted-to.pdf, id=422, 502.87875pt x 390.45876pt>
+<grafiken/2.9-eps-converted-to.pdf, id=424, 502.87875pt x 390.45876pt>
 File: grafiken/2.9-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/2.9-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/2.9-eps-converted-to.pdf  used on input line 
@@ -2334,7 +2298,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./grafiken/2.10-eps-converted-to.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/2.10-eps-converted-to.pdf, id=440, 442.65375pt x 119.44624pt>
+<grafiken/2.10-eps-converted-to.pdf, id=442, 442.65375pt x 119.44624pt>
 File: grafiken/2.10-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/2.10-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/2.10-eps-converted-to.pdf  used on input line
@@ -2346,38 +2310,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 156--160
  []
 
 [9 <./grafiken/2.10-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <grafiken/2.11.eps>
-(epstopdf)                    date: 2021-03-19 09:45:44
-(epstopdf)                    size: 38959 bytes
-(epstopdf)             Output file: <grafiken/2.11-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-03-20 18:34:22
-(epstopdf)                    size: 13520 bytes
-(epstopdf)             Command: <epstopdf --outfile=grafiken/2.11-eps-converted
--to.pdf grafiken/2.11.eps>
-(epstopdf)             \includegraphics on input line 173.
-Package epstopdf Info: Output file is already uptodate.
+<grafiken/2.11.pdf, id=455, 689.85231pt x 540.69502pt>
+File: grafiken/2.11.pdf Graphic file (type pdf)
+<use grafiken/2.11.pdf>
+Package pdftex.def Info: grafiken/2.11.pdf  used on input line 173.
+(pdftex.def)             Requested size: 482.89333pt x 378.48393pt.
 
-
-pdfTeX warning: pdflatex (file ./grafiken/2.11-eps-converted-to.pdf): PDF inclu
-sion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/2.11-eps-converted-to.pdf, id=453, 641.39626pt x 497.86pt>
-File: grafiken/2.11-eps-converted-to.pdf Graphic file (type pdf)
-<use grafiken/2.11-eps-converted-to.pdf>
-Package pdftex.def Info: grafiken/2.11-eps-converted-to.pdf  used on input line
- 173.
-(pdftex.def)             Requested size: 448.97432pt x 348.49962pt.
-
-Overfull \hbox (9.73482pt too wide) in paragraph at lines 173--174
+Overfull \hbox (43.65382pt too wide) in paragraph at lines 173--174
  [][] 
  []
 
-[10 <./grafiken/2.11-eps-converted-to.pdf>]
-<grafiken/2.12.pdf, id=465, 416.55727pt x 166.55725pt>
+[10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11 <./grafiken/2.11.pdf>]
+<grafiken/2.12.pdf, id=488, 416.55727pt x 166.55725pt>
 File: grafiken/2.12.pdf Graphic file (type pdf)
 <use grafiken/2.12.pdf>
 Package pdftex.def Info: grafiken/2.12.pdf  used on input line 209.
 (pdftex.def)             Requested size: 426.79134pt x 170.65874pt.
- [11]
+
+Overfull \hbox (2.11702pt too wide) in paragraph at lines 218--239
+\T1/ptm/m/n/12 Transmission be-tween mem-o-ries, trans-mis-sion be-tween pe-rip
+h-er-als and mem-o-ries, and trans-
+ []
+
+[12 <./grafiken/2.12.pdf>]
 Package epstopdf Info: Source file: <grafiken/2.13.eps>
 (epstopdf)                    date: 2021-03-19 09:45:44
 (epstopdf)                    size: 135101 bytes
@@ -2386,19 +2344,19 @@ Package epstopdf Info: Source file: <grafiken/2.13.eps>
 (epstopdf)                    size: 123987 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/2.13-eps-converted
 -to.pdf grafiken/2.13.eps>
-(epstopdf)             \includegraphics on input line 240.
+(epstopdf)             \includegraphics on input line 246.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/2.13-eps-converted-to.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/2.13-eps-converted-to.pdf, id=471, 962.59625pt x 613.29124pt>
+<grafiken/2.13-eps-converted-to.pdf, id=500, 962.59625pt x 613.29124pt>
 File: grafiken/2.13-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/2.13-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/2.13-eps-converted-to.pdf  used on input line
- 240.
+ 246.
 (pdftex.def)             Requested size: 426.79134pt x 271.9171pt.
-[12 <./grafiken/2.12.pdf>]
+[13]
 Package epstopdf Info: Source file: <grafiken/2.14.eps>
 (epstopdf)                    date: 2021-03-19 09:45:44
 (epstopdf)                    size: 88195 bytes
@@ -2407,19 +2365,19 @@ Package epstopdf Info: Source file: <grafiken/2.14.eps>
 (epstopdf)                    size: 47196 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/2.14-eps-converted
 -to.pdf grafiken/2.14.eps>
-(epstopdf)             \includegraphics on input line 256.
+(epstopdf)             \includegraphics on input line 262.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/2.14-eps-converted-to.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/2.14-eps-converted-to.pdf, id=483, 412.54124pt x 242.9075pt>
+<grafiken/2.14-eps-converted-to.pdf, id=506, 412.54124pt x 242.9075pt>
 File: grafiken/2.14-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/2.14-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/2.14-eps-converted-to.pdf  used on input line
- 256.
+ 262.
 (pdftex.def)             Requested size: 412.54024pt x 242.90689pt.
-[13 <./grafiken/2.13-eps-converted-to.pdf>]
+[14 <./grafiken/2.13-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <grafiken/2.15.eps>
 (epstopdf)                    date: 2021-03-20 20:45:01
 (epstopdf)                    size: 90411 bytes
@@ -2428,32 +2386,32 @@ Package epstopdf Info: Source file: <grafiken/2.15.eps>
 (epstopdf)                    size: 31463 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/2.15-eps-converted
 -to.pdf grafiken/2.15.eps>
-(epstopdf)             \includegraphics on input line 266.
+(epstopdf)             \includegraphics on input line 272.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/2.15-eps-converted-to.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/2.15-eps-converted-to.pdf, id=492, 491.8375pt x 89.33376pt>
+<grafiken/2.15-eps-converted-to.pdf, id=515, 491.8375pt x 89.33376pt>
 File: grafiken/2.15-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/2.15-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/2.15-eps-converted-to.pdf  used on input line
- 266.
+ 272.
 (pdftex.def)             Requested size: 426.79134pt x 77.52206pt.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/2.16.pdf): PDF inclusion: found PDF v
 ersion <1.7>, but at most version <1.5> allowed
-<grafiken/2.16.pdf, id=494, 468.24937pt x 283.0575pt>
+<grafiken/2.16.pdf, id=517, 433.71637pt x 257.53717pt>
 File: grafiken/2.16.pdf Graphic file (type pdf)
 <use grafiken/2.16.pdf>
-Package pdftex.def Info: grafiken/2.16.pdf  used on input line 288.
-(pdftex.def)             Requested size: 426.79134pt x 258.0103pt.
-[14 <./grafiken/2.14-eps-converted-to.pdf> <./grafiken/2.15-eps-converted-to.pd
-f>] [15 <./grafiken/2.16.pdf>]
+Package pdftex.def Info: grafiken/2.16.pdf  used on input line 294.
+(pdftex.def)             Requested size: 426.79134pt x 253.43785pt.
+[15 <./grafiken/2.14-eps-converted-to.pdf> <./grafiken/2.15-eps-converted-to.pd
+f>] [16 <./grafiken/2.16.pdf>]
 chapter 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--304
+Underfull \hbox (badness 10000) in paragraph at lines 308--310
 
  []
 
@@ -2464,7 +2422,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.309 F
+l.315 F
        or multiple units under test, we adopt a one-to-one correspondence me...
 
 Your command was ignored.
@@ -2472,25 +2430,28 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 Package epstopdf Info: Source file: <grafiken/3.1.eps>
-(epstopdf)                    date: 2021-03-20 11:42:52
-(epstopdf)                    size: 94527 bytes
+(epstopdf)                    date: 2021-03-22 09:01:49
+(epstopdf)                    size: 117746 bytes
 (epstopdf)             Output file: <grafiken/3.1-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-03-21 10:04:06
-(epstopdf)                    size: 31384 bytes
+(epstopdf)                    date: 2021-03-22 09:05:35
+(epstopdf)                    size: 57736 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/3.1-eps-converted-
 to.pdf grafiken/3.1.eps>
-(epstopdf)             \includegraphics on input line 314.
+(epstopdf)             \includegraphics on input line 320.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/3.1-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/3.1-eps-converted-to.pdf, id=541, 319.1925pt x 197.73875pt>
+<grafiken/3.1-eps-converted-to.pdf, id=567, 323.2075pt x 241.90375pt>
 File: grafiken/3.1-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/3.1-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/3.1-eps-converted-to.pdf  used on input line 
-314.
-(pdftex.def)             Requested size: 426.79134pt x 264.39828pt.
+320.
+(pdftex.def)             Requested size: 426.79134pt x 319.44681pt.
+[17
+
+]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -2498,7 +2459,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.326 \\
+l.332 \\
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2511,15 +2472,12 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.327 \section
+l.333 \section
               {IC for IGBT control circuit}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[16
-
- <./grafiken/3.1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <grafiken/3.2.eps>
 (epstopdf)                    date: 2021-03-21 09:25:56
 (epstopdf)                    size: 81595 bytes
@@ -2528,18 +2486,19 @@ Package epstopdf Info: Source file: <grafiken/3.2.eps>
 (epstopdf)                    size: 29001 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/3.2-eps-converted-
 to.pdf grafiken/3.2.eps>
-(epstopdf)             \includegraphics on input line 337.
+(epstopdf)             \includegraphics on input line 343.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/3.2-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/3.2-eps-converted-to.pdf, id=561, 178.6675pt x 126.4725pt>
+<grafiken/3.2-eps-converted-to.pdf, id=573, 178.6675pt x 126.4725pt>
 File: grafiken/3.2-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/3.2-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/3.2-eps-converted-to.pdf  used on input line 
-337.
+343.
 (pdftex.def)             Requested size: 369.88582pt x 261.84465pt.
+[18 <./grafiken/3.1-eps-converted-to.pdf>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -2547,7 +2506,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.343 \section
+l.349 \section
               {Simulation circuit}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2557,17 +2516,17 @@ or  <return>  to continue without it.
 
 pdfTeX warning: pdflatex (file ./grafiken/3.3.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<grafiken/3.3.pdf, id=563, 794.97pt x 614.295pt>
+<grafiken/3.3.pdf, id=590, 794.97pt x 614.295pt>
 File: grafiken/3.3.pdf Graphic file (type pdf)
 <use grafiken/3.3.pdf>
-Package pdftex.def Info: grafiken/3.3.pdf  used on input line 351.
+Package pdftex.def Info: grafiken/3.3.pdf  used on input line 357.
 (pdftex.def)             Requested size: 483.69684pt x 373.77269pt.
 
-Overfull \hbox (44.45734pt too wide) in paragraph at lines 351--352
+Overfull \hbox (44.45734pt too wide) in paragraph at lines 357--358
  [][] 
  []
 
-[17 <./grafiken/3.2-eps-converted-to.pdf>]
+[19 <./grafiken/3.2-eps-converted-to.pdf>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -2575,7 +2534,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.357 A
+l.363 A
        mong them, $R_{1}$ and $R_{2}$ are voltage divider circuits to ensure...
 
 Your command was ignored.
@@ -2584,7 +2543,12 @@ or  <return>  to continue without it.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 363.
+               Default added (so using `tbp') on input line 369.
+
+
+Overfull \hbox (13.27327pt too wide) in paragraph at lines 370--377
+[][] 
+ []
 
 
 ! LaTeX Error: There's no line here to end.
@@ -2593,31 +2557,31 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.377 W
+l.383 W
        hen the DUT is affected by cosmic rays, because the internal resistan...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[18 <./grafiken/3.3.pdf>]
+[20 <./grafiken/3.3.pdf>]
 
 pdfTeX warning: pdflatex (file ./grafiken/3.4.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<grafiken/3.4.pdf, id=589, 598.235pt x 345.29pt>
+<grafiken/3.4.pdf, id=616, 598.235pt x 345.29pt>
 File: grafiken/3.4.pdf Graphic file (type pdf)
 <use grafiken/3.4.pdf>
-Package pdftex.def Info: grafiken/3.4.pdf  used on input line 384.
+Package pdftex.def Info: grafiken/3.4.pdf  used on input line 390.
 (pdftex.def)             Requested size: 369.88582pt x 213.49275pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 389--391
+Underfull \hbox (badness 10000) in paragraph at lines 395--397
 
  []
 
-[19 <./grafiken/3.4.pdf>]
+[21 <./grafiken/3.4.pdf>]
 chapter 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--402
+Underfull \hbox (badness 10000) in paragraph at lines 406--408
 
  []
 
@@ -2629,43 +2593,58 @@ Package epstopdf Info: Source file: <grafiken/4.1.eps>
 (epstopdf)                    size: 30034 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/4.1-eps-converted-
 to.pdf grafiken/4.1.eps>
-(epstopdf)             \includegraphics on input line 409.
+(epstopdf)             \includegraphics on input line 415.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/4.1-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/4.1-eps-converted-to.pdf, id=599, 582.175pt x 97.36375pt>
+<grafiken/4.1-eps-converted-to.pdf, id=627, 582.175pt x 97.36375pt>
 File: grafiken/4.1-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/4.1-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/4.1-eps-converted-to.pdf  used on input line 
-409.
-(pdftex.def)             Requested size: 426.79134pt x 71.378pt.
-<grafiken/4.2.pdf, id=601, 646.82051pt x 360.74373pt>
+415.
+(pdftex.def)             Requested size: 455.24408pt x 76.13654pt.
+
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 415--416
+ [][] 
+ []
+
+<grafiken/4.2.pdf, id=629, 646.82051pt x 360.74373pt>
 File: grafiken/4.2.pdf Graphic file (type pdf)
 <use grafiken/4.2.pdf>
-Package pdftex.def Info: grafiken/4.2.pdf  used on input line 420.
-(pdftex.def)             Requested size: 426.79134pt x 238.03104pt.
-[20
+Package pdftex.def Info: grafiken/4.2.pdf  used on input line 427.
+(pdftex.def)             Requested size: 455.24408pt x 253.9005pt.
+
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 427--428
+ [][] 
+ []
+
+[22
 
  <./grafiken/4.1-eps-converted-to.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 437.
+               Default added (so using `tbp') on input line 444.
 
 
-LaTeX Warning: Float too large for page by 52.22774pt on input line 483.
+LaTeX Warning: Float too large for page by 46.61528pt on input line 490.
 
 
 
 pdfTeX warning: pdflatex (file ./grafiken/4.3.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<grafiken/4.3.pdf, id=618, 545.11252pt x 556.40575pt>
+<grafiken/4.3.pdf, id=646, 545.11252pt x 556.40575pt>
 File: grafiken/4.3.pdf Graphic file (type pdf)
 <use grafiken/4.3.pdf>
-Package pdftex.def Info: grafiken/4.3.pdf  used on input line 492.
-(pdftex.def)             Requested size: 426.79134pt x 435.6418pt.
-[21 <./grafiken/4.2.pdf>] [22]
+Package pdftex.def Info: grafiken/4.3.pdf  used on input line 499.
+(pdftex.def)             Requested size: 455.24408pt x 464.6863pt.
+
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 499--500
+ [][] 
+ []
+
+[23 <./grafiken/4.2.pdf>] [24]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -2673,7 +2652,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.498 
+l.505 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2686,7 +2665,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.508 \\
+l.515 \\
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2695,7 +2674,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.508 \\
+l.515 \\
         
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2703,7 +2682,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.508 \\
+l.515 \\
         
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2714,7 +2693,7 @@ my insertion and my current dilemma will both disappear.
 ! Display math should end with $$.
 <to be read again> 
                    \@@par 
-l.508 \\
+l.515 \\
         
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
@@ -2722,7 +2701,7 @@ So I shall assume that you typed `$$' both times.
 ! Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.508 \\
+l.515 \\
         
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2733,7 +2712,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.509 =1*\left
+l.516 =1*\left
                \lceil P_{W5500}  \right \rceil +6* \left \lceil P_{STM32F429...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2741,7 +2720,7 @@ you left one out. Proceed, with fingers crossed.
 ! You can't use `\eqno' in math mode.
 \endmathdisplay@a ...\df@tag \@empty \else \veqno 
                                                   \alt@tag \df@tag \fi \ifx ...
-l.510 \end{equation}
+l.517 \end{equation}
                     
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2751,7 +2730,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.510 \end{equation}
+l.517 \end{equation}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2759,6 +2738,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
+[25 <./grafiken/4.3.pdf>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -2766,19 +2746,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.513 S
-       ince each DCDC converter chip TWR6 can provide 6W switching power sup...
+l.520 S
+       ince each DC DC converter chip TWR6 can provide 6W switching power su...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[23 <./grafiken/4.3.pdf>] [24]
+[26]
 chapter 5.
-<grafiken/5.1.pdf, id=663, 447.57211pt x 124.04944pt>
+<grafiken/5.1.pdf, id=690, 447.57211pt x 124.04944pt>
 File: grafiken/5.1.pdf Graphic file (type pdf)
 <use grafiken/5.1.pdf>
-Package pdftex.def Info: grafiken/5.1.pdf  used on input line 553.
+Package pdftex.def Info: grafiken/5.1.pdf  used on input line 560.
 (pdftex.def)             Requested size: 426.79134pt x 118.29109pt.
 
 ! LaTeX Error: There's no line here to end.
@@ -2787,23 +2767,23 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.559 M
+l.566 M
        ainly change its appearance according to different applications. The ...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[25
+[27
 
  <./grafiken/5.1.pdf>]
-<grafiken/5.2.pdf, id=693, 595.88222pt x 348.87137pt>
+<grafiken/5.2.pdf, id=721, 595.88222pt x 348.87137pt>
 File: grafiken/5.2.pdf Graphic file (type pdf)
 <use grafiken/5.2.pdf>
-Package pdftex.def Info: grafiken/5.2.pdf  used on input line 567.
+Package pdftex.def Info: grafiken/5.2.pdf  used on input line 574.
 (pdftex.def)             Requested size: 455.24408pt x 266.53438pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 567--568
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 574--575
  [][] 
  []
 
@@ -2814,7 +2794,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.573 
+l.580 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2824,31 +2804,31 @@ or  <return>  to continue without it.
 
 pdfTeX warning: pdflatex (file ./grafiken/5.3.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<grafiken/5.3.pdf, id=694, 616.705pt x 346.89702pt>
+<grafiken/5.3.pdf, id=722, 616.705pt x 346.89702pt>
 File: grafiken/5.3.pdf Graphic file (type pdf)
 <use grafiken/5.3.pdf>
-Package pdftex.def Info: grafiken/5.3.pdf  used on input line 576.
+Package pdftex.def Info: grafiken/5.3.pdf  used on input line 583.
 (pdftex.def)             Requested size: 455.24408pt x 256.08046pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 576--577
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 583--584
  [][] 
  []
 
-[26 <./grafiken/5.2.pdf>]
+[28 <./grafiken/5.2.pdf>]
 
 pdfTeX warning: pdflatex (file ./grafiken/5.4.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<grafiken/5.4.pdf, id=719, 598.99681pt x 338.76462pt>
+<grafiken/5.4.pdf, id=747, 598.99681pt x 338.76462pt>
 File: grafiken/5.4.pdf Graphic file (type pdf)
 <use grafiken/5.4.pdf>
-Package pdftex.def Info: grafiken/5.4.pdf  used on input line 600.
+Package pdftex.def Info: grafiken/5.4.pdf  used on input line 609.
 (pdftex.def)             Requested size: 455.24408pt x 257.4741pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 600--601
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 609--610
  [][] 
  []
 
-[27 <./grafiken/5.3.pdf>]
+[29 <./grafiken/5.3.pdf>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -2856,206 +2836,167 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.606 
+l.615 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<grafiken/5.5.pdf, id=729, 473.37451pt x 391.00479pt>
+<grafiken/5.5.pdf, id=756, 473.37451pt x 391.00479pt>
 File: grafiken/5.5.pdf Graphic file (type pdf)
 <use grafiken/5.5.pdf>
-Package pdftex.def Info: grafiken/5.5.pdf  used on input line 619.
+Package pdftex.def Info: grafiken/5.5.pdf  used on input line 628.
 (pdftex.def)             Requested size: 455.24408pt x 376.05241pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 619--620
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 628--629
  [][] 
  []
 
-[28 <./grafiken/5.4.pdf>]
-
-! Package inputenc Error: Unicode character μ (U+03BC)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.625 ...riting time slots at least must have 60μ
-                                                  s duration. Two adjacent w...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
+[30 <./grafiken/5.4.pdf>]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.634 ...iting time slots at least must have 60\mu
+                                                   s duration. Two adjacent ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
 
-! Package inputenc Error: Unicode character μ (U+03BC)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.625 ...writing time slots at least must have 1μ
-                                                  s recovery time. Two writi...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
+LaTeX Warning: Command \textquotedblleft invalid in math mode on input line 634
+.
 
 
-! Package inputenc Error: Unicode character μ (U+03BC)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.626 ...the host must release the bus within 15μ
-                                                  s. After releasing the bus...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
+LaTeX Warning: Command \textquotedblright invalid in math mode on input line 63
+4.
 
 
-! Package inputenc Error: Unicode character μ (U+03BC)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.626 ...the time slot’s duration (at least 60μ
-                                                  s).
-You may provide a definition with
-\DeclareUnicodeCharacter 
+LaTeX Warning: Command \textquotedblleft invalid in math mode on input line 635
+.
 
 
-! Package inputenc Error: Unicode character μ (U+03BC)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.627 ... bus(DQ) within a time quantum of 15-60μ
-                                                  s. Within the time window ...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
+LaTeX Warning: Command \textquotedblright invalid in math mode on input line 63
+5.
 
 
-! Package inputenc Error: Unicode character μ (U+03BC)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.629 ...riting time slots at least must have 60μ
-                                                  s of duration. Two adjacen...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 635.
 
 
-! Package inputenc Error: Unicode character μ (U+03BC)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.629 ...djacent time slots at least must have 1μ
-                                                  s of recovery time. All wr...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
+LaTeX Warning: Command \textquotedblleft invalid in math mode on input line 640
+.
 
 
-! Package inputenc Error: Unicode character μ (U+03BC)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.631 ...g time sequences at least must reach 60μ
-                                                  s, including two reading p...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
+LaTeX Warning: Command \textquotedblright invalid in math mode on input line 64
+0.
 
 
-! Package inputenc Error: Unicode character μ (U+03BC)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.631 ...ing two reading periods with at least 1μ
-                                                  s recovery time. When the ...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
+LaTeX Warning: Command \textquotedblleft invalid in math mode on input line 640
+.
 
 
-! Package inputenc Error: Unicode character μ (U+03BC)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.631 ...nces, USB cables at least must remain 1μ
-                                                  s and then the bus is rele...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
+LaTeX Warning: Command \textquotedblright invalid in math mode on input line 64
+0.
 
 
-! Package inputenc Error: Unicode character μ (U+03BC)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.631 ...ta from DS18B20 will be valid within 15μ
-                                                  s after the falling edge o...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
+LaTeX Warning: Command \textquotedblleft invalid in math mode on input line 640
+.
 
 
-! Package inputenc Error: Unicode character μ (U+03BC)
-(inputenc)                not set up for use with LaTeX.
+LaTeX Warning: Command \textquotedblright invalid in math mode on input line 64
+0.
 
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.631 ... stop I/O drive into the low voltage 15μ
-                                                  s to read I/O state.
-You may provide a definition with
-\DeclareUnicodeCharacter 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.642 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--633
+Overfull \hbox (1110.53636pt too wide) in paragraph at lines 634--642
+\T1/ptm/m/n/12 60$\OML/cmm/m/it/12 sduration:Twoadjacentwritingtimeslotsatleas
+tmusthave\OT1/ztmcm/m/n/12 1\OML/cmm/m/it/12 srecoverytime:Twowritingtimeslots
+canbegeneratedbyloweringthebusthroughthehost\OT1/ztmcm/m/n/12 (\OML/cmm/m/it/12
+ seethepicturebelow\OT1/ztmcm/m/n/12 )\OML/cmm/m/it/12 ; forthesakeofgenerating
+\OT1/ztmcm/m/n/12 1\OML/cmm/m/it/12 timeslot:Afterloweringthebus; thehostmust
+releasethebuswithin\OT1/ztmcm/m/n/12 15\OML/cmm/m/it/12 s:Afterreleasingthebus
+; thepull \OMS/cmsy/m/n/12  
+ []
+
+
+Overfull \hbox (1116.82187pt too wide) in paragraph at lines 634--642
+\OML/cmm/m/it/12 upresistorcanrecoverthebustothehighlevel:Togenerate\OT1/ztmcm/
+m/n/12 0\OML/cmm/m/it/12 timeslot; afterloweringthebus; thehostmustcontinuelo
+weringthebustosatisfytherequirementofthetimeslot[]sduration\OT1/ztmcm/m/n/12 (\
+OML/cmm/m/it/12 atleast\OT1/ztmcm/m/n/12 60\OML/cmm/m/it/12 s\OT1/ztmcm/m/n/12
+ )\OML/cmm/m/it/12 :Afterthehostgeneratesthewritingtimeslots; DS\OT1/ztmcm/m/n/
+12 18\OML/cmm/m/it/12 B\OT1/ztmcm/m/n/12 20\OML/cmm/m/it/12 willsamplethesingle
+bus\OT1/ztmcm/m/n/12 (\OML/cmm/m/it/12 DQ\OT1/ztmcm/m/n/12 )\OML/cmm/m/it/12 wi
+thinatimequantumof\OT1/ztmcm/m/n/12 15 \OMS/cmsy/m/n/12  
+ []
+
+
+Overfull \hbox (410.70421pt too wide) in paragraph at lines 634--642
+\OT1/ztmcm/m/n/12 60\OML/cmm/m/it/12 s:Withinthetimewindowofsampling; ifthebus
+belongstothehighlevel; thehostwillwrite\OT1/ztmcm/m/n/12 1\OML/cmm/m/it/12 inDS
+\OT1/ztmcm/m/n/12 18\OML/cmm/m/it/12 B\OT1/ztmcm/m/n/12 20\OML/cmm/m/it/12 :ift
+hebusbelongstothelowlevel; thehostwillwrite\OT1/ztmcm/m/n/12 0\OML/cmm/m/it/12 
+inDS\OT1/ztmcm/m/n/12 18\OML/cmm/m/it/12 B\OT1/ztmcm/m/n/12 20\OML/cmm/m/it/12 
+:[] 
+ []
+
+
+Overfull \hbox (5487.63094pt too wide) in paragraph at lines 634--642
+\OML/cmm/m/it/12 Tosumup; allwritingtimeslotsatleastmusthave\OT1/ztmcm/m/n/12 6
+0\OML/cmm/m/it/12 sofduration:Twoadjacenttimeslotsatleastmusthave\OT1/ztmcm/m/
+n/12 1\OML/cmm/m/it/12 sofrecoverytime:Allwritingtimeslots\OT1/ztmcm/m/n/12 (0
+\OML/cmm/m/it/12 and\OT1/ztmcm/m/n/12 1)\OML/cmm/m/it/12 aregeneratedbylowering
+thebus:Whenthehostlaunchestoreadthetimesequences; DS\OT1/ztmcm/m/n/12 18\OML/cm
+m/m/it/12 B\OT1/ztmcm/m/n/12 20\OML/cmm/m/it/12 isonlyusedtotransmitdatatotheco
+ntroller; thusthebuscontrollerwillissuetheorderofreadingthetransientmemory\OT1/
+ztmcm/m/n/12 [0\OML/cmm/m/it/12 xBe\OT1/ztmcm/m/n/12 ]\OML/cmm/m/it/12 ortheord
+erofreadingthepowermode\OT1/ztmcm/m/n/12 [0\OML/cmm/m/it/12 xB\OT1/ztmcm/m/n/12
+ 4]\OML/cmm/m/it/12 andthenitimmediatelystartsreadingtimesequences:DS\OT1/ztmcm
+/m/n/12 18\OML/cmm/m/it/12 B\OT1/ztmcm/m/n/12 20\OML/cmm/m/it/12 canprovidether
+equestinformation:Besides; thebuscontrollerwillreadthetimesequencesafterissuing
+theorderofsendingtemperatureconversion\OT1/ztmcm/m/n/12 [0\OML/cmm/m/it/12 x\OT
+1/ztmcm/m/n/12 44](\OML/cmm/m/it/12 orrecallingEEPROMorder\OT1/ztmcm/m/n/12 [0\
+OML/cmm/m/it/12 xB\OT1/ztmcm/m/n/12 8])\OML/cmm/m/it/12 beforereadingtimesequen
+ces:SeedetailsinthefunctionalorderinDS\OT1/ztmcm/m/n/12 18\OML/cmm/m/it/12 B\OT
+1/ztmcm/m/n/12 20\OML/cmm/m/it/12 chipmanual:Allreadingtimesequencesatleastmust
+reach\OT1/ztmcm/m/n/12 60\OML/cmm/m/it/12 s; includingtworeadingperiodswithatl
+east\OT1/ztmcm/m/n/12 1\OML/cmm/m/it/12 srecoverytime:Whenthebuscontrollerpull
+stheUSBcablefromthehighleveltothelowlevel; asstartingreadingtimesequences; USBc
+ablesatleastmustremain\OT1/ztmcm/m/n/12 1\OML/cmm/m/it/12 sandthenthebusisrele
+ased:DS\OT1/ztmcm/m/n/12 18\OML/cmm/m/it/12 B\OT1/ztmcm/m/n/12 20\OML/cmm/m/it/
+12 pullsuporpullsdownthebustotransmit\OT1/ztmcm/m/n/12 1\OML/cmm/m/it/12 or\O
+T1/ztmcm/m/n/12 0\OML/cmm/m/it/12 :Whenthetransmissionlogic\OT1/ztmcm/m/n/12 
+0\OML/cmm/m/it/12 comestoanend; thebuswillbereleased:Whenthepull \OMS/cmsy/m/
+n/12  
+ []
+
+
+Overfull \hbox (848.4373pt too wide) in paragraph at lines 634--642
+\OML/cmm/m/it/12 upresistorreturnstotherisingedgestate; datafromDS\OT1/ztmcm/m/
+n/12 18\OML/cmm/m/it/12 B\OT1/ztmcm/m/n/12 20\OML/cmm/m/it/12 willbevalidwithin
+\OT1/ztmcm/m/n/12 15\OML/cmm/m/it/12 safterthefallingedgeofreadingtimesequence
+soccurs:Thus; asstartingreadingtimesequences; thebuscontrollermuststopI=Odrivei
+ntothelowvoltage\OT1/ztmcm/m/n/12 15\OML/cmm/m/it/12 storeadI=Ostate:[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 634--642
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [29 <./grafiken/5.5.pdf>]
-
 ! LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.637 \begin
+l.646 \begin
             {center}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3068,23 +3009,30 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.643 \begin
+l.652 \begin
             {center}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<grafiken/5.6.pdf, id=774, 682.10632pt x 365.2074pt>
+
+Underfull \vbox (badness 2443) has occurred while \output is active []
+
+ [31 <./grafiken/5.5.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 658--660
+
+ []
+
+<grafiken/5.6.pdf, id=803, 682.10632pt x 365.2074pt>
 File: grafiken/5.6.pdf Graphic file (type pdf)
 <use grafiken/5.6.pdf>
-Package pdftex.def Info: grafiken/5.6.pdf  used on input line 656.
+Package pdftex.def Info: grafiken/5.6.pdf  used on input line 672.
 (pdftex.def)             Requested size: 455.24408pt x 243.74591pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 656--657
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 672--673
  [][] 
  []
 
-[30]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -3092,37 +3040,39 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.663 T
+l.679 T
        hat is to say, each time the slave board main board adopts the averag...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<grafiken/5.7.pdf, id=782, 507.61844pt x 204.5753pt>
+[32 <./grafiken/5.6.pdf>]
+<grafiken/5.7.pdf, id=827, 507.61844pt x 204.5753pt>
 File: grafiken/5.7.pdf Graphic file (type pdf)
 <use grafiken/5.7.pdf>
-Package pdftex.def Info: grafiken/5.7.pdf  used on input line 682.
+Package pdftex.def Info: grafiken/5.7.pdf  used on input line 698.
 (pdftex.def)             Requested size: 455.24408pt x 183.47614pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 682--683
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 698--699
  [][] 
  []
 
-[31 <./grafiken/5.6.pdf>]
+
 
 pdfTeX warning: pdflatex (file ./grafiken/5.8.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<grafiken/5.8.pdf, id=805, 1390.44469pt x 792.71156pt>
+<grafiken/5.8.pdf, id=829, 1390.44469pt x 792.71156pt>
 File: grafiken/5.8.pdf Graphic file (type pdf)
 <use grafiken/5.8.pdf>
-Package pdftex.def Info: grafiken/5.8.pdf  used on input line 695.
+Package pdftex.def Info: grafiken/5.8.pdf  used on input line 711.
 (pdftex.def)             Requested size: 455.24408pt x 259.53934pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 695--696
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 711--712
  [][] 
  []
 
+[33 <./grafiken/5.7.pdf>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -3130,23 +3080,12 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.701 F
-       ront end and back end:
+l.717 B
+       ack end and frontend:
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[32 <./grafiken/5.7.pdf> <./grafiken/5.8.pdf>]
-<grafiken/5.9.pdf, id=830, 1426.73027pt x 671.57903pt>
-File: grafiken/5.9.pdf Graphic file (type pdf)
-<use grafiken/5.9.pdf>
-Package pdftex.def Info: grafiken/5.9.pdf  used on input line 714.
-(pdftex.def)             Requested size: 455.24408pt x 214.28458pt.
-
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 714--715
- [][] 
- []
-
 
 ! LaTeX Error: There's no line here to end.
 
@@ -3154,21 +3093,46 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.720 \chapter
+l.722 T
+       he GUI(Graphical user interface) that separates the front and back en...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<grafiken/5.9.pdf, id=853, 1426.73027pt x 671.57903pt>
+File: grafiken/5.9.pdf Graphic file (type pdf)
+<use grafiken/5.9.pdf>
+Package pdftex.def Info: grafiken/5.9.pdf  used on input line 731.
+(pdftex.def)             Requested size: 455.24408pt x 214.28458pt.
+
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 731--732
+ [][] 
+ []
+
+[34 <./grafiken/5.8.pdf>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.737 \chapter
               {Design PCBs}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[33 <./grafiken/5.9.pdf>]
+[35 <./grafiken/5.9.pdf>]
 chapter 6.
-<grafiken/6.1.pdf, id=841, 837.76189pt x 314.82115pt>
+<grafiken/6.1.pdf, id=869, 837.76189pt x 314.82115pt>
 File: grafiken/6.1.pdf Graphic file (type pdf)
 <use grafiken/6.1.pdf>
-Package pdftex.def Info: grafiken/6.1.pdf  used on input line 732.
+Package pdftex.def Info: grafiken/6.1.pdf  used on input line 749.
 (pdftex.def)             Requested size: 455.24408pt x 171.07692pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 732--733
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 749--750
  [][] 
  []
 
@@ -3179,29 +3143,29 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.738 
+l.755 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (37.3364pt too wide) in paragraph at lines 739--740
-[]\T1/ptm/m/n/12 The main com-ponents of the sla-ve-board sche-ma-tic dia-gram 
-are the mi-cro-con-trol-ler STM32F303ZET
+Overfull \hbox (37.3364pt too wide) in paragraph at lines 756--757
+[]\T1/ptm/m/n/12 The main com-po-nents of the slave-board schematic di-a-gram a
+re the mi-cro-con-troller STM32F303ZET
  []
 
-<grafiken/6.2.pdf, id=843, 608.5134pt x 354.96617pt>
+<grafiken/6.2.pdf, id=871, 608.5134pt x 354.96617pt>
 File: grafiken/6.2.pdf Graphic file (type pdf)
 <use grafiken/6.2.pdf>
-Package pdftex.def Info: grafiken/6.2.pdf  used on input line 743.
+Package pdftex.def Info: grafiken/6.2.pdf  used on input line 760.
 (pdftex.def)             Requested size: 455.24408pt x 265.56317pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 743--744
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 760--761
  [][] 
  []
 
-[34
+[36
 
  <./grafiken/6.1.pdf>]
 
@@ -3211,7 +3175,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.749 
+l.766 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3225,24 +3189,24 @@ Package epstopdf Info: Source file: <grafiken/f429.eps>
 (epstopdf)                    size: 34988 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/f429-eps-converted
 -to.pdf grafiken/f429.eps>
-(epstopdf)             \includegraphics on input line 754.
+(epstopdf)             \includegraphics on input line 771.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/f429-eps-converted-to.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/f429-eps-converted-to.pdf, id=872, 115.43124pt x 110.4125pt>
+<grafiken/f429-eps-converted-to.pdf, id=900, 115.43124pt x 110.4125pt>
 File: grafiken/f429-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/f429-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/f429-eps-converted-to.pdf  used on input line
- 754.
+ 771.
 (pdftex.def)             Requested size: 455.24408pt x 435.5433pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 754--755
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 771--772
  [][] 
  []
 
-[35 <./grafiken/6.2.pdf>]
+[37 <./grafiken/6.2.pdf>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -3250,7 +3214,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.760 C
+l.777 C
        orresponding to this, the following Figure~\ref{fig:6.4} is a schemat...
 
 Your command was ignored.
@@ -3265,24 +3229,24 @@ Package epstopdf Info: Source file: <grafiken/f429conn.eps>
 (epstopdf)                    size: 33155 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/f429conn-eps-conve
 rted-to.pdf grafiken/f429conn.eps>
-(epstopdf)             \includegraphics on input line 764.
+(epstopdf)             \includegraphics on input line 781.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/f429conn-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/f429conn-eps-converted-to.pdf, id=901, 107.40125pt x 104.39pt>
+<grafiken/f429conn-eps-converted-to.pdf, id=929, 107.40125pt x 104.39pt>
 File: grafiken/f429conn-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/f429conn-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/f429conn-eps-converted-to.pdf  used on input 
-line 764.
+line 781.
 (pdftex.def)             Requested size: 455.24408pt x 442.58592pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 764--765
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 781--782
  [][] 
  []
 
-[36 <./grafiken/f429-eps-converted-to.pdf>]
+[38 <./grafiken/f429-eps-converted-to.pdf>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -3290,7 +3254,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.770 I
+l.787 I
        t is also important that the schematic diagram of the slaveboard mirc...
 
 Your command was ignored.
@@ -3305,24 +3269,24 @@ Package epstopdf Info: Source file: <grafiken/f303.eps>
 (epstopdf)                    size: 35653 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/f303-eps-converted
 -to.pdf grafiken/f303.eps>
-(epstopdf)             \includegraphics on input line 774.
+(epstopdf)             \includegraphics on input line 791.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/f303-eps-converted-to.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/f303-eps-converted-to.pdf, id=917, 117.43875pt x 98.3675pt>
+<grafiken/f303-eps-converted-to.pdf, id=945, 117.43875pt x 98.3675pt>
 File: grafiken/f303-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/f303-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/f303-eps-converted-to.pdf  used on input line
- 774.
+ 791.
 (pdftex.def)             Requested size: 455.24408pt x 381.31711pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 774--775
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 791--792
  [][] 
  []
 
-[37 <./grafiken/f429conn-eps-converted-to.pdf>]
+[39 <./grafiken/f429conn-eps-converted-to.pdf>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -3330,7 +3294,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.780 
+l.797 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3345,24 +3309,24 @@ Package epstopdf Info: Source file: <grafiken/boot_master.eps>
 (epstopdf)                    size: 27284 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/boot_master-eps-co
 nverted-to.pdf grafiken/boot_master.eps>
-(epstopdf)             \includegraphics on input line 784.
+(epstopdf)             \includegraphics on input line 801.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/boot_master-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/boot_master-eps-converted-to.pdf, id=933, 43.16125pt x 51.19125pt>
+<grafiken/boot_master-eps-converted-to.pdf, id=962, 43.16125pt x 51.19125pt>
 File: grafiken/boot_master-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/boot_master-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/boot_master-eps-converted-to.pdf  used on inp
-ut line 784.
+ut line 801.
 (pdftex.def)             Requested size: 455.24408pt x 540.00159pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 784--785
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 801--802
  [][] 
  []
 
-[38 <./grafiken/f303-eps-converted-to.pdf>]
+[40 <./grafiken/f303-eps-converted-to.pdf>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -3370,7 +3334,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.790 
+l.807 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3384,24 +3348,24 @@ Package epstopdf Info: Source file: <grafiken/dcdc.eps>
 (epstopdf)                    size: 34285 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/dcdc-eps-converted
 -to.pdf grafiken/dcdc.eps>
-(epstopdf)             \includegraphics on input line 794.
+(epstopdf)             \includegraphics on input line 811.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/dcdc-eps-converted-to.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/dcdc-eps-converted-to.pdf, id=949, 61.22874pt x 27.10126pt>
+<grafiken/dcdc-eps-converted-to.pdf, id=978, 61.22874pt x 27.10126pt>
 File: grafiken/dcdc-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/dcdc-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/dcdc-eps-converted-to.pdf  used on input line
- 794.
+ 811.
 (pdftex.def)             Requested size: 455.24408pt x 201.5336pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 794--795
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 811--812
  [][] 
  []
 
-[39 <./grafiken/boot_master-eps-converted-to.pdf>]
+[41 <./grafiken/boot_master-eps-converted-to.pdf>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -3409,7 +3373,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.800 
+l.817 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3423,24 +3387,24 @@ Package epstopdf Info: Source file: <grafiken/w5500.eps>
 (epstopdf)                    size: 41128 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/w5500-eps-converte
 d-to.pdf grafiken/w5500.eps>
-(epstopdf)             \includegraphics on input line 805.
+(epstopdf)             \includegraphics on input line 822.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/w5500-eps-converted-to.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/w5500-eps-converted-to.pdf, id=966, 94.3525pt x 124.465pt>
+<grafiken/w5500-eps-converted-to.pdf, id=994, 94.3525pt x 124.465pt>
 File: grafiken/w5500-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/w5500-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/w5500-eps-converted-to.pdf  used on input lin
-e 805.
+e 822.
 (pdftex.def)             Requested size: 455.24408pt x 600.58733pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 805--806
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 822--823
  [][] 
  []
 
-[40 <./grafiken/dcdc-eps-converted-to.pdf>]
+[42 <./grafiken/dcdc-eps-converted-to.pdf>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -3448,7 +3412,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.811 W
+l.828 W
        hile the slave is collecting the voltage signal, the host must collec...
 
 Your command was ignored.
@@ -3463,24 +3427,24 @@ Package epstopdf Info: Source file: <grafiken/ds18b20.eps>
 (epstopdf)                    size: 23411 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/ds18b20-eps-conver
 ted-to.pdf grafiken/ds18b20.eps>
-(epstopdf)             \includegraphics on input line 815.
+(epstopdf)             \includegraphics on input line 832.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/ds18b20-eps-converted-to.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/ds18b20-eps-converted-to.pdf, id=982, 67.25125pt x 42.1575pt>
+<grafiken/ds18b20-eps-converted-to.pdf, id=1010, 67.25125pt x 42.1575pt>
 File: grafiken/ds18b20-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/ds18b20-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/ds18b20-eps-converted-to.pdf  used on input l
-ine 815.
+ine 832.
 (pdftex.def)             Requested size: 455.24408pt x 285.38118pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 815--816
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 832--833
  [][] 
  []
 
-[41 <./grafiken/w5500-eps-converted-to.pdf>]
+[43 <./grafiken/w5500-eps-converted-to.pdf>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -3488,27 +3452,38 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.821 
+l.838 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+Package epstopdf Info: Source file: <grafiken/6.10.eps>
+(epstopdf)                    date: 2021-03-22 10:45:45
+(epstopdf)                    size: 533024 bytes
+(epstopdf)             Output file: <grafiken/6.10-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-03-22 10:46:32
+(epstopdf)                    size: 120312 bytes
+(epstopdf)             Command: <epstopdf --outfile=grafiken/6.10-eps-converted
+-to.pdf grafiken/6.10.eps>
+(epstopdf)             \includegraphics on input line 854.
+Package epstopdf Info: Output file is already uptodate.
 
 
-pdfTeX warning: pdflatex (file ./grafiken/6.10.pdf): PDF inclusion: found PDF v
-ersion <1.7>, but at most version <1.5> allowed
-<grafiken/6.10.pdf, id=1002, 837.24396pt x 395.28177pt>
-File: grafiken/6.10.pdf Graphic file (type pdf)
-<use grafiken/6.10.pdf>
-Package pdftex.def Info: grafiken/6.10.pdf  used on input line 837.
-(pdftex.def)             Requested size: 455.24408pt x 214.93272pt.
+pdfTeX warning: pdflatex (file ./grafiken/6.10-eps-converted-to.pdf): PDF inclu
+sion: found PDF version <1.7>, but at most version <1.5> allowed
+<grafiken/6.10-eps-converted-to.pdf, id=1030, 843.15pt x 421.575pt>
+File: grafiken/6.10-eps-converted-to.pdf Graphic file (type pdf)
+<use grafiken/6.10-eps-converted-to.pdf>
+Package pdftex.def Info: grafiken/6.10-eps-converted-to.pdf  used on input line
+ 854.
+(pdftex.def)             Requested size: 455.24408pt x 227.6278pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 837--838
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 854--855
  [][] 
  []
 
-[42 <./grafiken/ds18b20-eps-converted-to.pdf>]
+[44 <./grafiken/ds18b20-eps-converted-to.pdf>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -3516,7 +3491,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.843 
+l.860 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3530,26 +3505,16 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.845 ...ng four rules according to their needs：
+l.862 ...ng four rules according to their needs：
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-
-
-pdfTeX warning: pdflatex (file ./grafiken/6.11.pdf): PDF inclusion: found PDF v
-ersion <1.7>, but at most version <1.5> allowed
-<grafiken/6.11.pdf, id=1018, 373.44719pt x 313.21417pt>
+<grafiken/6.11.pdf, id=1046, 344.18587pt x 291.79013pt>
 File: grafiken/6.11.pdf Graphic file (type pdf)
 <use grafiken/6.11.pdf>
-Package pdftex.def Info: grafiken/6.11.pdf  used on input line 856.
-(pdftex.def)             Requested size: 455.24408pt x 381.8244pt.
-
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 856--857
- [][] 
- []
-
-[43 <./grafiken/6.10.pdf>]
+Package pdftex.def Info: grafiken/6.11.pdf  used on input line 878.
+(pdftex.def)             Requested size: 284.52756pt x 241.23294pt.
 
 ! LaTeX Error: There's no line here to end.
 
@@ -3557,27 +3522,31 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.862 
+l.884 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+[45 <./grafiken/6.10-eps-converted-to.pdf> <./grafiken/6.11.pdf>]
 
+! LaTeX Error: There's no line here to end.
 
-pdfTeX warning: pdflatex (file ./grafiken/6.12.pdf): PDF inclusion: found PDF v
-ersion <1.7>, but at most version <1.5> allowed
-<grafiken/6.12.pdf, id=1027, 221.358pt x 285.3561pt>
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.895 T
+       he following Figure~\ref{fig:6.13} is the 20H rule:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<grafiken/6.12.pdf, id=1072, 348.82622pt x 356.46474pt>
 File: grafiken/6.12.pdf Graphic file (type pdf)
 <use grafiken/6.12.pdf>
-Package pdftex.def Info: grafiken/6.12.pdf  used on input line 877.
-(pdftex.def)             Requested size: 455.24408pt x 586.89522pt.
-
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 877--878
- [][] 
- []
-
-[44 <./grafiken/6.11.pdf>]
+Package pdftex.def Info: grafiken/6.12.pdf  used on input line 900.
+(pdftex.def)             Requested size: 426.79134pt x 436.14824pt.
 
 ! LaTeX Error: There's no line here to end.
 
@@ -3585,27 +3554,23 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.883 
+l.906 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-
-pdfTeX warning: pdflatex (file ./grafiken/6.13.pdf): PDF inclusion: found PDF v
-ersion <1.7>, but at most version <1.5> allowed
-<grafiken/6.13.pdf, id=1035, 338.05998pt x 40.6576pt>
+[46 <./grafiken/6.12.pdf>]
+<grafiken/6.13.pdf, id=1089, 357.31291pt x 86.56943pt>
 File: grafiken/6.13.pdf Graphic file (type pdf)
 <use grafiken/6.13.pdf>
-Package pdftex.def Info: grafiken/6.13.pdf  used on input line 891.
-(pdftex.def)             Requested size: 455.24408pt x 54.75507pt.
+Package pdftex.def Info: grafiken/6.13.pdf  used on input line 915.
+(pdftex.def)             Requested size: 455.24408pt x 110.30518pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 891--892
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 915--916
  [][] 
  []
 
-[45 <./grafiken/6.12.pdf>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -3613,26 +3578,23 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.897 
+l.921 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
-
-
-LaTeX Warning: Reference `fig:6.14' on page 46 undefined on input line 899.
 
 
 
 pdfTeX warning: pdflatex (file ./grafiken/6.14.pdf): PDF inclusion: found PDF v
 ersion <1.7>, but at most version <1.5> allowed
-<grafiken/6.14.pdf, id=1046, 304.4986pt x 205.2478pt>
+<grafiken/6.14.pdf, id=1094, 304.4986pt x 205.2478pt>
 File: grafiken/6.14.pdf Graphic file (type pdf)
 <use grafiken/6.14.pdf>
-Package pdftex.def Info: grafiken/6.14.pdf  used on input line 903.
+Package pdftex.def Info: grafiken/6.14.pdf  used on input line 931.
 (pdftex.def)             Requested size: 455.24408pt x 306.88441pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 903--904
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 931--932
  [][] 
  []
 
@@ -3643,7 +3605,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.909 
+l.937 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3653,17 +3615,17 @@ or  <return>  to continue without it.
 
 pdfTeX warning: pdflatex (file ./grafiken/6.15.pdf): PDF inclusion: found PDF v
 ersion <1.7>, but at most version <1.5> allowed
-<grafiken/6.15.pdf, id=1047, 317.0254pt x 215.36562pt>
+<grafiken/6.15.pdf, id=1095, 317.0254pt x 215.36562pt>
 File: grafiken/6.15.pdf Graphic file (type pdf)
 <use grafiken/6.15.pdf>
-Package pdftex.def Info: grafiken/6.15.pdf  used on input line 913.
+Package pdftex.def Info: grafiken/6.15.pdf  used on input line 941.
 (pdftex.def)             Requested size: 455.24408pt x 309.28497pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 913--914
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 941--942
  [][] 
  []
 
-[46 <./grafiken/6.13.pdf> <./grafiken/6.14.pdf>]
+[47 <./grafiken/6.13.pdf> <./grafiken/6.14.pdf>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -3671,7 +3633,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.919 
+l.947 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3681,17 +3643,17 @@ or  <return>  to continue without it.
 
 pdfTeX warning: pdflatex (file ./grafiken/6.16.pdf): PDF inclusion: found PDF v
 ersion <1.7>, but at most version <1.5> allowed
-<grafiken/6.16.pdf, id=1059, 418.0107pt x 286.1902pt>
+<grafiken/6.16.pdf, id=1116, 418.0107pt x 286.1902pt>
 File: grafiken/6.16.pdf Graphic file (type pdf)
 <use grafiken/6.16.pdf>
-Package pdftex.def Info: grafiken/6.16.pdf  used on input line 923.
+Package pdftex.def Info: grafiken/6.16.pdf  used on input line 951.
 (pdftex.def)             Requested size: 455.24408pt x 311.68785pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 923--924
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 951--952
  [][] 
  []
 
-[47 <./grafiken/6.15.pdf> <./grafiken/6.16.pdf>]
+[48 <./grafiken/6.15.pdf> <./grafiken/6.16.pdf>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -3699,7 +3661,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.929 
+l.957 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3709,13 +3671,13 @@ or  <return>  to continue without it.
 
 pdfTeX warning: pdflatex (file ./grafiken/6.17.pdf): PDF inclusion: found PDF v
 ersion <1.7>, but at most version <1.5> allowed
-<grafiken/6.17.pdf, id=1074, 371.75787pt x 245.14085pt>
+<grafiken/6.17.pdf, id=1131, 371.75787pt x 245.14085pt>
 File: grafiken/6.17.pdf Graphic file (type pdf)
 <use grafiken/6.17.pdf>
-Package pdftex.def Info: grafiken/6.17.pdf  used on input line 933.
+Package pdftex.def Info: grafiken/6.17.pdf  used on input line 961.
 (pdftex.def)             Requested size: 455.24408pt x 300.1973pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 933--934
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 961--962
  [][] 
  []
 
@@ -3726,21 +3688,21 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.939 
+l.967 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[48
+[49
 
  <./grafiken/6.17.pdf>]
 chapter 7.
-[49
+[50
 
 ]
 chapter 8.
-) [50
+) [51
 
 ]
 \openout2 = `Auswertung.aux'.
@@ -3823,11 +3785,8 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[51
+[52
 
-
-
-] [52
 
 
 ]
@@ -3840,15 +3799,15 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.23 
-      [1] (Arbeit.aux (config/Konfiguration.aux) (Deckblatt.aux)
+      [1
+
+
+] (Arbeit.aux (config/Konfiguration.aux) (Deckblatt.aux)
 (Eigenstaendigkeitserklaerung.aux) (Aufgabenstellung.aux)
 (Formelzeichenkonvention.aux) (Einleitung.aux) (Grundlagen.aux) (Auswertung.aux
 ))
 
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `Arbeit.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -3860,13 +3819,13 @@ Package rerunfilecheck Info: File `Arbeit.out' has not changed.
 (\end occurred when \iftrue on line 8 was incomplete)
 (\end occurred when \ifnum on line 8 was incomplete) 
 Here is how much of TeX's memory you used:
- 45503 strings out of 479334
- 1046040 string characters out of 2853285
- 1607462 words of memory out of 3000000
- 61805 multiletter control sequences out of 15000+200000
+ 44671 strings out of 479334
+ 1033709 string characters out of 2853285
+ 1576987 words of memory out of 3000000
+ 61007 multiletter control sequences out of 15000+200000
  480529 words of font info for 132 fonts, out of 3000000 for 9000
  1146 hyphenation exceptions out of 8191
- 111i,20n,122p,10657b,929s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 111i,20n,122p,10657b,807s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Administrator/App
 Data/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Administrator/
 AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Use
@@ -3882,9 +3841,9 @@ urw/helvetic/uhvb8a.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX/f
 onts/type1/urw/symbol/usyr.pfb><C:/Users/Administrator/AppData/Local/Programs/M
 iKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Administrator/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Arbeit.pdf (63 pages, 2685964 bytes).
+Output written on Arbeit.pdf (63 pages, 2830546 bytes).
 PDF statistics:
- 1310 PDF objects out of 1440 (max. 8388607)
- 167 named destinations out of 1000 (max. 500000)
- 716 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1367 PDF objects out of 1440 (max. 8388607)
+ 169 named destinations out of 1000 (max. 500000)
+ 724 words of extra memory for PDF output out of 10000 (max. 10000000)
 

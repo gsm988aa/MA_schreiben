@@ -93,14 +93,14 @@ Its module structure is shown in the Figure~\ref{fig:2.6} below:
 	\caption{Physical model of W5500} 
 	\label{fig:2.6}
 \end{figure}
-W5500 supports 8 sockets at the same time to facilitate communication with different IPs and devices; in order to reduce system energy. W5500 provides Wake-on-LAN mode (WOL) and power-down mode for customers to choose to use; W5500 is non-aggressive. The hardware network engine can prevent similar torrent, fraud and injection network attacks and improve network security.
+W5500 supports 8 sockets at the same time to facilitate communication with different IPs and devices. in order to reduce system energy. W5500 provides Wake-on-LAN mode (WOL) and power-down mode for customers to choose to use. W5500 is non-aggressive. The hardware network engine can prevent similar torrent, fraud and injection network attacks and improve network security.
 
 \subsection{Ethernet access}
 \label{sec:Ethernet access}
 % 2.2.2
-For non-operating system, how does the single-chip microcomputer required by the system realize network access? I will categorize these schemes according to the different TCP/IP protocol stacks below.
+For non-operating system, the single-chip microcomputer required by the system to realize network access. This thesis will categorize these schemes according to the different TCP/IP protocol stacks below.
 \\
-It is divided into two categories: the first category is the traditional software TCP/IP protocol stack solution; the second category is the latest hardware TCP/IP
+It is divided into two categories: the first category is the traditional software TCP/IP protocol stack solution. the second category is the latest hardware TCP/IP
 Protocol stack scheme. Below I will analyze the implementation of these two types of solutions: 
 \\
 1) MAC+PHY solutions:
@@ -153,9 +153,9 @@ Rules, which control the way in which letters are transferred. The actual proces
 \end{figure}
 \FloatBarrier
 
-An important feature of it is that it can relay mail during transmission, that is, mail can be relayed through hosts on different networks. Usually it works in two situations: one is the transmission of mail from the client to the server; the other is the transmission from one server to another server. SMTP is a request/response protocol, it monitors port 25, is used to receive the user's Mail request, and establish an SMTP connection with the remote Mail server.
+An important feature of it is that it can relay mail during transmission, that is, mail can be relayed through hosts on different networks. Usually it works in two situations: one is the transmission of mail from the client to the server. the other is the transmission from one server to another server. SMTP is a request/response protocol, it monitors port 25, is used to receive the user's Mail request, and establish an SMTP connection with the remote Mail server.
 \\
-SMTP usually has two working modes. Send SMTP and receive SMTP. The specific working method is: Send SMTP after receiving the user's mail request, determine whether the mail is a local mail, if it is directly delivered to the user's mailbox, otherwise query the MX record of the remote mail server to the DNS, and establish a connection with the remote A two-way transmission channel between receiving SMTP, after which SMTP commands are issued by the sending SMTP, received by the receiving SMTP, and the response is transmitted in the opposite direction. Once the transmission channel is established, the SMTP sender sends a MAIL command to indicate the sender of the mail. If the SMTP receiver can receive the mail, an OK response is returned. The SMTP sender then issues the RCPT command to confirm whether the mail has been received. If the SMTP receiver receives it, it will return an OK response; if it cannot receive it, it will send a rejection response (but not stop the entire mail operation), and both parties will repeat this many times. When the receiver receives all the mails, it will receive a special sequence. If the receiver successfully processes the mail, it will return an OK response.
+SMTP usually has two working modes. Send SMTP and receive SMTP. The specific working method is: Send SMTP after receiving the user's mail request, determine whether the mail is a local mail, if it is directly delivered to the user's mailbox, otherwise query the MX record of the remote mail server to the DNS, and establish a connection with the remote A two-way transmission channel between receiving SMTP, after which SMTP commands are issued by the sending SMTP, received by the receiving SMTP, and the response is transmitted in the opposite direction. Once the transmission channel is established, the SMTP sender sends a MAIL command to indicate the sender of the mail. If the SMTP receiver can receive the mail, an OK response is returned. The SMTP sender then issues the RCPT command to confirm whether the mail has been received. If the SMTP receiver receives it, it will return an OK response. if it cannot receive it, it will send a rejection response (but not stop the entire mail operation), and both parties will repeat this many times. When the receiver receives all the mails, it will receive a special sequence. If the receiver successfully processes the mail, it will return an OK response.
 \\
 
 
@@ -170,7 +170,7 @@ Compared with TCP, UDP does not return a response signal for each received frame
 % ~\ref{fig:2.11} 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[scale=0.7]{grafiken/2.11.eps}
+	\includegraphics[scale=0.7]{grafiken/2.11.pdf}
 	\caption{Comparison of TCP and UDP} 
 	\label{fig:2.11}
 \end{figure}
@@ -207,7 +207,7 @@ The figure~\ref{fig:2.12}  below is a standard SPI transmission process:
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=15cm]{grafiken/2.12.pdf}
-	\caption{standard SPI transmission process} 
+	\caption{Standard SPI transmission process} 
 	\label{fig:2.12}
 \end{figure}
 \FloatBarrier
@@ -216,19 +216,25 @@ The figure~\ref{fig:2.12}  below is a standard SPI transmission process:
 \label{sec:DMA}
 % 2.6
 The basic definition of DMA: 
-DMA has the full name of Direct Memory Access 
+\\
+DMA has the full name of Direct Memory Access. 
 DMA transmission copies data from one address space to another address space, so as to realize high-speed data transmission between peripherals and memories or between memories. When CPU initializes such a transmission action, the transmission action is realized and completed through the DMA controller. The DMA transmission mode is dispense with CPU to realize direct control transmission or differing from the interrupt processing mode, it will reserve the site and recover the site process. Through RAM and IO devices, a channel of direct transmission data can be opened to improve CPU efficiency strongly. 
-
+\\
 Main features of DMA:
-Each channel is directly connected with the exclusive hardware DMA request. Each channel also supports software touch. Such functions can be configured through software; 
-On the same DMA module, the priority between multiple requests can be established through software programming (with a total of four levels: very high, high, medium, and low). When the priority setting is equal, it depends on hardware (request 0 precedes over request 1, and the rest may be deduced by analogy); 
-For the transmission width of independent data sources and target data areas (byte, half-word, and full-word), byte control is used in this design to simulate the process of packing and unpacking. The source and target address must be aligned according to the data transmission width; 
-The buffer management can support circulation; 
-Each channel has three event flags (DMA semi-transmission, DMA transmission completion, and DMA transmission error). The logic of three event flags may become an individual interrupt request; 
-Transmission between memories, transmission between peripherals and memories, and transmission between memories and peripherals; 
-Flash memory, SRAM, SRAM of peripherals, APB1, APB2, and AHB peripherals can be used as sources and targets for access; 
+\\
+Each channel is directly connected with the exclusive hardware DMA request. Each channel also supports software touch. Such functions can be configured through software. 
+On the same DMA module, the priority between multiple requests can be established through software programming (with a total of four levels: very high, high, medium, and low). When the priority setting is equal, it depends on hardware (request 0 precedes over request 1, and the rest may be deduced by analogy). 
+\\
+For the transmission width of independent data sources and target data areas (byte, half-word, and full-word), byte control is used in this design to simulate the process of packing and unpacking. The source and target address must be aligned according to the data transmission width. 
+The buffer management can support circulation. 
+Each channel has three event flags (DMA semi-transmission, DMA transmission completion, and DMA transmission error). The logic of three event flags may become an individual interrupt request. 
+\\
+Transmission between memories, transmission between peripherals and memories, and transmission between memories and peripherals. 
+Flash memory, SRAM, SRAM of peripherals, APB1, APB2, and AHB peripherals can be used as sources and targets for access. 
 The maximum number of programmable data transmission is 65535. 
+\\
 STM32F429 series chip DMA controller 
+\\
 STM32F429 series chip at most has two DMA controller. DMA1 and DMA2 respectively includes 8 channels. Each channel specializes in managing the request of one or multiple peripheral for memory access. It also has the priority of coordinating each DMA request through arbitration. 
 
 For the requests generated from peripherals (TIM, ADC, SPI1, SPI/I2S2, I2C and USART), it is inputted to DMA1/DMA2 controller through logic, implying that only one request is valid at the same time. 
@@ -328,7 +334,7 @@ The Figure~\ref{fig:3.1} below shows the basic structure of a measurement system
 \label{sec:IC for IGBT control circuit}
 % 3.2
 LM393 voltage comparator is used to control IGBT 
-LM393 is a common voltage comparator chip in our daily life. It has two independent operational amplifiers. The power supply is provided by wide voltage and undercurrent. Low input controls the current. Generally speaking, the actuation time only has 1.3 microseconds. When the in-phase input voltage is greater than the inverted input voltage, output voltage belongs to the high level. When the in-phase input voltage is less than the inverted input voltage, output voltage belongs to the low level. 
+LM393 is a common voltage comparator chip in our daily life. It has two independent operational amplifiers. The power supply is completed by wide voltage and undercurrent. Low input controls the current. Generally speaking, the actuation time only is 1.3 microseconds. When the positive input voltage is greater than the inverted input voltage, output voltage is high level. When the positive input voltage is less than the inverted input voltage, output voltage is the low level. 
 
 The following Figure~\ref{fig:3.2} is a common application circuit of LM393.
 
@@ -344,17 +350,17 @@ The following Figure~\ref{fig:3.2} is a common application circuit of LM393.
 \label{sec:Simulation circuit}
 
 % 3.3
-In order to design the measurement system correctly, this article uses matlab's simlink to simulate and analyze the results.
+In order to design the measurement system correctly, in this thesis MATLAB Simulink is used to simulate and analyze the results.
 The basic constitution of the measuring circuit is shown in Figure~\ref{fig:3.3}:
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=17cm]{grafiken/3.3.pdf}
-	\caption{basic constitution of the measuring circuit} 
+	\caption{Basic constitution of the measuring circuit} 
 	\label{fig:3.3}
 \end{figure}
 \FloatBarrier
 \\
-Among them, $R_{1}$ and $R_{2}$ are voltage divider circuits to ensure that the voltage across $R_{2}$ exceeds 3.3V under normal conditions. At this time, the voltage across R2 is greater than Non-inverting input of LM393(3.3V), which can ensure that the output of the LM393 output is greater than or equal to a high level of 15V, forming a self-locking circuit. For long-term measurement, it is not necessary to apply external voltage to pushbutton S1.
+Among them, $R_{1}$ and $R_{2}$ are voltage divider circuits to ensure that the voltage across $R_{2}$ exceeds a little greater than 3.3V under normal conditions. At this time, the voltage across $R_{2}$ is greater than Non-inverting input of LM393(3.3V), which can ensure that the output of the LM393 output is greater than or equal to a high level of 15V, forming a self-locking circuit. For long-term measurement, it is not necessary to apply external voltage to pushbutton S1.
 \\
 In order to turn on the igbt for measurement, the pushbutton S1 need to be press 
 at the beginning, since the circuit is self-locking, the gate voltage of the IGBT is always 15V, if the status of DUTs are normal. The measurement
@@ -365,7 +371,7 @@ status changes are shown in the following Table~\ref{tab:3.1}:
 \toprule
 \rowcolor[HTML]{EFEFEF} 
 Status                      & V+ & V-(as Vref) & Vout & IGBT     & ADC  & ADC Value \\ \midrule
-DUT normal                  & 0V & >3.3V       & 15V  & turn on  & 0V   & 0         \\ \midrule
+DUT normal                  & >3.3V & 3.3V       & 15V  & turn on  & 0V   & 0         \\ \midrule
 DUT affected by cosmic rays & 0V & 3.3V        & 0V   & turn off & 3.3V & 4095      \\ \bottomrule
 \end{tabular}
 	\caption{Measuring system status and voltage changes}
@@ -406,18 +412,19 @@ In order to measure multiple voltage signals and temperature signals at the same
 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=15cm]{grafiken/4.1.eps}
+	\includegraphics[width=16cm]{grafiken/4.1.eps}
 	\caption{Measurement hardware circuit overview} 
 	\label{fig:4.1}
 \end{figure}
 \FloatBarrier
 As shown in the Figure~\ref{fig:4.1} above, two different microcontrollers are used to collect and transmit signals respectively. At the same time, the microcontroller on the motherboard also needs to collect temperature signals and communicate with the Ethernet chip W5500 through the SPI protocol. The collected signal is transferred to the PC.
+\\
 In this circuit, the mature SCM chip STM32F429ZG of ST Company is used as the Ethernet-host connection chip. Since STM32F429 has more than 6-line SPI channels, it can be used as the chip to link with various chips. Since each STM32F303ZET6 has more than 40-channel ADC with the high cost performance, STM32F303ZET6 is used as the voltage signal chip for acquisition. 
 The specific circuit diagram is shown below: 
 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=15cm]{grafiken/4.2.pdf}
+	\includegraphics[width=16cm]{grafiken/4.2.pdf}
 	\caption{Masterboard and Slaveboard hardware circuit overview} 
 	\label{fig:4.2}
 \end{figure}
@@ -438,7 +445,7 @@ table~\ref{tab:4.1} shows the independent ADC distribution of each stm32F303:
 \begin{tabular}{@{}lllll@{}}
 \toprule
 \rowcolor[HTML]{EFEFEF} 
-Quantity & PINs & ADC1 channelnumber & PINs & ADC2 channelnumber \\ \midrule
+\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}Quantity} & \multicolumn{1}{l|}{\cellcolor[HTML]{EFEFEF}PINs} & \multicolumn{1}{l|}{\cellcolor[HTML]{EFEFEF}ADC1 channelnumber} & \multicolumn{1}{l|}{\cellcolor[HTML]{EFEFEF}PINs} & \multicolumn{1}{l|}{\cellcolor[HTML]{EFEFEF}ADC2 channelnumber} \\ \hline
 \multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}1} & \multicolumn{1}{l|}{PA0} & \multicolumn{1}{l|}{ADC1 IN1} & \multicolumn{1}{l|}{PA4} & \multicolumn{1}{l|}{ADC2 IN1} \\ \midrule
 \multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}2} & \multicolumn{1}{l|}{PA1} & \multicolumn{1}{l|}{ADC1 IN2} & \multicolumn{1}{l|}{PA5} & \multicolumn{1}{l|}{ADC2 IN2} \\ \midrule
 \multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}3} & \multicolumn{1}{l|}{PA2} & \multicolumn{1}{l|}{ADC1 IN3} & \multicolumn{1}{l|}{PA6} & \multicolumn{1}{l|}{ADC2 IN3} \\ \midrule
@@ -475,7 +482,7 @@ Quantity & PINs & ADC1 channelnumber & PINs & ADC2 channelnumber \\ \midrule
 \multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}14} & \multicolumn{1}{l|}{PE12} & \multicolumn{1}{l|}{ADC3 IN16} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \midrule
 \multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}15} & \multicolumn{1}{l|}{PE13} & \multicolumn{1}{l|}{ADC3 IN3} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \midrule
 \rowcolor[HTML]{EFEFEF} 
-Summe &  & 15 &  & 7 \\ \bottomrule
+\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}Summe} & \multicolumn{1}{l|}{\cellcolor[HTML]{EFEFEF}} & \multicolumn{1}{l|}{\cellcolor[HTML]{EFEFEF}15} & \multicolumn{1}{l|}{\cellcolor[HTML]{EFEFEF}} & \multicolumn{1}{l|}{\cellcolor[HTML]{EFEFEF}7} \\ \bottomrule
  
 \end{tabular}
 	\caption{List of ADC channels used}
@@ -489,7 +496,7 @@ To measure 1000 DUT components, at least 1000 lines of ADC should be used. To en
 % Figure~\ref{fig:4.3}
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=15cm]{grafiken/4.3.pdf}
+	\includegraphics[width=16cm]{grafiken/4.3.pdf}
 	\caption{ADC Channel selection of Slaveboard in CubeMX IDE} 
 	\label{fig:4.3}
 \end{figure}
@@ -510,7 +517,7 @@ P_{Masterboard} = \sum \left \lceil n_{component}*P_{component}\right \rceil
 \end{equation}
 \end{center}
 \\
-Since each DCDC converter chip TWR6 can provide 6W switching power supply(which provides 350W), each masterboard only needs a DCDC convertor. 
+Since each DC DC converter chip TWR6 can provide 6W switching power supply(which provides 350W), each masterboard only needs a DC DC converter. 
 Then calculate the slaveboard’s maximum demanded power, thus: 
 \begin{center} 
 \begin{equation}
@@ -518,7 +525,7 @@ P_{Slaveboard} = \sum \left \lceil n_{component}*P_{component}\right \rceil=5* \
 \end{equation}
 \end{center}
 %speed
-In other words, the slaveboard only needs a DCDC converter.
+In other words, the slaveboard only needs a DC DC converter.
 % We calculate the main control mainboard’s maximum demanded power by ourselves, thus: 
 
 \chapter{Detailed presentation of the measuring system}
@@ -551,7 +558,7 @@ method between it and the microcontroller is shown in the Figure below:
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=15cm]{grafiken/5.1.pdf}
-	\caption{ADC Channel selection of Slaveboard in CubeMX IDE} 
+	\caption{Supplying the parasite-powered ds18b20 during temperature conversions} 
 	\label{fig:5.1}
 \end{figure}
 \FloatBarrier
@@ -585,8 +592,10 @@ Since the length and width of each circuit board are 150mm and 100mm, so the neu
 \subsection{Control shielding wire}
 \label{sec:Control shielding wire}
 % 5.1.3
-In order to have good electrical conductivity and prevent electromagnetic interference, this article compares several widely used CY cables, SY cables, YY cables and LiYCY and LiYY cables. These cables are designed for various industrial process automation applications, including signal transmission, measurement, Control and regulation. These control cables are usually referred to by applications, such as machine power cables, motor cables and robot cables. They are also called multi-core cables, control flexible cables and control flexible cables.
+In order to have good electrical conductivity and prevent electromagnetic interference, this article compares several widely used CY cables, SY cables, YY cables and LiYCY and LiYY cables. These cables are designed for various industrial process automation applications, including signal transmission, measurement, Control and regulation. These control cables are usually referred to by applications, such as machine power cables, motor cables and robot cables. They are also called multi-core cables, control flex and control flexible cables.
+\\
 According to their structural characteristics, these flexible cables can be suitable for use under light, medium or high mechanical stress. They also provide various degrees of protection against electrical interference and resistance to corrosive substances and oils.
+\\
 There are two kinds of cables that are very suitable for connecting the network(LiYCY cable) and the communication between the master board and the slave board(CY cable).
 \\
 CY cable (YSLCY / HSLCH) : Multicore screened flexible cable with Polyethylene Terephthalate (PETP) for electromagnetic interference free-transmission
@@ -609,8 +618,8 @@ The Figure~\ref{fig:5.4} below shows LiYCY and HSLCH from left to right. These t
 % 5.2
 The software part mainly focuses on the design of acquisition speed, arithmetic average filter, debugger, front-end and back-end.
 
-\subsection{Measurespeed}
-\label{sec:Measurespeed}
+\subsection{Speed of measurement}
+\label{sec:Speed of measurement}
 % 5.2.1
 In order to improve reliability and signal-to-noise ratio, this article needs to explore the upper limit of the acquisition speed to ensure that all data can be correctly sent to the PC.
 First of all, we have to determine the sampling speed of the temperature sensor. Each cycle of the temperature sensor is divided into two phases: read and write, as shown in the following Figure~\ref{fig:5.5}:
@@ -622,33 +631,40 @@ First of all, we have to determine the sampling speed of the temperature sensor.
 \end{figure}
 \FloatBarrier
 
-The host writes data in DS18B20 as writing the time slot, including “0” time slot and “1” time slot. The bus host uses “1” time slot to write logic in DS18B20 and to write logic 0 in DS18B20 as writing “0” time slot. All writing time slots at least must have 60μs duration. Two adjacent writing time slots at least must have 1μs recovery time. Two writing time slots can be generated by lowering the bus through the host (see the picture below), for the sake of generating “1” time slot. 
-After lowering the bus, the host must release the bus within 15μs. After releasing the bus, the pull-up resistor can recover the bus to the high level. To generate “0” time slot, after lowering the bus, the host must continue lowering the bus to satisfy the requirement of the time slot’s duration (at least 60μs). 
-After the host generates the writing time slots, DS18B20 will sample the single bus(DQ) within a time quantum of 15-60μs. Within the time window of sampling, if the bus belongs to the high level, the host will write 1 in DS18B20; if the bus belongs to the low level, the host will write 0 in DS18B20. 
+The host writes data in DS18B20 as writing the time slot, including “0” time slot and “1” time slot. The bus host uses “1” time slot to write logic in DS18B20 and to write logic 0 in DS18B20 as writing “0” time slot. All writing time slots at least must have 60\mu s duration. Two adjacent writing time slots at least must have 1\mu s recovery time. Two writing time slots can be generated by lowering the bus through the host (see the picture below), for the sake of generating “1” time slot. 
+After lowering the bus, the host must release the bus within 15\mu s. After releasing the bus, the pull-up resistor can recover the bus to the high level. To generate “0” time slot, after lowering the bus, the host must continue lowering the bus to satisfy the requirement of the time slot’s duration (at least 60\mu s). 
+After the host generates the writing time slots, DS18B20 will sample the single bus(DQ) within a time quantum of 15-60\mu s. Within the time window of sampling, if the bus belongs to the high level, the host will write 1 in DS18B20. if the bus belongs to the low level, the host will write 0 in DS18B20. 
 \\
-To sum up, all writing time slots at least must have 60μs of duration. Two adjacent time slots at least must have 1μs of recovery time. All writing time slots(0 and 1) are generated by lowering the bus. 
+To sum up, all writing time slots at least must have 60\mu s of duration. Two adjacent time slots at least must have 1\mu s of recovery time. All writing time slots(0 and 1) are generated by lowering the bus. 
 When the host launches to read the time sequences, DS18B20 is only used to transmit data to the controller, thus the bus controller will issue the order of reading the transient memory [0xBe] or the order of reading the power mode [0xB4] and then it immediately starts reading time sequences. DS18B20 can provide the request information. Besides, the bus controller will read the time sequences after issuing the order of sending temperature conversion[0x44](or recalling EEPROM order[0xB8]) before reading time sequences. See details in the functional order in DS18B20 chip manual. 
-All reading time sequences at least must reach 60μs, including two reading periods with at least 1μs recovery time. When the bus controller pulls the USB cable from the high level to the low level, as starting reading time sequences, USB cables at least must remain 1μs and then the bus is released. DS18B20 pulls up or pulls down the bus to transmit “1” or “0”. When the transmission logic “0” comes to an end, the bus will be released. When the pull-up resistor returns to the rising edge state, data from DS18B20 will be valid within 15μs after the falling edge of reading time sequences occurs. Thus, as starting reading time sequences, the bus controller must stop I/O drive into the low voltage 15μs to read I/O state. 
+All reading time sequences at least must reach 60\mu s, including two reading periods with at least 1\mu s recovery time. When the bus controller pulls the USB cable from the high level to the low level, as starting reading time sequences, USB cables at least must remain 1\mu s and then the bus is released. DS18B20 pulls up or pulls down the bus to transmit “1” or “0”. When the transmission logic “0” comes to an end, the bus will be released. When the pull-up resistor returns to the rising edge state, data from DS18B20 will be valid within 15\mu s after the falling edge of reading time sequences occurs. Thus, as starting reading time sequences, the bus controller must stop I/O drive into the low voltage 15\mu s to read I/O state. 
 \\
 
-According to the chip's specification, the slave board's SPI has only the fastest sending speed of 4MB/s, and at the same time, four slave boards need to send data to the master board. It takes at least 1.5 cycles for each ADC to collect the voltage signal, and the maximum can be set It takes 601.5 cycles. According to the manual, the conversion time is 
+According to the chip's specification, the slave board's SPI has only the fastest sending speed of 4MB/s, and at the same time, four slave boards need to send data to the master board. It takes at least 1.5 cycles for each ADC to collect the voltage signal, and the maximum can be set it takes 601.5 cycles. According to the manual, the conversion clock period is 
  
 \\
 \begin{center} 
 \begin{equation}
-max(T_{Convert}) =max(T_{Sample})+T_{Signel-convert} =601.5cyc+12.5cyc=614cyc
+max(C_{Convert}) =max(C_{Sample})+C_{Signel-convert} =601.5cyc+12.5cyc=614cyc
 \end{equation}
 \end{center}
 \\
 \begin{center} 
 \begin{equation}
-min(T_{Convert})=min(T_{Sample})+T_{Signel-convert} =1.5cyc+12.5cyc=14cyc
+min(C_{Convert})=min(C_{Sample})+C_{Signel-convert} =1.5cyc+12.5cyc=14cyc
 \end{equation}
 \end{center}
 
+When the chip's main frequency is set to 14MHz, the minimum time required at this time is
+\\
+\begin{center} 
+\begin{equation}
+min(T_{Convert})=  \frac{min(C_{Sample})+C_{Signel-convert}}{f_{MircoController}} = 14/14MHz = 1\mu s
+\end{equation}
+\end{center}
  
 Since the host main board accepts the data sent by 5 slave main boards at the same time, in order to prevent congestion, his SPI receiving speed is set to 8MB/s,
-Therefore, the sending speed of each slave main board must be reduced to a sending speed of 8/5=1.6MB/s to ensure that the host main board can receive all data from the slave main board.
+Therefore, the sending speed of each slave main board must be reduced to a sending speed of 8/5 = 1.6MB/s to ensure that the host main board can receive all data from the slave main board.
 \\
 The Figure below shows the data collection speed and data flow.
 \begin{figure}[!ht]
@@ -680,14 +696,14 @@ In order to meet the needs of the Internet of Things, the software part is struc
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=16cm]{grafiken/5.7.pdf}
-	\caption{Structure of LoT-software} 
+	\caption{Structure of IoT-software} 
 	\label{fig:5.7}
 \end{figure}
 \FloatBarrier
 
 
 
-For researchers, this article mainly uses the open source project ScriptCommunicator as a debugger. At the same time, because ScriptCommunicator does not have a continuous debugging function, a script was written in QT and C++ for continuous debugging.
+For researchers, this article mainly uses the open source project ScriptCommunicator as a debugger. At the same time, because ScriptCommunicator does not have a continuous UDP-request debugging function, a script was written in QT and C++ for UDP-request debugging.
 The following Figure~\ref{fig:5.8} is the interface of the debugger:
 
 \begin{figure}[!ht]
@@ -698,10 +714,11 @@ The following Figure~\ref{fig:5.8} is the interface of the debugger:
 \end{figure}
 \FloatBarrier
 \\
-Front end and back end:
-Since Ubuntu is used as the operating system, shell scripts and netcat tools can be used to collect data from UDP and synchronize to the MySQL database. At the same time, use Springboot to build the backend, namely JavaWeb, and use MybatisPlus to construct instances and interfaces, and add a key"creat time" of the attribute data.
+Back end and frontend:
+\\
+Since Ubuntu is used as the operating system, shell scripts and netcat tools can be used to collect data from UDP and synchronize to the MySQL database. At the same time, use Springboot to build the backend, namely JavaWeb, use MybatisPlus to construct instances and interfaces, and add a key create-time as attribute data.
 
-
+\\
 The GUI(Graphical user interface) that separates the front and back ends specifically refers to the browser (or client) side. One of the most misunderstood concepts for novice server-
 side Java users is that JSP is a front-end technology. JSP needs to know the full name: Java Server Page. It runs in the servlet container on the server-side JVM, but the result of runningis HTML that is responsive to the browser. Servlet, the first from Java EE, already had ASPat this point (also knows the meaning of Active Server Page). Due to the need to put a lot of HTML code in servlet, the Java specification learned ASP and suggested JSP. Servlet is Java code mixed with HTML, JSP is HTML code mixed with Java. The browser doesn’t care if the server is JSP, ASP, PHP or the original servlet or HTML on the static server as long as it returns valid HTML code. So take out the static HTML part of the JSP, convert it to a simple
 HTML file and put it on the HTTP server. The browser just needs to fetch the HTML code. The dynamic data part is fetched by AJAX from the server side using JS in HTML and then the dom is operated dynamically to complete the display of the dynamic content. In this way, the leading and trailing ends are separated.
@@ -788,11 +805,11 @@ Each board has a boot circuit, the Figure~\ref{fig:6.6} is as shown below:
 \FloatBarrier
 \\
 
-Each board has a DCDC-Convertor modul, the Figure~\ref{fig:6.7} is as shown below:
+Each board has a DC DC converter modul, the Figure~\ref{fig:6.7} is as shown below:
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=16cm]{grafiken/dcdc.eps}
-	\caption{DCDC-Convertor} 
+	\caption{DC DC converter} 
 	\label{fig:6.7}
 \end{figure}
 \FloatBarrier
@@ -834,7 +851,7 @@ Through the schematic diagram, the package of the schematic diagram can be set a
 This article produces multi-layer PCB board to ensure signal quality and electromagnetic compatibility. Generally speaking, three kinds of multi-layer board layout modes are illustrated below Figure~\ref{fig:6.10}:
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=16cm]{grafiken/6.10.pdf}
+	\includegraphics[width=16cm]{grafiken/6.10.eps}
 	\caption{Three common layering methods} 
 	\label{fig:6.10}
 \end{figure}
@@ -843,17 +860,22 @@ This article produces multi-layer PCB board to ensure signal quality and electro
 
 
 Designers need to consider the following four rules according to their needs：
+\\
 Rule 1: The welding area of the component surface is a complete base plate (Plan A / B / C are OK)
+\\
 Rule 2: No neighboring parallel wiring layers as far as possible (Plan A is not OK)
+\\
 Rule 3: All signal layers are as close as possible to the ground plane (Plan B = Plan C)
+\\
 Rule 4: The key signal is next to the floor and does not cross the partition (Plan B is not OK)
+\\
 In our measurement, Plan C is best. It’s also because the amount of signals we transmit is large and it takes a long time to use.
 The Figure~\ref{fig:6.11} below is the third plan to expand the Layer Stack method of eight-layer PCB:
 
 % fig6.11
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=16cm]{grafiken/6.11.pdf}
+	\includegraphics[width=10cm]{grafiken/6.11.pdf}
 	\caption{Selected layering method} 
 	\label{fig:6.11}
 \end{figure}
@@ -864,17 +886,18 @@ The Figure~\ref{fig:6.11} below is the third plan to expand the Layer Stack meth
 \label{sec:PCB Rules}
 % 6.2.1
 The designer needs to consider two rules below. 
+\\
 Rule1: 20H
-When the pcb board has many layers, the power layer and the ground layer will generate electromagnetic waves as shown in the figure below, we can reduce the area of the power layer to reduce the radiated electromagnetic waves.
-Edge effect: RF (Radio Freq) wave interference
-100H: Reduce 98$\%$ of the external radiation and interference on yourself
-20H: Reduce 90$\%$ of the external radiation and interference on yourself
+\\
+When the pcb board has many layers, the power layer and the ground layer will generate electromagnetic waves as shown in the figure below. In this case, rule 20H is used. H refers to the thickness of the medium between the power supply layer and the ground layer, which shrinks the edge of the power supply layer by 20H, so that most of the interference is only conducted in the ground layer. The unit is H (the thickness of the medium between the power supply and the ground). Shrinking 20H can limit 70$\%$ of the electric field within the grounding edge. shrinking 100H can limit 98$\%$ of the electric field.
+ 
+\\
 The following Figure~\ref{fig:6.13} is the 20H rule:
-~\ref{fig:6.12}
+ 
 % fig6.12
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=16cm]{grafiken/6.12.pdf}
+	\includegraphics[width=15cm]{grafiken/6.12.pdf}
 	\caption{Rule:20H} 
 	\label{fig:6.12}
 \end{figure}
@@ -882,7 +905,8 @@ The following Figure~\ref{fig:6.13} is the 20H rule:
 \\
 
 Rule2: 3M
-If the distance between the two signal lines is too small, crosstalk will occur, and it is difficult to ensure a high signal-to-noise ratio, so this article introduces design rules: 3M (3mil)
+\\
+If the distance between the two signal lines is too small, crosstalk will occur, and it is difficult to ensure a high signal-to-noise ratio, so this thesis introduces design rules: 3M (3mil). In the actual design process, the minimum signal trace width is 10mil.
 % fig6.13
 The following Figure~\ref{fig:6.13} is the 3M rule:
 
@@ -895,14 +919,18 @@ The following Figure~\ref{fig:6.13} is the 3M rule:
 \FloatBarrier
 \\
 
-
-The following pictures are the PCB document of the masterboard Figure~\ref{fig:6.14} Figuren~\ref{fig:6.15} and the PCB document of the slaveboard Figure~\ref{fig:6.16} Figure~\ref{fig:6.17}.
+\subsection{PCB Document layout}
+\label{sec:PCB Document layout}
+% 6.2.3
+In order to better electromagnetic compatibility and maintain a high signal-to-noise ratio during signal propagation, this thesis uses the principle of proximity to layout the PCB.
+\\
+The following pictures are the PCB document of the masterboard Figure~\ref{fig:6.14}(front view) Figure~\ref{fig:6.15}(back view), and the PCB document of the slaveboard Figure~\ref{fig:6.16}(front view) Figure~\ref{fig:6.17}(back view).
 
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=16cm]{grafiken/6.14.pdf}
 	\caption{Masterboard PCB document front view} 
-	\label{fig:6.13}
+	\label{fig:6.14}
 \end{figure}
 \FloatBarrier
 \\
