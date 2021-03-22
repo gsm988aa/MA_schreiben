@@ -8,17 +8,15 @@
 % A.1
 \textbf{Arithmetic Average Filter in Slaveboard ADC channel1-channel11}\\
 for(i = 0,ad1 =0,ad2=0,ad3=0,ad4=0,ad5 =0,ad6=0,\\ad7=0,ad8=0,ad9 =0,ad10=0,ad11=0; i < 110;)
-\\
 \\{
-\\ad1 += ADC1_Value[i++];ad2 += ADC_Value[i++];ad3 += ADC_Value[i++];
-\\ad4 += ADC_Value[i++];ad5 += ADC_Value[i++];ad6 += ADC_Value[i++];
-\\ad7 += ADC_Value[i++];ad8 += ADC_Value[i++];ad9 += ADC_Value[i++];
-\\ad10 += ADC_Value[i++];ad11 += ADC_Value[i++];} 
+\\ad1 += ADC1$_$Value[i++];ad2 += ADC$_$Value[i++];ad3 += ADC$_$Value[i++];
+\\ad4 += ADC$_$Value[i++];ad5 += ADC$_$Value[i++];ad6 += ADC$_$Value[i++];
+\\ad7 += ADC$_$Value[i++];ad8 += ADC$_$Value[i++];ad9 += ADC$_$Value[i++];
+\\ad10 += ADC$_$Value[i++];ad11 += ADC$_$Value[i++];} 
 \\ad1 /= 10;ad2 /= 10;ad3 /= 10;
 \\ad4 /= 10;ad5 /= 10;ad6 /= 10;
 \\ad7 /= 10;ad8 /= 10;ad9 /= 10;
 \\ad10 /= 10;ad11 /= 10;
-\\
 \\
 \section{Back end part of the program}
 \label{sec:Back end part of the program}
@@ -36,10 +34,10 @@ for(i = 0,ad1 =0,ad2=0,ad3=0,ad4=0,ad5 =0,ad6=0,\\ad7=0,ad8=0,ad9 =0,ad10=0,ad11
         autoGenerator.setDataSource(dataSourceConfig);
 
       \\  List<TableFill> list = new ArrayList<>();
-      \\  TableFill tableFill1 = new TableFill("create_time",FieldFill.INSERT);
-      \\  TableFill tableFill2 = new TableFill("update_time",FieldFill.INSERT_UPDATE);
-      \\  list.add(tableFill1);
-      \\  list.add(tableFill2);
+      \\  TableFill tableFill1 = new TableFill("create$_$time",FieldFill.INSERT);
+      \\  TableFill tableFill2 = new TableFill("update$_$time",FieldFill.INSERT$_$UPDATE);
+      \\  list$.$add(tableFill1);
+      \\  list$.$add(tableFill2);
 
       \\  strategyConfig.setTableFillList(list);
       \\  autoGenerator.setStrategy(strategyConfig);

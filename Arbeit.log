@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.4)  22 MAR 2021 16:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.4)  22 MAR 2021 17:01
 entering extended mode
 **C:/Users/Administrator/Desktop/asyn/MA_sch/MA_schreiben/Arbeit.tex
 (C:/Users/Administrator/Desktop/asyn/MA_sch/MA_schreiben/Arbeit.tex
@@ -3913,45 +3913,241 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.13 \\ad1 += ADC1_
-                   Value[i++];ad2 += ADC_Value[i++];ad3 += ADC_Value[i++];
+l.12 \\ad1 += ADC1_
+                   Value[i++];ad2 += ADC$_$Value[i++];ad3 += ADC$_$Value[i++];
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-l.16 ...+= ADC_Value[i++];ad11 += ADC_Value[i++];}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.23 \section
-             {Back end part of the program}
+l.12 \\ad1 += ADC1_Value[i++];ad2 += ADC$_
+                                          $Value[i++];ad3 += ADC$_$Value[i++];
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
+! Missing { inserted.
+<to be read again> 
+                   $
+l.12 \\ad1 += ADC1_Value[i++];ad2 += ADC$_$
+                                           Value[i++];ad3 += ADC$_$Value[i++];
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--23
+! Missing } inserted.
+<inserted text> 
+                }
+l.12 \\ad1 += ADC1_Value[i++];ad2 += ADC$_$
+                                           Value[i++];ad3 += ADC$_$Value[i++];
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing { inserted.
+<to be read again> 
+                   $
+l.12 ...i++];ad2 += ADC$_$Value[i++];ad3 += ADC$_$
+                                                  Value[i++];
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.12 ...i++];ad2 += ADC$_$Value[i++];ad3 += ADC$_$
+                                                  Value[i++];
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing { inserted.
+<to be read again> 
+                   $
+l.13 \\ad4 += ADC$_$
+                    Value[i++];ad5 += ADC$_$Value[i++];ad6 += ADC$_$Value[i++];
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.13 \\ad4 += ADC$_$
+                    Value[i++];ad5 += ADC$_$Value[i++];ad6 += ADC$_$Value[i++];
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing { inserted.
+<to be read again> 
+                   $
+l.13 \\ad4 += ADC$_$Value[i++];ad5 += ADC$_$
+                                            Value[i++];ad6 += ADC$_$Value[i++];
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.13 \\ad4 += ADC$_$Value[i++];ad5 += ADC$_$
+                                            Value[i++];ad6 += ADC$_$Value[i++];
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing { inserted.
+<to be read again> 
+                   $
+l.13 ...i++];ad5 += ADC$_$Value[i++];ad6 += ADC$_$
+                                                  Value[i++];
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.13 ...i++];ad5 += ADC$_$Value[i++];ad6 += ADC$_$
+                                                  Value[i++];
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing { inserted.
+<to be read again> 
+                   $
+l.14 \\ad7 += ADC$_$
+                    Value[i++];ad8 += ADC$_$Value[i++];ad9 += ADC$_$Value[i++];
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.14 \\ad7 += ADC$_$
+                    Value[i++];ad8 += ADC$_$Value[i++];ad9 += ADC$_$Value[i++];
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing { inserted.
+<to be read again> 
+                   $
+l.14 \\ad7 += ADC$_$Value[i++];ad8 += ADC$_$
+                                            Value[i++];ad9 += ADC$_$Value[i++];
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.14 \\ad7 += ADC$_$Value[i++];ad8 += ADC$_$
+                                            Value[i++];ad9 += ADC$_$Value[i++];
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing { inserted.
+<to be read again> 
+                   $
+l.14 ...i++];ad8 += ADC$_$Value[i++];ad9 += ADC$_$
+                                                  Value[i++];
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.14 ...i++];ad8 += ADC$_$Value[i++];ad9 += ADC$_$
+                                                  Value[i++];
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing { inserted.
+<to be read again> 
+                   $
+l.15 \\ad10 += ADC$_$
+                     Value[i++];ad11 += ADC$_$Value[i++];}
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.15 \\ad10 += ADC$_$
+                     Value[i++];ad11 += ADC$_$Value[i++];}
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing { inserted.
+<to be read again> 
+                   $
+l.15 \\ad10 += ADC$_$Value[i++];ad11 += ADC$_$
+                                              Value[i++];}
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.15 \\ad10 += ADC$_$Value[i++];ad11 += ADC$_$
+                                              Value[i++];}
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--21
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--23
+Underfull \hbox (badness 10000) in paragraph at lines 9--21
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--23
-
- []
-
-
-Overfull \hbox (12.85727pt too wide) in paragraph at lines 26--37
+Overfull \hbox (12.85727pt too wide) in paragraph at lines 24--35
 \T1/ptm/m/n/12 dataSourceConfig.setUrl("jdbc:mysql://localhost:3306/gan"); // c
 hoose which Ta-ble in MySQL
  []
@@ -3963,27 +4159,74 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.38       \\  L
+l.36       \\  L
                 ist<TableFill> list = new ArrayList<>();
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.39 ...leFill tableFill1 = new TableFill("create_
+! Missing { inserted.
+<to be read again> 
+                   $
+l.37 ...Fill tableFill1 = new TableFill("create$_$
                                                   time",FieldFill.INSERT);
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
 
-! Missing $ inserted.
+! Missing } inserted.
 <inserted text> 
-                $
-l.43 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+                }
+l.37 ...Fill tableFill1 = new TableFill("create$_$
+                                                  time",FieldFill.INSERT);
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing { inserted.
+<to be read again> 
+                   $
+l.38 ...Fill tableFill2 = new TableFill("update$_$
+                                                  time",FieldFill.INSERT$_$U...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.38 ...Fill tableFill2 = new TableFill("update$_$
+                                                  time",FieldFill.INSERT$_$U...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing { inserted.
+<to be read again> 
+                   $
+l.38 ...leFill("update$_$time",FieldFill.INSERT$_$
+                                                  UPDATE);
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.38 ...leFill("update$_$time",FieldFill.INSERT$_$
+                                                  UPDATE);
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 
 ! LaTeX Error: There's no line here to end.
@@ -3992,7 +4235,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.44       \\  s
+l.42       \\  s
                 trategyConfig.setTableFillList(list);
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4005,7 +4248,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.47       \\  a
+l.45       \\  a
                 utoGenerator.execute();
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4121,10 +4364,9 @@ l.23
 Package rerunfilecheck Info: File `Arbeit.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) ) )
-(\end occurred inside a group at level 2)
+(\end occurred inside a group at level 1)
 
-### semi simple group (level 2) entered at line 19 (\begingroup)
-### simple group (level 1) entered at line 12 ({)
+### semi simple group (level 1) entered at line 19 (\begingroup)
 ### bottom level
 (\end occurred when \iftrue on line 9 was incomplete)
 (\end occurred when \ifnum on line 9 was incomplete) 
@@ -4135,7 +4377,7 @@ Here is how much of TeX's memory you used:
  61046 multiletter control sequences out of 15000+200000
  480529 words of font info for 132 fonts, out of 3000000 for 9000
  1146 hyphenation exceptions out of 8191
- 111i,20n,122p,10657b,943s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 111i,20n,122p,10657b,806s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Administrator/App
 Data/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Administrator/
 AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Use
@@ -4151,7 +4393,7 @@ urw/helvetic/uhvb8a.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX/f
 onts/type1/urw/symbol/usyr.pfb><C:/Users/Administrator/AppData/Local/Programs/M
 iKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Administrator/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Arbeit.pdf (67 pages, 4278595 bytes).
+Output written on Arbeit.pdf (67 pages, 4277767 bytes).
 PDF statistics:
  1450 PDF objects out of 1728 (max. 8388607)
  182 named destinations out of 1000 (max. 500000)
