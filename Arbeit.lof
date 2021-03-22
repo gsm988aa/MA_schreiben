@@ -7,11 +7,11 @@
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Converter according to the weighing method\relax }}{6}{figure.caption.11}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Typical connection diagram using the ADC\relax }}{6}{figure.caption.12}%
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Physical model of W5500\relax }}{7}{figure.caption.13}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces MAC+PHY Ethernet solution\relax }}{8}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces MAC+PHY Ethernet solution\relax }}{7}{figure.caption.14}%
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Hardware protocol stack chip solution\relax }}{8}{figure.caption.15}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Hardware protocol kernel\relax }}{9}{figure.caption.16}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Schematic diagram of the mail sending process\relax }}{10}{figure.caption.17}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Comparison of TCP and UDP\relax }}{11}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Hardware protocol kernel\relax }}{8}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Schematic diagram of the mail sending process\relax }}{9}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Comparison of TCP and UDP\relax }}{10}{figure.caption.18}%
 \contentsline {figure}{\numberline {2.12}{\ignorespaces standard SPI transmission process\relax }}{12}{figure.caption.19}%
 \contentsline {figure}{\numberline {2.13}{\ignorespaces STM32F429xx Multi-AHB matrix\relax }}{13}{figure.caption.20}%
 \contentsline {figure}{\numberline {2.14}{\ignorespaces NAT-Technical\relax }}{14}{figure.caption.21}%
@@ -52,7 +52,7 @@
 \contentsline {figure}{\numberline {6.13}{\ignorespaces Rule:3M\relax }}{46}{figure.caption.54}%
 \contentsline {figure}{\numberline {6.14}{\ignorespaces Masterboard PCB document front view\relax }}{46}{figure.caption.55}%
 \contentsline {figure}{\numberline {6.15}{\ignorespaces Masterboard PCB document back view\relax }}{47}{figure.caption.56}%
-\contentsline {figure}{\numberline {6.16}{\ignorespaces Slaveboard PCB document front view\relax }}{48}{figure.caption.57}%
-\contentsline {figure}{\numberline {6.17}{\ignorespaces Slaveboard PCB document back view\relax }}{49}{figure.caption.58}%
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Slaveboard PCB document front view\relax }}{47}{figure.caption.57}%
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Slaveboard PCB document back view\relax }}{48}{figure.caption.58}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

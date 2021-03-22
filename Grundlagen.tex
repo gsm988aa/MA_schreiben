@@ -1,6 +1,6 @@
 \chapter{Fundamentals}
 \label{chap:Fundamentals}
-This chapter introduces the basic knowledge of the measurement system modules and the basic structure of the corresponding circuit, and introduces several applications related to the Internet, which can handle the measurement results well.The measured current value can be obtained by Ohm's law by measuring the voltage, so this article only collects the voltage value to measure the voltage value and the current value.
+This chapter introduces the basic knowledge of the measurement system modules and the basic structure of the corresponding circuit, and introduces several applications related to the Internet, which can handle the measurement results well.The measured current value can be obtained by Ohm's law by measuring the voltage, so in this thesis, only voltage value is collected.
 \section{ADC}
 \label{sec:ADC}
 % 2.1
@@ -19,7 +19,7 @@ The essence of voltage/current-sensor sensor measuring voltage is a voltage divi
 	\caption{Structure of divider resistor} 
 	\label{fig:2.1}
 \end{figure}
-Here, $\cdot U_{in}$ is the voltage of component under test, $\cdot U_{out}$ is voltage of divider resistor R2, and $\cdot R_{1}$, $\cdot R_{2}$ are divider resistors.
+Here, $U_{in}$ is the voltage of component under test, $U_{out}$ is voltage of divider resistor $R_{2}$ , and $R_{1}$, $R_{2}$ are divider resistors.
 \\
 Therefore, the measured voltage provided to the ADC channel is the following formula:
 \\
@@ -95,8 +95,8 @@ Its module structure is shown in the Figure~\ref{fig:2.6} below:
 \end{figure}
 W5500 supports 8 sockets at the same time to facilitate communication with different IPs and devices; in order to reduce system energy. W5500 provides Wake-on-LAN mode (WOL) and power-down mode for customers to choose to use; W5500 is non-aggressive. The hardware network engine can prevent similar torrent, fraud and injection network attacks and improve network security.
 
-\subsection{solution of ethernet access}
-\label{sec:solution of ethernet access}
+\subsection{Ethernet access}
+\label{sec:Ethernet access}
 % 2.2.2
 For non-operating system, how does the single-chip microcomputer required by the system realize network access? I will categorize these schemes according to the different TCP/IP protocol stacks below.
 \\
@@ -107,7 +107,7 @@ Protocol stack scheme. Below I will analyze the implementation of these two type
 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=15cm] {grafiken/2.7.eps}
+	\includegraphics {grafiken/2.7.eps}
 	\caption{MAC+PHY Ethernet solution} 
 	\label{fig:2.7}
 \end{figure}
@@ -118,7 +118,7 @@ The physical connection of the network realizes communication and upper-layer ap
 2) Hardware protocol stack chip solution: 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=15cm]{grafiken/2.8.eps}
+	\includegraphics {grafiken/2.8.eps}
 	\caption{Hardware protocol stack chip solution} 
 	\label{fig:2.8}
 \end{figure}
@@ -297,7 +297,7 @@ The signal acquisition machine obtains the external network IP as a server throu
 \chapter{Introduction of measurement circuit}
 \label{chap:Introduction of measurement circuit}
 % 3.0
-This article mainly studies the influence of voltage, current, and temperature on gallium nitride to determine the influence of cosmic rays on gallium nitride. At the same time, the voltage signal and current signal of the measured unit are equivalent. Because of Ohm's law, voltage and current are proportional, so in this measurement process, this article mainly measures the change of voltage and temperature. When cosmic rays affect gallium nitride, the source and drain of gallium nitride are turned on and enter triode mode or saturation mode, that is, gallium nitride cannot work normally because of cosmic rays.
+In this research, mainly the influence of cosmic radiation on gallium nitride and the effect of voltage, current and temperature is investigated. At the same time, the voltage signal and current signal of the measured unit are not independent. Because of Ohm's law, voltage and current are proportional, so in this measurement process, mainly the change of voltage and temperature is measured. When cosmic rays affect gallium nitride, the source and drain of gallium nitride are connected and enter triode mode or saturation mode, that is, gallium nitride cannot work normally because of cosmic rays.
 
 In order to ensure the measurement accuracy, we add an ADC in front of the unit under test. If the gallium nitride is affected by cosmic rays, the ADC measurement value will change from high to low to achieve the measurement purpose. 
 \\

@@ -1,21 +1,21 @@
 \babel@toc {ngerman}{}
-\contentsline {chapter}{Abbildungsverzeichnis}{iv}{chapter*.5}%
-\contentsline {chapter}{Tabellenverzeichnis}{v}{chapter*.6}%
+\contentsline {chapter}{List of figures}{iv}{chapter*.5}%
+\contentsline {chapter}{List of tables}{v}{chapter*.6}%
 \contentsline {chapter}{Formelzeichenkonvention}{vi}{chapter*.7}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Importance of measurement}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Introduction to various data measurement methods}{1}{section.1.2}%
-\contentsline {section}{\numberline {1.3}The main content of this paper}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.3}The main content of this thesis}{2}{section.1.3}%
 \contentsline {chapter}{\numberline {2}Fundamentals}{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}ADC}{3}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Introduction of voltage/current-sensor}{3}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}ADC in microcontroller STM32F303ZET}{5}{subsection.2.1.2}%
 \contentsline {section}{\numberline {2.2}Ethernet}{6}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Introduce of W5500}{7}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}solution of ethernet access}{7}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.2}Ethernet access}{7}{subsection.2.2.2}%
 \contentsline {section}{\numberline {2.3}SMTP}{9}{section.2.3}%
 \contentsline {section}{\numberline {2.4}UDP}{10}{section.2.4}%
-\contentsline {section}{\numberline {2.5}SPI}{12}{section.2.5}%
+\contentsline {section}{\numberline {2.5}SPI}{11}{section.2.5}%
 \contentsline {section}{\numberline {2.6}DMA}{12}{section.2.6}%
 \contentsline {section}{\numberline {2.7}Ngrok}{13}{section.2.7}%
 \contentsline {section}{\numberline {2.8}IoT}{14}{section.2.8}%
@@ -41,5 +41,5 @@
 \contentsline {section}{\numberline {6.2}PCB document design}{42}{section.6.2}%
 \contentsline {subsection}{\numberline {6.2.1}Layer Stack design}{42}{subsection.6.2.1}%
 \contentsline {subsection}{\numberline {6.2.2}PCB Rules}{44}{subsection.6.2.2}%
-\contentsline {chapter}{\numberline {7}Introduce measurement with eval boards}{50}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Conlusion}{51}{chapter.8}%
+\contentsline {chapter}{\numberline {7}Introduce measurement with eval boards}{49}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Conlusion}{50}{chapter.8}%
