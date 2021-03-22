@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.4)  22 MAR 2021 17:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.4)  22 MAR 2021 22:21
 entering extended mode
 **C:/Users/Administrator/Desktop/asyn/MA_sch/MA_schreiben/Arbeit.tex
 (C:/Users/Administrator/Desktop/asyn/MA_sch/MA_schreiben/Arbeit.tex
@@ -1714,13 +1714,13 @@ File: pgflibraryfadings.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \@nomenclaturefile=\write4
 \openout4 = `Arbeit.nlo'.
 
-Package nomencl Info: Writing nomenclature file Arbeit.nlo on input line 49.
+Package nomencl Info: Writing nomenclature file Arbeit.nlo on input line 48.
 \@indexfile=\write5
 \openout5 = `Arbeit.idx'.
 
 
 Writing index file Arbeit.idx
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 56
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 55
 .
 
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
@@ -1731,27 +1731,27 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 (Auswertung.aux))
 \openout1 = `Arbeit.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-Package scrbase Info: activating english \contentsname on input line 56.
-Package scrbase Info: activating english \listfigurename on input line 56.
-Package scrbase Info: activating english \listtablename on input line 56.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+Package scrbase Info: activating english \contentsname on input line 55.
+Package scrbase Info: activating english \listfigurename on input line 55.
+Package scrbase Info: activating english \listtablename on input line 55.
 
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\sup
 p-pdf.mkii
@@ -1779,8 +1779,8 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.17}).
 
-Package scrhack Info: undefining \float@addtolists on input line 56.
-Package hyperref Info: Link coloring OFF on input line 56.
+Package scrhack Info: undefining \float@addtolists on input line 55.
+Package hyperref Info: Link coloring OFF on input line 55.
 
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\namere
 f.sty
@@ -1796,9 +1796,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count423
 )
-LaTeX Info: Redefining \ref on input line 56.
-LaTeX Info: Redefining \pageref on input line 56.
-LaTeX Info: Redefining \nameref on input line 56.
+LaTeX Info: Redefining \ref on input line 55.
+LaTeX Info: Redefining \pageref on input line 55.
+LaTeX Info: Redefining \nameref on input line 55.
  (Arbeit.out) (Arbeit.out)
 \@outlinefile=\write6
 \openout6 = `Arbeit.out'.
@@ -1810,7 +1810,7 @@ Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           `bookmarkpackage=false' before \begin{document} and
 (scrbook)           you can avoid this message adding:
 (scrbook)             \usepackage{bookmark}
-(scrbook)           before \begin{document} on input line 56.
+(scrbook)           before \begin{document} on input line 55.
 
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookma
 rk.sty
@@ -1857,43 +1857,43 @@ Dictionary: translator-basic-dictionary, Language: English
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
 most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
-loading the todonotes package. on input line 56.
+loading the todonotes package. on input line 55.
 
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 56.
+ 55.
 
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm
 .fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 56.
+ 55.
 
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm
 .fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
-6.
+5.
 
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.f
 d
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 56.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 56.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 56.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 56
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 55
 .
 
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Trying to load font information for U+stmry on input line 5
-6.
+5.
 
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\ustmry
 .fd)
@@ -2041,7 +2041,7 @@ chapter 1.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 15.55188pt on input line 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--17
+Underfull \hbox (badness 10000) in paragraph at lines 19--24
 
  []
 
@@ -2177,7 +2177,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./grafiken/2.5-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/2.5-eps-converted-to.pdf, id=390, 455.7025pt x 199.74625pt>
+<grafiken/2.5-eps-converted-to.pdf, id=391, 455.7025pt x 199.74625pt>
 File: grafiken/2.5-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/2.5-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/2.5-eps-converted-to.pdf  used on input line 
@@ -2206,7 +2206,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./grafiken/2.6-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/2.6-eps-converted-to.pdf, id=406, 510.90875pt x 188.705pt>
+<grafiken/2.6-eps-converted-to.pdf, id=407, 510.90875pt x 188.705pt>
 File: grafiken/2.6-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/2.6-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/2.6-eps-converted-to.pdf  used on input line 
@@ -2231,7 +2231,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./grafiken/2.7-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/2.7-eps-converted-to.pdf, id=426, 202.7575pt x 32.12pt>
+<grafiken/2.7-eps-converted-to.pdf, id=427, 202.7575pt x 32.12pt>
 File: grafiken/2.7-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/2.7-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/2.7-eps-converted-to.pdf  used on input line 
@@ -2251,7 +2251,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./grafiken/2.8-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/2.8-eps-converted-to.pdf, id=427, 202.7575pt x 44.165pt>
+<grafiken/2.8-eps-converted-to.pdf, id=428, 202.7575pt x 44.165pt>
 File: grafiken/2.8-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/2.8-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/2.8-eps-converted-to.pdf  used on input line 
@@ -2278,7 +2278,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./grafiken/2.9-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/2.9-eps-converted-to.pdf, id=442, 502.87875pt x 390.45876pt>
+<grafiken/2.9-eps-converted-to.pdf, id=443, 502.87875pt x 390.45876pt>
 File: grafiken/2.9-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/2.9-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/2.9-eps-converted-to.pdf  used on input line 
@@ -2299,7 +2299,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./grafiken/2.10-eps-converted-to.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/2.10-eps-converted-to.pdf, id=460, 442.65375pt x 119.44624pt>
+<grafiken/2.10-eps-converted-to.pdf, id=461, 442.65375pt x 119.44624pt>
 File: grafiken/2.10-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/2.10-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/2.10-eps-converted-to.pdf  used on input line
@@ -2311,7 +2311,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 156--160
  []
 
 [9 <./grafiken/2.10-eps-converted-to.pdf>]
-<grafiken/2.11.pdf, id=473, 689.85231pt x 540.69502pt>
+<grafiken/2.11.pdf, id=474, 689.85231pt x 540.69502pt>
 File: grafiken/2.11.pdf Graphic file (type pdf)
 <use grafiken/2.11.pdf>
 Package pdftex.def Info: grafiken/2.11.pdf  used on input line 173.
@@ -2325,7 +2325,7 @@ Overfull \hbox (43.65382pt too wide) in paragraph at lines 173--174
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11 <./grafiken/2.11.pdf>]
-<grafiken/2.12.pdf, id=506, 416.55727pt x 166.55725pt>
+<grafiken/2.12.pdf, id=507, 416.55727pt x 166.55725pt>
 File: grafiken/2.12.pdf Graphic file (type pdf)
 <use grafiken/2.12.pdf>
 Package pdftex.def Info: grafiken/2.12.pdf  used on input line 209.
@@ -2351,7 +2351,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./grafiken/2.13-eps-converted-to.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/2.13-eps-converted-to.pdf, id=518, 962.59625pt x 613.29124pt>
+<grafiken/2.13-eps-converted-to.pdf, id=519, 962.59625pt x 613.29124pt>
 File: grafiken/2.13-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/2.13-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/2.13-eps-converted-to.pdf  used on input line
@@ -2372,7 +2372,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./grafiken/2.14-eps-converted-to.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/2.14-eps-converted-to.pdf, id=524, 412.54124pt x 242.9075pt>
+<grafiken/2.14-eps-converted-to.pdf, id=525, 412.54124pt x 242.9075pt>
 File: grafiken/2.14-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/2.14-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/2.14-eps-converted-to.pdf  used on input line
@@ -2393,7 +2393,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./grafiken/2.15-eps-converted-to.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/2.15-eps-converted-to.pdf, id=533, 491.8375pt x 89.33376pt>
+<grafiken/2.15-eps-converted-to.pdf, id=534, 491.8375pt x 89.33376pt>
 File: grafiken/2.15-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/2.15-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/2.15-eps-converted-to.pdf  used on input line
@@ -2403,7 +2403,7 @@ Package pdftex.def Info: grafiken/2.15-eps-converted-to.pdf  used on input line
 
 pdfTeX warning: pdflatex (file ./grafiken/2.16.pdf): PDF inclusion: found PDF v
 ersion <1.7>, but at most version <1.5> allowed
-<grafiken/2.16.pdf, id=535, 433.71637pt x 257.53717pt>
+<grafiken/2.16.pdf, id=536, 433.71637pt x 257.53717pt>
 File: grafiken/2.16.pdf Graphic file (type pdf)
 <use grafiken/2.16.pdf>
 Package pdftex.def Info: grafiken/2.16.pdf  used on input line 294.
@@ -2444,7 +2444,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./grafiken/3.1-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/3.1-eps-converted-to.pdf, id=585, 323.2075pt x 241.90375pt>
+<grafiken/3.1-eps-converted-to.pdf, id=586, 323.2075pt x 241.90375pt>
 File: grafiken/3.1-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/3.1-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/3.1-eps-converted-to.pdf  used on input line 
@@ -2493,7 +2493,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./grafiken/3.2-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/3.2-eps-converted-to.pdf, id=591, 178.6675pt x 126.4725pt>
+<grafiken/3.2-eps-converted-to.pdf, id=592, 178.6675pt x 126.4725pt>
 File: grafiken/3.2-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/3.2-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/3.2-eps-converted-to.pdf  used on input line 
@@ -2517,7 +2517,7 @@ or  <return>  to continue without it.
 
 pdfTeX warning: pdflatex (file ./grafiken/3.3.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<grafiken/3.3.pdf, id=608, 794.97pt x 614.295pt>
+<grafiken/3.3.pdf, id=609, 794.97pt x 614.295pt>
 File: grafiken/3.3.pdf Graphic file (type pdf)
 <use grafiken/3.3.pdf>
 Package pdftex.def Info: grafiken/3.3.pdf  used on input line 357.
@@ -2569,7 +2569,7 @@ or  <return>  to continue without it.
 
 pdfTeX warning: pdflatex (file ./grafiken/3.4.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<grafiken/3.4.pdf, id=634, 598.235pt x 345.29pt>
+<grafiken/3.4.pdf, id=635, 598.235pt x 345.29pt>
 File: grafiken/3.4.pdf Graphic file (type pdf)
 <use grafiken/3.4.pdf>
 Package pdftex.def Info: grafiken/3.4.pdf  used on input line 390.
@@ -2600,7 +2600,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./grafiken/4.1-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/4.1-eps-converted-to.pdf, id=645, 582.175pt x 97.36375pt>
+<grafiken/4.1-eps-converted-to.pdf, id=646, 582.175pt x 97.36375pt>
 File: grafiken/4.1-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/4.1-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/4.1-eps-converted-to.pdf  used on input line 
@@ -2611,7 +2611,7 @@ Overfull \hbox (16.00458pt too wide) in paragraph at lines 415--416
  [][] 
  []
 
-<grafiken/4.2.pdf, id=647, 646.82051pt x 360.74373pt>
+<grafiken/4.2.pdf, id=648, 646.82051pt x 360.74373pt>
 File: grafiken/4.2.pdf Graphic file (type pdf)
 <use grafiken/4.2.pdf>
 Package pdftex.def Info: grafiken/4.2.pdf  used on input line 427.
@@ -2635,7 +2635,7 @@ LaTeX Warning: Float too large for page by 46.61528pt on input line 490.
 
 pdfTeX warning: pdflatex (file ./grafiken/4.3.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<grafiken/4.3.pdf, id=664, 545.11252pt x 556.40575pt>
+<grafiken/4.3.pdf, id=665, 545.11252pt x 556.40575pt>
 File: grafiken/4.3.pdf Graphic file (type pdf)
 <use grafiken/4.3.pdf>
 Package pdftex.def Info: grafiken/4.3.pdf  used on input line 499.
@@ -2756,7 +2756,7 @@ or  <return>  to continue without it.
 
 [26]
 chapter 5.
-<grafiken/5.1.pdf, id=708, 447.57211pt x 124.04944pt>
+<grafiken/5.1.pdf, id=709, 447.57211pt x 124.04944pt>
 File: grafiken/5.1.pdf Graphic file (type pdf)
 <use grafiken/5.1.pdf>
 Package pdftex.def Info: grafiken/5.1.pdf  used on input line 560.
@@ -2778,7 +2778,7 @@ or  <return>  to continue without it.
 [27
 
  <./grafiken/5.1.pdf>]
-<grafiken/5.2.pdf, id=739, 595.88222pt x 348.87137pt>
+<grafiken/5.2.pdf, id=740, 595.88222pt x 348.87137pt>
 File: grafiken/5.2.pdf Graphic file (type pdf)
 <use grafiken/5.2.pdf>
 Package pdftex.def Info: grafiken/5.2.pdf  used on input line 574.
@@ -2805,7 +2805,7 @@ or  <return>  to continue without it.
 
 pdfTeX warning: pdflatex (file ./grafiken/5.3.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<grafiken/5.3.pdf, id=740, 616.705pt x 346.89702pt>
+<grafiken/5.3.pdf, id=741, 616.705pt x 346.89702pt>
 File: grafiken/5.3.pdf Graphic file (type pdf)
 <use grafiken/5.3.pdf>
 Package pdftex.def Info: grafiken/5.3.pdf  used on input line 583.
@@ -2819,7 +2819,7 @@ Overfull \hbox (16.00458pt too wide) in paragraph at lines 583--584
 
 pdfTeX warning: pdflatex (file ./grafiken/5.4.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<grafiken/5.4.pdf, id=765, 598.99681pt x 338.76462pt>
+<grafiken/5.4.pdf, id=766, 598.99681pt x 338.76462pt>
 File: grafiken/5.4.pdf Graphic file (type pdf)
 <use grafiken/5.4.pdf>
 Package pdftex.def Info: grafiken/5.4.pdf  used on input line 609.
@@ -2843,7 +2843,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<grafiken/5.5.pdf, id=774, 473.37451pt x 391.00479pt>
+<grafiken/5.5.pdf, id=775, 473.37451pt x 391.00479pt>
 File: grafiken/5.5.pdf Graphic file (type pdf)
 <use grafiken/5.5.pdf>
 Package pdftex.def Info: grafiken/5.5.pdf  used on input line 628.
@@ -2854,142 +2854,14 @@ Overfull \hbox (16.00458pt too wide) in paragraph at lines 628--629
  []
 
 [30 <./grafiken/5.4.pdf>]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.634 ...iting time slots at least must have 60\mu
-                                                   s duration. Two adjacent ...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-LaTeX Warning: Command \textquotedblleft invalid in math mode on input line 634
-.
-
-
-LaTeX Warning: Command \textquotedblright invalid in math mode on input line 63
-4.
-
-
-LaTeX Warning: Command \textquotedblleft invalid in math mode on input line 635
-.
-
-
-LaTeX Warning: Command \textquotedblright invalid in math mode on input line 63
-5.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 635.
-
-
-LaTeX Warning: Command \textquotedblleft invalid in math mode on input line 640
-.
-
-
-LaTeX Warning: Command \textquotedblright invalid in math mode on input line 64
-0.
-
-
-LaTeX Warning: Command \textquotedblleft invalid in math mode on input line 640
-.
-
-
-LaTeX Warning: Command \textquotedblright invalid in math mode on input line 64
-0.
-
-
-LaTeX Warning: Command \textquotedblleft invalid in math mode on input line 640
-.
-
-
-LaTeX Warning: Command \textquotedblright invalid in math mode on input line 64
-0.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.642 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (1110.53636pt too wide) in paragraph at lines 634--642
-\T1/ptm/m/n/12 60$\OML/cmm/m/it/12 sduration:Twoadjacentwritingtimeslotsatleas
-tmusthave\OT1/ztmcm/m/n/12 1\OML/cmm/m/it/12 srecoverytime:Twowritingtimeslots
-canbegeneratedbyloweringthebusthroughthehost\OT1/ztmcm/m/n/12 (\OML/cmm/m/it/12
- seethepicturebelow\OT1/ztmcm/m/n/12 )\OML/cmm/m/it/12 ; forthesakeofgenerating
-\OT1/ztmcm/m/n/12 1\OML/cmm/m/it/12 timeslot:Afterloweringthebus; thehostmust
-releasethebuswithin\OT1/ztmcm/m/n/12 15\OML/cmm/m/it/12 s:Afterreleasingthebus
-; thepull \OMS/cmsy/m/n/12  
- []
-
-
-Overfull \hbox (1116.82187pt too wide) in paragraph at lines 634--642
-\OML/cmm/m/it/12 upresistorcanrecoverthebustothehighlevel:Togenerate\OT1/ztmcm/
-m/n/12 0\OML/cmm/m/it/12 timeslot; afterloweringthebus; thehostmustcontinuelo
-weringthebustosatisfytherequirementofthetimeslot[]sduration\OT1/ztmcm/m/n/12 (\
-OML/cmm/m/it/12 atleast\OT1/ztmcm/m/n/12 60\OML/cmm/m/it/12 s\OT1/ztmcm/m/n/12
- )\OML/cmm/m/it/12 :Afterthehostgeneratesthewritingtimeslots; DS\OT1/ztmcm/m/n/
-12 18\OML/cmm/m/it/12 B\OT1/ztmcm/m/n/12 20\OML/cmm/m/it/12 willsamplethesingle
-bus\OT1/ztmcm/m/n/12 (\OML/cmm/m/it/12 DQ\OT1/ztmcm/m/n/12 )\OML/cmm/m/it/12 wi
-thinatimequantumof\OT1/ztmcm/m/n/12 15 \OMS/cmsy/m/n/12  
- []
-
-
-Overfull \hbox (410.70421pt too wide) in paragraph at lines 634--642
-\OT1/ztmcm/m/n/12 60\OML/cmm/m/it/12 s:Withinthetimewindowofsampling; ifthebus
-belongstothehighlevel; thehostwillwrite\OT1/ztmcm/m/n/12 1\OML/cmm/m/it/12 inDS
-\OT1/ztmcm/m/n/12 18\OML/cmm/m/it/12 B\OT1/ztmcm/m/n/12 20\OML/cmm/m/it/12 :ift
-hebusbelongstothelowlevel; thehostwillwrite\OT1/ztmcm/m/n/12 0\OML/cmm/m/it/12 
-inDS\OT1/ztmcm/m/n/12 18\OML/cmm/m/it/12 B\OT1/ztmcm/m/n/12 20\OML/cmm/m/it/12 
-:[] 
- []
-
-
-Overfull \hbox (5487.63094pt too wide) in paragraph at lines 634--642
-\OML/cmm/m/it/12 Tosumup; allwritingtimeslotsatleastmusthave\OT1/ztmcm/m/n/12 6
-0\OML/cmm/m/it/12 sofduration:Twoadjacenttimeslotsatleastmusthave\OT1/ztmcm/m/
-n/12 1\OML/cmm/m/it/12 sofrecoverytime:Allwritingtimeslots\OT1/ztmcm/m/n/12 (0
-\OML/cmm/m/it/12 and\OT1/ztmcm/m/n/12 1)\OML/cmm/m/it/12 aregeneratedbylowering
-thebus:Whenthehostlaunchestoreadthetimesequences; DS\OT1/ztmcm/m/n/12 18\OML/cm
-m/m/it/12 B\OT1/ztmcm/m/n/12 20\OML/cmm/m/it/12 isonlyusedtotransmitdatatotheco
-ntroller; thusthebuscontrollerwillissuetheorderofreadingthetransientmemory\OT1/
-ztmcm/m/n/12 [0\OML/cmm/m/it/12 xBe\OT1/ztmcm/m/n/12 ]\OML/cmm/m/it/12 ortheord
-erofreadingthepowermode\OT1/ztmcm/m/n/12 [0\OML/cmm/m/it/12 xB\OT1/ztmcm/m/n/12
- 4]\OML/cmm/m/it/12 andthenitimmediatelystartsreadingtimesequences:DS\OT1/ztmcm
-/m/n/12 18\OML/cmm/m/it/12 B\OT1/ztmcm/m/n/12 20\OML/cmm/m/it/12 canprovidether
-equestinformation:Besides; thebuscontrollerwillreadthetimesequencesafterissuing
-theorderofsendingtemperatureconversion\OT1/ztmcm/m/n/12 [0\OML/cmm/m/it/12 x\OT
-1/ztmcm/m/n/12 44](\OML/cmm/m/it/12 orrecallingEEPROMorder\OT1/ztmcm/m/n/12 [0\
-OML/cmm/m/it/12 xB\OT1/ztmcm/m/n/12 8])\OML/cmm/m/it/12 beforereadingtimesequen
-ces:SeedetailsinthefunctionalorderinDS\OT1/ztmcm/m/n/12 18\OML/cmm/m/it/12 B\OT
-1/ztmcm/m/n/12 20\OML/cmm/m/it/12 chipmanual:Allreadingtimesequencesatleastmust
-reach\OT1/ztmcm/m/n/12 60\OML/cmm/m/it/12 s; includingtworeadingperiodswithatl
-east\OT1/ztmcm/m/n/12 1\OML/cmm/m/it/12 srecoverytime:Whenthebuscontrollerpull
-stheUSBcablefromthehighleveltothelowlevel; asstartingreadingtimesequences; USBc
-ablesatleastmustremain\OT1/ztmcm/m/n/12 1\OML/cmm/m/it/12 sandthenthebusisrele
-ased:DS\OT1/ztmcm/m/n/12 18\OML/cmm/m/it/12 B\OT1/ztmcm/m/n/12 20\OML/cmm/m/it/
-12 pullsuporpullsdownthebustotransmit\OT1/ztmcm/m/n/12 1\OML/cmm/m/it/12 or\O
-T1/ztmcm/m/n/12 0\OML/cmm/m/it/12 :Whenthetransmissionlogic\OT1/ztmcm/m/n/12 
-0\OML/cmm/m/it/12 comestoanend; thebuswillbereleased:Whenthepull \OMS/cmsy/m/
-n/12  
- []
-
-
-Overfull \hbox (848.4373pt too wide) in paragraph at lines 634--642
-\OML/cmm/m/it/12 upresistorreturnstotherisingedgestate; datafromDS\OT1/ztmcm/m/
-n/12 18\OML/cmm/m/it/12 B\OT1/ztmcm/m/n/12 20\OML/cmm/m/it/12 willbevalidwithin
-\OT1/ztmcm/m/n/12 15\OML/cmm/m/it/12 safterthefallingedgeofreadingtimesequence
-soccurs:Thus; asstartingreadingtimesequences; thebuscontrollermuststopI=Odrivei
-ntothelowvoltage\OT1/ztmcm/m/n/12 15\OML/cmm/m/it/12 storeadI=Ostate:[] 
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 634--642
 
  []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31 <./grafiken/5.5.pdf>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -3017,14 +2889,11 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \vbox (badness 2443) has occurred while \output is active []
-
- [31 <./grafiken/5.5.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 658--660
 
  []
 
-<grafiken/5.6.pdf, id=821, 682.10632pt x 365.2074pt>
+<grafiken/5.6.pdf, id=820, 682.10632pt x 365.2074pt>
 File: grafiken/5.6.pdf Graphic file (type pdf)
 <use grafiken/5.6.pdf>
 Package pdftex.def Info: grafiken/5.6.pdf  used on input line 672.
@@ -3034,6 +2903,7 @@ Overfull \hbox (16.00458pt too wide) in paragraph at lines 672--673
  [][] 
  []
 
+[32]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -3048,8 +2918,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[32 <./grafiken/5.6.pdf>]
-<grafiken/5.7.pdf, id=845, 507.61844pt x 204.5753pt>
+<grafiken/5.7.pdf, id=829, 507.61844pt x 204.5753pt>
 File: grafiken/5.7.pdf Graphic file (type pdf)
 <use grafiken/5.7.pdf>
 Package pdftex.def Info: grafiken/5.7.pdf  used on input line 698.
@@ -3059,11 +2928,11 @@ Overfull \hbox (16.00458pt too wide) in paragraph at lines 698--699
  [][] 
  []
 
-
+[33 <./grafiken/5.6.pdf>]
 
 pdfTeX warning: pdflatex (file ./grafiken/5.8.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<grafiken/5.8.pdf, id=847, 1390.44469pt x 792.71156pt>
+<grafiken/5.8.pdf, id=853, 1390.44469pt x 792.71156pt>
 File: grafiken/5.8.pdf Graphic file (type pdf)
 <use grafiken/5.8.pdf>
 Package pdftex.def Info: grafiken/5.8.pdf  used on input line 711.
@@ -3073,7 +2942,6 @@ Overfull \hbox (16.00458pt too wide) in paragraph at lines 711--712
  [][] 
  []
 
-[33 <./grafiken/5.7.pdf>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -3101,7 +2969,8 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<grafiken/5.9.pdf, id=871, 1426.73027pt x 671.57903pt>
+[34 <./grafiken/5.7.pdf> <./grafiken/5.8.pdf>]
+<grafiken/5.9.pdf, id=878, 1426.73027pt x 671.57903pt>
 File: grafiken/5.9.pdf Graphic file (type pdf)
 <use grafiken/5.9.pdf>
 Package pdftex.def Info: grafiken/5.9.pdf  used on input line 731.
@@ -3111,7 +2980,6 @@ Overfull \hbox (16.00458pt too wide) in paragraph at lines 731--732
  [][] 
  []
 
-[34 <./grafiken/5.8.pdf>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -3127,7 +2995,7 @@ or  <return>  to continue without it.
 
 [35 <./grafiken/5.9.pdf>]
 chapter 6.
-<grafiken/6.1.pdf, id=887, 837.76189pt x 314.82115pt>
+<grafiken/6.1.pdf, id=888, 837.76189pt x 314.82115pt>
 File: grafiken/6.1.pdf Graphic file (type pdf)
 <use grafiken/6.1.pdf>
 Package pdftex.def Info: grafiken/6.1.pdf  used on input line 749.
@@ -3156,7 +3024,7 @@ Overfull \hbox (37.3364pt too wide) in paragraph at lines 756--757
 re the mi-cro-con-troller STM32F303ZET
  []
 
-<grafiken/6.2.pdf, id=889, 608.5134pt x 354.96617pt>
+<grafiken/6.2.pdf, id=890, 608.5134pt x 354.96617pt>
 File: grafiken/6.2.pdf Graphic file (type pdf)
 <use grafiken/6.2.pdf>
 Package pdftex.def Info: grafiken/6.2.pdf  used on input line 760.
@@ -3196,7 +3064,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./grafiken/f429-eps-converted-to.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/f429-eps-converted-to.pdf, id=918, 115.43124pt x 110.4125pt>
+<grafiken/f429-eps-converted-to.pdf, id=919, 115.43124pt x 110.4125pt>
 File: grafiken/f429-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/f429-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/f429-eps-converted-to.pdf  used on input line
@@ -3236,7 +3104,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./grafiken/f429conn-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/f429conn-eps-converted-to.pdf, id=947, 107.40125pt x 104.39pt>
+<grafiken/f429conn-eps-converted-to.pdf, id=948, 107.40125pt x 104.39pt>
 File: grafiken/f429conn-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/f429conn-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/f429conn-eps-converted-to.pdf  used on input 
@@ -3276,7 +3144,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./grafiken/f303-eps-converted-to.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/f303-eps-converted-to.pdf, id=963, 117.43875pt x 98.3675pt>
+<grafiken/f303-eps-converted-to.pdf, id=964, 117.43875pt x 98.3675pt>
 File: grafiken/f303-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/f303-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/f303-eps-converted-to.pdf  used on input line
@@ -3316,7 +3184,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./grafiken/boot_master-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/boot_master-eps-converted-to.pdf, id=980, 43.16125pt x 51.19125pt>
+<grafiken/boot_master-eps-converted-to.pdf, id=981, 43.16125pt x 51.19125pt>
 File: grafiken/boot_master-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/boot_master-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/boot_master-eps-converted-to.pdf  used on inp
@@ -3355,7 +3223,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./grafiken/dcdc-eps-converted-to.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/dcdc-eps-converted-to.pdf, id=996, 61.22874pt x 27.10126pt>
+<grafiken/dcdc-eps-converted-to.pdf, id=997, 61.22874pt x 27.10126pt>
 File: grafiken/dcdc-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/dcdc-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/dcdc-eps-converted-to.pdf  used on input line
@@ -3394,7 +3262,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./grafiken/w5500-eps-converted-to.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/w5500-eps-converted-to.pdf, id=1012, 94.3525pt x 124.465pt>
+<grafiken/w5500-eps-converted-to.pdf, id=1013, 94.3525pt x 124.465pt>
 File: grafiken/w5500-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/w5500-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/w5500-eps-converted-to.pdf  used on input lin
@@ -3434,7 +3302,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./grafiken/ds18b20-eps-converted-to.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/ds18b20-eps-converted-to.pdf, id=1028, 67.25125pt x 42.1575pt>
+<grafiken/ds18b20-eps-converted-to.pdf, id=1029, 67.25125pt x 42.1575pt>
 File: grafiken/ds18b20-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/ds18b20-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/ds18b20-eps-converted-to.pdf  used on input l
@@ -3473,7 +3341,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./grafiken/6.10-eps-converted-to.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/6.10-eps-converted-to.pdf, id=1048, 843.15pt x 421.575pt>
+<grafiken/6.10-eps-converted-to.pdf, id=1049, 843.15pt x 421.575pt>
 File: grafiken/6.10-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/6.10-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/6.10-eps-converted-to.pdf  used on input line
@@ -3511,7 +3379,7 @@ l.862 ...ng four rules according to their needs：
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-<grafiken/6.11.pdf, id=1064, 344.18587pt x 291.79013pt>
+<grafiken/6.11.pdf, id=1065, 344.18587pt x 291.79013pt>
 File: grafiken/6.11.pdf Graphic file (type pdf)
 <use grafiken/6.11.pdf>
 Package pdftex.def Info: grafiken/6.11.pdf  used on input line 878.
@@ -3543,7 +3411,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<grafiken/6.12.pdf, id=1090, 348.82622pt x 356.46474pt>
+<grafiken/6.12.pdf, id=1091, 348.82622pt x 356.46474pt>
 File: grafiken/6.12.pdf Graphic file (type pdf)
 <use grafiken/6.12.pdf>
 Package pdftex.def Info: grafiken/6.12.pdf  used on input line 900.
@@ -3562,7 +3430,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [46 <./grafiken/6.12.pdf>]
-<grafiken/6.13.pdf, id=1107, 357.31291pt x 86.56943pt>
+<grafiken/6.13.pdf, id=1108, 357.31291pt x 86.56943pt>
 File: grafiken/6.13.pdf Graphic file (type pdf)
 <use grafiken/6.13.pdf>
 Package pdftex.def Info: grafiken/6.13.pdf  used on input line 915.
@@ -3589,7 +3457,7 @@ or  <return>  to continue without it.
 
 pdfTeX warning: pdflatex (file ./grafiken/6.14.pdf): PDF inclusion: found PDF v
 ersion <1.7>, but at most version <1.5> allowed
-<grafiken/6.14.pdf, id=1112, 304.4986pt x 205.2478pt>
+<grafiken/6.14.pdf, id=1113, 304.4986pt x 205.2478pt>
 File: grafiken/6.14.pdf Graphic file (type pdf)
 <use grafiken/6.14.pdf>
 Package pdftex.def Info: grafiken/6.14.pdf  used on input line 931.
@@ -3616,7 +3484,7 @@ or  <return>  to continue without it.
 
 pdfTeX warning: pdflatex (file ./grafiken/6.15.pdf): PDF inclusion: found PDF v
 ersion <1.7>, but at most version <1.5> allowed
-<grafiken/6.15.pdf, id=1113, 317.0254pt x 215.36562pt>
+<grafiken/6.15.pdf, id=1114, 317.0254pt x 215.36562pt>
 File: grafiken/6.15.pdf Graphic file (type pdf)
 <use grafiken/6.15.pdf>
 Package pdftex.def Info: grafiken/6.15.pdf  used on input line 941.
@@ -3644,7 +3512,7 @@ or  <return>  to continue without it.
 
 pdfTeX warning: pdflatex (file ./grafiken/6.16.pdf): PDF inclusion: found PDF v
 ersion <1.7>, but at most version <1.5> allowed
-<grafiken/6.16.pdf, id=1134, 418.0107pt x 286.1902pt>
+<grafiken/6.16.pdf, id=1135, 418.0107pt x 286.1902pt>
 File: grafiken/6.16.pdf Graphic file (type pdf)
 <use grafiken/6.16.pdf>
 Package pdftex.def Info: grafiken/6.16.pdf  used on input line 951.
@@ -3672,7 +3540,7 @@ or  <return>  to continue without it.
 
 pdfTeX warning: pdflatex (file ./grafiken/6.17.pdf): PDF inclusion: found PDF v
 ersion <1.7>, but at most version <1.5> allowed
-<grafiken/6.17.pdf, id=1149, 371.75787pt x 245.14085pt>
+<grafiken/6.17.pdf, id=1150, 371.75787pt x 245.14085pt>
 File: grafiken/6.17.pdf Graphic file (type pdf)
 <use grafiken/6.17.pdf>
 Package pdftex.def Info: grafiken/6.17.pdf  used on input line 961.
@@ -3713,7 +3581,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./grafiken/7.1-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/7.1-eps-converted-to.pdf, id=1160, 1085.05376pt x 814.04124pt>
+<grafiken/7.1-eps-converted-to.pdf, id=1161, 1085.05376pt x 814.04124pt>
 File: grafiken/7.1-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/7.1-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/7.1-eps-converted-to.pdf  used on input line 
@@ -3742,7 +3610,7 @@ or  <return>  to continue without it.
 
 pdfTeX warning: pdflatex (file ./grafiken/debugger.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
-<grafiken/debugger.pdf, id=1162, 1391.1975pt x 794.97pt>
+<grafiken/debugger.pdf, id=1163, 1391.1975pt x 794.97pt>
 File: grafiken/debugger.pdf Graphic file (type pdf)
 <use grafiken/debugger.pdf>
 Package pdftex.def Info: grafiken/debugger.pdf  used on input line 986.
@@ -3783,7 +3651,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./grafiken/break-eps-converted-to.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/break-eps-converted-to.pdf, id=1175, 1266.7325pt x 610.28pt>
+<grafiken/break-eps-converted-to.pdf, id=1176, 1266.7325pt x 610.28pt>
 File: grafiken/break-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/break-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/break-eps-converted-to.pdf  used on input lin
@@ -3812,7 +3680,7 @@ or  <return>  to continue without it.
 
 pdfTeX warning: pdflatex (file ./grafiken/collector.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/collector.pdf, id=1177, 1009.97327pt x 711.85951pt>
+<grafiken/collector.pdf, id=1178, 1009.97327pt x 711.85951pt>
 File: grafiken/collector.pdf Graphic file (type pdf)
 <use grafiken/collector.pdf>
 Package pdftex.def Info: grafiken/collector.pdf  used on input line 1004.
@@ -3841,7 +3709,7 @@ or  <return>  to continue without it.
 
 pdfTeX warning: pdflatex (file ./grafiken/ngrok.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<grafiken/ngrok.pdf, id=1189, 688.37173pt x 316.18124pt>
+<grafiken/ngrok.pdf, id=1190, 688.37173pt x 316.18124pt>
 File: grafiken/ngrok.pdf Graphic file (type pdf)
 <use grafiken/ngrok.pdf>
 Package pdftex.def Info: grafiken/ngrok.pdf  used on input line 1013.
@@ -3864,7 +3732,7 @@ or  <return>  to continue without it.
 
 pdfTeX warning: pdflatex (file ./grafiken/frontend.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
-<grafiken/frontend.pdf, id=1191, 908.79527pt x 534.79799pt>
+<grafiken/frontend.pdf, id=1192, 908.79527pt x 534.79799pt>
 File: grafiken/frontend.pdf Graphic file (type pdf)
 <use grafiken/frontend.pdf>
 Package pdftex.def Info: grafiken/frontend.pdf  used on input line 1023.
@@ -3910,27 +3778,11 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.12 \\ad1 += ADC1_
-                   Value[i++];ad2 += ADC$_$Value[i++];ad3 += ADC$_$Value[i++];
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.12 \\ad1 += ADC1_Value[i++];ad2 += ADC$_
-                                          $Value[i++];ad3 += ADC$_$Value[i++];
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
 ! Missing { inserted.
 <to be read again> 
                    $
-l.12 \\ad1 += ADC1_Value[i++];ad2 += ADC$_$
-                                           Value[i++];ad3 += ADC$_$Value[i++];
+l.12 \\ad1 += ADC1$_$
+                     Value[i++];ad2 += ADC$_$Value[i++];ad3 += ADC$_$Value[i...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
@@ -3939,8 +3791,29 @@ so that I will find a matching right brace soon.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.12 \\ad1 += ADC1_Value[i++];ad2 += ADC$_$
-                                           Value[i++];ad3 += ADC$_$Value[i++];
+l.12 \\ad1 += ADC1$_$
+                     Value[i++];ad2 += ADC$_$Value[i++];ad3 += ADC$_$Value[i...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing { inserted.
+<to be read again> 
+                   $
+l.12 \\ad1 += ADC1$_$Value[i++];ad2 += ADC$_$
+                                             Value[i++];ad3 += ADC$_$Value[i...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.12 \\ad1 += ADC1$_$Value[i++];ad2 += ADC$_$
+                                             Value[i++];ad3 += ADC$_$Value[i...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -4371,11 +4244,11 @@ Package rerunfilecheck Info: File `Arbeit.out' has not changed.
 (\end occurred when \iftrue on line 9 was incomplete)
 (\end occurred when \ifnum on line 9 was incomplete) 
 Here is how much of TeX's memory you used:
- 44735 strings out of 479334
- 1035125 string characters out of 2853285
- 1580341 words of memory out of 3000000
- 61046 multiletter control sequences out of 15000+200000
- 480529 words of font info for 132 fonts, out of 3000000 for 9000
+ 44734 strings out of 479334
+ 1035090 string characters out of 2853285
+ 1580362 words of memory out of 3000000
+ 61044 multiletter control sequences out of 15000+200000
+ 473849 words of font info for 128 fonts, out of 3000000 for 9000
  1146 hyphenation exceptions out of 8191
  111i,20n,122p,10657b,806s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Administrator/App
@@ -4384,18 +4257,17 @@ AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Use
 rs/Administrator/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
 mmi7.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmmi9.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/Administrator/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Administra
-tor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
-/Users/Administrator/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmsy9.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX/fonts/type1/
-urw/helvetic/uhvb8a.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX/f
-onts/type1/urw/symbol/usyr.pfb><C:/Users/Administrator/AppData/Local/Programs/M
-iKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Administrator/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Arbeit.pdf (67 pages, 4277767 bytes).
+fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Administrator/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Administrat
+or/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/U
+sers/Administrator/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8
+a.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX/fonts/type1/urw/sym
+bol/usyr.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX/fonts/type1/
+urw/times/utmb8a.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX/font
+s/type1/urw/times/utmr8a.pfb>
+Output written on Arbeit.pdf (67 pages, 4263386 bytes).
 PDF statistics:
- 1450 PDF objects out of 1728 (max. 8388607)
- 182 named destinations out of 1000 (max. 500000)
- 778 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1451 PDF objects out of 1728 (max. 8388607)
+ 183 named destinations out of 1000 (max. 500000)
+ 786 words of extra memory for PDF output out of 10000 (max. 10000000)
 
