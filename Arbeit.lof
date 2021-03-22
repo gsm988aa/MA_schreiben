@@ -54,4 +54,11 @@
 \contentsline {figure}{\numberline {6.16}{\ignorespaces Slaveboard PCB document front view\relax }}{48}{figure.caption.57}%
 \contentsline {figure}{\numberline {6.17}{\ignorespaces Slaveboard PCB document back view\relax }}{49}{figure.caption.58}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Eval board hardware connection part\relax }}{50}{figure.caption.59}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Eval board Debugger under normal circumstances\relax }}{51}{figure.caption.60}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Eval board Debugger under abnormal situation\relax }}{51}{figure.caption.61}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Collector and MySQL database under test\relax }}{52}{figure.caption.62}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Ngrok under test\relax }}{52}{figure.caption.63}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Front end under test\relax }}{53}{figure.caption.64}%
+\addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -34,7 +34,7 @@
 \contentsline {section}{\numberline {5.2}Software}{30}{section.5.2}%
 \contentsline {subsection}{\numberline {5.2.1}Speed of measurement}{30}{subsection.5.2.1}%
 \contentsline {subsection}{\numberline {5.2.2}Arithmetic average filter}{33}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}Debugger, front-end and back-end}{33}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.3}Debugger, front end and back end}{33}{subsection.5.2.3}%
 \contentsline {chapter}{\numberline {6}Design PCBs}{36}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Schematic part from Masterboard and Slaveboard}{36}{section.6.1}%
 \contentsline {section}{\numberline {6.2}PCB document design}{44}{section.6.2}%
@@ -42,4 +42,7 @@
 \contentsline {subsection}{\numberline {6.2.2}PCB Rules}{46}{subsection.6.2.2}%
 \contentsline {subsection}{\numberline {6.2.3}PCB Document layout}{47}{subsection.6.2.3}%
 \contentsline {chapter}{\numberline {7}Introduce measurement with eval boards}{50}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Conlusion}{51}{chapter.8}%
+\contentsline {chapter}{\numberline {8}Conlusion}{54}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Appendix}{55}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Slaveboard ADC acquisition part of the program}{55}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Back end part of the program}{55}{section.9.2}%

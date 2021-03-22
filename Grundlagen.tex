@@ -616,7 +616,7 @@ The Figure~\ref{fig:5.4} below shows LiYCY and HSLCH from left to right. These t
 \section{Software}
 \label{sec:Software}
 % 5.2
-The software part mainly focuses on the design of acquisition speed, arithmetic average filter, debugger, front-end and back-end.
+The software part mainly focuses on the design of acquisition speed, arithmetic average filter, debugger, front end and back end.
 
 \subsection{Speed of measurement}
 \label{sec:Speed of measurement}
@@ -688,8 +688,8 @@ In other words, the slaveboard applies the mean filtering circulation to increas
 
 In this article we will use the average filtering method to set the ADC to become a continuous acquisition and observation mode. At this point, the data received from DMA is stored in the register, and each ADC total channel completes 10 acquisition cycles then receives 10 times the channel. The data is arithmetic averaged to obtain the final sample.
 
-\subsection{Debugger, front-end and back-end}
-\label{sec:Debugger, front-end and back-end}
+\subsection{Debugger, front end and back end}
+\label{sec:Debugger, front end and back end}
 % 5.2.3
 
 In order to meet the needs of the Internet of Things, the software part is structured as shown in the Figure below:
@@ -714,15 +714,15 @@ The following Figure~\ref{fig:5.8} is the interface of the debugger:
 \end{figure}
 \FloatBarrier
 \\
-Back end and frontend:
+Back end and front end:
 \\
 Since Ubuntu is used as the operating system, shell scripts and netcat tools can be used to collect data from UDP and synchronize to the MySQL database. At the same time, use Springboot to build the backend, namely JavaWeb, use MybatisPlus to construct instances and interfaces, and add a key create-time as attribute data.
 
 \\
 The GUI(Graphical user interface) that separates the front and back ends specifically refers to the browser (or client) side. One of the most misunderstood concepts for novice server-
-side Java users is that JSP is a front-end technology. JSP needs to know the full name: Java Server Page. It runs in the servlet container on the server-side JVM, but the result of runningis HTML that is responsive to the browser. Servlet, the first from Java EE, already had ASPat this point (also knows the meaning of Active Server Page). Due to the need to put a lot of HTML code in servlet, the Java specification learned ASP and suggested JSP. Servlet is Java code mixed with HTML, JSP is HTML code mixed with Java. The browser doesn’t care if the server is JSP, ASP, PHP or the original servlet or HTML on the static server as long as it returns valid HTML code. So take out the static HTML part of the JSP, convert it to a simple
+side Java users is that JSP is a front end technology. JSP needs to know the full name: Java Server Page. It runs in the servlet container on the server-side JVM, but the result of runningis HTML that is responsive to the browser. Servlet, the first from Java EE, already had ASPat this point (also knows the meaning of Active Server Page). Due to the need to put a lot of HTML code in servlet, the Java specification learned ASP and suggested JSP. Servlet is Java code mixed with HTML, JSP is HTML code mixed with Java. The browser doesn’t care if the server is JSP, ASP, PHP or the original servlet or HTML on the static server as long as it returns valid HTML code. So take out the static HTML part of the JSP, convert it to a simple
 HTML file and put it on the HTTP server. The browser just needs to fetch the HTML code. The dynamic data part is fetched by AJAX from the server side using JS in HTML and then the dom is operated dynamically to complete the display of the dynamic content. In this way, the leading and trailing ends are separated.
-The following Figure~\ref{fig:5.9}  is the homepage of the front-end:
+The following Figure~\ref{fig:5.9}  is the homepage of the front end:
 
 
 
@@ -970,6 +970,65 @@ The following pictures are the PCB document of the masterboard Figure~\ref{fig:6
 \chapter{Introduce measurement with eval boards }
 \label{chap:Introduce measurement with eval boards }
 % 7
+This chapter mainly introduces the software part of the measurement system designed and debugged with the MCU eval board. The hardware connection Figure~\ref{fig:7.1} is as follows:
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=16cm]{grafiken/7.1.eps}
+	\caption{Eval board hardware connection part} 
+	\label{fig:7.1}
+\end{figure}
+\FloatBarrier
+\\
+When the eval board is powered on, the developer opens the debugger and shell script collector to collect data. Under normal circumstances, the voltage signal sent from the slaveboard is high, as shown in the Figure~\ref{fig:7.2} below:
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=16cm]{grafiken/debugger.pdf}
+	\caption{Eval board Debugger under normal circumstances}
+	\label{fig:7.2}
+\end{figure}
+\FloatBarrier
+\\
+Manually ground the ADC1 channels 1 and 2 of the slaveboard to simulate the DUT being affected by cosmic rays. The phenomenon is shown in the Figure~\ref{fig:7.3} in the debugger:
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=16cm]{grafiken/break.eps}
+	\caption{Eval board Debugger under abnormal situation}
+	\label{fig:7.3}
+\end{figure}
+\FloatBarrier
+\\
+At the same time, the content of the collector and the database can be observed in the PC of the measurement system, and the collection time is automatically generated by the back end.As the Figure~\ref{fig:7.4} shows:
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=16cm]{grafiken/collector.pdf}
+	\caption{Collector and MySQL database under test}
+	\label{fig:7.4}
+\end{figure}
+\FloatBarrier
+\\
+An external network address can be obtained through ngrok, as shown in the Figure~\ref{fig:7.5}:
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=12cm]{grafiken/ngrok.pdf}
+	\caption{Ngrok under test}
+	\label{fig:7.5}
+\end{figure}
+\FloatBarrier
+\\
+Then any terminal opens the external network address provided by ngrok and enters the front end to realize the IoT process. The front end part is shown in the Figure~\ref{fig:7.6}:
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=16cm]{grafiken/frontend.pdf}
+	\caption{Front end under test}
+	\label{fig:7.6}
+\end{figure}
+\FloatBarrier
+\\
+
+
+
  
 
 \chapter{Conlusion}
@@ -977,10 +1036,10 @@ The following pictures are the PCB document of the masterboard Figure~\ref{fig:6
 % 8.x
 In order to measure the effects of cosmic radiation on GaN power semiconductors for a long time, the microcontroller STM32F303 is used to measure the voltage signal and the DS18b20 is used to measure the temperature signal.
 \\
-The collected signal is sent to the main control unit of the microprocessor through AD conversion, the data collection stage is realized through database and back-end processing, and the collected data is sent to the front-end to facilitate clearly understanding of the users.
+The collected signal is sent to the main control unit of the microprocessor through AD conversion, the data collection stage is realized through database and back end processing, and the collected data is sent to the front end to facilitate clearly understanding of the users.
 The acquisition circuit is also simulated at the same time, the PCB board is designed and laid out to meet the design requirements.
 \\
-Researchers can first debug the data which is collected from the host and slave through the debugger, then import the collected data into the MySQL database through the shell command line, and finally convert the IP address of the intranet to the public network address through the intranet penetration. In this case the personnel at the Hannover Institute can also observe changes of the collected signals such as the number of failed units under test. Researchers can also remotely access and control the experimental PC through VNC and collect data from the back-end to the database and then to the front-end. This realized the process of the Internet of Things.
+Researchers can first debug the data which is collected from the host and slave through the debugger, then import the collected data into the MySQL database through the shell command line, and finally convert the IP address of the intranet to the public network address through the intranet penetration. In this case the personnel at the Hannover Institute can also observe changes of the collected signals such as the number of failed units under test. Researchers can also remotely access and control the experimental PC through VNC and collect data from the back-end to the database and then to the front end. This realized the process of the Internet of Things.
 
 
 
