@@ -4,14 +4,22 @@
 \pagenumbering{arabic}                                  % Seitennummerierung arabische Zahlen
 \include{Einleitung}
 \include{Grundlagen}
+% \clearpage{\thispagestyle{empty}\cleardoublepage}				% Anhang auf rechter Seite beginnen
+\begin{appendix}
 \include{Appendix}
+\end{appendix}
+% \clearpage{\thispagestyle{empty}\cleardoublepage}	
+\begin{Bibliography}
+\bibliography{Literaturverzeichnis}
+\clearpage
+\end{Bibliography}
 % \include{Latex_Getting_Started}
-\include{Auswertung}
+% \include{Auswertung}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Anhang
-\clearpage{\thispagestyle{empty}\cleardoublepage}				% Anhang auf rechter Seite beginnen
-\begin{appendix}
-\include{Appendix}
-\end{appendix}
+% \clearpage{\thispagestyle{empty}\cleardoublepage}				% Anhang auf rechter Seite beginnen
+% \begin{appendix}
+% \include{Appendix}
+% \end{appendix}

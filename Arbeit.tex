@@ -62,13 +62,13 @@
 
 \pagenumbering{alph}                                		%Seitennummerierung lateinische Kleinbuchstaben
 \include{Deckblatt}
-\clearpage{\thispagestyle{empty}\cleardoublepage}       %leere Seite für "documentclass book"
+% \clearpage{\thispagestyle{empty}\cleardoublepage}       %leere Seite für "documentclass book"
 
 \include{Eigenstaendigkeitserklaerung}
-\clearpage{\thispagestyle{empty}\cleardoublepage}       %leere Seite für "documentclass book"
+% \clearpage{\thispagestyle{empty}\cleardoublepage}       %leere Seite für "documentclass book"
 
-\include{Aufgabenstellung}
-\clearpage{\thispagestyle{empty}\cleardoublepage}       %leere Seite für "documentclass book"
+% \include{Aufgabenstellung}
+% \clearpage{\thispagestyle{empty}\cleardoublepage}       %leere Seite für "documentclass book"
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%i1i1%%%%
@@ -95,21 +95,22 @@
 \addcontentsline{toc}{chapter}{List of tables}   
 \clearpage
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Formelzeichenkonvention
 \markboth{List of Symbols}{}                    %Kopfzeilenbeschriftung
 \include{Formelzeichenkonvention}
-% \markboth{Formelzeichenkonvention}{}    
-% \include{Formelzeichenkonvention}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % Formelzeichenkonvention
+% \markboth{List of Symbols}{}                    %Kopfzeilenbeschriftung
+% \include{List of Symbols}
+% % \markboth{Formelzeichenkonvention}{}    
+% % \include{Formelzeichenkonvention}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Formelzeichenverzeichnis
 
-\markboth{Formelzeichenverzeichnis}{}                    %Kopfzeilenbeschriftung
-\input{Formelzeichenverzeichnis}
-\printnomenclature                                       %Verzeichnis drucken
-\clearpage{\pagestyle{empty}\cleardoublepage}            %leere Seite für "documentclass book"
+% \markboth{Formelzeichenverzeichnis}{}                    %Kopfzeilenbeschriftung
+% \input{Formelzeichenverzeichnis}
+% \printnomenclature                                       %Verzeichnis drucken
+% \clearpage{\pagestyle{empty}\cleardoublepage}            %leere Seite für "documentclass book"
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -117,12 +118,12 @@
 
 \input{Kapitel}
 
-% \input{Anhang}
+% \input{Appendix}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Literaturverzeichnis
 
-\bibliography{Literaturverzeichnis}
-\clearpage
+% \bibliography{Literaturverzeichnis}
+% \clearpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Ende des Dokuments

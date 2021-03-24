@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.4)  22 MAR 2021 22:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.4)  24 MAR 2021 08:06
 entering extended mode
 **C:/Users/Administrator/Desktop/asyn/MA_sch/MA_schreiben/Arbeit.tex
 (C:/Users/Administrator/Desktop/asyn/MA_sch/MA_schreiben/Arbeit.tex
@@ -1725,10 +1725,7 @@ LaTeX Font Info:    Trying to load font information for T1+ptm on input line 55
 
 (C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-) (Arbeit.aux (config/Konfiguration.aux) (Deckblatt.aux)
-(Eigenstaendigkeitserklaerung.aux) (Aufgabenstellung.aux)
-(Formelzeichenkonvention.aux) (Einleitung.aux) (Grundlagen.aux) (Appendix.aux)
-(Auswertung.aux))
+) (Arbeit.aux)
 \openout1 = `Arbeit.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
@@ -1799,7 +1796,6 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 55.
 LaTeX Info: Redefining \pageref on input line 55.
 LaTeX Info: Redefining \nameref on input line 55.
- (Arbeit.out) (Arbeit.out)
 \@outlinefile=\write6
 \openout6 = `Arbeit.out'.
 
@@ -1907,7 +1903,7 @@ LaTeX Font Info:    Trying to load font information for U+stmry on input line 5
 File: grafiken//welfenschloss_vektor.pdf Graphic file (type pdf)
 <use grafiken//welfenschloss_vektor.pdf>
 Package pdftex.def Info: grafiken//welfenschloss_vektor.pdf  used on input line
- 11.
+ 9.
 (pdftex.def)             Requested size: 392.4687pt x 113.81102pt.
 
 [1
@@ -1936,13 +1932,7 @@ Non-PDF special ignored!
 
 
 {C:/Users/Administrator/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./grafi
-ken//welfenschloss_vektor.pdf>]) [2
-
-
-
-
-
-]
+ken//welfenschloss_vektor.pdf>])
 \openout2 = `Eigenstaendigkeitserklaerung.aux'.
 
  (Eigenstaendigkeitserklaerung.tex
@@ -1959,11 +1949,11 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 22.39185pt on input line 1.
 Package epstopdf Info: Source file: <grafiken/MA_Messsystem.eps>
-(epstopdf)                    date: 2021-03-19 10:33:30
+(epstopdf)                    date: 2021-03-24 07:05:34
 (epstopdf)                    size: 471672 bytes
 (epstopdf)             Output file: <grafiken/MA_Messsystem-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2021-03-20 18:34:08
+(epstopdf)                    date: 2021-03-24 07:05:34
 (epstopdf)                    size: 240277 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/MA_Messsystem-eps-
 converted-to.pdf grafiken/MA_Messsystem.eps>
@@ -1973,7 +1963,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./grafiken/MA_Messsystem-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/MA_Messsystem-eps-converted-to.pdf, id=51, 470.75874pt x 783.92876pt>
+<grafiken/MA_Messsystem-eps-converted-to.pdf, id=47, 470.75874pt x 783.92876pt>
 
 File: grafiken/MA_Messsystem-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/MA_Messsystem-eps-converted-to.pdf>
@@ -1986,62 +1976,129 @@ LaTeX Warning: Float too large for page by 15.52937pt on input line 35.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [3
-
-
-] [4 <./grafiken/MA_Messsystem-eps-converted-to.pdf>]
-\openout2 = `Aufgabenstellung.aux'.
-
- (Aufgabenstellung.tex) (Arbeit.toc [1
+) [2
 
 
 
 
-
-
-
-
-
-
-
-
-])
+] [3 <./grafiken/MA_Messsystem-eps-converted-to.pdf>]
 \tf@toc=\write7
 \openout7 = `Arbeit.toc'.
 
- [2] (Arbeit.lof [3
+ [1
 
 
-])
+
+]
+
+Package hyperref Warning: old lof file detected, not used; run LaTeX again.
+
 \tf@lof=\write8
 \openout8 = `Arbeit.lof'.
 
- [4] (Arbeit.lot)
+[2
+
+
+]
+
+Package hyperref Warning: old lot file detected, not used; run LaTeX again.
+
 \tf@lot=\write9
 \openout9 = `Arbeit.lot'.
 
- [5
+[3
 
 
 ]
 \openout2 = `Formelzeichenkonvention.aux'.
 
-
-(Formelzeichenkonvention.tex) [6
-
+ (Formelzeichenkonvention.tex) [4
 
 
-] (Formelzeichenverzeichnis.tex)
-No file Arbeit.nls.
-(Kapitel.tex
+
+] (Kapitel.tex
 \openout2 = `Einleitung.aux'.
 
- (Einleitung.tex
+ (Einleitung.tex)
+\openout2 = `Grundlagen.aux'.
+
+
+(Grundlagen.tex
 chapter 1.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 15.55188pt on input line 4.
+(Font)              scaled to size 15.55188pt on input line 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--24
+LaTeX Warning: Citation `specovius2010grundkurs' on page 1 undefined on input l
+ine 14.
+
+
+LaTeX Warning: Citation `epicoco2013knowledge' on page 1 undefined on input lin
+e 14.
+
+
+LaTeX Warning: Citation `shauly2012cmos' on page 1 undefined on input line 17.
+
+
+LaTeX Warning: Citation `6064128' on page 1 undefined on input line 20.
+
+
+LaTeX Warning: Citation `583620' on page 1 undefined on input line 23.
+
+
+LaTeX Warning: Citation `4328188' on page 1 undefined on input line 26.
+
+
+LaTeX Warning: Citation `hoehenstrahlungsinduzierter' on page 1 undefined on in
+put line 30.
+
+
+Overfull \hbox (7.91788pt too wide) in paragraph at lines 14--41
+\T1/ptm/m/n/12 Nowadays, power semi-con-duc-tors are used ex-ten-sively to pro-
+cess com-plex op-er-a-tions. Shrink-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--41
 
  []
 
@@ -2053,366 +2110,529 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--24
 
 
 
-]) [2]
-\openout2 = `Grundlagen.aux'.
+]
 
- (Grundlagen.tex
+LaTeX Warning: Citation `oppenheim1978applications' on page 2 undefined on inpu
+t line 47.
+
+
+LaTeX Warning: Citation `zhang2013design' on page 2 undefined on input line 47.
+
+
+
+LaTeX Warning: Citation `wang2012labview' on page 2 undefined on input line 53.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--54
+
+ []
+
+[2]
+
+LaTeX Warning: Citation `f429datasheet' on page 3 undefined on input line 58.
+
+
+LaTeX Warning: Citation `f303datasheet' on page 3 undefined on input line 58.
+
+[3]
 chapter 2.
+
+LaTeX Warning: Citation `daboczi2012adc' on page 4 undefined on input line 76.
+
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 12.9599pt on input line 9.
+(Font)              scaled to size 12.9599pt on input line 78.
+
+LaTeX Warning: Citation `martins2011teaching' on page 4 undefined on input line
+ 83.
+
+
+LaTeX Warning: Reference `fig:2.1' on page 4 undefined on input line 83.
+
 Package epstopdf Info: Source file: <grafiken/2.1.eps>
-(epstopdf)                    date: 2021-03-22 07:27:24
+(epstopdf)                    date: 2021-03-24 07:05:22
 (epstopdf)                    size: 53953 bytes
 (epstopdf)             Output file: <grafiken/2.1-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-03-22 07:29:34
+(epstopdf)                    date: 2021-03-24 07:05:22
 (epstopdf)                    size: 20426 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/2.1-eps-converted-
 to.pdf grafiken/2.1.eps>
-(epstopdf)             \includegraphics on input line 18.
+(epstopdf)             \includegraphics on input line 87.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/2.1-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/2.1-eps-converted-to.pdf, id=348, 113.42375pt x 204.765pt>
+<grafiken/2.1-eps-converted-to.pdf, id=135, 113.42375pt x 204.765pt>
 File: grafiken/2.1-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/2.1-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/2.1-eps-converted-to.pdf  used on input line 
-18.
+87.
 (pdftex.def)             Requested size: 113.42346pt x 204.76448pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--26
+Underfull \hbox (badness 10000) in paragraph at lines 83--95
 
  []
 
-[3
-
-
-
+[4
 
  <./grafiken/2.1-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `fig:2.2' on page 5 undefined on input line 101.
+
+
+LaTeX Warning: Citation `kester2005adc' on page 5 undefined on input line 101.
+
 Package epstopdf Info: Source file: <grafiken/2.2.eps>
-(epstopdf)                    date: 2021-03-19 09:45:44
+(epstopdf)                    date: 2021-03-24 07:05:28
 (epstopdf)                    size: 47831 bytes
 (epstopdf)             Output file: <grafiken/2.2-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-03-20 18:34:11
+(epstopdf)                    date: 2021-03-24 07:05:28
 (epstopdf)                    size: 19421 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/2.2-eps-converted-
 to.pdf grafiken/2.2.eps>
-(epstopdf)             \includegraphics on input line 35.
+(epstopdf)             \includegraphics on input line 104.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/2.2-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/2.2-eps-converted-to.pdf, id=366, 290.08376pt x 220.825pt>
+<grafiken/2.2-eps-converted-to.pdf, id=155, 290.08376pt x 220.825pt>
 File: grafiken/2.2-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/2.2-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/2.2-eps-converted-to.pdf  used on input line 
-35.
+104.
 (pdftex.def)             Requested size: 290.08304pt x 220.82445pt.
+
+LaTeX Warning: Citation `abumurad2012increasing' on page 5 undefined on input l
+ine 109.
+
+
+LaTeX Warning: Reference `fig:2.3' on page 5 undefined on input line 111.
+
 Package epstopdf Info: Source file: <grafiken/2.3.eps>
-(epstopdf)                    date: 2021-03-19 14:39:14
+(epstopdf)                    date: 2021-03-24 07:05:28
 (epstopdf)                    size: 84376 bytes
 (epstopdf)             Output file: <grafiken/2.3-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-03-20 18:34:12
+(epstopdf)                    date: 2021-03-24 07:05:28
 (epstopdf)                    size: 30447 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/2.3-eps-converted-
 to.pdf grafiken/2.3.eps>
-(epstopdf)             \includegraphics on input line 45.
+(epstopdf)             \includegraphics on input line 114.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/2.3-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/2.3-eps-converted-to.pdf, id=368, 571.13374pt x 381.425pt>
+<grafiken/2.3-eps-converted-to.pdf, id=156, 571.13374pt x 381.425pt>
 File: grafiken/2.3-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/2.3-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/2.3-eps-converted-to.pdf  used on input line 
-45.
+114.
 (pdftex.def)             Requested size: 426.79134pt x 285.02625pt.
+
+LaTeX Warning: Citation `conroy19938' on page 5 undefined on input line 119.
+
+
+LaTeX Warning: Reference `fig:2.4' on page 5 undefined on input line 121.
+
 Package epstopdf Info: Source file: <grafiken/2.4.eps>
-(epstopdf)                    date: 2021-03-19 09:45:44
+(epstopdf)                    date: 2021-03-24 07:05:28
 (epstopdf)                    size: 40617 bytes
 (epstopdf)             Output file: <grafiken/2.4-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-03-20 18:34:14
+(epstopdf)                    date: 2021-03-24 07:05:28
 (epstopdf)                    size: 15770 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/2.4-eps-converted-
 to.pdf grafiken/2.4.eps>
-(epstopdf)             \includegraphics on input line 55.
+(epstopdf)             \includegraphics on input line 124.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/2.4-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/2.4-eps-converted-to.pdf, id=370, 450.68375pt x 193.72375pt>
+<grafiken/2.4-eps-converted-to.pdf, id=157, 450.68375pt x 193.72375pt>
 File: grafiken/2.4-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/2.4-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/2.4-eps-converted-to.pdf  used on input line 
-55.
+124.
 (pdftex.def)             Requested size: 450.68263pt x 193.72327pt.
 
-Overfull \hbox (11.44313pt too wide) in paragraph at lines 55--56
+Overfull \hbox (11.44313pt too wide) in paragraph at lines 124--125
  [][] 
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Citation `giannini2008820muw' on page 5 undefined on input line 
+130.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4 <./grafiken/2.2-eps-converted-to.pdf>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5 <./grafiken/2.2-eps-converted-to.pdf>]
+
+LaTeX Warning: Citation `khanna20002' on page 6 undefined on input line 140.
+
+
+LaTeX Warning: Reference `fig:2.5' on page 6 undefined on input line 140.
+
 Package epstopdf Info: Source file: <grafiken/2.5.eps>
-(epstopdf)                    date: 2021-03-19 10:44:58
+(epstopdf)                    date: 2021-03-24 07:05:28
 (epstopdf)                    size: 67311 bytes
 (epstopdf)             Output file: <grafiken/2.5-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-03-20 18:34:15
+(epstopdf)                    date: 2021-03-24 07:05:28
 (epstopdf)                    size: 23745 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/2.5-eps-converted-
 to.pdf grafiken/2.5.eps>
-(epstopdf)             \includegraphics on input line 74.
+(epstopdf)             \includegraphics on input line 143.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/2.5-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/2.5-eps-converted-to.pdf, id=391, 455.7025pt x 199.74625pt>
+<grafiken/2.5-eps-converted-to.pdf, id=178, 455.7025pt x 199.74625pt>
 File: grafiken/2.5-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/2.5-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/2.5-eps-converted-to.pdf  used on input line 
-74.
+143.
 (pdftex.def)             Requested size: 455.70137pt x 199.74576pt.
 
-Overfull \hbox (16.46187pt too wide) in paragraph at lines 74--76
+Overfull \hbox (16.46187pt too wide) in paragraph at lines 143--145
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5 <./grafiken/2.3-eps-converted-to.pdf>]
+[6 <./grafiken/2.3-eps-converted-to.pdf>]
+
+LaTeX Warning: Citation `spurgeon2000ethernet' on page 7 undefined on input lin
+e 151.
+
+
+LaTeX Warning: Citation `norris2003gigabit' on page 7 undefined on input line 1
+51.
+
+
+LaTeX Warning: Citation `forouzan2002tcp' on page 7 undefined on input line 151
+.
+
+
+LaTeX Warning: Citation `w5500datasheet' on page 7 undefined on input line 155.
+
+
+
+LaTeX Warning: Citation `dunkels2001design' on page 7 undefined on input line 1
+55.
+
+
+LaTeX Warning: Reference `fig:2.6' on page 7 undefined on input line 157.
+
 Package epstopdf Info: Source file: <grafiken/2.6.eps>
-(epstopdf)                    date: 2021-03-19 09:45:44
+(epstopdf)                    date: 2021-03-24 07:05:30
 (epstopdf)                    size: 94935 bytes
 (epstopdf)             Output file: <grafiken/2.6-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-03-20 18:34:16
+(epstopdf)                    date: 2021-03-24 07:05:30
 (epstopdf)                    size: 63517 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/2.6-eps-converted-
 to.pdf grafiken/2.6.eps>
-(epstopdf)             \includegraphics on input line 92.
+(epstopdf)             \includegraphics on input line 161.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/2.6-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/2.6-eps-converted-to.pdf, id=407, 510.90875pt x 188.705pt>
+<grafiken/2.6-eps-converted-to.pdf, id=196, 510.90875pt x 188.705pt>
 File: grafiken/2.6-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/2.6-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/2.6-eps-converted-to.pdf  used on input line 
-92.
+161.
 (pdftex.def)             Requested size: 426.79134pt x 157.63577pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6 <./grafiken/2.4-eps-converted-to.pdf> <./grafiken/2.5-eps-converted-to.pdf>
+ [7 <./grafiken/2.4-eps-converted-to.pdf> <./grafiken/2.5-eps-converted-to.pdf>
 ]
+
+LaTeX Warning: Citation `mandke2007early' on page 8 undefined on input line 173
+.
+
 Package epstopdf Info: Source file: <grafiken/2.7.eps>
-(epstopdf)                    date: 2021-03-19 09:16:42
+(epstopdf)                    date: 2021-03-24 07:05:30
 (epstopdf)                    size: 34012 bytes
 (epstopdf)             Output file: <grafiken/2.7-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-03-20 18:34:17
+(epstopdf)                    date: 2021-03-24 07:05:30
 (epstopdf)                    size: 14610 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/2.7-eps-converted-
 to.pdf grafiken/2.7.eps>
-(epstopdf)             \includegraphics on input line 110.
+(epstopdf)             \includegraphics on input line 179.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/2.7-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/2.7-eps-converted-to.pdf, id=427, 202.7575pt x 32.12pt>
+<grafiken/2.7-eps-converted-to.pdf, id=219, 202.7575pt x 32.12pt>
 File: grafiken/2.7-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/2.7-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/2.7-eps-converted-to.pdf  used on input line 
-110.
+179.
 (pdftex.def)             Requested size: 202.757pt x 32.1199pt.
 Package epstopdf Info: Source file: <grafiken/2.8.eps>
-(epstopdf)                    date: 2021-03-20 04:31:38
+(epstopdf)                    date: 2021-03-24 07:05:30
 (epstopdf)                    size: 58863 bytes
 (epstopdf)             Output file: <grafiken/2.8-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-03-20 18:34:19
+(epstopdf)                    date: 2021-03-24 07:05:30
 (epstopdf)                    size: 22116 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/2.8-eps-converted-
 to.pdf grafiken/2.8.eps>
-(epstopdf)             \includegraphics on input line 121.
+(epstopdf)             \includegraphics on input line 190.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/2.8-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/2.8-eps-converted-to.pdf, id=428, 202.7575pt x 44.165pt>
+<grafiken/2.8-eps-converted-to.pdf, id=220, 202.7575pt x 44.165pt>
 File: grafiken/2.8-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/2.8-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/2.8-eps-converted-to.pdf  used on input line 
-121.
+190.
 (pdftex.def)             Requested size: 202.757pt x 44.16487pt.
 
-Overfull \hbox (8.34863pt too wide) in paragraph at lines 115--125
+Overfull \hbox (8.34863pt too wide) in paragraph at lines 184--194
 []\T1/ptm/m/n/12 The tra-di-tional Eth-er-net ac-cess scheme is as shown in the
  fig-ure be-low. The MCU+MAC+PHY
  []
 
-[7 <./grafiken/2.6-eps-converted-to.pdf> <./grafiken/2.7-eps-converted-to.pdf>]
+[8 <./grafiken/2.6-eps-converted-to.pdf> <./grafiken/2.7-eps-converted-to.pdf>]
+
+LaTeX Warning: Citation `khanchuea2019multi' on page 9 undefined on input line 
+197.
+
+
+LaTeX Warning: Reference `fig:2.9' on page 9 undefined on input line 197.
+
 Package epstopdf Info: Source file: <grafiken/2.9.eps>
-(epstopdf)                    date: 2021-03-19 14:06:21
+(epstopdf)                    date: 2021-03-24 07:05:30
 (epstopdf)                    size: 60989 bytes
 (epstopdf)             Output file: <grafiken/2.9-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-03-20 18:34:20
+(epstopdf)                    date: 2021-03-24 07:05:30
 (epstopdf)                    size: 22443 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/2.9-eps-converted-
 to.pdf grafiken/2.9.eps>
-(epstopdf)             \includegraphics on input line 131.
+(epstopdf)             \includegraphics on input line 200.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/2.9-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/2.9-eps-converted-to.pdf, id=443, 502.87875pt x 390.45876pt>
+<grafiken/2.9-eps-converted-to.pdf, id=238, 502.87875pt x 390.45876pt>
 File: grafiken/2.9-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/2.9-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/2.9-eps-converted-to.pdf  used on input line 
-131.
+200.
 (pdftex.def)             Requested size: 427.44896pt x 331.8915pt.
-[8 <./grafiken/2.8-eps-converted-to.pdf> <./grafiken/2.9-eps-converted-to.pdf>]
+[9 <./grafiken/2.8-eps-converted-to.pdf> <./grafiken/2.9-eps-converted-to.pdf>]
+
+LaTeX Warning: Citation `xiao_shan2001principle' on page 10 undefined on input 
+line 214.
+
+
+LaTeX Warning: Reference `fig:2.10' on page 10 undefined on input line 214.
+
 Package epstopdf Info: Source file: <grafiken/2.10.eps>
-(epstopdf)                    date: 2021-03-21 04:35:47
+(epstopdf)                    date: 2021-03-24 07:05:22
 (epstopdf)                    size: 70351 bytes
 (epstopdf)             Output file: <grafiken/2.10-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-03-21 04:36:41
+(epstopdf)                    date: 2021-03-24 07:05:22
 (epstopdf)                    size: 24658 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/2.10-eps-converted
 -to.pdf grafiken/2.10.eps>
-(epstopdf)             \includegraphics on input line 150.
+(epstopdf)             \includegraphics on input line 219.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/2.10-eps-converted-to.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/2.10-eps-converted-to.pdf, id=461, 442.65375pt x 119.44624pt>
+<grafiken/2.10-eps-converted-to.pdf, id=257, 442.65375pt x 119.44624pt>
 File: grafiken/2.10-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/2.10-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/2.10-eps-converted-to.pdf  used on input line
- 150.
+ 219.
 (pdftex.def)             Requested size: 426.79134pt x 115.17194pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--160
+LaTeX Warning: Citation `sureswaran2009active' on page 10 undefined on input li
+ne 225.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--229
 
  []
 
-[9 <./grafiken/2.10-eps-converted-to.pdf>]
-<grafiken/2.11.pdf, id=474, 689.85231pt x 540.69502pt>
+[10 <./grafiken/2.10-eps-converted-to.pdf>]
+
+LaTeX Warning: Citation `madhuri2016performance' on page 11 undefined on input 
+line 234.
+
+
+LaTeX Warning: Reference `fig:2.11' on page 11 undefined on input line 238.
+
+<grafiken/2.11.pdf, id=270, 689.85231pt x 540.69502pt>
 File: grafiken/2.11.pdf Graphic file (type pdf)
 <use grafiken/2.11.pdf>
-Package pdftex.def Info: grafiken/2.11.pdf  used on input line 173.
+Package pdftex.def Info: grafiken/2.11.pdf  used on input line 242.
 (pdftex.def)             Requested size: 482.89333pt x 378.48393pt.
 
-Overfull \hbox (43.65382pt too wide) in paragraph at lines 173--174
+Overfull \hbox (43.65382pt too wide) in paragraph at lines 242--243
  [][] 
  []
 
-[10]
+[11]
+
+LaTeX Warning: Citation `fodisch2016synchronous' on page 12 undefined on input 
+line 247.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11 <./grafiken/2.11.pdf>]
-<grafiken/2.12.pdf, id=507, 416.55727pt x 166.55725pt>
+ [12 <./grafiken/2.11.pdf>]
+
+LaTeX Warning: Citation `yadlapati2018constrained' on page 13 undefined on inpu
+t line 268.
+
+
+LaTeX Warning: Citation `szekacs2007realising' on page 13 undefined on input li
+ne 270.
+
+
+LaTeX Warning: Reference `fig:2.12' on page 13 undefined on input line 274.
+
+<grafiken/2.12.pdf, id=305, 416.55727pt x 166.55725pt>
 File: grafiken/2.12.pdf Graphic file (type pdf)
 <use grafiken/2.12.pdf>
-Package pdftex.def Info: grafiken/2.12.pdf  used on input line 209.
+Package pdftex.def Info: grafiken/2.12.pdf  used on input line 278.
 (pdftex.def)             Requested size: 426.79134pt x 170.65874pt.
 
-Overfull \hbox (2.11702pt too wide) in paragraph at lines 218--239
+LaTeX Warning: Citation `riesbeck1986direct' on page 13 undefined on input line
+ 289.
+
+
+Overfull \hbox (2.11702pt too wide) in paragraph at lines 287--308
 \T1/ptm/m/n/12 Transmission be-tween mem-o-ries, trans-mis-sion be-tween pe-rip
 h-er-als and mem-o-ries, and trans-
  []
 
-[12 <./grafiken/2.12.pdf>]
+[13 <./grafiken/2.12.pdf>]
+
+LaTeX Warning: Reference `fig:2.13' on page 14 undefined on input line 310.
+
 Package epstopdf Info: Source file: <grafiken/2.13.eps>
-(epstopdf)                    date: 2021-03-19 09:45:44
+(epstopdf)                    date: 2021-03-24 07:05:26
 (epstopdf)                    size: 135101 bytes
 (epstopdf)             Output file: <grafiken/2.13-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-03-20 18:34:25
+(epstopdf)                    date: 2021-03-24 07:05:26
 (epstopdf)                    size: 123987 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/2.13-eps-converted
 -to.pdf grafiken/2.13.eps>
-(epstopdf)             \includegraphics on input line 246.
+(epstopdf)             \includegraphics on input line 315.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/2.13-eps-converted-to.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/2.13-eps-converted-to.pdf, id=519, 962.59625pt x 613.29124pt>
+<grafiken/2.13-eps-converted-to.pdf, id=319, 962.59625pt x 613.29124pt>
 File: grafiken/2.13-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/2.13-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/2.13-eps-converted-to.pdf  used on input line
- 246.
+ 315.
 (pdftex.def)             Requested size: 426.79134pt x 271.9171pt.
-[13]
+[14 <./grafiken/2.13-eps-converted-to.pdf>]
+
+LaTeX Warning: Citation `parlika2020implementasi' on page 15 undefined on input
+ line 324.
+
+
+LaTeX Warning: Reference `fig:2.14' on page 15 undefined on input line 327.
+
 Package epstopdf Info: Source file: <grafiken/2.14.eps>
-(epstopdf)                    date: 2021-03-19 09:45:44
+(epstopdf)                    date: 2021-03-24 07:05:26
 (epstopdf)                    size: 88195 bytes
 (epstopdf)             Output file: <grafiken/2.14-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-03-20 18:34:26
+(epstopdf)                    date: 2021-03-24 07:05:26
 (epstopdf)                    size: 47196 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/2.14-eps-converted
 -to.pdf grafiken/2.14.eps>
-(epstopdf)             \includegraphics on input line 262.
+(epstopdf)             \includegraphics on input line 331.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/2.14-eps-converted-to.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/2.14-eps-converted-to.pdf, id=525, 412.54124pt x 242.9075pt>
+<grafiken/2.14-eps-converted-to.pdf, id=328, 412.54124pt x 242.9075pt>
 File: grafiken/2.14-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/2.14-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/2.14-eps-converted-to.pdf  used on input line
- 262.
+ 331.
 (pdftex.def)             Requested size: 412.54024pt x 242.90689pt.
-[14 <./grafiken/2.13-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `fig:2.15' on page 15 undefined on input line 336.
+
 Package epstopdf Info: Source file: <grafiken/2.15.eps>
-(epstopdf)                    date: 2021-03-20 20:45:01
+(epstopdf)                    date: 2021-03-24 07:05:28
 (epstopdf)                    size: 90411 bytes
 (epstopdf)             Output file: <grafiken/2.15-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-03-21 00:17:43
+(epstopdf)                    date: 2021-03-24 07:05:28
 (epstopdf)                    size: 31463 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/2.15-eps-converted
 -to.pdf grafiken/2.15.eps>
-(epstopdf)             \includegraphics on input line 272.
+(epstopdf)             \includegraphics on input line 341.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/2.15-eps-converted-to.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/2.15-eps-converted-to.pdf, id=534, 491.8375pt x 89.33376pt>
+<grafiken/2.15-eps-converted-to.pdf, id=329, 491.8375pt x 89.33376pt>
 File: grafiken/2.15-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/2.15-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/2.15-eps-converted-to.pdf  used on input line
- 272.
+ 341.
 (pdftex.def)             Requested size: 426.79134pt x 77.52206pt.
+
+LaTeX Warning: Citation `lee2015internet' on page 15 undefined on input line 35
+0.
+
+[15 <./grafiken/2.14-eps-converted-to.pdf> <./grafiken/2.15-eps-converted-to.pd
+f>]
+
+LaTeX Warning: Citation `borges2016understanding' on page 16 undefined on input
+ line 357.
+
+
+LaTeX Warning: Reference `fig:2.16' on page 16 undefined on input line 359.
+
 
 
 pdfTeX warning: pdflatex (file ./grafiken/2.16.pdf): PDF inclusion: found PDF v
 ersion <1.7>, but at most version <1.5> allowed
-<grafiken/2.16.pdf, id=536, 433.71637pt x 257.53717pt>
+<grafiken/2.16.pdf, id=360, 433.71637pt x 257.53717pt>
 File: grafiken/2.16.pdf Graphic file (type pdf)
 <use grafiken/2.16.pdf>
-Package pdftex.def Info: grafiken/2.16.pdf  used on input line 294.
+Package pdftex.def Info: grafiken/2.16.pdf  used on input line 363.
 (pdftex.def)             Requested size: 426.79134pt x 253.43785pt.
-[15 <./grafiken/2.14-eps-converted-to.pdf> <./grafiken/2.15-eps-converted-to.pd
-f>] [16 <./grafiken/2.16.pdf>]
+[16 <./grafiken/2.16.pdf>]
 chapter 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--310
+LaTeX Warning: Citation `zhang2017physics' on page 17 undefined on input line 3
+73.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 375--377
 
  []
 
@@ -2423,32 +2643,38 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.315 F
+l.382 F
        or multiple units under test, we adopt a one-to-one correspondence me...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+
+LaTeX Warning: Citation `kim2011novel' on page 17 undefined on input line 382.
+
+
+LaTeX Warning: Reference `fig:3.1' on page 17 undefined on input line 383.
+
 Package epstopdf Info: Source file: <grafiken/3.1.eps>
-(epstopdf)                    date: 2021-03-22 09:01:49
+(epstopdf)                    date: 2021-03-24 07:05:30
 (epstopdf)                    size: 117746 bytes
 (epstopdf)             Output file: <grafiken/3.1-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-03-22 09:05:35
+(epstopdf)                    date: 2021-03-24 07:05:30
 (epstopdf)                    size: 57736 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/3.1-eps-converted-
 to.pdf grafiken/3.1.eps>
-(epstopdf)             \includegraphics on input line 320.
+(epstopdf)             \includegraphics on input line 387.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/3.1-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/3.1-eps-converted-to.pdf, id=586, 323.2075pt x 241.90375pt>
+<grafiken/3.1-eps-converted-to.pdf, id=383, 323.2075pt x 241.90375pt>
 File: grafiken/3.1-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/3.1-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/3.1-eps-converted-to.pdf  used on input line 
-320.
+387.
 (pdftex.def)             Requested size: 426.79134pt x 319.44681pt.
 [17
 
@@ -2460,7 +2686,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.332 \\
+l.399 \\
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2473,31 +2699,42 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.333 \section
+l.400 \section
               {IC for IGBT control circuit}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+
+LaTeX Warning: Citation `LM393datasheet' on page 18 undefined on input line 405
+.
+
+
+LaTeX Warning: Citation `nie2012development' on page 18 undefined on input line
+ 405.
+
+
+LaTeX Warning: Reference `fig:3.2' on page 18 undefined on input line 407.
+
 Package epstopdf Info: Source file: <grafiken/3.2.eps>
-(epstopdf)                    date: 2021-03-21 09:25:56
+(epstopdf)                    date: 2021-03-24 07:05:30
 (epstopdf)                    size: 81595 bytes
 (epstopdf)             Output file: <grafiken/3.2-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-03-21 10:04:07
+(epstopdf)                    date: 2021-03-24 07:05:30
 (epstopdf)                    size: 29001 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/3.2-eps-converted-
 to.pdf grafiken/3.2.eps>
-(epstopdf)             \includegraphics on input line 343.
+(epstopdf)             \includegraphics on input line 411.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/3.2-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/3.2-eps-converted-to.pdf, id=592, 178.6675pt x 126.4725pt>
+<grafiken/3.2-eps-converted-to.pdf, id=390, 178.6675pt x 126.4725pt>
 File: grafiken/3.2-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/3.2-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/3.2-eps-converted-to.pdf  used on input line 
-343.
+411.
 (pdftex.def)             Requested size: 369.88582pt x 261.84465pt.
 [18 <./grafiken/3.1-eps-converted-to.pdf>]
 
@@ -2507,23 +2744,26 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.349 \section
+l.417 \section
               {Simulation circuit}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
+LaTeX Warning: Reference `fig:3.3' on page 19 undefined on input line 422.
+
+
 
 pdfTeX warning: pdflatex (file ./grafiken/3.3.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<grafiken/3.3.pdf, id=609, 794.97pt x 614.295pt>
+<grafiken/3.3.pdf, id=409, 794.97pt x 614.295pt>
 File: grafiken/3.3.pdf Graphic file (type pdf)
 <use grafiken/3.3.pdf>
-Package pdftex.def Info: grafiken/3.3.pdf  used on input line 357.
+Package pdftex.def Info: grafiken/3.3.pdf  used on input line 425.
 (pdftex.def)             Requested size: 483.69684pt x 373.77269pt.
 
-Overfull \hbox (44.45734pt too wide) in paragraph at lines 357--358
+Overfull \hbox (44.45734pt too wide) in paragraph at lines 425--426
  [][] 
  []
 
@@ -2535,7 +2775,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.363 A
+l.431 A
        mong them, $R_{1}$ and $R_{2}$ are voltage divider circuits to ensure...
 
 Your command was ignored.
@@ -2543,11 +2783,14 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
+LaTeX Warning: Reference `tab:3.1' on page 20 undefined on input line 435.
+
+
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 369.
+               Default added (so using `tbp') on input line 437.
 
 
-Overfull \hbox (13.27327pt too wide) in paragraph at lines 370--377
+Overfull \hbox (13.27327pt too wide) in paragraph at lines 438--445
 [][] 
  []
 
@@ -2558,7 +2801,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.383 W
+l.451 W
        hen the DUT is affected by cosmic rays, because the internal resistan...
 
 Your command was ignored.
@@ -2569,55 +2812,61 @@ or  <return>  to continue without it.
 
 pdfTeX warning: pdflatex (file ./grafiken/3.4.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<grafiken/3.4.pdf, id=635, 598.235pt x 345.29pt>
+<grafiken/3.4.pdf, id=438, 598.235pt x 345.29pt>
 File: grafiken/3.4.pdf Graphic file (type pdf)
 <use grafiken/3.4.pdf>
-Package pdftex.def Info: grafiken/3.4.pdf  used on input line 390.
+Package pdftex.def Info: grafiken/3.4.pdf  used on input line 458.
 (pdftex.def)             Requested size: 369.88582pt x 213.49275pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 395--397
+LaTeX Warning: Reference `fig:3.4' on page 21 undefined on input line 463.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 463--465
 
  []
 
 [21 <./grafiken/3.4.pdf>]
 chapter 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--408
+Underfull \hbox (badness 10000) in paragraph at lines 474--476
 
  []
 
 Package epstopdf Info: Source file: <grafiken/4.1.eps>
-(epstopdf)                    date: 2021-03-21 11:39:23
+(epstopdf)                    date: 2021-03-24 07:05:30
 (epstopdf)                    size: 84469 bytes
 (epstopdf)             Output file: <grafiken/4.1-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-03-21 12:16:11
+(epstopdf)                    date: 2021-03-24 07:05:30
 (epstopdf)                    size: 30034 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/4.1-eps-converted-
 to.pdf grafiken/4.1.eps>
-(epstopdf)             \includegraphics on input line 415.
+(epstopdf)             \includegraphics on input line 483.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/4.1-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/4.1-eps-converted-to.pdf, id=646, 582.175pt x 97.36375pt>
+<grafiken/4.1-eps-converted-to.pdf, id=448, 582.175pt x 97.36375pt>
 File: grafiken/4.1-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/4.1-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/4.1-eps-converted-to.pdf  used on input line 
-415.
+483.
 (pdftex.def)             Requested size: 455.24408pt x 76.13654pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 415--416
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 483--484
  [][] 
  []
 
-<grafiken/4.2.pdf, id=648, 646.82051pt x 360.74373pt>
+
+LaTeX Warning: Reference `fig:4.1' on page 22 undefined on input line 488.
+
+<grafiken/4.2.pdf, id=449, 646.82051pt x 360.74373pt>
 File: grafiken/4.2.pdf Graphic file (type pdf)
 <use grafiken/4.2.pdf>
-Package pdftex.def Info: grafiken/4.2.pdf  used on input line 427.
+Package pdftex.def Info: grafiken/4.2.pdf  used on input line 495.
 (pdftex.def)             Requested size: 455.24408pt x 253.9005pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 427--428
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 495--496
  [][] 
  []
 
@@ -2625,23 +2874,29 @@ Overfull \hbox (16.00458pt too wide) in paragraph at lines 427--428
 
  <./grafiken/4.1-eps-converted-to.pdf>]
 
+LaTeX Warning: Reference `tab:4.1' on page 23 undefined on input line 506.
+
+
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 444.
+               Default added (so using `tbp') on input line 512.
 
 
-LaTeX Warning: Float too large for page by 46.61528pt on input line 490.
+LaTeX Warning: Float too large for page by 46.61528pt on input line 558.
+
+
+LaTeX Warning: Reference `fig:4.3' on page 23 undefined on input line 560.
 
 
 
 pdfTeX warning: pdflatex (file ./grafiken/4.3.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<grafiken/4.3.pdf, id=665, 545.11252pt x 556.40575pt>
+<grafiken/4.3.pdf, id=467, 545.11252pt x 556.40575pt>
 File: grafiken/4.3.pdf Graphic file (type pdf)
 <use grafiken/4.3.pdf>
-Package pdftex.def Info: grafiken/4.3.pdf  used on input line 499.
+Package pdftex.def Info: grafiken/4.3.pdf  used on input line 567.
 (pdftex.def)             Requested size: 455.24408pt x 464.6863pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 499--500
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 567--568
  [][] 
  []
 
@@ -2653,7 +2908,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.505 
+l.573 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2666,7 +2921,37 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.515 \\
+l.575 \\
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.576 \section
+              {Calculation of power}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Citation `gotz2020benchmarking' on page 25 undefined on input li
+ne 579.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.585 \\
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2675,7 +2960,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.515 \\
+l.585 \\
         
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2683,7 +2968,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.515 \\
+l.585 \\
         
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2694,7 +2979,7 @@ my insertion and my current dilemma will both disappear.
 ! Display math should end with $$.
 <to be read again> 
                    \@@par 
-l.515 \\
+l.585 \\
         
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
@@ -2702,7 +2987,7 @@ So I shall assume that you typed `$$' both times.
 ! Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.515 \\
+l.585 \\
         
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2713,7 +2998,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.516 =1*\left
+l.586 =1*\left
                \lceil P_{W5500}  \right \rceil +6* \left \lceil P_{STM32F429...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2721,7 +3006,7 @@ you left one out. Proceed, with fingers crossed.
 ! You can't use `\eqno' in math mode.
 \endmathdisplay@a ...\df@tag \@empty \else \veqno 
                                                   \alt@tag \df@tag \fi \ifx ...
-l.517 \end{equation}
+l.587 \end{equation}
                     
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2731,7 +3016,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.517 \end{equation}
+l.587 \end{equation}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2747,19 +3032,27 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.520 S
-       ince each DC DC converter chip TWR6 can provide 6W switching power su...
+l.590 S
+       ince each DC DC converter chip TMR6 can provide 6W switching power su...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+
+LaTeX Warning: Citation `TMR6datasheet' on page 26 undefined on input line 590.
+
+
 [26]
 chapter 5.
-<grafiken/5.1.pdf, id=709, 447.57211pt x 124.04944pt>
+
+LaTeX Warning: Citation `li2005principle' on page 27 undefined on input line 62
+0.
+
+<grafiken/5.1.pdf, id=517, 447.57211pt x 124.04944pt>
 File: grafiken/5.1.pdf Graphic file (type pdf)
 <use grafiken/5.1.pdf>
-Package pdftex.def Info: grafiken/5.1.pdf  used on input line 560.
+Package pdftex.def Info: grafiken/5.1.pdf  used on input line 631.
 (pdftex.def)             Requested size: 426.79134pt x 118.29109pt.
 
 ! LaTeX Error: There's no line here to end.
@@ -2768,7 +3061,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.566 M
+l.637 M
        ainly change its appearance according to different applications. The ...
 
 Your command was ignored.
@@ -2778,13 +3071,13 @@ or  <return>  to continue without it.
 [27
 
  <./grafiken/5.1.pdf>]
-<grafiken/5.2.pdf, id=740, 595.88222pt x 348.87137pt>
+<grafiken/5.2.pdf, id=551, 595.88222pt x 348.87137pt>
 File: grafiken/5.2.pdf Graphic file (type pdf)
 <use grafiken/5.2.pdf>
-Package pdftex.def Info: grafiken/5.2.pdf  used on input line 574.
+Package pdftex.def Info: grafiken/5.2.pdf  used on input line 645.
 (pdftex.def)             Requested size: 455.24408pt x 266.53438pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 574--575
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 645--646
  [][] 
  []
 
@@ -2795,7 +3088,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.580 
+l.651 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2805,27 +3098,35 @@ or  <return>  to continue without it.
 
 pdfTeX warning: pdflatex (file ./grafiken/5.3.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<grafiken/5.3.pdf, id=741, 616.705pt x 346.89702pt>
+<grafiken/5.3.pdf, id=552, 616.705pt x 346.89702pt>
 File: grafiken/5.3.pdf Graphic file (type pdf)
 <use grafiken/5.3.pdf>
-Package pdftex.def Info: grafiken/5.3.pdf  used on input line 583.
+Package pdftex.def Info: grafiken/5.3.pdf  used on input line 654.
 (pdftex.def)             Requested size: 455.24408pt x 256.08046pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 583--584
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 654--655
  [][] 
  []
 
 [28 <./grafiken/5.2.pdf>]
 
+LaTeX Warning: Citation `controlcables2021' on page 29 undefined on input line 
+666.
+
+
+LaTeX Warning: Reference `fig:5.4' on page 29 undefined on input line 677.
+
+
+
 pdfTeX warning: pdflatex (file ./grafiken/5.4.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<grafiken/5.4.pdf, id=766, 598.99681pt x 338.76462pt>
+<grafiken/5.4.pdf, id=578, 598.99681pt x 338.76462pt>
 File: grafiken/5.4.pdf Graphic file (type pdf)
 <use grafiken/5.4.pdf>
-Package pdftex.def Info: grafiken/5.4.pdf  used on input line 609.
+Package pdftex.def Info: grafiken/5.4.pdf  used on input line 680.
 (pdftex.def)             Requested size: 455.24408pt x 257.4741pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 609--610
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 680--681
  [][] 
  []
 
@@ -2837,24 +3138,31 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.615 
+l.686 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<grafiken/5.5.pdf, id=775, 473.37451pt x 391.00479pt>
+
+LaTeX Warning: Citation `shen2006embedded' on page 30 undefined on input line 6
+96.
+
+
+LaTeX Warning: Reference `fig:5.5' on page 30 undefined on input line 696.
+
+<grafiken/5.5.pdf, id=588, 473.37451pt x 391.00479pt>
 File: grafiken/5.5.pdf Graphic file (type pdf)
 <use grafiken/5.5.pdf>
-Package pdftex.def Info: grafiken/5.5.pdf  used on input line 628.
+Package pdftex.def Info: grafiken/5.5.pdf  used on input line 699.
 (pdftex.def)             Requested size: 455.24408pt x 376.05241pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 628--629
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 699--700
  [][] 
  []
 
 [30 <./grafiken/5.4.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 634--642
+Underfull \hbox (badness 10000) in paragraph at lines 705--713
 
  []
 
@@ -2869,7 +3177,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.646 \begin
+l.717 \begin
             {center}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2882,24 +3190,24 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.652 \begin
+l.723 \begin
             {center}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 658--660
+Underfull \hbox (badness 10000) in paragraph at lines 729--731
 
  []
 
-<grafiken/5.6.pdf, id=820, 682.10632pt x 365.2074pt>
+<grafiken/5.6.pdf, id=638, 682.10632pt x 365.2074pt>
 File: grafiken/5.6.pdf Graphic file (type pdf)
 <use grafiken/5.6.pdf>
-Package pdftex.def Info: grafiken/5.6.pdf  used on input line 672.
+Package pdftex.def Info: grafiken/5.6.pdf  used on input line 743.
 (pdftex.def)             Requested size: 455.24408pt x 243.74591pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 672--673
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 743--744
  [][] 
  []
 
@@ -2911,34 +3219,42 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.679 T
+l.750 T
        hat is to say, each time the slave board main board adopts the averag...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<grafiken/5.7.pdf, id=829, 507.61844pt x 204.5753pt>
+
+LaTeX Warning: Citation `huang2017development' on page 33 undefined on input li
+ne 760.
+
+<grafiken/5.7.pdf, id=647, 507.61844pt x 204.5753pt>
 File: grafiken/5.7.pdf Graphic file (type pdf)
 <use grafiken/5.7.pdf>
-Package pdftex.def Info: grafiken/5.7.pdf  used on input line 698.
+Package pdftex.def Info: grafiken/5.7.pdf  used on input line 769.
 (pdftex.def)             Requested size: 455.24408pt x 183.47614pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 698--699
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 769--770
  [][] 
  []
 
 [33 <./grafiken/5.6.pdf>]
 
+LaTeX Warning: Reference `fig:5.8' on page 34 undefined on input line 776.
+
+
+
 pdfTeX warning: pdflatex (file ./grafiken/5.8.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<grafiken/5.8.pdf, id=853, 1390.44469pt x 792.71156pt>
+<grafiken/5.8.pdf, id=672, 1390.44469pt x 792.71156pt>
 File: grafiken/5.8.pdf Graphic file (type pdf)
 <use grafiken/5.8.pdf>
-Package pdftex.def Info: grafiken/5.8.pdf  used on input line 711.
+Package pdftex.def Info: grafiken/5.8.pdf  used on input line 780.
 (pdftex.def)             Requested size: 455.24408pt x 259.53934pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 711--712
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 780--781
  [][] 
  []
 
@@ -2949,34 +3265,45 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.717 B
+l.786 B
        ack end and front end:
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
+LaTeX Warning: Citation `gutierrez2019data' on page 34 undefined on input line 
+788.
+
+
 ! LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.722 T
+l.791 T
        he GUI(Graphical user interface) that separates the front and back en...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+
+LaTeX Warning: Citation `yunrui2018front' on page 34 undefined on input line 79
+1.
+
+
+LaTeX Warning: Reference `fig:5.9' on page 34 undefined on input line 794.
+
 [34 <./grafiken/5.7.pdf> <./grafiken/5.8.pdf>]
-<grafiken/5.9.pdf, id=878, 1426.73027pt x 671.57903pt>
+<grafiken/5.9.pdf, id=698, 1426.73027pt x 671.57903pt>
 File: grafiken/5.9.pdf Graphic file (type pdf)
 <use grafiken/5.9.pdf>
-Package pdftex.def Info: grafiken/5.9.pdf  used on input line 731.
+Package pdftex.def Info: grafiken/5.9.pdf  used on input line 800.
 (pdftex.def)             Requested size: 455.24408pt x 214.28458pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 731--732
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 800--801
  [][] 
  []
 
@@ -2987,7 +3314,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.737 \chapter
+l.806 \chapter
               {Design PCBs}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2995,13 +3322,16 @@ or  <return>  to continue without it.
 
 [35 <./grafiken/5.9.pdf>]
 chapter 6.
-<grafiken/6.1.pdf, id=888, 837.76189pt x 314.82115pt>
+
+LaTeX Warning: Reference `fig:6.1' on page 36 undefined on input line 814.
+
+<grafiken/6.1.pdf, id=708, 837.76189pt x 314.82115pt>
 File: grafiken/6.1.pdf Graphic file (type pdf)
 <use grafiken/6.1.pdf>
-Package pdftex.def Info: grafiken/6.1.pdf  used on input line 749.
+Package pdftex.def Info: grafiken/6.1.pdf  used on input line 818.
 (pdftex.def)             Requested size: 455.24408pt x 171.07692pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 749--750
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 818--819
  [][] 
  []
 
@@ -3012,25 +3342,28 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.755 
+l.824 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (37.3364pt too wide) in paragraph at lines 756--757
+LaTeX Warning: Reference `fig:6.2' on page 36 undefined on input line 825.
+
+
+Overfull \hbox (37.3364pt too wide) in paragraph at lines 825--826
 []\T1/ptm/m/n/12 The main com-po-nents of the slave-board schematic di-a-gram a
 re the mi-cro-con-troller STM32F303ZET
  []
 
-<grafiken/6.2.pdf, id=890, 608.5134pt x 354.96617pt>
+<grafiken/6.2.pdf, id=709, 608.5134pt x 354.96617pt>
 File: grafiken/6.2.pdf Graphic file (type pdf)
 <use grafiken/6.2.pdf>
-Package pdftex.def Info: grafiken/6.2.pdf  used on input line 760.
+Package pdftex.def Info: grafiken/6.2.pdf  used on input line 829.
 (pdftex.def)             Requested size: 455.24408pt x 265.56317pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 760--761
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 829--830
  [][] 
  []
 
@@ -3044,34 +3377,37 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.766 
+l.835 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+
+LaTeX Warning: Reference `fig:6.3' on page 37 undefined on input line 836.
+
 Package epstopdf Info: Source file: <grafiken/f429.eps>
-(epstopdf)                    date: 2021-03-19 09:45:44
+(epstopdf)                    date: 2021-03-24 07:05:42
 (epstopdf)                    size: 109417 bytes
 (epstopdf)             Output file: <grafiken/f429-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-03-21 16:30:09
+(epstopdf)                    date: 2021-03-24 07:05:42
 (epstopdf)                    size: 34988 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/f429-eps-converted
 -to.pdf grafiken/f429.eps>
-(epstopdf)             \includegraphics on input line 771.
+(epstopdf)             \includegraphics on input line 840.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/f429-eps-converted-to.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/f429-eps-converted-to.pdf, id=919, 115.43124pt x 110.4125pt>
+<grafiken/f429-eps-converted-to.pdf, id=741, 115.43124pt x 110.4125pt>
 File: grafiken/f429-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/f429-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/f429-eps-converted-to.pdf  used on input line
- 771.
+ 840.
 (pdftex.def)             Requested size: 455.24408pt x 435.5433pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 771--772
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 840--841
  [][] 
  []
 
@@ -3083,35 +3419,38 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.777 C
+l.846 C
        orresponding to this, the following Figure~\ref{fig:6.4} is a schemat...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+
+LaTeX Warning: Reference `fig:6.4' on page 38 undefined on input line 846.
+
 Package epstopdf Info: Source file: <grafiken/f429conn.eps>
-(epstopdf)                    date: 2021-03-19 09:45:44
+(epstopdf)                    date: 2021-03-24 07:05:42
 (epstopdf)                    size: 104188 bytes
 (epstopdf)             Output file: <grafiken/f429conn-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-03-21 15:22:49
+(epstopdf)                    date: 2021-03-24 07:05:42
 (epstopdf)                    size: 33155 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/f429conn-eps-conve
 rted-to.pdf grafiken/f429conn.eps>
-(epstopdf)             \includegraphics on input line 781.
+(epstopdf)             \includegraphics on input line 850.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/f429conn-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/f429conn-eps-converted-to.pdf, id=948, 107.40125pt x 104.39pt>
+<grafiken/f429conn-eps-converted-to.pdf, id=770, 107.40125pt x 104.39pt>
 File: grafiken/f429conn-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/f429conn-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/f429conn-eps-converted-to.pdf  used on input 
-line 781.
+line 850.
 (pdftex.def)             Requested size: 455.24408pt x 442.58592pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 781--782
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 850--851
  [][] 
  []
 
@@ -3123,35 +3462,38 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.787 I
+l.856 I
        t is also important that the schematic diagram of the slaveboard mirc...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+
+LaTeX Warning: Reference `fig:6.5' on page 39 undefined on input line 856.
+
 Package epstopdf Info: Source file: <grafiken/f303.eps>
-(epstopdf)                    date: 2021-03-19 09:45:44
+(epstopdf)                    date: 2021-03-24 07:05:42
 (epstopdf)                    size: 119579 bytes
 (epstopdf)             Output file: <grafiken/f303-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-03-21 15:22:50
+(epstopdf)                    date: 2021-03-24 07:05:42
 (epstopdf)                    size: 35653 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/f303-eps-converted
 -to.pdf grafiken/f303.eps>
-(epstopdf)             \includegraphics on input line 791.
+(epstopdf)             \includegraphics on input line 860.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/f303-eps-converted-to.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/f303-eps-converted-to.pdf, id=964, 117.43875pt x 98.3675pt>
+<grafiken/f303-eps-converted-to.pdf, id=786, 117.43875pt x 98.3675pt>
 File: grafiken/f303-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/f303-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/f303-eps-converted-to.pdf  used on input line
- 791.
+ 860.
 (pdftex.def)             Requested size: 455.24408pt x 381.31711pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 791--792
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 860--861
  [][] 
  []
 
@@ -3163,35 +3505,38 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.797 
+l.866 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+
+LaTeX Warning: Reference `fig:6.6' on page 40 undefined on input line 867.
+
 Package epstopdf Info: Source file: <grafiken/boot_master.eps>
-(epstopdf)                    date: 2021-03-19 09:45:44
+(epstopdf)                    date: 2021-03-24 07:05:34
 (epstopdf)                    size: 71834 bytes
 (epstopdf)             Output file: <grafiken/boot_master-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2021-03-21 15:22:52
+(epstopdf)                    date: 2021-03-24 07:05:34
 (epstopdf)                    size: 27284 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/boot_master-eps-co
 nverted-to.pdf grafiken/boot_master.eps>
-(epstopdf)             \includegraphics on input line 801.
+(epstopdf)             \includegraphics on input line 870.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/boot_master-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/boot_master-eps-converted-to.pdf, id=981, 43.16125pt x 51.19125pt>
+<grafiken/boot_master-eps-converted-to.pdf, id=802, 43.16125pt x 51.19125pt>
 File: grafiken/boot_master-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/boot_master-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/boot_master-eps-converted-to.pdf  used on inp
-ut line 801.
+ut line 870.
 (pdftex.def)             Requested size: 455.24408pt x 540.00159pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 801--802
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 870--871
  [][] 
  []
 
@@ -3203,34 +3548,37 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.807 
+l.876 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+
+LaTeX Warning: Reference `fig:6.7' on page 41 undefined on input line 877.
+
 Package epstopdf Info: Source file: <grafiken/dcdc.eps>
-(epstopdf)                    date: 2021-03-19 09:45:44
+(epstopdf)                    date: 2021-03-24 07:05:40
 (epstopdf)                    size: 94847 bytes
 (epstopdf)             Output file: <grafiken/dcdc-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-03-21 15:22:53
+(epstopdf)                    date: 2021-03-24 07:05:40
 (epstopdf)                    size: 34285 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/dcdc-eps-converted
 -to.pdf grafiken/dcdc.eps>
-(epstopdf)             \includegraphics on input line 811.
+(epstopdf)             \includegraphics on input line 880.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/dcdc-eps-converted-to.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/dcdc-eps-converted-to.pdf, id=997, 61.22874pt x 27.10126pt>
+<grafiken/dcdc-eps-converted-to.pdf, id=818, 61.22874pt x 27.10126pt>
 File: grafiken/dcdc-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/dcdc-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/dcdc-eps-converted-to.pdf  used on input line
- 811.
+ 880.
 (pdftex.def)             Requested size: 455.24408pt x 201.5336pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 811--812
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 880--881
  [][] 
  []
 
@@ -3242,34 +3590,37 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.817 
+l.886 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+
+LaTeX Warning: Reference `fig:6.8' on page 42 undefined on input line 887.
+
 Package epstopdf Info: Source file: <grafiken/w5500.eps>
-(epstopdf)                    date: 2021-03-21 16:40:50
+(epstopdf)                    date: 2021-03-24 07:05:42
 (epstopdf)                    size: 151152 bytes
 (epstopdf)             Output file: <grafiken/w5500-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-03-21 16:41:19
+(epstopdf)                    date: 2021-03-24 07:05:42
 (epstopdf)                    size: 41128 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/w5500-eps-converte
 d-to.pdf grafiken/w5500.eps>
-(epstopdf)             \includegraphics on input line 822.
+(epstopdf)             \includegraphics on input line 891.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/w5500-eps-converted-to.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/w5500-eps-converted-to.pdf, id=1013, 94.3525pt x 124.465pt>
+<grafiken/w5500-eps-converted-to.pdf, id=834, 94.3525pt x 124.465pt>
 File: grafiken/w5500-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/w5500-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/w5500-eps-converted-to.pdf  used on input lin
-e 822.
+e 891.
 (pdftex.def)             Requested size: 455.24408pt x 600.58733pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 822--823
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 891--892
  [][] 
  []
 
@@ -3281,35 +3632,38 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.828 W
+l.897 W
        hile the slave is collecting the voltage signal, the host must collec...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+
+LaTeX Warning: Reference `fig:6.9' on page 43 undefined on input line 897.
+
 Package epstopdf Info: Source file: <grafiken/ds18b20.eps>
-(epstopdf)                    date: 2021-03-19 09:45:44
+(epstopdf)                    date: 2021-03-24 07:05:42
 (epstopdf)                    size: 62056 bytes
 (epstopdf)             Output file: <grafiken/ds18b20-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-03-21 15:30:49
+(epstopdf)                    date: 2021-03-24 07:05:42
 (epstopdf)                    size: 23411 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/ds18b20-eps-conver
 ted-to.pdf grafiken/ds18b20.eps>
-(epstopdf)             \includegraphics on input line 832.
+(epstopdf)             \includegraphics on input line 901.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/ds18b20-eps-converted-to.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/ds18b20-eps-converted-to.pdf, id=1029, 67.25125pt x 42.1575pt>
+<grafiken/ds18b20-eps-converted-to.pdf, id=851, 67.25125pt x 42.1575pt>
 File: grafiken/ds18b20-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/ds18b20-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/ds18b20-eps-converted-to.pdf  used on input l
-ine 832.
+ine 901.
 (pdftex.def)             Requested size: 455.24408pt x 285.38118pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 832--833
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 901--902
  [][] 
  []
 
@@ -3321,34 +3675,37 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.838 
+l.907 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+
+LaTeX Warning: Reference `fig:6.10' on page 44 undefined on input line 920.
+
 Package epstopdf Info: Source file: <grafiken/6.10.eps>
-(epstopdf)                    date: 2021-03-22 10:45:45
+(epstopdf)                    date: 2021-03-24 07:05:32
 (epstopdf)                    size: 533024 bytes
 (epstopdf)             Output file: <grafiken/6.10-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-03-22 10:46:32
+(epstopdf)                    date: 2021-03-24 07:05:32
 (epstopdf)                    size: 120312 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/6.10-eps-converted
 -to.pdf grafiken/6.10.eps>
-(epstopdf)             \includegraphics on input line 854.
+(epstopdf)             \includegraphics on input line 923.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/6.10-eps-converted-to.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/6.10-eps-converted-to.pdf, id=1049, 843.15pt x 421.575pt>
+<grafiken/6.10-eps-converted-to.pdf, id=871, 843.15pt x 421.575pt>
 File: grafiken/6.10-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/6.10-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/6.10-eps-converted-to.pdf  used on input line
- 854.
+ 923.
 (pdftex.def)             Requested size: 455.24408pt x 227.6278pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 854--855
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 923--924
  [][] 
  []
 
@@ -3360,7 +3717,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.860 
+l.929 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3374,15 +3731,22 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.862 ...ng four rules according to their needs：
+l.930 ...ng four rules according to their needs：
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-<grafiken/6.11.pdf, id=1065, 344.18587pt x 291.79013pt>
+
+LaTeX Warning: Reference `fig:6.11' on page 45 undefined on input line 941.
+
+
+LaTeX Warning: Citation `lagenaufbau2021' on page 45 undefined on input line 94
+1.
+
+<grafiken/6.11.pdf, id=889, 344.18587pt x 291.79013pt>
 File: grafiken/6.11.pdf Graphic file (type pdf)
 <use grafiken/6.11.pdf>
-Package pdftex.def Info: grafiken/6.11.pdf  used on input line 878.
+Package pdftex.def Info: grafiken/6.11.pdf  used on input line 946.
 (pdftex.def)             Requested size: 284.52756pt x 241.23294pt.
 
 ! LaTeX Error: There's no line here to end.
@@ -3391,11 +3755,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.884 
+l.952 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
+
+
+LaTeX Warning: Reference `fig:6.13' on page 45 undefined on input line 960.
+
+
+LaTeX Warning: Citation `gisin2001radiation' on page 45 undefined on input line
+ 960.
 
 [45 <./grafiken/6.10-eps-converted-to.pdf> <./grafiken/6.11.pdf>]
 
@@ -3405,16 +3776,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.895 T
+l.963 T
        he following Figure~\ref{fig:6.13} is the 20H rule:
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<grafiken/6.12.pdf, id=1091, 348.82622pt x 356.46474pt>
+
+LaTeX Warning: Reference `fig:6.13' on page 46 undefined on input line 963.
+
+<grafiken/6.12.pdf, id=915, 348.82622pt x 356.46474pt>
 File: grafiken/6.12.pdf Graphic file (type pdf)
 <use grafiken/6.12.pdf>
-Package pdftex.def Info: grafiken/6.12.pdf  used on input line 900.
+Package pdftex.def Info: grafiken/6.12.pdf  used on input line 968.
 (pdftex.def)             Requested size: 426.79134pt x 436.14824pt.
 
 ! LaTeX Error: There's no line here to end.
@@ -3423,20 +3797,27 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.906 
+l.974 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+
+LaTeX Warning: Citation `shan2010layer' on page 46 undefined on input line 977.
+
+
+
+LaTeX Warning: Reference `fig:6.13' on page 46 undefined on input line 979.
+
 [46 <./grafiken/6.12.pdf>]
-<grafiken/6.13.pdf, id=1108, 357.31291pt x 86.56943pt>
+<grafiken/6.13.pdf, id=933, 357.31291pt x 86.56943pt>
 File: grafiken/6.13.pdf Graphic file (type pdf)
 <use grafiken/6.13.pdf>
-Package pdftex.def Info: grafiken/6.13.pdf  used on input line 915.
+Package pdftex.def Info: grafiken/6.13.pdf  used on input line 983.
 (pdftex.def)             Requested size: 455.24408pt x 110.30518pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 915--916
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 983--984
  [][] 
  []
 
@@ -3447,23 +3828,35 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.921 
+l.989 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
+
+
+LaTeX Warning: Reference `fig:6.14' on page 47 undefined on input line 995.
+
+
+LaTeX Warning: Reference `fig:6.15' on page 47 undefined on input line 995.
+
+
+LaTeX Warning: Reference `fig:6.16' on page 47 undefined on input line 995.
+
+
+LaTeX Warning: Reference `fig:6.17' on page 47 undefined on input line 995.
 
 
 
 pdfTeX warning: pdflatex (file ./grafiken/6.14.pdf): PDF inclusion: found PDF v
 ersion <1.7>, but at most version <1.5> allowed
-<grafiken/6.14.pdf, id=1113, 304.4986pt x 205.2478pt>
+<grafiken/6.14.pdf, id=934, 304.4986pt x 205.2478pt>
 File: grafiken/6.14.pdf Graphic file (type pdf)
 <use grafiken/6.14.pdf>
-Package pdftex.def Info: grafiken/6.14.pdf  used on input line 931.
+Package pdftex.def Info: grafiken/6.14.pdf  used on input line 999.
 (pdftex.def)             Requested size: 455.24408pt x 306.88441pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 931--932
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 999--1000
  [][] 
  []
 
@@ -3474,8 +3867,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.937 
-      
+l.1005 
+       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -3484,13 +3877,13 @@ or  <return>  to continue without it.
 
 pdfTeX warning: pdflatex (file ./grafiken/6.15.pdf): PDF inclusion: found PDF v
 ersion <1.7>, but at most version <1.5> allowed
-<grafiken/6.15.pdf, id=1114, 317.0254pt x 215.36562pt>
+<grafiken/6.15.pdf, id=935, 317.0254pt x 215.36562pt>
 File: grafiken/6.15.pdf Graphic file (type pdf)
 <use grafiken/6.15.pdf>
-Package pdftex.def Info: grafiken/6.15.pdf  used on input line 941.
+Package pdftex.def Info: grafiken/6.15.pdf  used on input line 1009.
 (pdftex.def)             Requested size: 455.24408pt x 309.28497pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 941--942
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 1009--1010
  [][] 
  []
 
@@ -3502,8 +3895,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.947 
-      
+l.1015 
+       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -3512,13 +3905,13 @@ or  <return>  to continue without it.
 
 pdfTeX warning: pdflatex (file ./grafiken/6.16.pdf): PDF inclusion: found PDF v
 ersion <1.7>, but at most version <1.5> allowed
-<grafiken/6.16.pdf, id=1135, 418.0107pt x 286.1902pt>
+<grafiken/6.16.pdf, id=959, 418.0107pt x 286.1902pt>
 File: grafiken/6.16.pdf Graphic file (type pdf)
 <use grafiken/6.16.pdf>
-Package pdftex.def Info: grafiken/6.16.pdf  used on input line 951.
+Package pdftex.def Info: grafiken/6.16.pdf  used on input line 1019.
 (pdftex.def)             Requested size: 455.24408pt x 311.68785pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 951--952
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 1019--1020
  [][] 
  []
 
@@ -3530,8 +3923,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.957 
-      
+l.1025 
+       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -3540,13 +3933,13 @@ or  <return>  to continue without it.
 
 pdfTeX warning: pdflatex (file ./grafiken/6.17.pdf): PDF inclusion: found PDF v
 ersion <1.7>, but at most version <1.5> allowed
-<grafiken/6.17.pdf, id=1150, 371.75787pt x 245.14085pt>
+<grafiken/6.17.pdf, id=977, 371.75787pt x 245.14085pt>
 File: grafiken/6.17.pdf Graphic file (type pdf)
 <use grafiken/6.17.pdf>
-Package pdftex.def Info: grafiken/6.17.pdf  used on input line 961.
+Package pdftex.def Info: grafiken/6.17.pdf  used on input line 1029.
 (pdftex.def)             Requested size: 455.24408pt x 300.1973pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 961--962
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 1029--1030
  [][] 
  []
 
@@ -3557,8 +3950,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.967 
-      
+l.1035 
+       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -3567,28 +3960,31 @@ or  <return>  to continue without it.
 
  <./grafiken/6.17.pdf>]
 chapter 7.
+
+LaTeX Warning: Reference `fig:7.1' on page 50 undefined on input line 1041.
+
 Package epstopdf Info: Source file: <grafiken/7.1.eps>
-(epstopdf)                    date: 2021-03-22 15:36:59
-(epstopdf)                    size: 3229155 bytes
+(epstopdf)                    date: 2021-03-24 07:05:34
+(epstopdf)                    size: 3318257 bytes
 (epstopdf)             Output file: <grafiken/7.1-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-03-22 16:01:11
-(epstopdf)                    size: 408619 bytes
+(epstopdf)                    date: 2021-03-24 07:05:34
+(epstopdf)                    size: 412278 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/7.1-eps-converted-
 to.pdf grafiken/7.1.eps>
-(epstopdf)             \includegraphics on input line 976.
+(epstopdf)             \includegraphics on input line 1044.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./grafiken/7.1-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/7.1-eps-converted-to.pdf, id=1161, 1085.05376pt x 814.04124pt>
+<grafiken/7.1-eps-converted-to.pdf, id=988, 1084.05pt x 813.0375pt>
 File: grafiken/7.1-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/7.1-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/7.1-eps-converted-to.pdf  used on input line 
-976.
-(pdftex.def)             Requested size: 455.24408pt x 341.53477pt.
+1044.
+(pdftex.def)             Requested size: 455.24408pt x 341.4362pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 976--977
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 1044--1045
  [][] 
  []
 
@@ -3599,66 +3995,25 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.982 W
-       hen the eval board is powered on, the developer opens the debugger an...
-
+l.1050 
+       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-
-pdfTeX warning: pdflatex (file ./grafiken/debugger.pdf): PDF inclusion: found P
-DF version <1.7>, but at most version <1.5> allowed
-<grafiken/debugger.pdf, id=1163, 1391.1975pt x 794.97pt>
-File: grafiken/debugger.pdf Graphic file (type pdf)
-<use grafiken/debugger.pdf>
-Package pdftex.def Info: grafiken/debugger.pdf  used on input line 986.
-(pdftex.def)             Requested size: 455.24408pt x 260.13321pt.
-
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 986--987
- [][] 
- []
+LaTeX Warning: Reference `fig:7.2' on page 50 undefined on input line 1058.
 
 [50
 
  <./grafiken/7.1-eps-converted-to.pdf>]
+<grafiken/debuggernormal.pdf, id=1003, 1854.93pt x 1059.96pt>
+File: grafiken/debuggernormal.pdf Graphic file (type pdf)
+<use grafiken/debuggernormal.pdf>
+Package pdftex.def Info: grafiken/debuggernormal.pdf  used on input line 1062.
+(pdftex.def)             Requested size: 455.24408pt x 260.13725pt.
 
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.992 M
-       anually ground the ADC1 channels 1 and 2 of the slaveboard to simulat...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-Package epstopdf Info: Source file: <grafiken/break.eps>
-(epstopdf)                    date: 2021-03-22 15:38:27
-(epstopdf)                    size: 317285 bytes
-(epstopdf)             Output file: <grafiken/break-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-03-22 16:03:53
-(epstopdf)                    size: 590427 bytes
-(epstopdf)             Command: <epstopdf --outfile=grafiken/break-eps-converte
-d-to.pdf grafiken/break.eps>
-(epstopdf)             \includegraphics on input line 995.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./grafiken/break-eps-converted-to.pdf): PDF incl
-usion: found PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/break-eps-converted-to.pdf, id=1176, 1266.7325pt x 610.28pt>
-File: grafiken/break-eps-converted-to.pdf Graphic file (type pdf)
-<use grafiken/break-eps-converted-to.pdf>
-Package pdftex.def Info: grafiken/break-eps-converted-to.pdf  used on input lin
-e 995.
-(pdftex.def)             Requested size: 455.24408pt x 219.31883pt.
-
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 995--996
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 1062--1063
  [][] 
  []
 
@@ -3669,28 +4024,26 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1001 A
-        t the same time, the content of the collector and the database can b...
-
+l.1068 
+       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
+LaTeX Warning: Reference `fig:7.3' on page 51 undefined on input line 1074.
 
-pdfTeX warning: pdflatex (file ./grafiken/collector.pdf): PDF inclusion: found 
-PDF version <1.7>, but at most version <1.5> allowed
-<grafiken/collector.pdf, id=1178, 1009.97327pt x 711.85951pt>
-File: grafiken/collector.pdf Graphic file (type pdf)
-<use grafiken/collector.pdf>
-Package pdftex.def Info: grafiken/collector.pdf  used on input line 1004.
-(pdftex.def)             Requested size: 455.24408pt x 320.86606pt.
+<grafiken/brack.pdf, id=1004, 1688.3075pt x 813.0375pt>
+File: grafiken/brack.pdf Graphic file (type pdf)
+<use grafiken/brack.pdf>
+Package pdftex.def Info: grafiken/brack.pdf  used on input line 1077.
+(pdftex.def)             Requested size: 455.24408pt x 219.22531pt.
 
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 1004--1005
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 1077--1078
  [][] 
  []
 
-[51 <./grafiken/debugger.pdf> <./grafiken/break-eps-converted-to.pdf>]
+[51 <./grafiken/debuggernormal.pdf>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -3698,7 +4051,35 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1010 A
+l.1086 W
+        hen user open the debugger, he must also open the collector and run ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Reference `fig:7.4' on page 52 undefined on input line 1086.
+
+<grafiken/collector and database.pdf, id=1011, 1927.2pt x 1084.05pt>
+File: grafiken/collector and database.pdf Graphic file (type pdf)
+<use grafiken/collector and database.pdf>
+Package pdftex.def Info: grafiken/collector and database.pdf  used on input lin
+e 1089.
+(pdftex.def)             Requested size: 455.24408pt x 256.07509pt.
+
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 1089--1090
+ [][] 
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1095 A
         n external network address can be obtained through ngrok, as shown i...
 
 Your command was ignored.
@@ -3706,14 +4087,18 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
+LaTeX Warning: Reference `fig:7.5' on page 52 undefined on input line 1095.
+
+
 
 pdfTeX warning: pdflatex (file ./grafiken/ngrok.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<grafiken/ngrok.pdf, id=1190, 688.37173pt x 316.18124pt>
+<grafiken/ngrok.pdf, id=1012, 688.37173pt x 316.18124pt>
 File: grafiken/ngrok.pdf Graphic file (type pdf)
 <use grafiken/ngrok.pdf>
-Package pdftex.def Info: grafiken/ngrok.pdf  used on input line 1013.
+Package pdftex.def Info: grafiken/ngrok.pdf  used on input line 1098.
 (pdftex.def)             Requested size: 341.43306pt x 156.83102pt.
+[52 <./grafiken/brack.pdf> <./grafiken/collector and database.pdf>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -3721,50 +4106,124 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1019 T
-        hen any terminal opens the external network address provided by ngro...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-
-pdfTeX warning: pdflatex (file ./grafiken/frontend.pdf): PDF inclusion: found P
-DF version <1.7>, but at most version <1.5> allowed
-<grafiken/frontend.pdf, id=1192, 908.79527pt x 534.79799pt>
-File: grafiken/frontend.pdf Graphic file (type pdf)
-<use grafiken/frontend.pdf>
-Package pdftex.def Info: grafiken/frontend.pdf  used on input line 1023.
-(pdftex.def)             Requested size: 455.24408pt x 267.89612pt.
-
-Overfull \hbox (16.00458pt too wide) in paragraph at lines 1023--1024
- [][] 
- []
-
-[52 <./grafiken/collector.pdf> <./grafiken/ngrok.pdf>]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1029 
+l.1104 
        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[53 <./grafiken/frontend.pdf>]
+
+LaTeX Warning: Reference `fig:7.6' on page 53 undefined on input line 1105.
+
+<grafiken/frontend.pdf, id=1030, 1927.2pt x 1084.05pt>
+File: grafiken/frontend.pdf Graphic file (type pdf)
+<use grafiken/frontend.pdf>
+Package pdftex.def Info: grafiken/frontend.pdf  used on input line 1109.
+(pdftex.def)             Requested size: 455.24408pt x 256.07509pt.
+
+Overfull \hbox (16.00458pt too wide) in paragraph at lines 1109--1110
+ [][] 
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1115 I
+        t should be noted that the input port of the front-end must be consi...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[53 <./grafiken/ngrok.pdf> <./grafiken/frontend.pdf>]
 chapter 8.
-) [54
+
+Underfull \hbox (badness 10000) in paragraph at lines 1124--1131
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1124--1131
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1124--1131
+
+ []
+
+[54
 
 ]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1135 \\
+         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1136 I
+        n order to meet the needs of the back end, a good back end developme...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1136--1138
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1140 W
+        hen users have collected data for more than one year, they can analy...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+) [55]
+
+Class scrbook Warning: You are using `\begin{appendix}...\end{appendix}'.
+(scrbook)              You should note, that `\appendix' is a mostly globally
+(scrbook)              working command not an enviroment with only local
+(scrbook)              effects. Therefore `\end{appendix}' will neither
+(scrbook)              switch back to normal section numbering nor finish
+(scrbook)              every other effect of `\begin{appendix}'.
+(scrbook)              Nevertheless, some effects may end with
+(scrbook)              `\end{appendix}' and the document may become
+(scrbook)              inconsistent.
+(scrbook)              Because of this, you should remove `\end{appendix}'
+(scrbook)              and replace `\begin{appendix}' by command
+(scrbook)              `\appendix' on input line 8.
+
 \openout2 = `Appendix.aux'.
 
- (Appendix.tex
-chapter 9.
+(Appendix.tex
+chapter A.
 
 ! LaTeX Error: There's no line here to end.
 
@@ -4127,147 +4586,81 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-) [55
+) [56
 
 
 
 
 ]
-\openout2 = `Auswertung.aux'.
 
- (Auswertung.tex
-
-! LaTeX Error: Can be used only in preamble.
+! LaTeX Error: Environment Bibliography undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1 \documentclass
-                  [11pt, oneside]{article}   	% use "amsart" instead of "art...
-
+l.12 \begin{Bibliography}
+                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+No file Arbeit.bbl.
 
-! LaTeX Error: Can be used only in preamble.
+! LaTeX Error: \begin{document} ended by \end{Bibliography}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2 \usepackage
-               {geometry}                		% See geometry.pdf to learn the l...
-
+l.15 \end{Bibliography}
+                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-! Undefined control sequence.
-l.3 \geometry
-             {letterpaper}                   		% ... or a4paper or a5paper o...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+) (Arbeit.aux (config/Konfiguration.aux) (Deckblatt.aux)
+(Eigenstaendigkeitserklaerung.aux) (Formelzeichenkonvention.aux)
+(Einleitung.aux) (Grundlagen.aux) (Appendix.aux))
+
+LaTeX Warning: There were undefined references.
 
 
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 \usepackage
-               {graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; us...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
-! LaTeX Error: Can be used only in preamble.
+Package rerunfilecheck Warning: File `Arbeit.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 \usepackage
-               {amssymb}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.19 \begin{document}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[56
-
-
-
-]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.23 
-      [1
-
-
-] (Arbeit.aux (config/Konfiguration.aux) (Deckblatt.aux)
-(Eigenstaendigkeitserklaerung.aux) (Aufgabenstellung.aux)
-(Formelzeichenkonvention.aux) (Einleitung.aux) (Grundlagen.aux) (Appendix.aux)
-(Auswertung.aux))
-Package rerunfilecheck Info: File `Arbeit.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
- ) ) )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 19 (\begingroup)
-### bottom level
-(\end occurred when \iftrue on line 9 was incomplete)
-(\end occurred when \ifnum on line 9 was incomplete) 
+Package rerunfilecheck Info: Checksums for `Arbeit.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
 Here is how much of TeX's memory you used:
- 44734 strings out of 479334
- 1035090 string characters out of 2853285
- 1580362 words of memory out of 3000000
- 61044 multiletter control sequences out of 15000+200000
- 473849 words of font info for 128 fonts, out of 3000000 for 9000
+ 44645 strings out of 479334
+ 1032548 string characters out of 2853285
+ 1569320 words of memory out of 3000000
+ 61002 multiletter control sequences out of 15000+200000
+ 465088 words of font info for 103 fonts, out of 3000000 for 9000
  1146 hyphenation exceptions out of 8191
- 111i,20n,122p,10657b,806s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Administrator/App
-Data/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Administrator/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Use
-rs/Administrator/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mmi7.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmmi9.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Administrator/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Administrat
-or/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/U
-sers/Administrator/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8
-a.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX/fonts/type1/urw/sym
-bol/usyr.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX/fonts/type1/
-urw/times/utmb8a.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX/font
-s/type1/urw/times/utmr8a.pfb>
-Output written on Arbeit.pdf (67 pages, 4263386 bytes).
+ 111i,20n,122p,10657b,874s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Administrator/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r
+.enc}<C:/Users/Administrator/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmmi12.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Administrator/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Administrator/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users
+/Administrator/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cms
+y10.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmsy9.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX/f
+onts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Administrator/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Administrator/AppData/Local
+/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Administrator/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
+Output written on Arbeit.pdf (63 pages, 4766370 bytes).
 PDF statistics:
- 1451 PDF objects out of 1728 (max. 8388607)
- 183 named destinations out of 1000 (max. 500000)
- 786 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1288 PDF objects out of 1440 (max. 8388607)
+ 182 named destinations out of 1000 (max. 500000)
+ 802 words of extra memory for PDF output out of 10000 (max. 10000000)
 

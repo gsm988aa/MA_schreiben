@@ -1,17 +1,86 @@
+
+
+\chapter{Introduction}
+\label{chap:Introduction}
+ 
+\section{Importance of measurement}
+\label{Importance of measurement}
+% 1.1
+This thesis is dedicated to studying the decay of gallium nitride components caused by cosmic rays and measuring the amount of gallium nitride affected by cosmic rays. And study the cause of damage to the gallium nitride transistor - whether it is related to temperature. This thesis measures the voltage signal and temperature signal to meet the above requirements.
+
+\section{Motivation}
+\label{Motivation}
+% 1.2
+Nowadays, power semiconductors are used extensively to process complex operations. Shrinking the size of silicon transistors has been considered as an effective way to improve performance for a long time \cite{specovius2010grundkurs}. As a matter of fact, miniaturization of semiconductor components can to some extent authentically ensure the reduction of power consumption and the improvement of performance \cite{epicoco2013knowledge}. 
+\\
+\\
+However, the reduction in the size of transistors limits the application of components, and there are hidden dangers in the safety functions of components \cite{shauly2012cmos}. This proves that it is reasonable to conduct research on semiconductor technology. The main object of this research is gallium nitride power semiconductors.
+\\
+\\
+Gallium nitride power semiconductors have the characteristics of high efficiency and high switching frequency \cite{6064128}. At the same time, the system using gallium nitride produces very low energy consumption. In this case, gallium nitride semiconductor gradually enters people's field of vision.
+\\
+\\
+In addition to size limitations, there are other influencing factors. For example, in 1994, it was proved that cosmic radiation was one of the reasons for the destruction of the safety function of gallium nitride power semiconductors \cite{583620}.
+\\
+\\
+In the following years, researchers successfully eliminated some failure mechanisms and began to study the effects of voltage and current changes, temperature changes, and cosmic radiation on semiconductor components \cite{4328188}.
+This study concluded that by measuring voltage signals, current signals and temperature, it is possible to know the factors that cause the failure of gallium nitride semiconductors under the action of strong cosmic radiation, and to quantify the results.
+\\
+\\
+In the application field, especially during the flight of electric aircraft, cosmic rays have a great influence on power semiconductors. In this case, it is very important to choose a good model and measurement equipment \cite{hoehenstrahlungsinduzierter}.
+\\
+\\
+Before designing the measurement system, the entire system must be planned and simulated. Through simulation, a reliable model that can collect signals stably for a long time can be obtained. The simulation results can also preliminarily point out the factors affecting GaN power semiconductors.
+\\
+\\
+In addition to the long-term and stable measurement system, it is also necessary to design the hardware and software parts during the gallium nitride power measurement. This means that reasonable selection is essential, such as the selection of accurate digital-to-analog converters, stable microcontrollers, and Network transmission equipment.
+\\
+\\
+After the successful data collection, the user may have error reading the data. In order to prevent human error, a prompt function needs to be introduced. When there is human error, the measurement system should prompt the developer. At the same time, a good host computer and friendly user interaction are also very important.
+\\
+
+
+
+\section{Introduction of measuring system}
+\label{Introduction of measuring system}
+% 1.3
+With the advent of the digital age, digital signal processing technology has spread to all areas of daily life. In projects such as chemical engineering, medicine, industry, and scientific research, people need to detect and process the corresponding signals. People usually convert the analog signals transmitted by the sensor into digital signals according to the sampling theorem, and then process these digital signals \cite{oppenheim1978applications}. Data acquisition is the core of digital signal processing, and its results directly affect the follow-up work. A complete data acquisition system should include sensors, signal conditioning, data processing chips and software. The development of society and the advancement of science and technology make digital signal processing technology more and more intelligent and real-time, and the accuracy and speed of data collection are also getting higher and higher \cite{zhang2013design}. Nowadays, many occasions such as radar measurement system, aerospace navigation, medical imaging, etc. require high-precision data acquisition, which means that people put forward higher requirements for data acquisition systems, because the measurement results in these environments need to be extremely accurate. In addition to the basic functions of data collection, people must also implement multiple functional modes, multiple range ranges, multiple control methods, etc. for different industries and different collection environments. In addition, with the rapid development of electronic technology, portable solutions have begun to occupy an increasing proportion in data acquisition, and more and more have begun to lean towards low voltage, low power consumption, and miniaturized designs. Therefore, there are more and more types of data acquisition instruments, and the update speed is getting faster and faster. General-purpose data acquisition systems cannot meet various needs in a targeted manner, which forces many companies to develop various dedicated data acquisition systems.
+\\
+\\
+Traditional data acquisition systems mainly use data acquisition cards. In recent years, the speed of data acquisition systems and the rapid development of digital signal processing technology, while the application of USB technology, Ethernet technology and wireless communication technology in the data acquisition system has expanded its interface methods, and portable data acquisition systems have become increasingly favor of users.
+\\
+\\
+The TDS-150 portable data recorder produced by Tokyo Sokki Research Institute is a static data acquisition instrument with 50 measurement channels, sleep interval timing and data storage functions, and long-term automatic measurement. It is equipped with USB and RS-233 port can read various measurement settings and measurement data and transfer them to the computer. The compact DAQ of NI Company in the United States is combined with Ethernet technology to extend the scope of high-speed data acquisition to remote sensors and electronic measurement in the laboratory and even the world. It is tightly integrated with LABVIEW software and can obtain the highest performance with less development investment \cite{wang2012labview}.
+
+\section{The main content of this thesis}
+\label{The main content of this thesis}
+% 1.4
+Based on the analysis of data acquisition systems at home and abroad, this thesis takes into account the speed, accuracy and scalability of data acquisition, chooses the ARM M4 controller STMF429ZG \cite{f429datasheet} and STM32F303ZET \cite{f303datasheet}from ST Company, and designs a set of data acquisition system with strong versatility . Realize the functions of high-speed and high-precision data acquisition, display and transmission. The main research contents of this thesis are as follows:
+\\
+(1) Analyzed the research status of the data acquisition system, divided the system into different modules, studied the hardware circuit and software design of the data acquisition system based on the ARM M4 chip STM32, and initially realized the high-precision acquisition, display and transmission of signals Features.
+\\
+(2) Use the 12-bit precision ADC module in the Stm32 chip to collect the voltage signal and use the capture mode of the GPIO module to collect the temperature through the DS18b20 sensor, and then realize the data transmission in different single-chip computers through the SPI protocol.
+\\
+(3) Realize serial communication through Ethernet module.
+\\
+(4) Realize data display on the PC screen through IoT.
+ 
+
+
 \chapter{Fundamentals}
 \label{chap:Fundamentals}
 This chapter introduces the basic knowledge of the measurement system modules and the basic structure of the corresponding circuit, and introduces several applications related to the Internet, which can handle the measurement results well.The measured current value can be obtained by Ohm's law by measuring the voltage, so in this thesis, only voltage value is collected.
 \section{ADC}
 \label{sec:ADC}
 % 2.1
-In order to plan long-term measurement measurement devices, we must first understand the basic types of ADCs, the characteristics of each type, and their accuracy. In addition, you need to understand the basic circuit of the specific selection of the microcontroller, and you can know how the ADC performs voltage measurement.
+In order to plan long-term measurement devices, we must first understand the basic types of ADCs, the characteristics of each type, and their accuracy \cite{daboczi2012adc}. In addition, you need to understand the basic circuit of the specific selection of the microcontroller, and you can know how the ADC performs voltage measurement.
 
 \subsection{Introduction of voltage/current-sensor}
 \label{sec:Introduction of voltage/current-sensor}
 %2.1.1
 
 
-The essence of voltage/current-sensor sensor measuring voltage is a voltage divider circuit composed of resistors. Its principle is the knowledge of resistor series voltage divider. The typical circuit is shown in Figure ~\ref{fig:2.1}. 
+The essence of voltage/current-sensor sensor measuring voltage is a voltage divider circuit composed of resistors \cite{martins2011teaching}. Its principle is the knowledge of resistor series voltage divider. The typical circuit is shown in Figure ~\ref{fig:2.1}. 
 \begin{figure}[h]
 	\centering
 % [width=13cm]         [scale=0.9]
@@ -29,7 +98,7 @@ Therefore, the measured voltage provided to the ADC channel is the following for
 \end{equation}
 \end{center}
 
-There are a variety of precision ADCs available on the market to choose from, as shown in the Figure~\ref{fig:2.2} below , the appropriate ADC precision can be selected according to the signal bandwidth, so that it is convenient for users to measure.
+There are a variety of precision ADCs available on the market to choose from, as shown in the Figure~\ref{fig:2.2} below , the appropriate ADC precision can be selected according to the signal bandwidth, so that it is convenient for users to measure \cite{kester2005adc}.
 \begin{figure}[h]
 	\centering
 	\includegraphics{grafiken/2.2.eps}
@@ -37,7 +106,7 @@ There are a variety of precision ADCs available on the market to choose from, as
 	\label{fig:2.2}
 \end{figure}
 \\
-In the case of methods without feedback, the parallel converter has the simplest structure, which is why, with high resolution, a large number of components with high demands on accuracy are required. Here, too, there are methods with range selectivity, oversampling and ramp methods. A folding process has also established itself alongside a multiplex technique. 
+In the case of methods without feedback, the parallel converter has the simplest structure, which is why, with high resolution, a large number of components with high demands on accuracy are required. Here, too, there are methods with range selectivity, oversampling and ramp methods \cite{abumurad2012increasing}. A folding process has also established itself alongside a multiplex technique. 
 \\
 The following Figure~\ref{fig:2.3} briefly describes the basic structure of the parallel converter:
 \begin{figure}[h]
@@ -47,7 +116,7 @@ The following Figure~\ref{fig:2.3} briefly describes the basic structure of the 
 	\label{fig:2.3}
 \end{figure}
 \\
-Since with this parallel converter (flash converter) the entire conversion takes place within one clock period, it is the fastest method. It is easy to see, however, that the number of components required quickly becomes very large, since the entire chain with resistor, comparator and latch is required for each of the $2^{n}-1$ comparison values. The thermometer code present at the output of the latches is encoded in a binary code (often a Gray code, in which neighboring numbers differ by only one bit). Differential amplifiers are particularly suitable as comparators, with the gain v having to be at least so large that $\Delta U/2$ is sufficient to control the necessary logic level of the latches.
+Since with this parallel converter (flash converter) the entire conversion takes place within one clock period, it is the fastest method \cite{conroy19938}. It is easy to see, however, that the number of components required quickly becomes very large, since the entire chain with resistor, comparator and latch is required for each of the $2^{n}-1$ comparison values. The thermometer code present at the output of the latches is encoded in a binary code (often a Gray code, in which neighboring numbers differ by only one bit). Differential amplifiers are particularly suitable as comparators, with the gain v having to be at least so large that $\Delta U/2$ is sufficient to control the necessary logic level of the latches.
 \\
 The second important method is called the weighing method, which requires feedback via a digital-to-analog converter, as Figure ~\ref{fig:2.4} shows.
 \begin{figure}[h]
@@ -58,7 +127,7 @@ The second important method is called the weighing method, which requires feedba
 \end{figure}
  As soon as the track and hold element (T\&H) has switched to hold mode, the weighing cycle begins with the most significant bit. If $ u_{e}>\frac{U_{max}}{2} $, the top bit remains set and the second bit is set to 1 on a trial basis.
 \\
-The comparator decides whether the word in the SAR is smaller than the input signal. Then the check bit remains set and the next lowest bit is checked. If  $u_{e}<u_{DA}(W)$, the check bit is reset.
+The comparator decides whether the word in the SAR is smaller than the input signal \cite{giannini2008820muw}. Then the check bit remains set and the next lowest bit is checked. If  $u_{e}<u_{DA}(W)$, the check bit is reset.
 \\
 The conversion time is n clock periods, whereby the digital-to-analog converter must have full accuracy. The advantage of high resolutions is that only one precise comparator is required. This enables the design of very energy efficient implementations.
 If a counter is used instead of the SAR, the Laund can count the clock cycles backwards through the comparator. In the steady state, the data word indicates. There are also many variants of this counting method, whereby in the worst case the conversion time can be up to $2^{n}$ clock cycles.
@@ -68,7 +137,7 @@ In the gallium nitride measurement, because the precision is required but the pr
 \label{sec:ADC in microcontroller STM32F303ZET}
 % 2.1.2
 In this measurement, we choose STM32F303ZET as a microcontroller containing multiple 12-bit precision ADCs. Its core is ARM-Cortex-M4, and its ADC is of type Successive approximation register.
-Each stm32F303 has a 40-channel independent 16-bit precision ADC, and the price is very high, so we choose this microcontroller to measure the voltage signal to determine whether the gallium nitride is affected by cosmic rays. The following Figure~\ref{fig:2.5} is the typical connection diagram using the ADC:
+Each stm32F303 has a 40-channel independent 12-bit precision ADC, and the price is very high, so we choose this microcontroller to measure the voltage signal to determine whether the gallium nitride is affected by cosmic rays \cite{khanna20002}. The following Figure~\ref{fig:2.5} is the typical connection diagram using the ADC:
 \begin{figure}[h]
 	\centering
 	\includegraphics{grafiken/2.5.eps}
@@ -79,11 +148,11 @@ Each stm32F303 has a 40-channel independent 16-bit precision ADC, and the price 
 \section{Ethernet}
 \label{sec:Ethernet}
 % 2.2
-Ethernet has very extensive and in-depth applications in various fields and industries. This is mainly due to the high flexibility and ease of implementation of Ethernet. Because Ethernet has the advantages of simple networking, low cost, excellent compatibility, reliable connection, and convenient topology adjustment, it has advantages that other network technologies do not have in terms of being a gateway for smart homes, Internet of Things or wireless sensor networks. , Thus get vigorous development and application. This article will introduce in detail how to connect the embedded system to the Ethernet, how to use the hardware protocol stack to make your solution or application connect to the Internet quickly and efficiently, how to realize TCP/IP communication, and how to realize the upper application layer protocol and many more.
+Ethernet has very extensive and in-depth applications in various fields and industries. This is mainly due to the high flexibility and ease of implementation of Ethernet \cite{spurgeon2000ethernet}. Because Ethernet has the advantages of simple networking, low cost, excellent compatibility, reliable connection, and convenient topology adjustment, it has advantages that other network technologies do not have in terms of being a gateway for smart homes, Internet of Things or wireless sensor networks \cite{norris2003gigabit}. Thus get vigorous development and application. This thesis will introduce in detail how to connect the embedded system to the Ethernet, how to use the hardware protocol stack to make your solution or application connect to the Internet quickly and efficiently, how to realize TCP/IP communication, and how to realize the upper application layer protocol and many more \cite{forouzan2002tcp}.
 \subsection{Introduce of W5500}
 \label{sec:Introduce of W5500}
 % 2.2.1
-The W5500 network expansion board integrates a hardware TCP/IP protocol stack chip W5500 and an RJ-45 with a network transformer. Among them, W5500 is a full hardware TCP/IP embedded Ethernet controller, which provides a simpler Internet connection solution for embedded systems. Hardware logic gate circuits are used to implement the transmission layer and network layer of the TCP/IP protocol stack (such as : TCP, UDP, ICMP, IPv4, ARP, IGMP, PPPoE and other protocols), and integrates the data link layer, physical layer, and 32K bytes of on-chip RAM as a data receiving and sending buffer. Make the host computer main control chip only need to undertake the processing task of TCP/IP application layer control information. This greatly saves the workload of the host computer for data replication, protocol processing, and interrupt processing, and improves system utilization and reliability. 
+The W5500 network expansion board integrates a hardware TCP/IP protocol stack chip W5500 and an RJ-45 with a network transformer \cite{w5500datasheet}. Among them, W5500 is a full hardware TCP/IP embedded Ethernet controller, which provides a simpler Internet connection solution for embedded systems. Hardware logic gate circuits are used to implement the transmission layer and network layer of the TCP/IP protocol stack (such as : TCP, UDP, ICMP, IPv4, ARP, IGMP, PPPoE and other protocols), and integrates the data link layer, physical layer, and 32K bytes of on-chip RAM as a data receiving and sending buffer \cite{dunkels2001design}. Make the host computer main control chip only need to undertake the processing task of TCP/IP application layer control information. This greatly saves the workload of the host computer for data replication, protocol processing, and interrupt processing, and improves system utilization and reliability. 
 \\
 Its module structure is shown in the Figure~\ref{fig:2.6} below:
 \\
@@ -101,7 +170,7 @@ W5500 supports 8 sockets at the same time to facilitate communication with diffe
 For non-operating system, the single-chip microcomputer required by the system to realize network access. This thesis will categorize these schemes according to the different TCP/IP protocol stacks below.
 \\
 It is divided into two categories: the first category is the traditional software TCP/IP protocol stack solution. the second category is the latest hardware TCP/IP
-Protocol stack scheme. Below I will analyze the implementation of these two types of solutions: 
+Protocol stack scheme \cite{mandke2007early}. Below I will analyze the implementation of these two types of solutions: 
 \\
 1) MAC+PHY solutions:
 
@@ -125,7 +194,7 @@ The physical connection of the network realizes communication and upper-layer ap
 \FloatBarrier
 The hardware protocol stack chip scheme is shown in the figure below. The MCU + hardware protocol stack chip (including MAC and PHY) directly adds the network interface, and the single-chip microcomputer can be easily connected to the network. All the work of processing the TCP/IP protocol is through the "little secretary" of the MCU-the hardware protocol Stack chips to complete.
 \\
-This solution was first proposed by WIZnet and successfully launched the Ethernet series of chips: W5100, W5200, W5300 and W5500. The so-called hardware protocol stack refers to the implementation of the traditional software TCP/IP protocol stack with hardware-based logic gate circuits, as shown in the Figure~\ref{fig:2.9} below.
+This solution was first proposed by WIZnet and successfully launched the Ethernet series of chips: W5100, W5200, W5300 and W5500 \cite{khanchuea2019multi}. The so-called hardware protocol stack refers to the implementation of the traditional software TCP/IP protocol stack with hardware-based logic gate circuits, as shown in the Figure~\ref{fig:2.9} below.
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[scale=0.85]{grafiken/2.9.eps}
@@ -140,9 +209,9 @@ This hardware TCP/IP protocol stack replaces the previous MCU to handle these in
 \section{SMTP}
 \label{sec:SMTP}
 % 2.10
-When collecting temperature signals, if the state of more than 50 units under test suddenly changes within 10s, it is likely to be a manual error. At this time, it is necessary to set up an email-related program in the measurement system to send an email to notify the researcher. This article uses the SMTP protocol.
+When collecting temperature signals, if the state of more than 50 units under test suddenly changes within 10s, it is likely to be a manual error. At this time, it is necessary to set up an email-related program in the measurement system to send an email to notify the researcher. This thesis uses the SMTP protocol.
 SMTP stands for Simple Mail Transfer Protocol. It is a group of mails used to transfer mail from source address to destination address
-Rules, which control the way in which letters are transferred. The actual process of sending emails can be shown in Figure~\ref{fig:2.10}:
+Rules, which control the way in which letters are transferred \cite{xiao_shan2001principle}. The actual process of sending emails can be shown in Figure~\ref{fig:2.10}:
  
 % ~\ref{fig:2.10} 
 \begin{figure}[!ht]
@@ -153,7 +222,7 @@ Rules, which control the way in which letters are transferred. The actual proces
 \end{figure}
 \FloatBarrier
 
-An important feature of it is that it can relay mail during transmission, that is, mail can be relayed through hosts on different networks. Usually it works in two situations: one is the transmission of mail from the client to the server. the other is the transmission from one server to another server. SMTP is a request/response protocol, it monitors port 25, is used to receive the user's Mail request, and establish an SMTP connection with the remote Mail server.
+An important feature of it is that it can relay mail during transmission, that is, mail can be relayed through hosts on different networks. Usually it works in two situations: one is the transmission of mail from the client to the server. the other is the transmission from one server to another server. SMTP is a request/response protocol, it monitors port 25, is used to receive the user's Mail request, and establish an SMTP connection with the remote Mail server \cite{sureswaran2009active}.
 \\
 SMTP usually has two working modes. Send SMTP and receive SMTP. The specific working method is: Send SMTP after receiving the user's mail request, determine whether the mail is a local mail, if it is directly delivered to the user's mailbox, otherwise query the MX record of the remote mail server to the DNS, and establish a connection with the remote A two-way transmission channel between receiving SMTP, after which SMTP commands are issued by the sending SMTP, received by the receiving SMTP, and the response is transmitted in the opposite direction. Once the transmission channel is established, the SMTP sender sends a MAIL command to indicate the sender of the mail. If the SMTP receiver can receive the mail, an OK response is returned. The SMTP sender then issues the RCPT command to confirm whether the mail has been received. If the SMTP receiver receives it, it will return an OK response. if it cannot receive it, it will send a rejection response (but not stop the entire mail operation), and both parties will repeat this many times. When the receiver receives all the mails, it will receive a special sequence. If the receiver successfully processes the mail, it will return an OK response.
 \\
@@ -162,7 +231,7 @@ SMTP usually has two working modes. Send SMTP and receive SMTP. The specific wor
 \section{UDP}
 \label{sec:UDP}
 % 2.4
-In the transport layer of the TCP/IP protocol stack, TCP is connection-oriented, and the UDP protocol to be demonstrated next. It is non-connection oriented.
+In the transport layer of the TCP/IP protocol stack, TCP is connection-oriented, and the UDP protocol to be demonstrated next \cite{madhuri2016performance}. It is non-connection oriented.
 \\
 When UDP transmitting data, there is no confirmation, retransmission, or congestion mechanism. Since this measurement can obtain a large amount of data in a short time, the packet loss and error data can be verified by the large amount of data received later, so this time we choose UDP.
 \\
@@ -175,7 +244,7 @@ Compared with TCP, UDP does not return a response signal for each received frame
 	\label{fig:2.11}
 \end{figure}
 \FloatBarrier
-The UDP establishment process of W5500 is also very convenient, which can be easily realized by simply reading and writing registers. After the program is initialized, enter the main loop function. When the Socket is closed, before communicating, we first initialize the Socket port in UDP mode. When the socket is in the initialization completed state, that is, the SOCK UDP state, data can be sent by broadcast at this time.
+The UDP establishment process of W5500 is also very convenient, which can be easily realized by simply reading and writing registers \cite{fodisch2016synchronous}. After the program is initialized, enter the main loop function. When the Socket is closed, before communicating, we first initialize the Socket port in UDP mode. When the socket is in the initialization completed state, that is, the SOCK UDP state, data can be sent by broadcast at this time.
 \\
 Next, use W5500 to demonstrate how to use UDP to send and receive data. There are two issues to pay attention to before the test. 
 \\
@@ -183,7 +252,7 @@ First, it is recommended to turn off the PC firewall.
 \\
 Secondly, if the W5500 module and the PC are directly connected via a network cable, you need to modify the IP address of the PC to a static IP, and keep it in the same network segment as the W5500 IP. 
 \\
-If you connect to the router directly, you do not need to modify the IP address of the PC. The specific test steps are:
+If network device(for example W5500) connect to the router directly, device do not need to modify the IP address of the PC. The specific test steps are:
 \\
 1. Use the IP address obtained by the router to set the configuration file in the W5500, this IP must be in the same network segment as the router gateway.
 \\
@@ -196,9 +265,9 @@ If you connect to the router directly, you do not need to modify the IP address 
 \section{SPI}
 \label{sec:SPI}
 % 2.5
-The Serial Peripheral Interface (SPI) is a synchronous serial communication interface specification used for short-distance communication, primarily in embedded systems. The interface was developed by Motorola in the mid-1980s and has become a de facto standard. Typical applications include Secure Digital cards and liquid crystal displays.
+The Serial Peripheral Interface (SPI) is a synchronous serial communication interface specification used for short-distance communication, primarily in embedded systems. The interface was developed by Motorola in the mid-1980s and has become a de facto standard. Typical applications include Secure Digital cards and liquid crystal displays \cite{yadlapati2018constrained}.
 \\
-SPI devices communicate in full duplex mode using a master-slave architecture with a single master. The master device originates the frame for reading and writing. Multiple slave-devices are supported through selection with individual slave select (SS), sometimes called chip select (CS), lines.
+SPI devices communicate in full duplex mode using a master-slave architecture with a single master \cite{szekacs2007realising}. The master device originates the frame for reading and writing. Multiple slave-devices are supported through selection with individual slave select (SS), sometimes called chip select (CS), lines.
 \\
 Sometimes SPI is called a four-wire serial bus, contrasting with three-, two-, and one-wire serial buses. The SPI may be accurately described as a synchronous serial interface,[1] but it is different from the Synchronous Serial Interface (SSI) protocol, which is also a four-wire synchronous serial communication protocol. The SSI protocol employs differential signaling and provides only a single simplex communication channel. SPI is one master and multi slave communication.
 \\
@@ -217,7 +286,7 @@ The figure~\ref{fig:2.12}  below is a standard SPI transmission process:
 % 2.6
 The basic definition of DMA: 
 \\
-DMA has the full name of Direct Memory Access. 
+DMA has the full name of Direct Memory Access \cite{riesbeck1986direct}. 
 DMA transmission copies data from one address space to another address space, so as to realize high-speed data transmission between peripherals and memories or between memories. When CPU initializes such a transmission action, the transmission action is realized and completed through the DMA controller. The DMA transmission mode is dispense with CPU to realize direct control transmission or differing from the interrupt processing mode, it will reserve the site and recover the site process. Through RAM and IO devices, a channel of direct transmission data can be opened to improve CPU efficiency strongly. 
 \\
 Main features of DMA:
@@ -252,7 +321,7 @@ DMA’s work block diagram~\ref{fig:2.13} is stated below:
 \section{Ngrok}
 \label{sec:Ngrok}
 % 2.7
-Internal network penetration or NAT penetration aims to make the data package with a specific source IP address and source port number not block from NAT but will route to the internal network host correctly. The internal network penetration method is introduced through the relative position between the mutual communication host in the network and NAT devices. 
+Internal network penetration or NAT penetration aims to make the data package with a specific source IP address and source port number not block from NAT but will route to the internal network host correctly. The internal network penetration method is introduced through the relative position between the mutual communication host in the network and NAT devices \cite{parlika2020implementasi}. 
 The UDP’s internal network penetration, in essence, uses the NAT system on the router. NAT is a conversion technology that transforms the private (reserved) address into the legal IP address. It is widely applied in the internet access ways with all kinds of types and different types of networks. NAT can reuse the address and realize external shelter for the internal network structure. 
 Ngrok is a commonly used internal network penetration technology. Generally speaking, our local PC has two IPv4 addresses. One local IP is allocated by the router and the other one is the public network IP. However, people in other areas all over the world cannot directly use such two IP addresses to access the local PC. If the project’s logic and data structure are not complicated, developers can use the open-source ngrok for the internal network penetration so that external personnel can access the local PC. 
 The following Figure~\ref{fig:2.14}  is a common application structure diagram of NAT.
@@ -264,7 +333,7 @@ The following Figure~\ref{fig:2.14}  is a common application structure diagram o
 	\label{fig:2.14}
 \end{figure}
 \FloatBarrier
-This article uses Ngrok for intranet penetration, the structure is as follows Figure~\ref{fig:2.15} :
+This thesis uses Ngrok for intranet penetration, the structure is as follows Figure~\ref{fig:2.15} :
 
 % ~\ref{fig:2.15} 
 \begin{figure}[!ht]
@@ -278,16 +347,16 @@ This article uses Ngrok for intranet penetration, the structure is as follows Fi
 \section{IoT}
 \label{sec:IoT}
 % 2.8
-Internet of Things is abbreviated into IoT. 
+Internet of Things is abbreviated into IoT \cite{lee2015internet}. 
 In brief, it means that all devices are linked to the internet in a way: 
 From smartphones and tablet PCs (common) to automobiles and refrigerators 
 The main function of IoT lies in how to link devices, services, and Apps to the internet so that it will develop the greater role. There is almost no limitation for devices accessed in the internet and reasons for access. 
 The important way for IoT to improve quality of life lies in making data sharing easier. IoT is conducive to streamlining our life. In the long term, it can handle some trifling matters for us. 
-This article uses the core philosophy of IoT and issues data collected to the cloud. Users can access the cloud server through HTML5 page to gain the pushed data. If the cloud server breaks down, user PC can collect the PC through VNC remote control. 
+This thesis uses the core philosophy of IoT and issues data collected to the cloud. Users can access the cloud server through HTML5 page to gain the pushed data. If the cloud server breaks down, user PC can collect the PC through VNC remote control. 
 
-The signal collector gains the outer net IP as the server through internal network penetration. The signal collected by the single chip microcomputer through UDP is imported to the database. Users or researchers in other areas can gain the database data of the signal collector through the html webpage (deployed on the free website of githubpage). When the signal collector goes wrong, users can collect the signal machine through VNC remote control. 
+The signal collector gains the outer net IP as the server through internal network penetration. The signal collected by the single chip microcomputer through UDP is imported to the database. Users or researchers in other areas can gain the database data of the signal collector through the html webpage (deployed on the free website of githubpage) \cite{borges2016understanding}. When the signal collector goes wrong, users can collect the signal machine through VNC remote control. 
 
-The following Figure~\ref{fig:2.16} is a schematic diagram of the Internet of Things structure used in this article:
+The following Figure~\ref{fig:2.16} is a schematic diagram of the Internet of Things structure used in this thesis:
 % ~\ref{fig:2.16} 
 \begin{figure}[!ht]
 	\centering
@@ -297,13 +366,11 @@ The following Figure~\ref{fig:2.16} is a schematic diagram of the Internet of Th
 \end{figure}
 \FloatBarrier
 
-The signal acquisition machine obtains the external network IP as a server through the intranet penetration, and collects the signal collected by the single-chip microcomputer through UDP and imports it into the database. Users or researchers in other regions can obtain it through the html web page (which has been deployed on the free website of the github page) Collect the database data of the signal machine. When there is a problem with the signal machine, the user can also remotely control the signal machine through VNC.
-
  
 \chapter{Introduction of measurement circuit}
 \label{chap:Introduction of measurement circuit}
 % 3.0
-In this research, mainly the influence of cosmic radiation on gallium nitride and the effect of voltage, current and temperature is investigated. At the same time, the voltage signal and current signal of the measured unit are not independent. Because of Ohm's law, voltage and current are proportional, so in this measurement process, mainly the change of voltage and temperature is measured. When cosmic rays affect gallium nitride, the source and drain of gallium nitride are connected and enter triode mode or saturation mode, that is, gallium nitride cannot work normally because of cosmic rays.
+In this research, mainly the influence of cosmic radiation on gallium nitride and the effect of voltage, current and temperature is investigated. At the same time, the voltage signal and current signal of the measured unit are not independent. Because of Ohm's law, voltage and current are proportional, so in this measurement process, mainly the change of voltage and temperature is measured. When cosmic rays affect gallium nitride, the source and drain of gallium nitride are connected and enter triode mode or saturation mode, that is, gallium nitride cannot work normally because of cosmic rays \cite{zhang2017physics}.
 
 In order to ensure the measurement accuracy, we add an ADC in front of the unit under test. If the gallium nitride is affected by cosmic rays, the ADC measurement value will change from high to low to achieve the measurement purpose. 
 \\
@@ -312,7 +379,7 @@ In order to ensure the measurement accuracy, we add an ADC in front of the unit 
 % 3.1
 \\
 % The following figure shows the basic structure of the measurement system, which is blown using a fuse.
-For multiple units under test, we adopt a one-to-one correspondence method, that is, each unit under test corresponds to an ADC for voltage measurement, and IGBT is used as a protection circuit.
+For multiple units under test, we adopt a one-to-one correspondence method, that is, each unit under test corresponds to an ADC for voltage measurement, and IGBT is used as a protection circuit \cite{kim2011novel}.
 The Figure~\ref{fig:3.1} below shows the basic structure of a measurement system for multiple DUTs.
 \\
 \begin{figure}[!ht]
@@ -334,7 +401,8 @@ The Figure~\ref{fig:3.1} below shows the basic structure of a measurement system
 \label{sec:IC for IGBT control circuit}
 % 3.2
 LM393 voltage comparator is used to control IGBT 
-LM393 is a common voltage comparator chip in our daily life. It has two independent operational amplifiers. The power supply is completed by wide voltage and undercurrent. Low input controls the current. Generally speaking, the actuation time only is 1.3 microseconds. When the positive input voltage is greater than the inverted input voltage, output voltage is high level. When the positive input voltage is less than the inverted input voltage, output voltage is the low level. 
+\\
+LM393 is a common voltage comparator chip in our daily life. It has two independent operational amplifiers \cite{LM393datasheet}. The power supply is completed by wide voltage and undercurrent. Low input controls the current. Generally speaking, the actuation time only is 1.3 microseconds. When the positive input voltage is greater than the inverted input voltage, output voltage is high level. When the positive input voltage is less than the inverted input voltage, output voltage is the low level \cite{nie2012development}. 
 
 The following Figure~\ref{fig:3.2} is a common application circuit of LM393.
 
@@ -360,9 +428,9 @@ The basic constitution of the measuring circuit is shown in Figure~\ref{fig:3.3}
 \end{figure}
 \FloatBarrier
 \\
-Among them, $R_{1}$ and $R_{2}$ are voltage divider circuits to ensure that the voltage across $R_{2}$ exceeds a little greater than 3.3V under normal conditions. At this time, the voltage across $R_{2}$ is greater than Non-inverting input of LM393(3.3V), which can ensure that the output of the LM393 output is greater than or equal to a high level of 15V, forming a self-locking circuit. For long-term measurement, it is not necessary to apply external voltage to pushbutton S1.
+Among them, $R_{1}$ and $R_{2}$ are voltage divider circuits to ensure that the voltage across $R_{2}$ exceeds a little greater than 3.3V under normal conditions. At this time, the voltage across $R_{2}$ is greater than Non-inverting input of LM393(3.3V), which can ensure that the output of the LM393 output is greater than or equal to a high level of 15V, forming a self-locking circuit. For long-term measurement, it is not necessary to apply external voltage to pushbutton $S_{1}$.
 \\
-In order to turn on the igbt for measurement, the pushbutton S1 need to be press 
+In order to turn on the IGBT for measurement, the pushbutton $S_{1}$ need to be press 
 at the beginning, since the circuit is self-locking, the gate voltage of the IGBT is always 15V, if the status of DUTs are normal. The measurement
 status changes are shown in the following Table~\ref{tab:3.1}:
  
@@ -489,7 +557,7 @@ table~\ref{tab:4.1} shows the independent ADC distribution of each stm32F303:
 	\label{tab:4.1}
 \end{table}
 
-To measure 1000 DUT components, at least 1000 lines of ADC should be used. To ensure signal quality, electromagnetic compatibility, and developmental cost, ADC is only used on the slaveboard, as shown in the Figure below~\ref{fig:4.3}: 
+To measure 1000 DUT components, at least 1000 channels of ADC should be used. To ensure signal quality, electromagnetic compatibility, and developmental cost, ADC is only used on the slaveboard, as shown in the Figure below~\ref{fig:4.3}: 
 
 % At the same time, you need to configure the pins of stm32F303ZET in the
 % development environment, and the results are shown in the following Figure~\ref{fig:4.3}:
@@ -503,11 +571,13 @@ To measure 1000 DUT components, at least 1000 lines of ADC should be used. To en
 \FloatBarrier
 \\
 
+\\
+\\
 \section{Calculation of power}
 \label{sec:Calculation of power}
 % 4.3
-According to STM32F429 official specification, the typical value of STM32 operating power current is 200mAH but we need to select SPI channel and GPIO interface as measurement and use multi-channel ADC for measurement. When the circuit board encounters high temperature and high pressure or improper situations, the required power will rise. Under the circumstance, we need to consider the maximum power (495mW). 
-This paper calculate the masterboard’s maximum demanded power, thus:
+According to STM32F429 official specification, the typical value of STM32 operating power current is very low, and energy consumption is 200mAH, but this thesis need to select all SPI channel, GPIO interface for temperature sensor and use multi-channel ADC for measurement. When the circuit board encounters high temperature and high pressure or improper situations, the required power will rise. Under the circumstance, we need to consider the maximum power(495mW) \cite{gotz2020benchmarking}. 
+This thesis calculate the masterboard’s maximum demanded power, thus:
 
 \begin{center} 
 \begin{equation}
@@ -517,7 +587,7 @@ P_{Masterboard} = \sum \left \lceil n_{component}*P_{component}\right \rceil
 \end{equation}
 \end{center}
 \\
-Since each DC DC converter chip TWR6 can provide 6W switching power supply(which provides 350W), each masterboard only needs a DC DC converter. 
+Since each DC DC converter chip TMR6 can provide 6W switching power supply(which provides 350W), each masterboard only needs a DC DC converter \cite{TMR6datasheet}. 
 Then calculate the slaveboard’s maximum demanded power, thus: 
 \begin{center} 
 \begin{equation}
@@ -526,7 +596,7 @@ P_{Slaveboard} = \sum \left \lceil n_{component}*P_{component}\right \rceil=5* \
 \end{center}
 %speed
 In other words, the slaveboard only needs a DC DC converter.
-% We calculate the main control mainboard’s maximum demanded power by ourselves, thus: 
+% We calculate the main control masterboard’s maximum demanded power by ourselves, thus: 
 
 \chapter{Detailed presentation of the measuring system}
 \label{chap:Detailed presentation of the measuring system}
@@ -544,9 +614,10 @@ Since we have determined the ADC selection, temperature changes will also
 have an impact on GaN.
 At this time, we should choose a temperature sensor to measure the outside
 of the component under test.
+\\
 DS18B20 is a commonly used digital temperature sensor. Its output is a digital
 signal. It has the characteristics of small size, low hardware overhead, strong
-anti-interference ability, and high precision. DS18B20 digital temperature
+anti-interference ability, and high precision \cite{li2005principle}. DS18B20 digital temperature
 sensor is easy to wire, and can be used in many occasions after being
 packaged, such as pipeline type, threaded type, magnet adsorption type,
 stainless steel package type, and various models, such as LTM8877, LTM8874
@@ -592,13 +663,13 @@ Since the length and width of each circuit board are 150mm and 100mm, so the neu
 \subsection{Control shielding wire}
 \label{sec:Control shielding wire}
 % 5.1.3
-In order to have good electrical conductivity and prevent electromagnetic interference, this article compares several widely used CY cables, SY cables, YY cables and LiYCY and LiYY cables. These cables are designed for various industrial process automation applications, including signal transmission, measurement, Control and regulation. These control cables are usually referred to by applications, such as machine power cables, motor cables and robot cables. They are also called multi-core cables, control flex and control flexible cables.
+In order to have good electrical conductivity and prevent electromagnetic interference, this thesis compares several widely used CY cables, SY cables, YY cables and LiYCY and LiYY cables \cite{controlcables2021}. These cables are designed for various industrial process automation applications, including signal transmission, measurement, Control and regulation. These control cables are usually referred to by applications, such as machine power cables, motor cables and robot cables. They are also called multi-core cables, control flex and control flexible cables.
 \\
 According to their structural characteristics, these flexible cables can be suitable for use under light, medium or high mechanical stress. They also provide various degrees of protection against electrical interference and resistance to corrosive substances and oils.
 \\
 There are two kinds of cables that are very suitable for connecting the network(LiYCY cable) and the communication between the master board and the slave board(CY cable).
 \\
-CY cable (YSLCY / HSLCH) : Multicore screened flexible cable with Polyethylene Terephthalate (PETP) for electromagnetic interference free-transmission
+CY cable (YSLCY / HSLCH) : Multicore screened flexible cable with Polyethylene Terephthalate (PETP) for electromagnetic interference free-transmission.
 \\
 LiYCY cable: Screened and shielded cable for applications where moderate mechanical stress and electromagnetic screening is required.
 The two control shielded wires from left to right in the Figure below are LiYCY and HSLCH respectively.
@@ -621,8 +692,8 @@ The software part mainly focuses on the design of acquisition speed, arithmetic 
 \subsection{Speed of measurement}
 \label{sec:Speed of measurement}
 % 5.2.1
-In order to improve reliability and signal-to-noise ratio, this article needs to explore the upper limit of the acquisition speed to ensure that all data can be correctly sent to the PC.
-First of all, we have to determine the sampling speed of the temperature sensor. Each cycle of the temperature sensor is divided into two phases: read and write, as shown in the following Figure~\ref{fig:5.5}:
+In order to improve reliability and signal-to-noise ratio, this thesis needs to explore the upper limit of the acquisition speed to ensure that all data can be correctly sent to the PC.
+First of all, we have to determine the sampling speed of the temperature sensor. Each cycle of the temperature sensor is divided into two phases: read and write  \cite{shen2006embedded}, as shown in the following Figure~\ref{fig:5.5}:
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=16cm]{grafiken/5.5.pdf}
@@ -678,15 +749,15 @@ The Figure below shows the data collection speed and data flow.
 \\
 That is to say, each time the slave board main board adopts the average filtering method cycle, a delay program must be added to ensure that each value received by the master is valid and reliable.
 Since apply the mean filter method, sampling per 10 times can be used as a group of data and then through geometric mean, at least 10us is needed for sampling. 
-Considering that the host mainboard accepts the data sent from 5 slave mainboards simultaneously, the SPI receiving speed is set up as 8MB/s, for the sake of preventing congestion. 
-Thus, sending speed of each slave mainboard must be reduced to 1.6Mbps, for the sake of ensuring that the host mainboard can receive all data from the slaveboard. 
+Considering that the host masterboard accepts the data sent from 5 slave masterboards simultaneously, the SPI receiving speed is set up as 8MB/s, for the sake of preventing congestion. 
+Thus, sending speed of each slave masterboard must be reduced to 1.6Mbps, for the sake of ensuring that the host masterboard can receive all data from the slaveboard. 
 In other words, the slaveboard applies the mean filtering circulation to increase the delay procedure every time, so as to ensure that each value received by the host is valid and reliable. 
 
 \subsection{Arithmetic average filter}
 \label{sec:Arithmetic average filter}
 % 5.2.2
 
-In this article we will use the average filtering method to set the ADC to become a continuous acquisition and observation mode. At this point, the data received from DMA is stored in the register, and each ADC total channel completes 10 acquisition cycles then receives 10 times the channel. The data is arithmetic averaged to obtain the final sample.
+In this thesis we will use the average filtering method to set the ADC to become a continuous acquisition and observation mode\cite{huang2017development}. At this point, the data received from DMA is stored in the register, and each ADC total channel completes 10 acquisition cycles then receives 10 times the channel. The data is arithmetic averaged to obtain the final sample.
 
 \subsection{Debugger, front end and back end}
 \label{sec:Debugger, front end and back end}
@@ -701,9 +772,7 @@ In order to meet the needs of the Internet of Things, the software part is struc
 \end{figure}
 \FloatBarrier
 
-
-
-For researchers, this article mainly uses the open source project ScriptCommunicator as a debugger. At the same time, because ScriptCommunicator does not have a continuous UDP-request debugging function, a script was written in QT and C++ for UDP-request debugging.
+For researchers, this thesis mainly uses the open source project ScriptCommunicator as a debugger. At the same time, because ScriptCommunicator does not have a continuous UDP-request debugging function, a script was written in QT and C++ for UDP-request debugging.
 The following Figure~\ref{fig:5.8} is the interface of the debugger:
 
 \begin{figure}[!ht]
@@ -716,10 +785,10 @@ The following Figure~\ref{fig:5.8} is the interface of the debugger:
 \\
 Back end and front end:
 \\
-Since Ubuntu is used as the operating system, shell scripts and netcat tools can be used to collect data from UDP and synchronize to the MySQL database. At the same time, use Springboot to build the backend, namely JavaWeb, use MybatisPlus to construct instances and interfaces, and add a key create-time as attribute data.
+Since Ubuntu is used as the operating system, shell scripts and netcat tools can be used to collect data from UDP and synchronize to the MySQL database. At the same time, use Springboot to build the backend, namely JavaWeb, use MybatisPlus to construct instances and interfaces, and add a key create-time as attribute data \cite{gutierrez2019data}.
 
 \\
-The GUI(Graphical user interface) that separates the front and back ends specifically refers to the browser (or client) side. One of the most misunderstood concepts for novice server-
+The GUI(Graphical user interface) that separates the front and back ends specifically refers to the browser (or client) side \cite{yunrui2018front}. One of the most misunderstood concepts for novice server-
 side Java users is that JSP is a front end technology. JSP needs to know the full name: Java Server Page. It runs in the servlet container on the server-side JVM, but the result of runningis HTML that is responsive to the browser. Servlet, the first from Java EE, already had ASPat this point (also knows the meaning of Active Server Page). Due to the need to put a lot of HTML code in servlet, the Java specification learned ASP and suggested JSP. Servlet is Java code mixed with HTML, JSP is HTML code mixed with Java. The browser doesn’t care if the server is JSP, ASP, PHP or the original servlet or HTML on the static server as long as it returns valid HTML code. So take out the static HTML part of the JSP, convert it to a simple
 HTML file and put it on the HTTP server. The browser just needs to fetch the HTML code. The dynamic data part is fetched by AJAX from the server side using JS in HTML and then the dom is operated dynamically to complete the display of the dynamic content. In this way, the leading and trailing ends are separated.
 The following Figure~\ref{fig:5.9}  is the homepage of the front end:
@@ -848,7 +917,7 @@ Through the schematic diagram, the package of the schematic diagram can be set a
 \label{sec:Layer Stack design}
 % 6.2.1
 
-This article produces multi-layer PCB board to ensure signal quality and electromagnetic compatibility. Generally speaking, three kinds of multi-layer board layout modes are illustrated below Figure~\ref{fig:6.10}:
+This thesis produces multi-layer PCB board to ensure signal quality and electromagnetic compatibility. Generally speaking, three kinds of multi-layer board layout modes are illustrated below Figure~\ref{fig:6.10}:
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=16cm]{grafiken/6.10.eps}
@@ -857,7 +926,6 @@ This article produces multi-layer PCB board to ensure signal quality and electro
 \end{figure}
 \FloatBarrier
 \\
-
 
 Designers need to consider the following four rules according to their needs：
 \\
@@ -870,7 +938,7 @@ Rule 3: All signal layers are as close as possible to the ground plane (Plan B =
 Rule 4: The key signal is next to the floor and does not cross the partition (Plan B is not OK)
 \\
 In our measurement, Plan C is best. It’s also because the amount of signals we transmit is large and it takes a long time to use.
-The Figure~\ref{fig:6.11} below is the third plan to expand the Layer Stack method of eight-layer PCB:
+The Figure~\ref{fig:6.11} below is the third plan to expand the Layer Stack method of eight-layer PCB \cite{lagenaufbau2021}:
 
 % fig6.11
 \begin{figure}[!ht]
@@ -889,7 +957,7 @@ The designer needs to consider two rules below.
 \\
 Rule1: 20H
 \\
-When the pcb board has many layers, the power layer and the ground layer will generate electromagnetic waves as shown in the figure below. In this case, rule 20H is used. H refers to the thickness of the medium between the power supply layer and the ground layer, which shrinks the edge of the power supply layer by 20H, so that most of the interference is only conducted in the ground layer. The unit is H (the thickness of the medium between the power supply and the ground). Shrinking 20H can limit 70$\%$ of the electric field within the grounding edge. shrinking 100H can limit 98$\%$ of the electric field.
+When the PCB board has many layers, the power layer and the ground layer will generate electromagnetic waves as shown in the Figure~\ref{fig:6.13} below \cite{gisin2001radiation}. In this case, rule 20H is used. H refers to the thickness of the medium between the power supply layer and the ground layer, which shrinks the edge of the power supply layer by 20H, so that most of the interference is only conducted in the ground layer. The unit is H (the thickness of the medium between the power supply and the ground). Shrinking 20H can limit 70$\%$ of the electric field within the grounding edge. shrinking 100H can limit 98$\%$ of the electric field.
  
 \\
 The following Figure~\ref{fig:6.13} is the 20H rule:
@@ -906,7 +974,7 @@ The following Figure~\ref{fig:6.13} is the 20H rule:
 
 Rule2: 3M
 \\
-If the distance between the two signal lines is too small, crosstalk will occur, and it is difficult to ensure a high signal-to-noise ratio, so this thesis introduces design rules: 3M (3mil). In the actual design process, the minimum signal trace width is 10mil.
+If the distance between the two signal lines is too small, crosstalk will occur, and it is difficult to ensure a high signal-to-noise ratio, so this thesis introduces design rules: 3M (3mil) \cite{shan2010layer}. In the actual design process, the minimum signal trace width is 10mil.
 % fig6.13
 The following Figure~\ref{fig:6.13} is the 3M rule:
 
@@ -979,29 +1047,46 @@ This chapter mainly introduces the software part of the measurement system desig
 \end{figure}
 \FloatBarrier
 \\
-When the eval board is powered on, the developer opens the debugger and shell script collector to collect data. Under normal circumstances, the voltage signal sent from the slaveboard is high, as shown in the Figure~\ref{fig:7.2} below:
+
+
+\section{Debugger under test}
+\label{sec:Debugger under test}
+
+
+First, write the remote host IP in the microcontroller, that is, collect the IP address of the host PC, then configure the settings in the debugger, and open the continuous request UDP script of ScriptCommunicator, namely Cyclicsend.
+\\
+When the eval board is powered on, the developer opens the debugger and shell script collector to collect data. Under normal circumstances, the voltage signal sent from the slaveboard is high, This is equivalent to that the tested GaN does not enter triode mode or saturation mode, and the voltage across the divider resistor is slightly greater than 3.3V. At this time, the amount of voltage signal collected by the ADC channel is $2^{12}$ -1=4095. Due to voltage fluctuations, the actual The collected voltage value is around 4090, which is normal. This process as shown in the Figure~\ref{fig:7.2} below:
 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=16cm]{grafiken/debugger.pdf}
+	\includegraphics[width=16cm]{grafiken/debuggernormal.pdf}
 	\caption{Eval board Debugger under normal circumstances}
 	\label{fig:7.2}
 \end{figure}
 \FloatBarrier
 \\
-Manually ground the ADC1 channels 1 and 2 of the slaveboard to simulate the DUT being affected by cosmic rays. The phenomenon is shown in the Figure~\ref{fig:7.3} in the debugger:
+
+
+
+In order to simulate the state of gallium nitride entering saturation mode or triode mode under the influence of cosmic rays,
+manually ground the ADC1 channels 1 and 2 of the slaveboard. The time point of this change is also very important. In this test, according to the observation at 13:55:53 ADC1 channels 1 and 2 were manually grounded, so that the ADC collected a signal of 0. Due to circuit voltage fluctuations, the sampled value was at 1. It is normal to fluctuate left and right.
+
+The phenomenon is shown in the Figure~\ref{fig:7.3} in the debugger:
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=16cm]{grafiken/break.eps}
+	\includegraphics[width=16cm]{grafiken/brack.pdf}
 	\caption{Eval board Debugger under abnormal situation}
 	\label{fig:7.3}
 \end{figure}
 \FloatBarrier
+
+\section{IoT under test}
+\label{sec:IoT under test}
 \\
-At the same time, the content of the collector and the database can be observed in the PC of the measurement system, and the collection time is automatically generated by the back end.As the Figure~\ref{fig:7.4} shows:
+When user open the debugger, he must also open the collector and run the shell script. The Dialog plug-in in the shell script is convenient for users to synchronize the collected data to MySQL. The Netcat toolbox is a toolbox that comes with Ubuntu and can send UDP requests. Since all Linux drivers are read like files, user only need to synchronize the UDP received by the /dev/ network card to the database at this time. The Digure~\ref{fig:7.4} below accurately reflects that at the time point of 13:55:53, the data of the two channels of ADC1 has changed, that is, it is simulated that the DUT is affected by cosmic rays. 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=16cm]{grafiken/collector.pdf}
+	\includegraphics[width=16cm]{grafiken/collector and database.pdf}
 	\caption{Collector and MySQL database under test}
 	\label{fig:7.4}
 \end{figure}
@@ -1016,6 +1101,7 @@ An external network address can be obtained through ngrok, as shown in the Figur
 \end{figure}
 \FloatBarrier
 \\
+
 Then any terminal opens the external network address provided by ngrok and enters the front end to realize the IoT process. The front end part is shown in the Figure~\ref{fig:7.6}:
 
 \begin{figure}[!ht]
@@ -1026,7 +1112,7 @@ Then any terminal opens the external network address provided by ngrok and enter
 \end{figure}
 \FloatBarrier
 \\
-
+It should be noted that the input port of the front-end must be consistent with the port provided by ngrok. Here, the port 8080 of the back-end is used. The front-end and the back-end are connected through jsp, which means that the front-end also needs to access port 8080.
 
 
  
@@ -1034,32 +1120,28 @@ Then any terminal opens the external network address provided by ngrok and enter
 \chapter{Conlusion}
 \label{chap:Conlusion}
 % 8.x
-In order to measure the effects of cosmic radiation on GaN power semiconductors for a long time, the microcontroller STM32F303 is used to measure the voltage signal and the DS18b20 is used to measure the temperature signal.
+
+This thesis has designed an embedded signal acquisition system for the aquisition of cosmic radiation induced failures of  gallium nitride semiconductors. 
+In order to measure the effects of cosmic radiation on GaN power semiconductors for a long time, the microcontroller STM32F303ZET is used to measure the voltage signal and the DS18b20 is used to measure the temperature signal. Because of their good cost performance and reliability, ARM M4 series microcontrollers have been widely used in measurement and control since their inception. This thesis calculates that 1000 ADC channels are required to measure DUTs. Similarly, 4 DS18B20s are required for external The temperature is measured. This requires the system to have a good architecture and data transmission channel. At this time, use the chip's own SPI and Ethernet chip W5500 to transmit the collected signals to the PC. Before finalizing the entire design, the entire circuit must be simulated. At this time, Simulink in MATLAB has a good simulation effect. The IGBT controlled by the LM393 can play a good role in the protection circuit. When the cosmic ray image GaN, the GaN first enters the triode mode or the saturation mode, so that the output voltage of the LM393 is reduced to zero, thus ensuring that the IGBT protection circuit is as fast as a switch. Shut down the failed DUT.The changes of these data will be recorded by the ADC. Because the ADC is on the slave, it will not be affected by the GaN failure circuit when the IGBT is turned off, ensuring the reliability of the entire system.
 \\
-The collected signal is sent to the main control unit of the microprocessor through AD conversion, the data collection stage is realized through database and back end processing, and the collected data is sent to the front end to facilitate clearly understanding of the users.
-The acquisition circuit is also simulated at the same time, the PCB board is designed and laid out to meet the design requirements.
 \\
-Researchers can first debug the data which is collected from the host and slave through the debugger, then import the collected data into the MySQL database through the shell command line, and finally convert the IP address of the intranet to the public network address through the intranet penetration. In this case the personnel at the Hannover Institute can also observe changes of the collected signals such as the number of failed units under test. Researchers can also remotely access and control the experimental PC through VNC and collect data from the back-end to the database and then to the front end. This realized the process of the Internet of Things.
+Due to the large amount of collected data and the small memory of the microcontroller, it is not practical to save in the MCU. The collected signal is firstly sent to the main control unit of the microprocessor through AD conversion, then the converted data will be sent through the SPI pins of the slave from slaveboard to masterboard using DMA technology, and then encapsulated into data packets, and sent from the STM32F429ZG in masterboard to the SPI pins to the W5500. Finally, the Ethernet chip W5500 sends the data to the PC host. 
+\\
+\\
+
+At this time, developers can use the open source project Scriptcommunicator to debug the collected data on the Linux system. Since Scriptcommunicator does not have the function of continuously sending UDP, the continuous UDP request script used in this article needs to be used for debugging. After the debugging is successful, because the Linux system has high stability and comes with Shell scripts. Shell can ensure high stability in the data collection process. At this time, developers can send UDP requests through Shell's Dialog plug-in and Netcat toolbox. The Dialog plug-in can synchronize the collected data to MySql at the same time.The database is critical because it can add a timestamp to the data and solve the data storage path problem. MySql is an open source software and is known for its high stability. It can add a timestamp to the data when it is synchronized into the database. Then, when a user wants to search for the data of a certain year, a certain month, and a certain day, it can access the back-end server through the front-end, and then directly query all the data collected at that time through SQL statements from the server's MySql database. This also solves the storage path problem.
+
+\\
+\\
+In order to meet the needs of the back end, a good back end development environment is provided in Springboot and Spring Web(Webserver). When developing the backend, MybatisPlus can automatically generate java instances and interfaces based on the ID number, name, and path location of the sensors required in this thesis, such as the createtime when key sampling data is imported into the database. In this way, it becomes possible for users to query the sampled data based on time at the front end. This article uses ngrok to solve the problem that the external network IP cannot access the host of the collection system. The user can access the host of the collection system from any location in the world through the IP address provided by ngrok. If more than 50 DUTs fail in a short period of time, users and developers can also receive a reminder email via W5500's SMTP to respond to this problem. This realized the process of the Internet of Things.
+\\
+
+\\
+When users have collected data for more than one year, they can analyze all the data through unsupervised clustering of machine learning or other methods. When cosmic rays invalidate GaN, which is the main factor affecting DUT.
 
 
 
-% \subsection{Simulation of Measurement circuit}
-% \label{sec:Simulation of Measurement circuit}
-% % 3.x.x
-
-% \section{ }
-% \label{sec: }
-% % 3.x
-  
-% \section{Calculation of acquisition speed}
-% \label{sec:Calculation of acquisition speed}
-% % 4.4
-% To improve reliability and SNR, this article needs to discuss the upper limit of acquisition speed to ensure that all data will be sent to the PC correctly. 
-% \\
-% According to the chip’s specification, SPI of the slave only has the fastest transmission speed of 4Mbps. Moreover, four slave mainboards send data to the host mainboard. Every time, ADC voltage signal acquisition at least needs 1.5 periods and the maximum periods should be set up as 601.5. According to the specification, each switching time is: 
 
 
-
- 
 
 
